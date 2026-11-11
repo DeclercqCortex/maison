@@ -5,6 +5,10 @@ import { formatLength } from '../model/units';
 import { useStore } from '../store/store';
 
 const WHERE = { floor: '', wall: 'On a wall', ceiling: 'On the ceiling', surface: 'On furniture' };
+const OTHER_COUNT = {
+  indoor: CATALOG.filter((c) => c.category !== 'outdoor').length,
+  outdoor: CATALOG.filter((c) => c.category === 'outdoor').length,
+};
 
 /**
  * The furniture catalog (indoors) or garden catalog (outdoors). Click an item,
@@ -61,7 +65,14 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
           </button>
         ))}
       </div>
-      <div className="count">{shown.length} {shown.length === 1 ? 'piece' : 'pieces'}</div>
+      <div className="count">
+        {shown.length} {shown.length === 1 ? 'piece' : 'pieces'}
+        {/* The other catalog lives in the other 3D tab; say so, so nothing seems to be missing. */}
+        {' · '}
+        <button className="link" onClick={() => useStore.getState().setMode(outdoor ? 'interior' : 'exterior')}>
+          {OTHER_COUNT[outdoor ? 'indoor' : 'outdoor']} more {outdoor ? 'for indoors in Interior' : 'for the garden in Exterior'}
+        </button>
+      </div>
       <div className="catalog-grid">
         {shown.map((c) => (
           <button key={c.id} className={placing === c.id ? 'card active' : 'card'} aria-pressed={placing === c.id}

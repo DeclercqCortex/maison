@@ -6,13 +6,21 @@ house standing on its own lot in rural grassland.
 
 ## Running it
 
+On Windows, double-click **Launch Maison.bat**. It sets Maison up the first
+time (this needs [Node.js](https://nodejs.org)), starts it and opens it in your
+browser. Keep its window open while you use Maison; close it to stop Maison.
+If Maison is already running, the launcher just opens it again.
+
+From a terminal, on any system:
+
 ```bash
 npm install
-npm run dev
+npm start
 ```
 
-Then open http://localhost:5173. Other commands:
+`npm start` opens http://localhost:5173 in your browser. Other commands:
 
+- `npm run dev` starts Maison without opening the browser.
 - `npm test` runs the unit tests.
 - `npm run build` type-checks and builds the production version into `dist/`.
 

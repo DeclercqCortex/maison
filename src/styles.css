@@ -334,6 +334,15 @@ dialog.help::backdrop { background: rgba(36, 38, 43, 0.45); }
 .chips button { padding: 3px 9px; border-radius: 999px; font-size: 12px; }
 .chips button.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
 .catalog .count { font-size: 11px; color: var(--muted); }
+.catalog .count .link {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 11px;
+  color: var(--accent);
+  text-decoration: underline;
+}
+.catalog .count .link:hover:not(:disabled) { background: none; }
 .catalog-grid {
   flex: 1;
   min-height: 0;
