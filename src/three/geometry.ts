@@ -85,16 +85,15 @@ export function buildWallGeometry(
  */
 export function paintWallFaces(geometry: THREE.BufferGeometry, front: string, back: string, edge: string): void {
   const normals = geometry.getAttribute('normal');
-  const colors = new Float32Array(normals.count * 3);
+  // Four channels (colour plus full opacity): the ray tracer reads vertex colours that way.
+  const colors = new Float32Array(normals.count * 4);
   const [f, b, e] = [new THREE.Color(front), new THREE.Color(back), new THREE.Color(edge)];
   for (let i = 0; i < normals.count; i++) {
     const nz = normals.getZ(i);
     const c = nz > 0.5 ? f : nz < -0.5 ? b : e;
-    colors[i * 3] = c.r;
-    colors[i * 3 + 1] = c.g;
-    colors[i * 3 + 2] = c.b;
+    colors.set([c.r, c.g, c.b, 1], i * 4);
   }
-  geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+  geometry.setAttribute('color', new THREE.BufferAttribute(colors, 4));
 }
 
 function path<T extends THREE.Path>(target: T, points: Vec2[]): T {

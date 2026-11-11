@@ -13,7 +13,9 @@ import { FloorSwitcher } from '../plan/FloorSwitcher';
 import { useActiveFloor, useStore } from '../store/store';
 import { Decorator } from './Decorator';
 import { FloorModel } from './House';
+import { setReflective } from '../catalog/build';
 import { ItemModel, ModelWatcher } from './Items';
+import { RayTracer } from './RayTracer';
 import { DistantTrees, Grass, LotFence, Terrain } from './Landscape';
 import { Roof } from './Roof';
 import { WalkControls } from './Walk';
@@ -119,16 +121,55 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
   const house = useRef<THREE.Group>(null);
   const [busy, setBusy] = useState('');
 
+  // Ray tracing: a slower, far more lifelike way of drawing the view.
+  const [rayTraced, setRayTraced] = useState(false);
+  const [sunBeams, setSunBeams] = useState(false);
+  const [passes, setPasses] = useState(0);
+  const tracing = rayTraced && !compact;
+  useEffect(() => {
+    setReflective(tracing);
+    return () => setReflective(false);
+  }, [tracing]);
+  // Slightly hazy air inside the house, so shafts of sunlight show up. Kept just inside the outer walls.
+  const haze = useMemo(() => {
+    if (!sunBeams) return null;
+    const rects = floors.flatMap((f) => wallBounds(f) ?? []);
+    if (!rects.length) return null;
+    const [minX, maxX] = [Math.min(...rects.map((r) => r.minX)) + 0.05, Math.max(...rects.map((r) => r.maxX)) - 0.05];
+    const [minZ, maxZ] = [Math.min(...rects.map((r) => r.minY)) + 0.05, Math.max(...rects.map((r) => r.maxY)) - 0.05];
+    const bottom = Math.min(...floors.map((f) => f.elevation)) + 0.02;
+    const top = Math.max(...floors.map((f) => f.elevation + f.wallHeight)) - 0.02;
+    return {
+      centre: [(minX + maxX) / 2, (bottom + top) / 2, (minZ + maxZ) / 2] as [number, number, number],
+      size: [maxX - minX, top - bottom, maxZ - minZ] as [number, number, number],
+    };
+  }, [sunBeams, floors]);
+  const watch = useMemo(() => [project, walking, mode, active.id], [project, walking, mode, active.id]);
+  // If the graphics card stops responding (more likely while ray tracing on a built-in laptop chip),
+  // the browser resets it. Switch ray tracing off and say so, rather than leaving a blank view.
+  const onContextLost = (e: Event) => {
+    e.preventDefault(); // lets the browser give the view back once the card has recovered
+    if (rayTracedRef.current) {
+      setRayTraced(false);
+      setBusy('Ray tracing was switched off because the graphics card stopped responding. Try it with Lighter graphics.');
+    }
+  };
+  const rayTracedRef = useRef(rayTraced);
+  rayTracedRef.current = rayTraced;
+
   /** Saves a picture of the view, without the selection outline or the piece being placed. */
   const takePhoto = () => {
     const st = useStore.getState();
     st.select(null);
     st.setPlacing(null);
-    // Give the view a moment to redraw without them.
-    setTimeout(() => {
-      const url = sceneApi.photo?.();
-      if (url) saveFile(`${fileStem(project)} ${mode}.png`, url);
-    }, 80);
+    // A ray-traced photo waits until the picture has cleared up, which can take a while on a slow graphics card.
+    if (tracing) setBusy('Rendering the photo… keep the view still');
+    // Give the view a moment to redraw without them (and to show the message above).
+    setTimeout(async () => {
+      const url = await sceneApi.photo?.();
+      if (url) saveFile(`${fileStem(project)} ${mode}${tracing ? ' ray traced' : ''}.png`, url);
+      setBusy('');
+    }, 120);
   };
   const exportModel = async () => {
     useStore.getState().select(null);
@@ -156,29 +197,32 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
     <div className={`scene${placing && (decorating || outdoors) ? ' placing' : ''}`}>
       {/* Indoors nothing moves on its own, so the view is only redrawn when something changes. */}
       <Canvas shadows camera={{ fov: 45, near: 0.1, far: 3000 }} dpr={lite ? 1 : [1, 1.5]}
-        frameloop={outdoors || walking ? 'always' : 'demand'}>
+        onCreated={({ gl }) => gl.domElement.addEventListener('webglcontextlost', onContextLost)}
+        frameloop={outdoors || walking || tracing ? 'always' : 'demand'}>
         {/*
           If the computer cannot keep up, switch to lighter graphics and stay there. Only measured while the
           view is animating and on screen: an idle view, or a tab in the background, draws few frames by design.
+          Not measured while ray tracing, which is slow on purpose.
         */}
-        {(outdoors || walking) && (
+        {(outdoors || walking) && !tracing && (
           <PerformanceMonitor onDecline={() => !document.hidden && useStore.getState().setLite(true)} />
         )}
         <SceneApi house={house} />
         <ModelWatcher />
-        <color attach="background" args={[sky]} />
+        {tracing && (
+          <RayTracer watch={watch} night={night} paused={!!placing} quality={lite ? 0.5 : 0.75} haze={haze} onProgress={setPasses} />
+        )}
+        {/* While ray tracing, the tracer supplies its own sky, which also lights the scene. */}
+        {!tracing && <color attach="background" args={[sky]} />}
         {outdoors && <fog attach="fog" args={[sky, 140, 1100]} />}
-        {outdoors && (
+        {outdoors && !tracing && (
           <Sky distance={2500} sunPosition={sunDirection} turbidity={4} rayleigh={1.1} mieCoefficient={0.004} mieDirectionalG={0.85} />
         )}
         <hemisphereLight args={['#ffffff', outdoors ? '#6f8f4e' : '#b9b4aa', 1.0 - 0.85 * night]} />
         <directionalLight
-          position={
-            outdoors
-              ? [sunDirection[0] * shadow * 2, Math.max(0.05, sunDirection[1]) * shadow * 2, sunDirection[2] * shadow * 2]
-              : [shadow * 0.6, shadow * 1.4, shadow * 0.45]
-          }
-          intensity={outdoors ? 2.2 * daylight : 1.7 * (1 - night)}
+          // The sun follows the Day–Night slider indoors too, so a low evening sun streams in through the windows.
+          position={[sunDirection[0] * shadow * 2, Math.max(0.05, sunDirection[1]) * shadow * 2, sunDirection[2] * shadow * 2]}
+          intensity={outdoors || tracing ? 2.2 * daylight : 1.7 * (1 - night)}
           castShadow
           shadow-mapSize={outdoors && !lite ? [4096, 4096] : [2048, 2048]}
           shadow-bias={-0.0004}
@@ -193,7 +237,8 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
         <group ref={house}>
           {floors.map((f) => (
             <FloorModel key={f.id} floor={f} below={floorAt(project, f.level - 1)} ceiling={mode === 'exterior' || walking}
-              cutaway={mode === 'interior' && cutaway && !walking ? planCentre : null}
+              // Walls stay whole while ray tracing, so they cast their real shadows.
+              cutaway={mode === 'interior' && cutaway && !walking && !tracing ? planCentre : null}
               selectedItemId={selectedItemId} siding={project.exterior.siding} />
           ))}
           {outdoors && <Roof floors={project.floors} style={project.exterior} />}
@@ -203,7 +248,10 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
         {outdoors ? (
           <>
             <Terrain lot={lot} />
-            <Grass house={houseArea} holes={clearings} light={0.15 + 0.85 * Math.min(1, daylight * 1.6)} sparse={lite} />
+            {/* The swaying blades are a visual effect the ray tracer cannot follow; the green ground remains. */}
+            {!tracing && (
+              <Grass house={houseArea} holes={clearings} light={0.15 + 0.85 * Math.min(1, daylight * 1.6)} sparse={lite} />
+            )}
             <DistantTrees lot={lot} />
             {lot.fence && <LotFence lot={lot} />}
           </>
@@ -226,7 +274,7 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
       {!compact && mode === 'interior' && !walking && <FloorSwitcher />}
       {!isEmpty && (
         <div className="scene-tools">
-          {mode === 'interior' && !walking && (
+          {mode === 'interior' && !walking && !tracing && (
             <label className="check" title="Lower the walls between you and the rooms so you can see inside">
               <input type="checkbox" checked={cutaway} onChange={() => setCutaway((v) => !v)} />
               Cut away near walls
@@ -251,6 +299,30 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
               onClick={() => void exportModel()}>
               Export 3D model
             </button>
+          )}
+          {!compact && (
+            <label className="check"
+              title="Follow light as it really travels: sunlight through windows, lamp light, true shadows and reflections. The picture starts grainy and clears up over a few seconds.">
+              <input type="checkbox" checked={rayTraced} onChange={() => setRayTraced((v) => !v)} />
+              Ray tracing
+            </label>
+          )}
+          {tracing && (
+            <label className="check" title="Slightly hazy air indoors, so shafts of sunlight through the windows become visible. Takes longer to clear up.">
+              <input type="checkbox" checked={sunBeams} onChange={() => setSunBeams((v) => !v)} />
+              Sun beams
+            </label>
+          )}
+          {tracing && (
+            <span role="status" className="passes">
+              {placing
+                ? 'Paused while placing'
+                : passes === 0
+                  ? 'Preparing… (up to a minute the first time)'
+                  : passes >= 250
+                    ? 'Finished'
+                    : `Refining, pass ${passes}`}
+            </span>
           )}
           {!compact && (
             <label className="check" title="Less grass, softer shadows and lower sharpness, for slower computers. Turns on by itself if the view is struggling.">

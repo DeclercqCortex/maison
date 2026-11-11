@@ -279,6 +279,7 @@ button:focus-visible, select:focus-visible, input:focus-visible {
 .scene-tools .check { margin: 0; }
 .scene-tools input[type='range'] { width: 90px; }
 .scene-tools button { font-size: 12px; }
+.scene-tools .passes { color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* Welcome guide */
 dialog.help {

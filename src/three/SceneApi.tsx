@@ -7,8 +7,8 @@ import type { Group } from 'three';
  * view is on screen, empty otherwise.
  */
 export const sceneApi: {
-  /** A picture of the current view, as a PNG data URL, at twice the screen sharpness. */
-  photo?: () => string;
+  /** A picture of the current view, as a PNG data URL. Ray-traced pictures arrive once they have cleared up. */
+  photo?: () => string | Promise<string>;
   /** The house and garden (not the landscape) as a .glb 3D model file. */
   model?: () => Promise<ArrayBuffer>;
 } = {};

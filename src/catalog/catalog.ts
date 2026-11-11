@@ -35,6 +35,8 @@ export interface Part {
   /** Lit from within (lamp shades, bulbs). */
   glow?: boolean;
   glass?: boolean;
+  /** A mirror: reflects the room when the view is ray traced. */
+  mirror?: boolean;
 }
 
 export interface CatalogItem {
@@ -77,7 +79,7 @@ const SHADES = ['#f3e9d2', '#ffffff', '#d98f5c', '#5f7a61'];
 const FOLIAGE = ['#4f7d4a', '#6a9a4e', '#3f6b4a', '#c58a3a', '#a8552f'];
 const BARK = '#5b4636';
 
-type Extra = Partial<Pick<Part, 'rot' | 'glow' | 'glass'>>;
+type Extra = Partial<Pick<Part, 'rot' | 'glow' | 'glass' | 'mirror'>>;
 /** A box resting at height y (its underside), centred on x and z. */
 const box = (w: number, h: number, d: number, x = 0, y = 0, z = 0, color = P, extra: Extra = {}): Part => ({
   shape: 'box', size: [w, h, d], pos: [x, y + h / 2, z], color, ...extra,
@@ -278,7 +280,7 @@ const BUILT_IN: CatalogItem[] = [
     cyl(0.025, 0.14, 0, 0.86, -0.17, STEEL), box(0.008, 0.7, 0.01, 0, 0.1, 0.235, DARK),
   ]),
   item('mirror', 'Mirror', 'bathroom', 'wall', [0.6, 0.04, 0.8], WOODS, '#cfe3ee', [
-    box(0.6, 0.8, 0.03), box(0.52, 0.72, 0.008, 0, 0.04, 0.016, S),
+    box(0.6, 0.8, 0.03), box(0.52, 0.72, 0.008, 0, 0.04, 0.016, S, { mirror: true }),
   ]),
 
   // Office

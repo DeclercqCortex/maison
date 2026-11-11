@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
+import { useEffect, useLayoutEffect, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { lotRect, lotSize, type Rect } from '../model/lot';
@@ -45,7 +45,8 @@ export function Terrain({ lot }: { lot: Lot }) {
     g.rotateX(-Math.PI / 2);
     g.translate(lot.centre.x, 0, lot.centre.y);
     const pos = g.getAttribute('position');
-    const colors = new Float32Array(pos.count * 3);
+    // Four channels (colour plus full opacity): the ray tracer reads vertex colours that way.
+    const colors = new Float32Array(pos.count * 4);
     const lush = new THREE.Color('#6f9a4d');
     const dry = new THREE.Color('#9aa25a');
     const deep = new THREE.Color('#587f3f');
@@ -56,9 +57,9 @@ export function Terrain({ lot }: { lot: Lot }) {
       // Patches of lusher and drier grass, so the land does not look like a flat green sheet.
       const patch = roll(x * 2.3 + 40, z * 2.1 - 17);
       c.copy(lush).lerp(patch > 0.5 ? dry : deep, Math.abs(patch - 0.5) * 1.3);
-      colors.set([c.r, c.g, c.b], i * 3);
+      colors.set([c.r, c.g, c.b, 1], i * 4);
     }
-    g.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    g.setAttribute('color', new THREE.BufferAttribute(colors, 4));
     g.computeVertexNormals();
     return g;
   }, [lot]);
@@ -220,71 +221,93 @@ export function Grass(props: {
   return <mesh geometry={geometry} material={material} frustumCulled={false} />;
 }
 
+/**
+ * Many copies of one shape joined into a single mesh, each copy with its own
+ * place, size and colour. (Kept as plain geometry rather than GPU instances so
+ * the ray tracer, which only understands ordinary meshes, sees every copy.)
+ */
+function mergeCopies(
+  base: THREE.BufferGeometry,
+  copies: { position: [number, number, number]; scale: [number, number, number]; color: THREE.Color }[],
+): THREE.BufferGeometry {
+  const source = base.index ? base.toNonIndexed() : base;
+  const from = source.getAttribute('position');
+  const positions = new Float32Array(copies.length * from.count * 3);
+  // Four channels (colour plus full opacity): the ray tracer reads vertex colours that way.
+  const colors = new Float32Array(copies.length * from.count * 4);
+  copies.forEach((copy, c) => {
+    for (let i = 0; i < from.count; i++) {
+      const at = (c * from.count + i) * 3;
+      positions[at] = from.getX(i) * copy.scale[0] + copy.position[0];
+      positions[at + 1] = from.getY(i) * copy.scale[1] + copy.position[1];
+      positions[at + 2] = from.getZ(i) * copy.scale[2] + copy.position[2];
+      colors.set([copy.color.r, copy.color.g, copy.color.b, 1], (c * from.count + i) * 4);
+    }
+  });
+  const merged = new THREE.BufferGeometry();
+  merged.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  merged.setAttribute('color', new THREE.BufferAttribute(colors, 4));
+  merged.computeVertexNormals();
+  return merged;
+}
+
 /** Scattered trees on the hills around the lot, to give the land some depth. */
 export function DistantTrees({ lot }: { lot: Lot }) {
-  const trunks = useRef<THREE.InstancedMesh>(null);
-  const crowns = useRef<THREE.InstancedMesh>(null);
-  const trees = useMemo(() => {
+  const geometry = useMemo(() => {
     const random = seeded(77);
     const { width, depth } = lotSize(lot);
     const inner = Math.hypot(width, depth) / 2 + 8;
-    const list: { x: number; z: number; size: number; tone: number }[] = [];
-    for (let tries = 0; tries < 6000 && list.length < 420; tries++) {
+    const bark = new THREE.Color('#5b4636');
+    const trunks: Parameters<typeof mergeCopies>[1] = [];
+    const crowns: Parameters<typeof mergeCopies>[1] = [];
+    for (let tries = 0; tries < 6000 && crowns.length < 420; tries++) {
       const angle = random() * Math.PI * 2;
       const r = inner + random() * random() * 620;
       const [x, z] = [lot.centre.x + Math.cos(angle) * r, lot.centre.y + Math.sin(angle) * r];
       // Trees gather in clumps and hedgerows rather than being spread evenly.
       if (roll(x * 3.1 + 9, z * 2.7 - 4) < 0.56) continue;
-      list.push({ x, z, size: 0.75 + random() * 0.9, tone: random() });
+      const size = 0.75 + random() * 0.9;
+      const tone = random();
+      const y = groundHeight(x, z, lot);
+      trunks.push({ position: [x, y + 1.5 * size, z], scale: [size, size, size], color: bark });
+      crowns.push({
+        position: [x, y + 4.6 * size, z],
+        scale: [size, size * (0.9 + tone * 0.5), size],
+        color: new THREE.Color().setHSL(0.26 + tone * 0.06, 0.38, 0.24 + tone * 0.1),
+      });
     }
-    return list;
+    const trunk = mergeCopies(new THREE.CylinderGeometry(0.22, 0.3, 3, 6), trunks);
+    const crown = mergeCopies(new THREE.IcosahedronGeometry(2.6, 1), crowns);
+    return { trunk, crown };
   }, [lot]);
-
-  useLayoutEffect(() => {
-    const m = new THREE.Matrix4();
-    const q = new THREE.Quaternion();
-    const color = new THREE.Color();
-    trees.forEach((t, i) => {
-      const y = groundHeight(t.x, t.z, lot);
-      m.compose(new THREE.Vector3(t.x, y + 1.5 * t.size, t.z), q, new THREE.Vector3(t.size, t.size, t.size));
-      trunks.current?.setMatrixAt(i, m);
-      m.compose(new THREE.Vector3(t.x, y + 4.6 * t.size, t.z), q, new THREE.Vector3(t.size, t.size * (0.9 + t.tone * 0.5), t.size));
-      crowns.current?.setMatrixAt(i, m);
-      crowns.current?.setColorAt(i, color.setHSL(0.26 + t.tone * 0.06, 0.38, 0.24 + t.tone * 0.1));
-    });
-    for (const mesh of [trunks.current, crowns.current]) {
-      if (!mesh) continue;
-      mesh.count = trees.length;
-      mesh.instanceMatrix.needsUpdate = true;
-      if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
-    }
-  }, [trees, lot]);
+  useEffect(() => () => (geometry.trunk.dispose(), geometry.crown.dispose()), [geometry]);
 
   return (
     <>
-      <instancedMesh ref={trunks} args={[undefined, undefined, 420]} frustumCulled={false}>
-        <cylinderGeometry args={[0.22, 0.3, 3, 6]} />
-        <meshStandardMaterial color="#5b4636" roughness={1} />
-      </instancedMesh>
-      <instancedMesh ref={crowns} args={[undefined, undefined, 420]} frustumCulled={false}>
-        <icosahedronGeometry args={[2.6, 1]} />
-        <meshStandardMaterial roughness={1} flatShading />
-      </instancedMesh>
+      <mesh geometry={geometry.trunk}>
+        <meshStandardMaterial vertexColors roughness={1} />
+      </mesh>
+      <mesh geometry={geometry.crown}>
+        <meshStandardMaterial vertexColors roughness={1} flatShading />
+      </mesh>
     </>
   );
 }
 
 /** A post-and-rail fence around the edge of the lot. */
 export function LotFence({ lot }: { lot: Lot }) {
-  const posts = useRef<THREE.InstancedMesh>(null);
   const rect = useMemo(() => lotRect(lot), [lot]);
   const { width, depth } = lotSize(lot);
-  const spots = useMemo(() => {
-    const list: [number, number][] = [];
+  const posts = useMemo(() => {
+    const wood = new THREE.Color('#8a6f52');
+    const copies: Parameters<typeof mergeCopies>[1] = [];
     const along = (from: [number, number], to: [number, number]) => {
       const len = Math.hypot(to[0] - from[0], to[1] - from[1]);
       const n = Math.max(1, Math.round(len / 2.5));
-      for (let i = 0; i < n; i++) list.push([from[0] + ((to[0] - from[0]) * i) / n, from[1] + ((to[1] - from[1]) * i) / n]);
+      for (let i = 0; i < n; i++) {
+        const [x, z] = [from[0] + ((to[0] - from[0]) * i) / n, from[1] + ((to[1] - from[1]) * i) / n];
+        copies.push({ position: [x, GROUND_Y + 0.6, z], scale: [1, 1, 1], color: wood });
+      }
     };
     const [a, b, c, d]: [number, number][] = [
       [rect.minX, rect.minY], [rect.maxX, rect.minY], [rect.maxX, rect.maxY], [rect.minX, rect.maxY],
@@ -293,17 +316,9 @@ export function LotFence({ lot }: { lot: Lot }) {
     along(b, c);
     along(c, d);
     along(d, a);
-    return list;
+    return mergeCopies(new THREE.BoxGeometry(0.1, 1.2, 0.1), copies);
   }, [rect]);
-
-  useLayoutEffect(() => {
-    const m = new THREE.Matrix4();
-    spots.forEach(([x, z], i) => posts.current?.setMatrixAt(i, m.makeTranslation(x, GROUND_Y + 0.6, z)));
-    if (posts.current) {
-      posts.current.count = spots.length;
-      posts.current.instanceMatrix.needsUpdate = true;
-    }
-  }, [spots]);
+  useEffect(() => () => posts.dispose(), [posts]);
 
   const [cx, cz] = [lot.centre.x, lot.centre.y];
   const rails = [0.45, 0.95].flatMap((y) => [
@@ -315,11 +330,9 @@ export function LotFence({ lot }: { lot: Lot }) {
 
   return (
     <>
-      {/* Remounted when the number of posts changes, since its capacity is fixed at creation. */}
-      <instancedMesh key={spots.length} ref={posts} args={[undefined, undefined, spots.length]} castShadow frustumCulled={false}>
-        <boxGeometry args={[0.1, 1.2, 0.1]} />
-        <meshStandardMaterial color="#8a6f52" roughness={1} />
-      </instancedMesh>
+      <mesh geometry={posts} castShadow>
+        <meshStandardMaterial vertexColors roughness={1} />
+      </mesh>
       {rails.map((r) => (
         <mesh key={r.key} position={r.position} castShadow>
           <boxGeometry args={r.size} />

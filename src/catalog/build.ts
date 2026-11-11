@@ -25,11 +25,33 @@ const GEOMETRY: Record<Part['shape'], THREE.BufferGeometry> = {
 };
 
 const materials = new Map<string, THREE.MeshStandardMaterial>();
-function material(color: string, glow: boolean, glass: boolean): THREE.MeshStandardMaterial {
-  const key = `${color}|${glow}|${glass}`;
+const mirrors = new Set<THREE.MeshStandardMaterial>();
+let reflective = false;
+
+function setMirrorFinish(m: THREE.MeshStandardMaterial): void {
+  m.metalness = reflective ? 1 : 0;
+  m.roughness = reflective ? 0.03 : 0.25;
+}
+
+/**
+ * Turns mirror surfaces into true mirrors, or back into plain pale glass.
+ * Only the ray tracer can show reflections; in the ordinary view a true
+ * mirror has nothing to reflect and would look black.
+ */
+export function setReflective(on: boolean): void {
+  reflective = on;
+  mirrors.forEach(setMirrorFinish);
+}
+
+function material(color: string, glow: boolean, glass: boolean, mirror: boolean): THREE.MeshStandardMaterial {
+  const key = `${color}|${glow}|${glass}|${mirror}`;
   let m = materials.get(key);
   if (!m) {
     m = new THREE.MeshStandardMaterial({ color, roughness: glass ? 0.1 : 0.8 });
+    if (mirror) {
+      mirrors.add(m);
+      setMirrorFinish(m);
+    }
     if (glow) {
       m.emissive = new THREE.Color(color);
       m.emissiveIntensity = 0.7;
@@ -51,7 +73,7 @@ export function buildItemObject(def: CatalogItem, color?: string): THREE.Group {
   if (def.model) attachModel(def, group);
   for (const part of def.parts) {
     const hex = part.color === 'primary' ? primary : part.color === 'secondary' ? def.secondary : part.color;
-    const mesh = new THREE.Mesh(GEOMETRY[part.shape], material(hex, !!part.glow, !!part.glass));
+    const mesh = new THREE.Mesh(GEOMETRY[part.shape], material(hex, !!part.glow, !!part.glass, !!part.mirror));
     mesh.scale.set(...part.size);
     mesh.position.set(...part.pos);
     if (part.rot) mesh.rotation.set(...part.rot);

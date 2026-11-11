@@ -317,7 +317,10 @@ describe('furniture placement', () => {
     paintWallFaces(g, '#ff0000', '#0000ff', '#00ff00');
     const normal = g.getAttribute('normal');
     const color = g.getAttribute('color');
+    // Four channels with full opacity: the ray tracer treats a missing fourth channel as see-through.
+    expect(color.itemSize).toBe(4);
     for (let i = 0; i < normal.count; i++) {
+      expect(color.getW(i)).toBe(1);
       const [r, gr, b] = [color.getX(i), color.getY(i), color.getZ(i)];
       if (normal.getZ(i) > 0.5) expect([r, gr, b]).toEqual([1, 0, 0]);
       else if (normal.getZ(i) < -0.5) expect([r, gr, b]).toEqual([0, 0, 1]);
