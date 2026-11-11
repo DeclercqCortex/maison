@@ -9,7 +9,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "models": "node scripts/build-model-catalog.mjs"
+    "models": "node scripts/build-model-catalog.mjs",
+    "models:download": "node scripts/download-polyhaven.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",

@@ -63,6 +63,8 @@ export interface CatalogItem {
    * footprint with its base on the floor.
    */
   model?: { file: string; scale: number; offset: [number, number, number] };
+  /** A ready-made preview picture (under public/models), used instead of drawing one. */
+  thumb?: string;
 }
 
 const P = 'primary';
@@ -419,9 +421,9 @@ const BUILT_IN: CatalogItem[] = [
 ];
 
 /**
- * Models from the Kenney Furniture Kit and Nature Kit (public domain), listed
- * in models.json by `npm run models`. They keep the colours they were made
- * with, so they offer no colour choices.
+ * Models from the Kenney Furniture Kit and Nature Kit and from Poly Haven (all
+ * public domain), listed in models.json by `npm run models`. They keep the
+ * colours and textures they were made with, so they offer no colour choices.
  */
 const DOWNLOADED: CatalogItem[] = (downloaded as Omit<CatalogItem, 'colors' | 'secondary' | 'parts'>[]).map((entry) => ({
   ...entry,

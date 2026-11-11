@@ -94,6 +94,8 @@ const thumbnails = new Map<string, string>();
 export async function thumbnail(def: CatalogItem): Promise<string> {
   const cached = thumbnails.get(def.id);
   if (cached !== undefined) return cached;
+  // Some models come with their own preview picture: much quicker than loading the model to draw one.
+  if (def.thumb) return `${import.meta.env.BASE_URL}models/${def.thumb}`;
   let url = '';
   try {
     // A downloaded model has to be fetched before it can be drawn.

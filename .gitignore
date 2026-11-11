@@ -3,3 +3,5 @@ dist
 *.log
 # Downloaded model packs (the models the app uses are unpacked into public/models)
 assets/
+# Poly Haven models (about 360 MB): fetched again with npm run models:download
+public/models/polyhaven/

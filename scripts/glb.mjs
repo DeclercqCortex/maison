@@ -12,6 +12,11 @@ export function readGlbJson(path) {
   return JSON.parse(data.toString('utf8', 20, 20 + length));
 }
 
+/** The JSON description of a model in either form: a .glb file, or a .gltf file (which is plain JSON). */
+export function readModelJson(path) {
+  return path.endsWith('.gltf') ? JSON.parse(readFileSync(path, 'utf8')) : readGlbJson(path);
+}
+
 const identity = () => [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1];
 
 /** Multiplies two 4×4 matrices stored column by column, as glTF does. */

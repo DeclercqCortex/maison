@@ -4,10 +4,10 @@
 // footprint and stood on the floor. The file name decides its catalog name,
 // category and where it may be placed. Run with `npm run models` after adding
 // or removing model files; the result is written to src/catalog/models.json.
-import { readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { modelBounds, readGlbJson } from './glb.mjs';
+import { modelBounds, readGlbJson, readModelJson } from './glb.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const round = (v) => Math.round(v * 1000) / 1000;
@@ -98,6 +98,70 @@ for (const kit of ['furniture', 'nature']) {
   }
 }
 
+// ---- Poly Haven: realistic indoor models, already in real-world metres. ----
+// Downloaded by `npm run models:download`; listed in public/models/polyhaven/index.json.
+// Sorted by Poly Haven's own categories and tags, plus a few words in the name.
+const words = (m) => [m.name, ...m.tags].join(' ').toLowerCase();
+const has = (m, pattern) => pattern.test(words(m));
+/** Pieces meant for outside, which go in the garden catalog. */
+const POLY_OUTDOOR = /\b(garden gnome|street seating|outdoor table|picnic|planter box|concrete cat)\b/i;
+function polyCategory(m) {
+  const cats = m.categories;
+  if (POLY_OUTDOOR.test(m.name)) return 'outdoor';
+  if (has(m, /\bceiling fan\b/)) return 'living';
+  if (cats.includes('lighting')) return 'lighting';
+  if (has(m, /\b(bath|toilet|soap|towel|shower|sink)\b/)) return 'bathroom';
+  if (has(m, /\b(bed|nightstand|wardrobe|dresser|commode|pillow|blanket)\b/)) return 'bedroom';
+  if (has(m, /\b(desk|office|computer|keyboard|typewriter|school|book|books|encyclopedia|stationery)\b/)) return 'office';
+  if (cats.some((c) => ['appliances', 'dishes', 'food'].includes(c)) || has(m, /\b(kitchen|dining|cook|cup|mug|plate|bowl|bottle|jar|pan|pot|kettle|coffee|wine|cutlery)\b/)) return 'kitchen';
+  if (cats.some((c) => ['furniture', 'seating', 'table', 'shelves'].includes(c))) return 'living';
+  return 'decor';
+}
+const BIG = ['furniture', 'seating', 'table', 'shelves'];
+function polyPlacement(m, size) {
+  if (has(m, /\b(chandelier|pendant|ceiling)\b/)) return 'ceiling';
+  if (has(m, /\b(picture|frame|painting|wall clock|wall mounted|mirror)\b/) && !/standing/i.test(m.name) && size.d < 0.25) return 'wall';
+  // Small things that are not furniture stand on tables and shelves.
+  if (!m.categories.some((c) => BIG.includes(c)) && Math.max(size.w, size.d) < 0.7 && size.h < 0.8) return 'surface';
+  return 'floor';
+}
+const polyDir = join(root, 'public', 'models', 'polyhaven');
+const polyIndex = existsSync(join(polyDir, 'index.json')) ? JSON.parse(readFileSync(join(polyDir, 'index.json'), 'utf8')) : [];
+for (const m of polyIndex) {
+  if (!existsSync(join(polyDir, m.file))) continue; // listed but not downloaded
+  const { min, max } = modelBounds(readModelJson(join(polyDir, m.file)));
+  const size = { w: round(max[0] - min[0]), d: round(max[2] - min[2]), h: round(max[1] - min[1]) };
+  // Skip anything with no size, or too large to be a piece of furniture (a scanned room, say).
+  if (!(size.w > 0.01 && size.d > 0.01 && size.h > 0.01) || Math.max(size.w, size.d) > 6 || size.h > 4) continue;
+  const category = polyCategory(m);
+  // Everything in the garden stands on the ground.
+  const placement = category === 'outdoor' ? 'floor' : polyPlacement(m, size);
+  const entry = {
+    id: `polyhaven-${m.id}`,
+    name: m.name.replace(/_/g, ' '),
+    category,
+    ...(category === 'outdoor' ? { group: 'Garden' } : {}),
+    placement,
+    size,
+    model: {
+      file: `polyhaven/${m.file}`,
+      scale: 1,
+      offset: [round(-(min[0] + max[0]) / 2), round(-min[1]), round(-(min[2] + max[2]) / 2)],
+    },
+    thumb: `polyhaven/${m.id}/preview.png`,
+  };
+  if (has(m, /\brug|carpet\b/) && size.h < 0.05) entry.flat = true;
+  if (m.categories.includes('lighting')) {
+    const candle = has(m, /\bcandle/);
+    const intensity = candle ? 1.5 : placement === 'ceiling' ? 14 : size.h > 1.2 ? 9 : 5;
+    entry.light = { y: placement === 'ceiling' ? -0.05 : round(size.h * 0.85), intensity };
+  }
+  entries.push(entry);
+}
+
 writeFileSync(join(root, 'src', 'catalog', 'models.json'), JSON.stringify(entries, null, 1) + '\n');
-const count = (kit) => entries.filter((e) => e.id.startsWith(`kenney-${kit}-`)).length;
-console.log(`Wrote ${entries.length} catalog entries: ${count('furniture')} furniture, ${count('nature')} nature.`);
+const count = (prefix) => entries.filter((e) => e.id.startsWith(prefix)).length;
+console.log(
+  `Wrote ${entries.length} catalog entries: ${count('kenney-furniture-')} Kenney furniture, ` +
+    `${count('kenney-nature-')} Kenney nature, ${count('polyhaven-')} Poly Haven.`,
+);

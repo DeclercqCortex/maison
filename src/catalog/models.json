@@ -7432,5 +7432,3865 @@
    "w": 0.6,
    "d": 0.6
   }
+ },
+ {
+  "id": "polyhaven-antique_ceramic_vase_01",
+  "name": "Antique Ceramic Vase 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.255,
+   "d": 0.255,
+   "h": 0.44
+  },
+  "model": {
+   "file": "polyhaven/antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/antique_ceramic_vase_01/preview.png"
+ },
+ {
+  "id": "polyhaven-ArmChair_01",
+  "name": "Arm Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.848,
+   "d": 0.766,
+   "h": 1.065
+  },
+  "model": {
+   "file": "polyhaven/ArmChair_01/ArmChair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.034
+   ]
+  },
+  "thumb": "polyhaven/ArmChair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-bar_chair_round_01",
+  "name": "Bar Chair Round 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.483,
+   "d": 0.486,
+   "h": 0.751
+  },
+  "model": {
+   "file": "polyhaven/bar_chair_round_01/bar_chair_round_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.013,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/bar_chair_round_01/preview.png"
+ },
+ {
+  "id": "polyhaven-BarberShopChair_01",
+  "name": "Barber Shop Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.757,
+   "d": 1.328,
+   "h": 1.489
+  },
+  "model": {
+   "file": "polyhaven/BarberShopChair_01/BarberShopChair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.015,
+    0,
+    -0.222
+   ]
+  },
+  "thumb": "polyhaven/BarberShopChair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-book_encyclopedia_set_01",
+  "name": "Book Encyclopedia Set 01",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.551,
+   "d": 0.163,
+   "h": 0.237
+  },
+  "model": {
+   "file": "polyhaven/book_encyclopedia_set_01/book_encyclopedia_set_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.256,
+    0,
+    -0.019
+   ]
+  },
+  "thumb": "polyhaven/book_encyclopedia_set_01/preview.png"
+ },
+ {
+  "id": "polyhaven-boombox",
+  "name": "Boombox",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.724,
+   "d": 0.186,
+   "h": 0.47
+  },
+  "model": {
+   "file": "polyhaven/boombox/boombox_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.02
+   ]
+  },
+  "thumb": "polyhaven/boombox/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_candleholders",
+  "name": "Brass Candleholders",
+  "category": "lighting",
+  "placement": "floor",
+  "size": {
+   "w": 1.053,
+   "d": 0.365,
+   "h": 0.835
+  },
+  "model": {
+   "file": "polyhaven/brass_candleholders/brass_candleholders_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.078,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_candleholders/preview.png",
+  "light": {
+   "y": 0.71,
+   "intensity": 1.5
+  }
+ },
+ {
+  "id": "polyhaven-brass_diya_lantern",
+  "name": "Brass Diya Lantern",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.123,
+   "d": 0.123,
+   "h": 0.381
+  },
+  "model": {
+   "file": "polyhaven/brass_diya_lantern/brass_diya_lantern_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0,
+    0.006
+   ]
+  },
+  "thumb": "polyhaven/brass_diya_lantern/preview.png",
+  "light": {
+   "y": 0.324,
+   "intensity": 1.5
+  }
+ },
+ {
+  "id": "polyhaven-brass_goblets",
+  "name": "Brass Goblets",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.453,
+   "d": 0.298,
+   "h": 0.273
+  },
+  "model": {
+   "file": "polyhaven/brass_goblets/brass_goblets_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.007,
+    -0.005,
+    -0.046
+   ]
+  },
+  "thumb": "polyhaven/brass_goblets/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_pan_01",
+  "name": "Brass Pan 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.191,
+   "d": 0.45,
+   "h": 0.053
+  },
+  "model": {
+   "file": "polyhaven/brass_pan_01/brass_pan_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0.127
+   ]
+  },
+  "thumb": "polyhaven/brass_pan_01/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_pot_01",
+  "name": "Brass Pot 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.302,
+   "d": 0.302,
+   "h": 0.291
+  },
+  "model": {
+   "file": "polyhaven/brass_pot_01/brass_pot_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_pot_01/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_pot_02",
+  "name": "Brass Pot 02",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.367,
+   "d": 0.302,
+   "h": 0.109
+  },
+  "model": {
+   "file": "polyhaven/brass_pot_02/brass_pot_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_pot_02/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_vase_01",
+  "name": "Brass Vase 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.227,
+   "d": 0.227,
+   "h": 0.692
+  },
+  "model": {
+   "file": "polyhaven/brass_vase_01/brass_vase_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_vase_01/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_vase_02",
+  "name": "Brass Vase 02",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.21,
+   "d": 0.21,
+   "h": 0.529
+  },
+  "model": {
+   "file": "polyhaven/brass_vase_02/brass_vase_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_vase_02/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_vase_03",
+  "name": "Brass Vase 03",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.083,
+   "d": 0.083,
+   "h": 0.2
+  },
+  "model": {
+   "file": "polyhaven/brass_vase_03/brass_vase_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_vase_03/preview.png"
+ },
+ {
+  "id": "polyhaven-brass_vase_04",
+  "name": "Brass Vase 04",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.082,
+   "d": 0.061,
+   "h": 0.17
+  },
+  "model": {
+   "file": "polyhaven/brass_vase_04/brass_vase_04_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.01,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/brass_vase_04/preview.png"
+ },
+ {
+  "id": "polyhaven-bronze_ray_statue",
+  "name": "Bronze Ray Statue",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.707,
+   "d": 0.536,
+   "h": 0.59
+  },
+  "model": {
+   "file": "polyhaven/bronze_ray_statue/bronze_ray_statue_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.041,
+    0,
+    0.049
+   ]
+  },
+  "thumb": "polyhaven/bronze_ray_statue/preview.png"
+ },
+ {
+  "id": "polyhaven-bronze_shark_statue",
+  "name": "Bronze Shark Statue",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.352,
+   "d": 0.76,
+   "h": 0.432
+  },
+  "model": {
+   "file": "polyhaven/bronze_shark_statue/bronze_shark_statue_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.002,
+    0,
+    0.034
+   ]
+  },
+  "thumb": "polyhaven/bronze_shark_statue/preview.png"
+ },
+ {
+  "id": "polyhaven-bronze_whale_statue",
+  "name": "Bronze Whale Statue",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.932,
+   "d": 1.366,
+   "h": 1.073
+  },
+  "model": {
+   "file": "polyhaven/bronze_whale_statue/bronze_whale_statue_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.042,
+    0,
+    0.134
+   ]
+  },
+  "thumb": "polyhaven/bronze_whale_statue/preview.png"
+ },
+ {
+  "id": "polyhaven-bull_head",
+  "name": "Bull Head",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.306,
+   "d": 0.281,
+   "h": 0.433
+  },
+  "model": {
+   "file": "polyhaven/bull_head/bull_head_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0,
+    0.03
+   ]
+  },
+  "thumb": "polyhaven/bull_head/preview.png"
+ },
+ {
+  "id": "polyhaven-Camera_01",
+  "name": "Camera 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.214,
+   "d": 0.263,
+   "h": 0.078
+  },
+  "model": {
+   "file": "polyhaven/Camera_01/Camera_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.029,
+    0,
+    -0.071
+   ]
+  },
+  "thumb": "polyhaven/Camera_01/preview.png"
+ },
+ {
+  "id": "polyhaven-carved_wooden_elephant",
+  "name": "Carved Wooden Elephant",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.109,
+   "d": 0.058,
+   "h": 0.096
+  },
+  "model": {
+   "file": "polyhaven/carved_wooden_elephant/carved_wooden_elephant_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.007,
+    0.001,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/carved_wooden_elephant/preview.png"
+ },
+ {
+  "id": "polyhaven-carved_wooden_plate",
+  "name": "Carved Wooden Plate",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.272,
+   "d": 0.269,
+   "h": 0.038
+  },
+  "model": {
+   "file": "polyhaven/carved_wooden_plate/carved_wooden_plate_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.002,
+    0.008
+   ]
+  },
+  "thumb": "polyhaven/carved_wooden_plate/preview.png"
+ },
+ {
+  "id": "polyhaven-CashRegister_01",
+  "name": "Cash Register 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.6,
+   "d": 0.624,
+   "h": 0.621
+  },
+  "model": {
+   "file": "polyhaven/CashRegister_01/CashRegister_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.075,
+    -0.002,
+    -0.139
+   ]
+  },
+  "thumb": "polyhaven/CashRegister_01/preview.png"
+ },
+ {
+  "id": "polyhaven-cassette_player",
+  "name": "Cassette Player",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.129,
+   "d": 0.049,
+   "h": 0.237
+  },
+  "model": {
+   "file": "polyhaven/cassette_player/cassette_player_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.111,
+    -0.024
+   ]
+  },
+  "thumb": "polyhaven/cassette_player/preview.png"
+ },
+ {
+  "id": "polyhaven-ceiling_fan",
+  "name": "Ceiling Fan",
+  "category": "living",
+  "placement": "ceiling",
+  "size": {
+   "w": 1.463,
+   "d": 1.463,
+   "h": 0.516
+  },
+  "model": {
+   "file": "polyhaven/ceiling_fan/ceiling_fan_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0.516,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/ceiling_fan/preview.png"
+ },
+ {
+  "id": "polyhaven-ceramic_pot",
+  "name": "Ceramic Pot",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.656,
+   "d": 0.502,
+   "h": 0.372
+  },
+  "model": {
+   "file": "polyhaven/ceramic_pot/ceramic_pot_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ceramic_pot/preview.png"
+ },
+ {
+  "id": "polyhaven-ceramic_vase_01",
+  "name": "Ceramic Vase 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.204,
+   "d": 0.204,
+   "h": 0.4
+  },
+  "model": {
+   "file": "polyhaven/ceramic_vase_01/ceramic_vase_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ceramic_vase_01/preview.png"
+ },
+ {
+  "id": "polyhaven-ceramic_vase_02",
+  "name": "Ceramic Vase 02",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.218,
+   "d": 0.218,
+   "h": 0.309
+  },
+  "model": {
+   "file": "polyhaven/ceramic_vase_02/ceramic_vase_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ceramic_vase_02/preview.png"
+ },
+ {
+  "id": "polyhaven-ceramic_vase_03",
+  "name": "Ceramic Vase 03",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.112,
+   "d": 0.112,
+   "h": 0.414
+  },
+  "model": {
+   "file": "polyhaven/ceramic_vase_03/ceramic_vase_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ceramic_vase_03/preview.png"
+ },
+ {
+  "id": "polyhaven-ceramic_vase_04",
+  "name": "Ceramic Vase 04",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.181,
+   "d": 0.181,
+   "h": 0.342
+  },
+  "model": {
+   "file": "polyhaven/ceramic_vase_04/ceramic_vase_04_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ceramic_vase_04/preview.png"
+ },
+ {
+  "id": "polyhaven-Chandelier_01",
+  "name": "Chandelier 01",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.746,
+   "d": 0.816,
+   "h": 0.798
+  },
+  "model": {
+   "file": "polyhaven/Chandelier_01/Chandelier_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.798,
+    -0.006
+   ]
+  },
+  "thumb": "polyhaven/Chandelier_01/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-Chandelier_02",
+  "name": "Chandelier 02",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.679,
+   "d": 0.619,
+   "h": 0.848
+  },
+  "model": {
+   "file": "polyhaven/Chandelier_02/Chandelier_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    -0.06,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/Chandelier_02/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-Chandelier_03",
+  "name": "Chandelier 03",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.78,
+   "d": 0.785,
+   "h": 1.041
+  },
+  "model": {
+   "file": "polyhaven/Chandelier_03/Chandelier_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    1.041,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/Chandelier_03/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-chess_set",
+  "name": "Chess Set",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.553,
+   "d": 0.553,
+   "h": 0.112
+  },
+  "model": {
+   "file": "polyhaven/chess_set/chess_set_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/chess_set/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_armchair",
+  "name": "Chinese Armchair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.848,
+   "d": 0.789,
+   "h": 1.587
+  },
+  "model": {
+   "file": "polyhaven/chinese_armchair/chinese_armchair_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    -0.007
+   ]
+  },
+  "thumb": "polyhaven/chinese_armchair/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_cabinet",
+  "name": "Chinese Cabinet",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.262,
+   "d": 0.545,
+   "h": 2.872
+  },
+  "model": {
+   "file": "polyhaven/chinese_cabinet/chinese_cabinet_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    -0.017
+   ]
+  },
+  "thumb": "polyhaven/chinese_cabinet/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_chandelier",
+  "name": "Chinese Chandelier",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.878,
+   "d": 0.879,
+   "h": 0.748
+  },
+  "model": {
+   "file": "polyhaven/chinese_chandelier/chinese_chandelier_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.748,
+    0
+   ]
+  },
+  "thumb": "polyhaven/chinese_chandelier/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-chinese_commode",
+  "name": "Chinese Commode",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 4.49,
+   "d": 1.17,
+   "h": 2.02
+  },
+  "model": {
+   "file": "polyhaven/chinese_commode/chinese_commode_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.034
+   ]
+  },
+  "thumb": "polyhaven/chinese_commode/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_console_table",
+  "name": "Chinese Console Table",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.72,
+   "d": 0.339,
+   "h": 0.661
+  },
+  "model": {
+   "file": "polyhaven/chinese_console_table/chinese_console_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/chinese_console_table/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_screen_panels",
+  "name": "Chinese Screen Panels",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.294,
+   "d": 0.377,
+   "h": 1.603
+  },
+  "model": {
+   "file": "polyhaven/chinese_screen_panels/chinese_screen_panels_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.022,
+    0,
+    0.123
+   ]
+  },
+  "thumb": "polyhaven/chinese_screen_panels/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_sofa",
+  "name": "Chinese Sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.285,
+   "d": 0.969,
+   "h": 0.86
+  },
+  "model": {
+   "file": "polyhaven/chinese_sofa/chinese_sofa_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/chinese_sofa/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_stool",
+  "name": "Chinese Stool",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.599,
+   "d": 0.506,
+   "h": 0.631
+  },
+  "model": {
+   "file": "polyhaven/chinese_stool/chinese_stool_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/chinese_stool/preview.png"
+ },
+ {
+  "id": "polyhaven-chinese_tea_table",
+  "name": "Chinese Tea Table",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.841,
+   "d": 0.836,
+   "h": 0.499
+  },
+  "model": {
+   "file": "polyhaven/chinese_tea_table/chinese_tea_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/chinese_tea_table/preview.png"
+ },
+ {
+  "id": "polyhaven-circuit_board",
+  "name": "Circuit Board",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.404,
+   "d": 0.397,
+   "h": 0.078
+  },
+  "model": {
+   "file": "polyhaven/circuit_board/circuit_board_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.005,
+    0.006,
+    0
+   ]
+  },
+  "thumb": "polyhaven/circuit_board/preview.png"
+ },
+ {
+  "id": "polyhaven-classic_laptop",
+  "name": "Classic Laptop",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.652,
+   "d": 0.486,
+   "h": 0.543
+  },
+  "model": {
+   "file": "polyhaven/classic_laptop/classic_laptop_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/classic_laptop/preview.png"
+ },
+ {
+  "id": "polyhaven-ClassicConsole_01",
+  "name": "Classic Console 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.543,
+   "d": 0.589,
+   "h": 0.949
+  },
+  "model": {
+   "file": "polyhaven/ClassicConsole_01/ClassicConsole_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0.044
+   ]
+  },
+  "thumb": "polyhaven/ClassicConsole_01/preview.png"
+ },
+ {
+  "id": "polyhaven-ClassicNightstand_01",
+  "name": "Classic Nightstand 01",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.568,
+   "d": 0.424,
+   "h": 0.7
+  },
+  "model": {
+   "file": "polyhaven/ClassicNightstand_01/ClassicNightstand_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ClassicNightstand_01/preview.png"
+ },
+ {
+  "id": "polyhaven-coffee_table_round_01",
+  "name": "Coffee Table Round 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.301,
+   "d": 1.301,
+   "h": 0.491
+  },
+  "model": {
+   "file": "polyhaven/coffee_table_round_01/coffee_table_round_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/coffee_table_round_01/preview.png"
+ },
+ {
+  "id": "polyhaven-CoffeeCart_01",
+  "name": "Coffee Cart 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 2.168,
+   "d": 1.073,
+   "h": 1.718
+  },
+  "model": {
+   "file": "polyhaven/CoffeeCart_01/CoffeeCart_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.313,
+    -0.004,
+    0.021
+   ]
+  },
+  "thumb": "polyhaven/CoffeeCart_01/preview.png"
+ },
+ {
+  "id": "polyhaven-CoffeeTable_01",
+  "name": "Coffee Table 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.54,
+   "d": 0.973,
+   "h": 0.523
+  },
+  "model": {
+   "file": "polyhaven/CoffeeTable_01/CoffeeTable_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.002,
+    0
+   ]
+  },
+  "thumb": "polyhaven/CoffeeTable_01/preview.png"
+ },
+ {
+  "id": "polyhaven-concrete_cat_statue",
+  "name": "Concrete Cat Statue",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.153,
+   "d": 0.25,
+   "h": 0.283
+  },
+  "model": {
+   "file": "polyhaven/concrete_cat_statue/concrete_cat_statue_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0.025
+   ]
+  },
+  "thumb": "polyhaven/concrete_cat_statue/preview.png"
+ },
+ {
+  "id": "polyhaven-dartboard",
+  "name": "Dartboard",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.451,
+   "d": 0.04,
+   "h": 0.451
+  },
+  "model": {
+   "file": "polyhaven/dartboard/dartboard_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.225,
+    -0.02
+   ]
+  },
+  "thumb": "polyhaven/dartboard/preview.png"
+ },
+ {
+  "id": "polyhaven-dining_chair_02",
+  "name": "Dining Chair 02",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.434,
+   "d": 0.576,
+   "h": 0.973
+  },
+  "model": {
+   "file": "polyhaven/dining_chair_02/dining_chair_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0.043
+   ]
+  },
+  "thumb": "polyhaven/dining_chair_02/preview.png"
+ },
+ {
+  "id": "polyhaven-dining_table",
+  "name": "Dining Table",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 2.256,
+   "d": 1.39,
+   "h": 0.877
+  },
+  "model": {
+   "file": "polyhaven/dining_table/dining_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.005,
+    0.004,
+    -0.017
+   ]
+  },
+  "thumb": "polyhaven/dining_table/preview.png"
+ },
+ {
+  "id": "polyhaven-drawer_cabinet",
+  "name": "Drawer Cabinet",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.141,
+   "d": 0.488,
+   "h": 1.881
+  },
+  "model": {
+   "file": "polyhaven/drawer_cabinet/drawer_cabinet_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.004
+   ]
+  },
+  "thumb": "polyhaven/drawer_cabinet/preview.png"
+ },
+ {
+  "id": "polyhaven-fancy_picture_frame_01",
+  "name": "Fancy Picture Frame 01",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.603,
+   "d": 0.02,
+   "h": 0.464
+  },
+  "model": {
+   "file": "polyhaven/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.232,
+    -0.012
+   ]
+  },
+  "thumb": "polyhaven/fancy_picture_frame_01/preview.png"
+ },
+ {
+  "id": "polyhaven-fancy_picture_frame_02",
+  "name": "Fancy Picture Frame 02",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.661,
+   "d": 0.089,
+   "h": 0.771
+  },
+  "model": {
+   "file": "polyhaven/fancy_picture_frame_02/fancy_picture_frame_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.391,
+    -0.046
+   ]
+  },
+  "thumb": "polyhaven/fancy_picture_frame_02/preview.png"
+ },
+ {
+  "id": "polyhaven-filmstrip_projector_8mm",
+  "name": "Filmstrip Projector 8mm",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.254,
+   "d": 0.603,
+   "h": 0.345
+  },
+  "model": {
+   "file": "polyhaven/filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.027,
+    0,
+    -0.021
+   ]
+  },
+  "thumb": "polyhaven/filmstrip_projector_8mm/preview.png"
+ },
+ {
+  "id": "polyhaven-folding_wooden_stool",
+  "name": "Folding Wooden Stool",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.528,
+   "d": 0.547,
+   "h": 0.442
+  },
+  "model": {
+   "file": "polyhaven/folding_wooden_stool/folding_wooden_stool_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/folding_wooden_stool/preview.png"
+ },
+ {
+  "id": "polyhaven-gallinera_chair",
+  "name": "Gallinera Chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.581,
+   "d": 0.604,
+   "h": 1.034
+  },
+  "model": {
+   "file": "polyhaven/gallinera_chair/gallinera_chair_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.036
+   ]
+  },
+  "thumb": "polyhaven/gallinera_chair/preview.png"
+ },
+ {
+  "id": "polyhaven-gallinera_table",
+  "name": "Gallinera Table",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.83,
+   "d": 0.518,
+   "h": 0.488
+  },
+  "model": {
+   "file": "polyhaven/gallinera_table/gallinera_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/gallinera_table/preview.png"
+ },
+ {
+  "id": "polyhaven-gaming_console",
+  "name": "Gaming Console",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.325,
+   "d": 0.319,
+   "h": 0.1
+  },
+  "model": {
+   "file": "polyhaven/gaming_console/gaming_console_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.022
+   ]
+  },
+  "thumb": "polyhaven/gaming_console/preview.png"
+ },
+ {
+  "id": "polyhaven-garden_gnome",
+  "name": "Garden Gnome",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.258,
+   "d": 0.21,
+   "h": 0.599
+  },
+  "model": {
+   "file": "polyhaven/garden_gnome/garden_gnome_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.015,
+    0,
+    -0.007
+   ]
+  },
+  "thumb": "polyhaven/garden_gnome/preview.png"
+ },
+ {
+  "id": "polyhaven-gothic_coffee_table",
+  "name": "Gothic Coffee Table",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.443,
+   "d": 1.443,
+   "h": 0.559
+  },
+  "model": {
+   "file": "polyhaven/gothic_coffee_table/gothic_coffee_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/gothic_coffee_table/preview.png"
+ },
+ {
+  "id": "polyhaven-gothic_statue",
+  "name": "Gothic Statue",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 1.477,
+   "d": 1.564,
+   "h": 1.74
+  },
+  "model": {
+   "file": "polyhaven/gothic_statue/gothic_statue_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.044,
+    0.016,
+    0.408
+   ]
+  },
+  "thumb": "polyhaven/gothic_statue/preview.png"
+ },
+ {
+  "id": "polyhaven-GothicBed_01",
+  "name": "Gothic Bed 01",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.494,
+   "d": 2.04,
+   "h": 1.534
+  },
+  "model": {
+   "file": "polyhaven/GothicBed_01/GothicBed_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.036,
+    0,
+    0.033
+   ]
+  },
+  "thumb": "polyhaven/GothicBed_01/preview.png"
+ },
+ {
+  "id": "polyhaven-GothicCabinet_01",
+  "name": "Gothic Cabinet 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.719,
+   "d": 1.129,
+   "h": 2.361
+  },
+  "model": {
+   "file": "polyhaven/GothicCabinet_01/GothicCabinet_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.107
+   ]
+  },
+  "thumb": "polyhaven/GothicCabinet_01/preview.png"
+ },
+ {
+  "id": "polyhaven-GothicCommode_01",
+  "name": "Gothic Commode 01",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.201,
+   "d": 0.581,
+   "h": 1.212
+  },
+  "model": {
+   "file": "polyhaven/GothicCommode_01/GothicCommode_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/GothicCommode_01/preview.png"
+ },
+ {
+  "id": "polyhaven-GreenChair_01",
+  "name": "Green Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.673,
+   "d": 0.664,
+   "h": 1.059
+  },
+  "model": {
+   "file": "polyhaven/GreenChair_01/GreenChair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0.001,
+    0.046
+   ]
+  },
+  "thumb": "polyhaven/GreenChair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-hanging_industrial_lamp",
+  "name": "Hanging Industrial Lamp",
+  "category": "lighting",
+  "placement": "floor",
+  "size": {
+   "w": 0.55,
+   "d": 0.55,
+   "h": 1.355
+  },
+  "model": {
+   "file": "polyhaven/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    1.34,
+    0
+   ]
+  },
+  "thumb": "polyhaven/hanging_industrial_lamp/preview.png",
+  "light": {
+   "y": 1.152,
+   "intensity": 9
+  }
+ },
+ {
+  "id": "polyhaven-hanging_picture_frame_01",
+  "name": "Hanging Picture Frame 01",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.594,
+   "d": 0.016,
+   "h": 0.841
+  },
+  "model": {
+   "file": "polyhaven/hanging_picture_frame_01/hanging_picture_frame_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.42,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/hanging_picture_frame_01/preview.png"
+ },
+ {
+  "id": "polyhaven-hanging_picture_frame_02",
+  "name": "Hanging Picture Frame 02",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.752,
+   "d": 0.033,
+   "h": 0.5
+  },
+  "model": {
+   "file": "polyhaven/hanging_picture_frame_02/hanging_picture_frame_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.279,
+    -0.019
+   ]
+  },
+  "thumb": "polyhaven/hanging_picture_frame_02/preview.png"
+ },
+ {
+  "id": "polyhaven-hanging_picture_frame_03",
+  "name": "Hanging Picture Frame 03",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.385,
+   "d": 0.032,
+   "h": 0.502
+  },
+  "model": {
+   "file": "polyhaven/hanging_picture_frame_03/hanging_picture_frame_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.255,
+    -0.016
+   ]
+  },
+  "thumb": "polyhaven/hanging_picture_frame_03/preview.png"
+ },
+ {
+  "id": "polyhaven-horse_head",
+  "name": "Horse Head",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.215,
+   "d": 0.334,
+   "h": 0.419
+  },
+  "model": {
+   "file": "polyhaven/horse_head/horse_head_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.056
+   ]
+  },
+  "thumb": "polyhaven/horse_head/preview.png"
+ },
+ {
+  "id": "polyhaven-horse_statue_01",
+  "name": "Horse Statue 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.163,
+   "d": 0.108,
+   "h": 0.22
+  },
+  "model": {
+   "file": "polyhaven/horse_statue_01/horse_statue_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.004,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/horse_statue_01/preview.png"
+ },
+ {
+  "id": "polyhaven-industrial_coffee_table",
+  "name": "Industrial Coffee Table",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.778,
+   "d": 0.758,
+   "h": 0.638
+  },
+  "model": {
+   "file": "polyhaven/industrial_coffee_table/industrial_coffee_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.003,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/industrial_coffee_table/preview.png"
+ },
+ {
+  "id": "polyhaven-industrial_wall_lamp",
+  "name": "Industrial Wall Lamp",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.273,
+   "d": 0.14,
+   "h": 0.43
+  },
+  "model": {
+   "file": "polyhaven/industrial_wall_lamp/industrial_wall_lamp_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.215,
+    -0.07
+   ]
+  },
+  "thumb": "polyhaven/industrial_wall_lamp/preview.png",
+  "light": {
+   "y": 0.366,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-industrial_wall_sconce",
+  "name": "Industrial Wall Sconce",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.15,
+   "d": 0.252,
+   "h": 0.342
+  },
+  "model": {
+   "file": "polyhaven/industrial_wall_sconce/industrial_wall_sconce_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.002,
+    0.02,
+    -0.133
+   ]
+  },
+  "thumb": "polyhaven/industrial_wall_sconce/preview.png",
+  "light": {
+   "y": 0.291,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-jug_01",
+  "name": "Jug 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.275,
+   "d": 0.168,
+   "h": 0.211
+  },
+  "model": {
+   "file": "polyhaven/jug_01/jug_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.015,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/jug_01/preview.png"
+ },
+ {
+  "id": "polyhaven-katana_stand_01",
+  "name": "Katana Stand 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.296,
+   "d": 0.053,
+   "h": 0.182
+  },
+  "model": {
+   "file": "polyhaven/katana_stand_01/katana_stand_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.027
+   ]
+  },
+  "thumb": "polyhaven/katana_stand_01/preview.png"
+ },
+ {
+  "id": "polyhaven-lambis_shell",
+  "name": "Lambis Shell",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.139,
+   "d": 0.075,
+   "h": 0.047
+  },
+  "model": {
+   "file": "polyhaven/lambis_shell/lambis_shell_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/lambis_shell/preview.png"
+ },
+ {
+  "id": "polyhaven-Lantern_01",
+  "name": "Lantern 01",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.122,
+   "d": 0.097,
+   "h": 0.294
+  },
+  "model": {
+   "file": "polyhaven/Lantern_01/Lantern_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/Lantern_01/preview.png",
+  "light": {
+   "y": 0.25,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-lantern_chandelier_01",
+  "name": "Lantern Chandelier 01",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.579,
+   "d": 0.575,
+   "h": 0.878
+  },
+  "model": {
+   "file": "polyhaven/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.004,
+    0.865,
+    0
+   ]
+  },
+  "thumb": "polyhaven/lantern_chandelier_01/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-lightbulb_01",
+  "name": "Lightbulb 01",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.06,
+   "d": 0.06,
+   "h": 0.1
+  },
+  "model": {
+   "file": "polyhaven/lightbulb_01/lightbulb_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.017,
+    0
+   ]
+  },
+  "thumb": "polyhaven/lightbulb_01/preview.png",
+  "light": {
+   "y": 0.085,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-lightbulb_led",
+  "name": "Lightbulb Led",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.061,
+   "d": 0.061,
+   "h": 0.1
+  },
+  "model": {
+   "file": "polyhaven/lightbulb_led/lightbulb_led_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.016,
+    0
+   ]
+  },
+  "thumb": "polyhaven/lightbulb_led/preview.png",
+  "light": {
+   "y": 0.085,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-lion_head",
+  "name": "Lion Head",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.321,
+   "d": 0.207,
+   "h": 0.436
+  },
+  "model": {
+   "file": "polyhaven/lion_head/lion_head_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/lion_head/preview.png"
+ },
+ {
+  "id": "polyhaven-marble_bust_01",
+  "name": "Marble Bust 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.272,
+   "d": 0.3,
+   "h": 0.515
+  },
+  "model": {
+   "file": "polyhaven/marble_bust_01/marble_bust_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.013,
+    0,
+    -0.005
+   ]
+  },
+  "thumb": "polyhaven/marble_bust_01/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_detector",
+  "name": "Metal Detector",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.289,
+   "d": 1.19,
+   "h": 1.122
+  },
+  "model": {
+   "file": "polyhaven/metal_detector/metal_detector_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.017,
+    0.923,
+    -0.125
+   ]
+  },
+  "thumb": "polyhaven/metal_detector/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_jug",
+  "name": "Metal Jug",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.197,
+   "d": 0.195,
+   "h": 0.288
+  },
+  "model": {
+   "file": "polyhaven/metal_jug/metal_jug_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/metal_jug/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_office_desk",
+  "name": "Metal Office Desk",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 2,
+   "d": 0.947,
+   "h": 0.788
+  },
+  "model": {
+   "file": "polyhaven/metal_office_desk/metal_office_desk_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/metal_office_desk/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_stool_01",
+  "name": "Metal Stool 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.352,
+   "d": 0.355,
+   "h": 0.883
+  },
+  "model": {
+   "file": "polyhaven/metal_stool_01/metal_stool_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/metal_stool_01/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_stool_02",
+  "name": "Metal Stool 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.448,
+   "d": 0.473,
+   "h": 0.458
+  },
+  "model": {
+   "file": "polyhaven/metal_stool_02/metal_stool_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/metal_stool_02/preview.png"
+ },
+ {
+  "id": "polyhaven-metal_stool_03",
+  "name": "Metal Stool 03",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.461,
+   "d": 0.471,
+   "h": 1.023
+  },
+  "model": {
+   "file": "polyhaven/metal_stool_03/metal_stool_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0.003
+   ]
+  },
+  "thumb": "polyhaven/metal_stool_03/preview.png"
+ },
+ {
+  "id": "polyhaven-mid_century_lounge_chair",
+  "name": "Mid Century Lounge Chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.009,
+   "d": 1.19,
+   "h": 1.169
+  },
+  "model": {
+   "file": "polyhaven/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.066
+   ]
+  },
+  "thumb": "polyhaven/mid_century_lounge_chair/preview.png"
+ },
+ {
+  "id": "polyhaven-modern_arm_chair_01",
+  "name": "Modern Arm Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.82,
+   "d": 0.987,
+   "h": 1.023
+  },
+  "model": {
+   "file": "polyhaven/modern_arm_chair_01/modern_arm_chair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.003,
+    0,
+    0.082
+   ]
+  },
+  "thumb": "polyhaven/modern_arm_chair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-modern_ceiling_lamp_01",
+  "name": "Modern Ceiling Lamp 01",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.432,
+   "d": 0.432,
+   "h": 0.952
+  },
+  "model": {
+   "file": "polyhaven/modern_ceiling_lamp_01/modern_ceiling_lamp_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.221,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/modern_ceiling_lamp_01/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-modern_coffee_table_01",
+  "name": "Modern Coffee Table 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.6,
+   "d": 1.202,
+   "h": 0.39
+  },
+  "model": {
+   "file": "polyhaven/modern_coffee_table_01/modern_coffee_table_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/modern_coffee_table_01/preview.png"
+ },
+ {
+  "id": "polyhaven-modern_coffee_table_02",
+  "name": "Modern Coffee Table 02",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.199,
+   "d": 1.2,
+   "h": 0.369
+  },
+  "model": {
+   "file": "polyhaven/modern_coffee_table_02/modern_coffee_table_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    -0.003
+   ]
+  },
+  "thumb": "polyhaven/modern_coffee_table_02/preview.png"
+ },
+ {
+  "id": "polyhaven-modern_wooden_cabinet",
+  "name": "Modern Wooden Cabinet",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.44,
+   "d": 0.52,
+   "h": 0.68
+  },
+  "model": {
+   "file": "polyhaven/modern_wooden_cabinet/modern_wooden_cabinet_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.01
+   ]
+  },
+  "thumb": "polyhaven/modern_wooden_cabinet/preview.png"
+ },
+ {
+  "id": "polyhaven-modular_street_seating",
+  "name": "Modular Street Seating",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 4.34,
+   "d": 0.77,
+   "h": 0.95
+  },
+  "model": {
+   "file": "polyhaven/modular_street_seating/modular_street_seating_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.19,
+    0,
+    -0.015
+   ]
+  },
+  "thumb": "polyhaven/modular_street_seating/preview.png"
+ },
+ {
+  "id": "polyhaven-old_bed_frame",
+  "name": "Old Bed Frame",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.905,
+   "d": 2.002,
+   "h": 1.201
+  },
+  "model": {
+   "file": "polyhaven/old_bed_frame/old_bed_frame_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/old_bed_frame/preview.png"
+ },
+ {
+  "id": "polyhaven-ornate_mirror_01",
+  "name": "Ornate Mirror 01",
+  "category": "living",
+  "placement": "wall",
+  "size": {
+   "w": 0.486,
+   "d": 0.026,
+   "h": 0.744
+  },
+  "model": {
+   "file": "polyhaven/ornate_mirror_01/ornate_mirror_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.411,
+    -0.013
+   ]
+  },
+  "thumb": "polyhaven/ornate_mirror_01/preview.png"
+ },
+ {
+  "id": "polyhaven-Ottoman_01",
+  "name": "Ottoman 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.885,
+   "d": 0.621,
+   "h": 0.624
+  },
+  "model": {
+   "file": "polyhaven/Ottoman_01/Ottoman_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.002,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/Ottoman_01/preview.png"
+ },
+ {
+  "id": "polyhaven-outdoor_table_chair_set_01",
+  "name": "Outdoor Table Chair Set 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.776,
+   "d": 1.831,
+   "h": 0.859
+  },
+  "model": {
+   "file": "polyhaven/outdoor_table_chair_set_01/outdoor_table_chair_set_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.057,
+    0.006,
+    -0.006
+   ]
+  },
+  "thumb": "polyhaven/outdoor_table_chair_set_01/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_bench",
+  "name": "Painted Wooden Bench",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.165,
+   "d": 0.497,
+   "h": 0.889
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_bench/painted_wooden_bench_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.006,
+    0,
+    0.005
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_bench/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_cabinet",
+  "name": "Painted Wooden Cabinet",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.195,
+   "d": 0.617,
+   "h": 1.182
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.003,
+    0,
+    -0.026
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_cabinet/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_cabinet_02",
+  "name": "Painted Wooden Cabinet 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.997,
+   "d": 0.729,
+   "h": 2.569
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_cabinet_02/painted_wooden_cabinet_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.043
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_cabinet_02/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_chair_01",
+  "name": "Painted Wooden Chair 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.432,
+   "d": 0.54,
+   "h": 0.956
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_chair_01/painted_wooden_chair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.001,
+    0.031
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_chair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_chair_02",
+  "name": "Painted Wooden Chair 02",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.639,
+   "d": 0.662,
+   "h": 1.264
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_chair_02/painted_wooden_chair_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.015,
+    0,
+    0.032
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_chair_02/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_nightstand",
+  "name": "Painted Wooden Nightstand",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.505,
+   "d": 0.509,
+   "h": 0.616
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_nightstand/painted_wooden_nightstand_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.005
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_nightstand/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_shelves",
+  "name": "Painted Wooden Shelves",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.511,
+   "d": 0.367,
+   "h": 1.125
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_shelves/painted_wooden_shelves_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.184
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_shelves/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_sofa",
+  "name": "Painted Wooden Sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.452,
+   "d": 0.787,
+   "h": 1.281
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_sofa/painted_wooden_sofa_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.021
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_sofa/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_stool",
+  "name": "Painted Wooden Stool",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.385,
+   "d": 0.406,
+   "h": 0.579
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_stool/painted_wooden_stool_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0.001,
+    -0.013
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_stool/preview.png"
+ },
+ {
+  "id": "polyhaven-painted_wooden_table",
+  "name": "Painted Wooden Table",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.406,
+   "d": 1.137,
+   "h": 0.959
+  },
+  "model": {
+   "file": "polyhaven/painted_wooden_table/painted_wooden_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.003
+   ]
+  },
+  "thumb": "polyhaven/painted_wooden_table/preview.png"
+ },
+ {
+  "id": "polyhaven-planter_box_01",
+  "name": "Planter Box 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.913,
+   "d": 0.414,
+   "h": 0.425
+  },
+  "model": {
+   "file": "polyhaven/planter_box_01/planter_box_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/planter_box_01/preview.png"
+ },
+ {
+  "id": "polyhaven-planter_box_02",
+  "name": "Planter Box 02",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 1.252,
+   "d": 0.467,
+   "h": 0.453
+  },
+  "model": {
+   "file": "polyhaven/planter_box_02/planter_box_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0.001,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/planter_box_02/preview.png"
+ },
+ {
+  "id": "polyhaven-planter_box_03",
+  "name": "Planter Box 03",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.914,
+   "d": 0.656,
+   "h": 0.855
+  },
+  "model": {
+   "file": "polyhaven/planter_box_03/planter_box_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/planter_box_03/preview.png"
+ },
+ {
+  "id": "polyhaven-plastic_monobloc_chair_01",
+  "name": "Plastic Monobloc Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.642,
+   "d": 0.628,
+   "h": 0.88
+  },
+  "model": {
+   "file": "polyhaven/plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.022
+   ]
+  },
+  "thumb": "polyhaven/plastic_monobloc_chair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-portable_cassette_player",
+  "name": "Portable Cassette Player",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.172,
+   "d": 0.04,
+   "h": 0.13
+  },
+  "model": {
+   "file": "polyhaven/portable_cassette_player/portable_cassette_player_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.022,
+    0.056,
+    -0.003
+   ]
+  },
+  "thumb": "polyhaven/portable_cassette_player/preview.png"
+ },
+ {
+  "id": "polyhaven-pot_enamel_01",
+  "name": "Pot Enamel 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.263,
+   "d": 0.18,
+   "h": 0.178
+  },
+  "model": {
+   "file": "polyhaven/pot_enamel_01/pot_enamel_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/pot_enamel_01/preview.png"
+ },
+ {
+  "id": "polyhaven-potted_plant_01",
+  "name": "Potted Plant 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.587,
+   "d": 0.634,
+   "h": 1.35
+  },
+  "model": {
+   "file": "polyhaven/potted_plant_01/potted_plant_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.045,
+    0.014,
+    0.047
+   ]
+  },
+  "thumb": "polyhaven/potted_plant_01/preview.png"
+ },
+ {
+  "id": "polyhaven-potted_plant_02",
+  "name": "Potted Plant 02",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.701,
+   "d": 0.657,
+   "h": 0.841
+  },
+  "model": {
+   "file": "polyhaven/potted_plant_02/potted_plant_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.046,
+    0,
+    0.092
+   ]
+  },
+  "thumb": "polyhaven/potted_plant_02/preview.png"
+ },
+ {
+  "id": "polyhaven-potted_plant_04",
+  "name": "Potted Plant 04",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.168,
+   "d": 0.185,
+   "h": 0.267
+  },
+  "model": {
+   "file": "polyhaven/potted_plant_04/potted_plant_04_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/potted_plant_04/preview.png"
+ },
+ {
+  "id": "polyhaven-pull_chain_light_socket",
+  "name": "Pull Chain Light Socket",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.11,
+   "d": 0.11,
+   "h": 0.165
+  },
+  "model": {
+   "file": "polyhaven/pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.165,
+    0
+   ]
+  },
+  "thumb": "polyhaven/pull_chain_light_socket/preview.png",
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-Rockingchair_01",
+  "name": "Rockingchair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.708,
+   "d": 0.833,
+   "h": 0.995
+  },
+  "model": {
+   "file": "polyhaven/Rockingchair_01/Rockingchair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.102,
+    -0.062
+   ]
+  },
+  "thumb": "polyhaven/Rockingchair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-round_wooden_table_01",
+  "name": "Round Wooden Table 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.399,
+   "d": 1.399,
+   "h": 1.005
+  },
+  "model": {
+   "file": "polyhaven/round_wooden_table_01/round_wooden_table_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/round_wooden_table_01/preview.png"
+ },
+ {
+  "id": "polyhaven-round_wooden_table_02",
+  "name": "Round Wooden Table 02",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.796,
+   "d": 0.796,
+   "h": 0.746
+  },
+  "model": {
+   "file": "polyhaven/round_wooden_table_02/round_wooden_table_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/round_wooden_table_02/preview.png"
+ },
+ {
+  "id": "polyhaven-rubber_duck_toy",
+  "name": "Rubber Duck Toy",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.214,
+   "d": 0.3,
+   "h": 0.286
+  },
+  "model": {
+   "file": "polyhaven/rubber_duck_toy/rubber_duck_toy_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/rubber_duck_toy/preview.png"
+ },
+ {
+  "id": "polyhaven-scandinavian_masonry_heater",
+  "name": "Scandinavian Masonry Heater",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.168,
+   "d": 1.335,
+   "h": 2.36
+  },
+  "model": {
+   "file": "polyhaven/scandinavian_masonry_heater/scandinavian_masonry_heater_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.129,
+    0,
+    -0.191
+   ]
+  },
+  "thumb": "polyhaven/scandinavian_masonry_heater/preview.png"
+ },
+ {
+  "id": "polyhaven-SchoolChair_01",
+  "name": "School Chair 01",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 0.566,
+   "d": 0.675,
+   "h": 1.006
+  },
+  "model": {
+   "file": "polyhaven/SchoolChair_01/SchoolChair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.002,
+    0
+   ]
+  },
+  "thumb": "polyhaven/SchoolChair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-SchoolDesk_01",
+  "name": "School Desk 01",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 0.712,
+   "d": 0.546,
+   "h": 0.883
+  },
+  "model": {
+   "file": "polyhaven/SchoolDesk_01/SchoolDesk_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.005
+   ]
+  },
+  "thumb": "polyhaven/SchoolDesk_01/preview.png"
+ },
+ {
+  "id": "polyhaven-Shelf_01",
+  "name": "Shelf 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.003,
+   "d": 0.257,
+   "h": 2.08
+  },
+  "model": {
+   "file": "polyhaven/Shelf_01/Shelf_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.128
+   ]
+  },
+  "thumb": "polyhaven/Shelf_01/preview.png"
+ },
+ {
+  "id": "polyhaven-side_table_01",
+  "name": "Side Table 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.55,
+   "d": 0.45,
+   "h": 0.551
+  },
+  "model": {
+   "file": "polyhaven/side_table_01/side_table_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.002,
+    0
+   ]
+  },
+  "thumb": "polyhaven/side_table_01/preview.png"
+ },
+ {
+  "id": "polyhaven-side_table_tall_01",
+  "name": "Side Table Tall 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.384,
+   "d": 0.384,
+   "h": 0.761
+  },
+  "model": {
+   "file": "polyhaven/side_table_tall_01/side_table_tall_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/side_table_tall_01/preview.png"
+ },
+ {
+  "id": "polyhaven-signal_flashlight",
+  "name": "Signal Flashlight",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.071,
+   "d": 0.045,
+   "h": 0.15
+  },
+  "model": {
+   "file": "polyhaven/signal_flashlight/signal_flashlight_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/signal_flashlight/preview.png"
+ },
+ {
+  "id": "polyhaven-small_wooden_table_01",
+  "name": "Small Wooden Table 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.916,
+   "d": 0.44,
+   "h": 0.533
+  },
+  "model": {
+   "file": "polyhaven/small_wooden_table_01/small_wooden_table_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/small_wooden_table_01/preview.png"
+ },
+ {
+  "id": "polyhaven-Sofa_01",
+  "name": "Sofa 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.571,
+   "d": 0.658,
+   "h": 0.797
+  },
+  "model": {
+   "file": "polyhaven/Sofa_01/Sofa_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.008,
+    0.001,
+    0.032
+   ]
+  },
+  "thumb": "polyhaven/Sofa_01/preview.png"
+ },
+ {
+  "id": "polyhaven-sofa_02",
+  "name": "Sofa 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.807,
+   "d": 0.818,
+   "h": 0.709
+  },
+  "model": {
+   "file": "polyhaven/sofa_02/sofa_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.069
+   ]
+  },
+  "thumb": "polyhaven/sofa_02/preview.png"
+ },
+ {
+  "id": "polyhaven-sofa_03",
+  "name": "Sofa 03",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.731,
+   "d": 0.925,
+   "h": 1.118
+  },
+  "model": {
+   "file": "polyhaven/sofa_03/sofa_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/sofa_03/preview.png"
+ },
+ {
+  "id": "polyhaven-standing_chalkboard_01",
+  "name": "Standing Chalkboard 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.92,
+   "d": 0.759,
+   "h": 1.509
+  },
+  "model": {
+   "file": "polyhaven/standing_chalkboard_01/standing_chalkboard_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.014,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/standing_chalkboard_01/preview.png"
+ },
+ {
+  "id": "polyhaven-standing_picture_frame_01",
+  "name": "Standing Picture Frame 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.1,
+   "d": 0.201,
+   "h": 0.25
+  },
+  "model": {
+   "file": "polyhaven/standing_picture_frame_01/standing_picture_frame_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.011,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/standing_picture_frame_01/preview.png"
+ },
+ {
+  "id": "polyhaven-standing_picture_frame_02",
+  "name": "Standing Picture Frame 02",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.102,
+   "d": 0.217,
+   "h": 0.266
+  },
+  "model": {
+   "file": "polyhaven/standing_picture_frame_02/standing_picture_frame_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.008,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/standing_picture_frame_02/preview.png"
+ },
+ {
+  "id": "polyhaven-steel_frame_shelves_03",
+  "name": "Steel Frame Shelves 03",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.351,
+   "d": 0.721,
+   "h": 2.312
+  },
+  "model": {
+   "file": "polyhaven/steel_frame_shelves_03/steel_frame_shelves_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.131,
+    0,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/steel_frame_shelves_03/preview.png"
+ },
+ {
+  "id": "polyhaven-sungka_board",
+  "name": "Sungka Board",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.14,
+   "d": 0.601,
+   "h": 0.035
+  },
+  "model": {
+   "file": "polyhaven/sungka_board/sungka_board_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.021,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/sungka_board/preview.png"
+ },
+ {
+  "id": "polyhaven-sungka_board_02",
+  "name": "Sungka Board 02",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.932,
+   "d": 0.176,
+   "h": 0.026
+  },
+  "model": {
+   "file": "polyhaven/sungka_board_02/sungka_board_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.018
+   ]
+  },
+  "thumb": "polyhaven/sungka_board_02/preview.png"
+ },
+ {
+  "id": "polyhaven-tea_set_01",
+  "name": "Tea Set 01",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.918,
+   "d": 0.484,
+   "h": 0.165
+  },
+  "model": {
+   "file": "polyhaven/tea_set_01/tea_set_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.019,
+    0.001,
+    0.042
+   ]
+  },
+  "thumb": "polyhaven/tea_set_01/preview.png"
+ },
+ {
+  "id": "polyhaven-Television_01",
+  "name": "Television 01",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.6,
+   "d": 0.471,
+   "h": 0.457
+  },
+  "model": {
+   "file": "polyhaven/Television_01/Television_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.023
+   ]
+  },
+  "thumb": "polyhaven/Television_01/preview.png"
+ },
+ {
+  "id": "polyhaven-television_02",
+  "name": "Television 02",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.4,
+   "d": 0.35,
+   "h": 0.411
+  },
+  "model": {
+   "file": "polyhaven/television_02/television_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0.053
+   ]
+  },
+  "thumb": "polyhaven/television_02/preview.png"
+ },
+ {
+  "id": "polyhaven-throw_pillows_01",
+  "name": "Throw Pillows 01",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.022,
+   "d": 0.627,
+   "h": 0.45
+  },
+  "model": {
+   "file": "polyhaven/throw_pillows_01/throw_pillows_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.006,
+    0.002,
+    -0.072
+   ]
+  },
+  "thumb": "polyhaven/throw_pillows_01/preview.png"
+ },
+ {
+  "id": "polyhaven-treasure_chest",
+  "name": "Treasure Chest",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.959,
+   "d": 0.523,
+   "h": 0.619
+  },
+  "model": {
+   "file": "polyhaven/treasure_chest/treasure_chest_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.002,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/treasure_chest/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_cabinet_01",
+  "name": "Vintage Cabinet 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.022,
+   "d": 0.67,
+   "h": 2.235
+  },
+  "model": {
+   "file": "polyhaven/vintage_cabinet_01/vintage_cabinet_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.057
+   ]
+  },
+  "thumb": "polyhaven/vintage_cabinet_01/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_day_bed",
+  "name": "Vintage Day Bed",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.973,
+   "d": 0.855,
+   "h": 1.127
+  },
+  "model": {
+   "file": "polyhaven/vintage_day_bed/vintage_day_bed_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.042
+   ]
+  },
+  "thumb": "polyhaven/vintage_day_bed/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_electric_kettle",
+  "name": "Vintage Electric Kettle",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.321,
+   "d": 0.249,
+   "h": 0.305
+  },
+  "model": {
+   "file": "polyhaven/vintage_electric_kettle/vintage_electric_kettle_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.005,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/vintage_electric_kettle/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_microwave",
+  "name": "Vintage Microwave",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.074,
+   "d": 0.746,
+   "h": 0.526
+  },
+  "model": {
+   "file": "polyhaven/vintage_microwave/vintage_microwave_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.033,
+    0,
+    -0.014
+   ]
+  },
+  "thumb": "polyhaven/vintage_microwave/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_oil_lamp",
+  "name": "Vintage Oil Lamp",
+  "category": "lighting",
+  "placement": "floor",
+  "size": {
+   "w": 0.22,
+   "d": 0.22,
+   "h": 0.802
+  },
+  "model": {
+   "file": "polyhaven/vintage_oil_lamp/vintage_oil_lamp_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/vintage_oil_lamp/preview.png",
+  "light": {
+   "y": 0.682,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "polyhaven-vintage_radio_transceiver",
+  "name": "Vintage Radio Transceiver",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.618,
+   "d": 0.418,
+   "h": 0.434
+  },
+  "model": {
+   "file": "polyhaven/vintage_radio_transceiver/vintage_radio_transceiver_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.048,
+    0.001,
+    -0.071
+   ]
+  },
+  "thumb": "polyhaven/vintage_radio_transceiver/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_suitcase",
+  "name": "Vintage Suitcase",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 1.608,
+   "d": 0.239,
+   "h": 0.568
+  },
+  "model": {
+   "file": "polyhaven/vintage_suitcase/vintage_suitcase_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0.009
+   ]
+  },
+  "thumb": "polyhaven/vintage_suitcase/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_telephone_wall_clock",
+  "name": "Vintage Telephone Wall Clock",
+  "category": "decor",
+  "placement": "wall",
+  "size": {
+   "w": 0.343,
+   "d": 0.193,
+   "h": 0.501
+  },
+  "model": {
+   "file": "polyhaven/vintage_telephone_wall_clock/vintage_telephone_wall_clock_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.005,
+    0.074,
+    -0.096
+   ]
+  },
+  "thumb": "polyhaven/vintage_telephone_wall_clock/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_video_camera",
+  "name": "Vintage Video Camera",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.071,
+   "d": 0.133,
+   "h": 0.145
+  },
+  "model": {
+   "file": "polyhaven/vintage_video_camera/vintage_video_camera_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.002,
+    -0.017
+   ]
+  },
+  "thumb": "polyhaven/vintage_video_camera/preview.png"
+ },
+ {
+  "id": "polyhaven-vintage_wooden_drawer_01",
+  "name": "Vintage Wooden Drawer 01",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 1.715,
+   "d": 1.007,
+   "h": 1.091
+  },
+  "model": {
+   "file": "polyhaven/vintage_wooden_drawer_01/vintage_wooden_drawer_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.063
+   ]
+  },
+  "thumb": "polyhaven/vintage_wooden_drawer_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wall_clock",
+  "name": "Wall Clock",
+  "category": "office",
+  "placement": "wall",
+  "size": {
+   "w": 0.32,
+   "d": 0.047,
+   "h": 0.32
+  },
+  "model": {
+   "file": "polyhaven/wall_clock/wall_clock_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.16,
+    -0.024
+   ]
+  },
+  "thumb": "polyhaven/wall_clock/preview.png"
+ },
+ {
+  "id": "polyhaven-wicker_basket_01",
+  "name": "Wicker Basket 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.383,
+   "d": 0.295,
+   "h": 0.117
+  },
+  "model": {
+   "file": "polyhaven/wicker_basket_01/wicker_basket_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wicker_basket_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wicker_basket_02",
+  "name": "Wicker Basket 02",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.375,
+   "d": 0.271,
+   "h": 0.218
+  },
+  "model": {
+   "file": "polyhaven/wicker_basket_02/wicker_basket_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.08,
+    0.001,
+    0.026
+   ]
+  },
+  "thumb": "polyhaven/wicker_basket_02/preview.png"
+ },
+ {
+  "id": "polyhaven-wine_bottles_01",
+  "name": "Wine Bottles 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.676,
+   "d": 0.081,
+   "h": 0.331
+  },
+  "model": {
+   "file": "polyhaven/wine_bottles_01/wine_bottles_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.302,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wine_bottles_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_bookshelf_worn",
+  "name": "Wooden Bookshelf Worn",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.374,
+   "d": 0.581,
+   "h": 2.063
+  },
+  "model": {
+   "file": "polyhaven/wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_bookshelf_worn/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_bowl_01",
+  "name": "Wooden Bowl 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.313,
+   "d": 0.309,
+   "h": 0.094
+  },
+  "model": {
+   "file": "polyhaven/wooden_bowl_01/wooden_bowl_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/wooden_bowl_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_bowl_02",
+  "name": "Wooden Bowl 02",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.131,
+   "d": 0.125,
+   "h": 0.073
+  },
+  "model": {
+   "file": "polyhaven/wooden_bowl_02/wooden_bowl_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_bowl_02/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_candlestick",
+  "name": "Wooden Candlestick",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.097,
+   "d": 0.099,
+   "h": 0.22
+  },
+  "model": {
+   "file": "polyhaven/wooden_candlestick/wooden_candlestick_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_candlestick/preview.png",
+  "light": {
+   "y": 0.187,
+   "intensity": 1.5
+  }
+ },
+ {
+  "id": "polyhaven-wooden_display_shelves_01",
+  "name": "Wooden Display Shelves 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.372,
+   "d": 1.078,
+   "h": 1.556
+  },
+  "model": {
+   "file": "polyhaven/wooden_display_shelves_01/wooden_display_shelves_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_display_shelves_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_lantern_01",
+  "name": "Wooden Lantern 01",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.221,
+   "d": 0.235,
+   "h": 0.53
+  },
+  "model": {
+   "file": "polyhaven/wooden_lantern_01/wooden_lantern_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.011,
+    -0.007
+   ]
+  },
+  "thumb": "polyhaven/wooden_lantern_01/preview.png",
+  "light": {
+   "y": 0.451,
+   "intensity": 1.5
+  }
+ },
+ {
+  "id": "polyhaven-wooden_picnic_table",
+  "name": "Wooden Picnic Table",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 2.241,
+   "d": 3.022,
+   "h": 0.746
+  },
+  "model": {
+   "file": "polyhaven/wooden_picnic_table/wooden_picnic_table_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.01
+   ]
+  },
+  "thumb": "polyhaven/wooden_picnic_table/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_spoon",
+  "name": "Wooden Spoon",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.087,
+   "d": 0.278,
+   "h": 0.025
+  },
+  "model": {
+   "file": "polyhaven/wooden_spoon/wooden_spoon_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.016,
+    0.055
+   ]
+  },
+  "thumb": "polyhaven/wooden_spoon/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_stool_01",
+  "name": "Wooden Stool 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.425,
+   "d": 0.442,
+   "h": 0.437
+  },
+  "model": {
+   "file": "polyhaven/wooden_stool_01/wooden_stool_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_stool_01/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_stool_02",
+  "name": "Wooden Stool 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.265,
+   "d": 0.183,
+   "h": 0.182
+  },
+  "model": {
+   "file": "polyhaven/wooden_stool_02/wooden_stool_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.004
+   ]
+  },
+  "thumb": "polyhaven/wooden_stool_02/preview.png"
+ },
+ {
+  "id": "polyhaven-wooden_table_02",
+  "name": "Wooden Table 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.134,
+   "d": 0.706,
+   "h": 0.8
+  },
+  "model": {
+   "file": "polyhaven/wooden_table_02/wooden_table_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_table_02/preview.png"
+ },
+ {
+  "id": "polyhaven-WoodenChair_01",
+  "name": "Wooden Chair 01",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.688,
+   "d": 0.658,
+   "h": 2.274
+  },
+  "model": {
+   "file": "polyhaven/WoodenChair_01/WoodenChair_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0.038
+   ]
+  },
+  "thumb": "polyhaven/WoodenChair_01/preview.png"
+ },
+ {
+  "id": "polyhaven-WoodenTable_01",
+  "name": "Wooden Table 01",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 1.8,
+   "d": 0.657,
+   "h": 0.549
+  },
+  "model": {
+   "file": "polyhaven/WoodenTable_01/WoodenTable_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/WoodenTable_01/preview.png"
+ },
+ {
+  "id": "polyhaven-WoodenTable_02",
+  "name": "Wooden Table 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.301,
+   "d": 0.301,
+   "h": 0.418
+  },
+  "model": {
+   "file": "polyhaven/WoodenTable_02/WoodenTable_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/WoodenTable_02/preview.png"
+ },
+ {
+  "id": "polyhaven-WoodenTable_03",
+  "name": "Wooden Table 03",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.327,
+   "d": 0.575,
+   "h": 0.83
+  },
+  "model": {
+   "file": "polyhaven/WoodenTable_03/WoodenTable_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0,
+    -0.007
+   ]
+  },
+  "thumb": "polyhaven/WoodenTable_03/preview.png"
  }
 ]

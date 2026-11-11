@@ -54,9 +54,14 @@ The catalog has two kinds of piece:
 
 - **Built-in pieces** (69) are made from simple shapes in
   `src/catalog/catalog.ts` and can be recoloured.
-- **Downloaded models** (344) come from Kenney's Furniture Kit and Nature Kit,
-  which are public domain (CC0, see `public/models/*/License.txt`). The model
-  files live in `public/models`.
+- **Downloaded models** (524) come from Kenney's Furniture Kit and Nature Kit
+  (344, simple low-poly) and from [Poly Haven](https://polyhaven.com) (180,
+  realistic and textured). All are public domain (CC0, see
+  `public/models/*/License.txt`). The model files live in `public/models`.
+
+The Poly Haven files (about 360 MB) are kept out of git. On a fresh copy of
+the project, fetch them with `npm run models:download`; until then those
+catalog pieces have no picture and do not appear in the 3D view.
 
 `npm run models` measures every model file and rewrites
 `src/catalog/models.json`, which gives each one its name, category, real-world
