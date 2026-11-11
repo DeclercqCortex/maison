@@ -1,0 +1,5 @@
+node_modules
+dist
+*.log
+# Downloaded model packs (the models the app uses are unpacked into public/models)
+assets/

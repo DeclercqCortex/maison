@@ -1,0 +1,7436 @@
+[
+ {
+  "id": "kenney-furniture-bathroomCabinet",
+  "name": "Bathroom cabinet",
+  "category": "bathroom",
+  "placement": "wall",
+  "size": {
+   "w": 0.46,
+   "d": 0.26,
+   "h": 0.78
+  },
+  "model": {
+   "file": "furniture/bathroomCabinet.glb",
+   "scale": 2,
+   "offset": [
+    -0.315,
+    0,
+    0.145
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bathroomCabinetDrawer",
+  "name": "Bathroom cabinet drawer",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.64,
+   "h": 0.944
+  },
+  "model": {
+   "file": "furniture/bathroomCabinetDrawer.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    -0.058,
+    0.29
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bathroomMirror",
+  "name": "Bathroom mirror",
+  "category": "bathroom",
+  "placement": "wall",
+  "size": {
+   "w": 0.603,
+   "d": 0.289,
+   "h": 0.869
+  },
+  "model": {
+   "file": "furniture/bathroomMirror.glb",
+   "scale": 2,
+   "offset": [
+    -0.151,
+    0,
+    -0.023
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bathroomSink",
+  "name": "Bathroom sink",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.68,
+   "d": 0.58,
+   "h": 1.12
+  },
+  "model": {
+   "file": "furniture/bathroomSink.glb",
+   "scale": 2,
+   "offset": [
+    -0.17,
+    0.4,
+    0.145
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bathroomSinkSquare",
+  "name": "Bathroom sink square",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.6,
+   "h": 1.16
+  },
+  "model": {
+   "file": "furniture/bathroomSinkSquare.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    -0.057,
+    0.3
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bathtub",
+  "name": "Bathtub",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 2.38,
+   "d": 1.12,
+   "h": 0.84
+  },
+  "model": {
+   "file": "furniture/bathtub.glb",
+   "scale": 2,
+   "offset": [
+    -0.595,
+    0,
+    0.28
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bear",
+  "name": "Bear",
+  "category": "bedroom",
+  "placement": "surface",
+  "size": {
+   "w": 0.779,
+   "d": 0.495,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/bear.glb",
+   "scale": 2,
+   "offset": [
+    -0.195,
+    0,
+    0.124
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bedBunk",
+  "name": "Bed bunk",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.142,
+   "d": 2.19,
+   "h": 1.7
+  },
+  "model": {
+   "file": "furniture/bedBunk.glb",
+   "scale": 2,
+   "offset": [
+    -0.286,
+    0,
+    0.548
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bedDouble",
+  "name": "Bed double",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.912,
+   "d": 2.25,
+   "h": 0.75
+  },
+  "model": {
+   "file": "furniture/bedDouble.glb",
+   "scale": 2,
+   "offset": [
+    -0.478,
+    0,
+    0.563
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bedSingle",
+  "name": "Bed single",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.142,
+   "d": 2.25,
+   "h": 0.75
+  },
+  "model": {
+   "file": "furniture/bedSingle.glb",
+   "scale": 2,
+   "offset": [
+    -0.671,
+    0,
+    0.563
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bench",
+  "name": "Bench",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.4,
+   "h": 0.94
+  },
+  "model": {
+   "file": "furniture/bench.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-benchCushion",
+  "name": "Bench cushion",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.4,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/benchCushion.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-benchCushionLow",
+  "name": "Bench cushion low",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.84,
+   "d": 0.44,
+   "h": 0.4
+  },
+  "model": {
+   "file": "furniture/benchCushionLow.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bookcaseClosed",
+  "name": "Bookcase closed",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.5,
+   "h": 1.7
+  },
+  "model": {
+   "file": "furniture/bookcaseClosed.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bookcaseClosedDoors",
+  "name": "Bookcase closed doors",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.5,
+   "h": 1.7
+  },
+  "model": {
+   "file": "furniture/bookcaseClosedDoors.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bookcaseClosedWide",
+  "name": "Bookcase closed wide",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 0.5,
+   "h": 1.58
+  },
+  "model": {
+   "file": "furniture/bookcaseClosedWide.glb",
+   "scale": 2,
+   "offset": [
+    -0.4,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bookcaseOpen",
+  "name": "Bookcase open",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.5,
+   "h": 1.76
+  },
+  "model": {
+   "file": "furniture/bookcaseOpen.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-bookcaseOpenLow",
+  "name": "Bookcase open low",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.5,
+   "h": 0.8
+  },
+  "model": {
+   "file": "furniture/bookcaseOpenLow.glb",
+   "scale": 2,
+   "offset": [
+    -0.2,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-books",
+  "name": "Books",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.301,
+   "d": 0.189,
+   "h": 0.208
+  },
+  "model": {
+   "file": "furniture/books.glb",
+   "scale": 2,
+   "offset": [
+    -0.075,
+    0,
+    0.047
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cabinetBed",
+  "name": "Cabinet bed",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.532,
+   "d": 0.43,
+   "h": 0.466
+  },
+  "model": {
+   "file": "furniture/cabinetBed.glb",
+   "scale": 2,
+   "offset": [
+    -0.123,
+    0,
+    0.098
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cabinetBedDrawer",
+  "name": "Cabinet bed drawer",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.532,
+   "d": 0.435,
+   "h": 0.526
+  },
+  "model": {
+   "file": "furniture/cabinetBedDrawer.glb",
+   "scale": 2,
+   "offset": [
+    -0.123,
+    0,
+    0.096
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cabinetBedDrawerTable",
+  "name": "Cabinet bed drawer table",
+  "category": "bedroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.532,
+   "d": 0.435,
+   "h": 0.526
+  },
+  "model": {
+   "file": "furniture/cabinetBedDrawerTable.glb",
+   "scale": 2,
+   "offset": [
+    -0.123,
+    0,
+    0.096
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cabinetTelevision",
+  "name": "Cabinet television",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 0.5,
+   "h": 0.62
+  },
+  "model": {
+   "file": "furniture/cabinetTelevision.glb",
+   "scale": 2,
+   "offset": [
+    -0.4,
+    0,
+    0.125
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cabinetTelevisionDoors",
+  "name": "Cabinet television doors",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 0.52,
+   "h": 0.62
+  },
+  "model": {
+   "file": "furniture/cabinetTelevisionDoors.glb",
+   "scale": 2,
+   "offset": [
+    -0.4,
+    0,
+    0.12
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cardboardBoxClosed",
+  "name": "Cardboard box closed",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.425,
+   "d": 0.425,
+   "h": 0.562
+  },
+  "model": {
+   "file": "furniture/cardboardBoxClosed.glb",
+   "scale": 2,
+   "offset": [
+    -0.106,
+    0,
+    0.106
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-cardboardBoxOpen",
+  "name": "Cardboard box open",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.744,
+   "d": 0.425,
+   "h": 0.562
+  },
+  "model": {
+   "file": "furniture/cardboardBoxOpen.glb",
+   "scale": 2,
+   "offset": [
+    -0.106,
+    0,
+    0.106
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-ceilingFan",
+  "name": "Ceiling fan",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.909,
+   "d": 1.05,
+   "h": 0.267
+  },
+  "model": {
+   "file": "furniture/ceilingFan.glb",
+   "scale": 2,
+   "offset": [
+    -0.055,
+    0.134,
+    0.001
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chair",
+  "name": "Chair",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.94
+  },
+  "model": {
+   "file": "furniture/chair.glb",
+   "scale": 2,
+   "offset": [
+    -0.1,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chairCushion",
+  "name": "Chair cushion",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/chairCushion.glb",
+   "scale": 2,
+   "offset": [
+    -0.1,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chairDesk",
+  "name": "Chair desk",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 0.67,
+   "d": 0.629,
+   "h": 1.215
+  },
+  "model": {
+   "file": "furniture/chairDesk.glb",
+   "scale": 2,
+   "offset": [
+    -0.167,
+    0,
+    0.157
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chairModernCushion",
+  "name": "Chair modern cushion",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/chairModernCushion.glb",
+   "scale": 2,
+   "offset": [
+    -0.1,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chairModernFrameCushion",
+  "name": "Chair modern frame cushion",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/chairModernFrameCushion.glb",
+   "scale": 2,
+   "offset": [
+    -0.1,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-chairRounded",
+  "name": "Chair rounded",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.91
+  },
+  "model": {
+   "file": "furniture/chairRounded.glb",
+   "scale": 2,
+   "offset": [
+    -0.1,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-coatRack",
+  "name": "Coat rack",
+  "category": "living",
+  "placement": "wall",
+  "size": {
+   "w": 0.896,
+   "d": 0.269,
+   "h": 0.56
+  },
+  "model": {
+   "file": "furniture/coatRack.glb",
+   "scale": 2,
+   "offset": [
+    -0.224,
+    0,
+    0.067
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-coatRackStanding",
+  "name": "Coat rack standing",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.546,
+   "d": 0.546,
+   "h": 1.54
+  },
+  "model": {
+   "file": "furniture/coatRackStanding.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-computerKeyboard",
+  "name": "Computer keyboard",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.564,
+   "d": 0.236,
+   "h": 0.055
+  },
+  "model": {
+   "file": "furniture/computerKeyboard.glb",
+   "scale": 2,
+   "offset": [
+    -0.141,
+    0,
+    0.059
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-computerMouse",
+  "name": "Computer mouse",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.099,
+   "d": 0.17,
+   "h": 0.047
+  },
+  "model": {
+   "file": "furniture/computerMouse.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0.043
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-computerScreen",
+  "name": "Computer screen",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.785,
+   "d": 0.208,
+   "h": 0.589
+  },
+  "model": {
+   "file": "furniture/computerScreen.glb",
+   "scale": 2,
+   "offset": [
+    -0.196,
+    0,
+    0.052
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-desk",
+  "name": "Desk",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 1.469,
+   "d": 0.785,
+   "h": 0.769
+  },
+  "model": {
+   "file": "furniture/desk.glb",
+   "scale": 2,
+   "offset": [
+    -0.357,
+    0,
+    0.184
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-deskCorner",
+  "name": "Desk corner",
+  "category": "office",
+  "placement": "floor",
+  "size": {
+   "w": 1.949,
+   "d": 1.949,
+   "h": 0.769
+  },
+  "model": {
+   "file": "furniture/deskCorner.glb",
+   "scale": 2,
+   "offset": [
+    -0.487,
+    0,
+    0.487
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-dryer",
+  "name": "Dryer",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.78,
+   "d": 0.76,
+   "h": 0.94
+  },
+  "model": {
+   "file": "furniture/dryer.glb",
+   "scale": 2,
+   "offset": [
+    -0.195,
+    0,
+    0.16
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-hoodLarge",
+  "name": "Hood large",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.86,
+   "d": 0.57,
+   "h": 0.739
+  },
+  "model": {
+   "file": "furniture/hoodLarge.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.142
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-hoodModern",
+  "name": "Hood modern",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.86,
+   "d": 0.57,
+   "h": 0.799
+  },
+  "model": {
+   "file": "furniture/hoodModern.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0.03,
+    0.142
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenBar",
+  "name": "Kitchen bar",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.42,
+   "h": 0.84
+  },
+  "model": {
+   "file": "furniture/kitchenBar.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.105
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenBarEnd",
+  "name": "Kitchen bar end",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.203,
+   "d": 0.42,
+   "h": 0.84
+  },
+  "model": {
+   "file": "furniture/kitchenBarEnd.glb",
+   "scale": 2,
+   "offset": [
+    -0.051,
+    0,
+    0.105
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenBlender",
+  "name": "Kitchen blender",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.272,
+   "d": 0.218,
+   "h": 0.455
+  },
+  "model": {
+   "file": "furniture/kitchenBlender.glb",
+   "scale": 2,
+   "offset": [
+    -0.068,
+    0,
+    0.055
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinet",
+  "name": "Kitchen cabinet",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenCabinet.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetCornerInner",
+  "name": "Kitchen cabinet corner inner",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.92,
+   "d": 0.92,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetCornerInner.glb",
+   "scale": 2,
+   "offset": [
+    -0.23,
+    0,
+    0.23
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetCornerRound",
+  "name": "Kitchen cabinet corner round",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.9,
+   "d": 0.9,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetCornerRound.glb",
+   "scale": 2,
+   "offset": [
+    -0.225,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetDrawer",
+  "name": "Kitchen cabinet drawer",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetDrawer.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetUpper",
+  "name": "Kitchen cabinet upper",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.86,
+   "d": 0.44,
+   "h": 0.78
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetUpper.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetUpperCorner",
+  "name": "Kitchen cabinet upper corner",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.43,
+   "d": 0.42,
+   "h": 0.78
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetUpperCorner.glb",
+   "scale": 2,
+   "offset": [
+    -0.107,
+    0,
+    0.105
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetUpperDouble",
+  "name": "Kitchen cabinet upper double",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.86,
+   "d": 0.44,
+   "h": 0.78
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetUpperDouble.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCabinetUpperLow",
+  "name": "Kitchen cabinet upper low",
+  "category": "kitchen",
+  "placement": "wall",
+  "size": {
+   "w": 0.86,
+   "d": 0.44,
+   "h": 0.39
+  },
+  "model": {
+   "file": "furniture/kitchenCabinetUpperLow.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenCoffeeMachine",
+  "name": "Kitchen coffee machine",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.379,
+   "d": 0.48,
+   "h": 0.355
+  },
+  "model": {
+   "file": "furniture/kitchenCoffeeMachine.glb",
+   "scale": 2,
+   "offset": [
+    -0.095,
+    0,
+    0.12
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenFridge",
+  "name": "Kitchen fridge",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.584,
+   "h": 1.84
+  },
+  "model": {
+   "file": "furniture/kitchenFridge.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.136
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenFridgeBuiltIn",
+  "name": "Kitchen fridge built in",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 1.737
+  },
+  "model": {
+   "file": "furniture/kitchenFridgeBuiltIn.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenFridgeLarge",
+  "name": "Kitchen fridge large",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.04,
+   "d": 0.811,
+   "h": 1.84
+  },
+  "model": {
+   "file": "furniture/kitchenFridgeLarge.glb",
+   "scale": 2,
+   "offset": [
+    -0.26,
+    0,
+    0.139
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenFridgeSmall",
+  "name": "Kitchen fridge small",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.584,
+   "h": 1.2
+  },
+  "model": {
+   "file": "furniture/kitchenFridgeSmall.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.136
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenMicrowave",
+  "name": "Kitchen microwave",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.58,
+   "d": 0.46,
+   "h": 0.36
+  },
+  "model": {
+   "file": "furniture/kitchenMicrowave.glb",
+   "scale": 2,
+   "offset": [
+    -0.145,
+    0,
+    0.105
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenSink",
+  "name": "Kitchen sink",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 0.98
+  },
+  "model": {
+   "file": "furniture/kitchenSink.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenStove",
+  "name": "Kitchen stove",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenStove.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-kitchenStoveElectric",
+  "name": "Kitchen stove electric",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.86,
+   "d": 0.9,
+   "h": 0.9
+  },
+  "model": {
+   "file": "furniture/kitchenStoveElectric.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.225
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-lampRoundFloor",
+  "name": "Lamp round floor",
+  "category": "lighting",
+  "placement": "floor",
+  "size": {
+   "w": 0.304,
+   "d": 0.351,
+   "h": 1.72
+  },
+  "model": {
+   "file": "furniture/lampRoundFloor.glb",
+   "scale": 2,
+   "offset": [
+    -0.06,
+    0,
+    0.06
+   ]
+  },
+  "light": {
+   "y": 1.462,
+   "intensity": 9
+  }
+ },
+ {
+  "id": "kenney-furniture-lampRoundTable",
+  "name": "Lamp round table",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.304,
+   "d": 0.351,
+   "h": 0.629
+  },
+  "model": {
+   "file": "furniture/lampRoundTable.glb",
+   "scale": 2,
+   "offset": [
+    -0.06,
+    0,
+    0.06
+   ]
+  },
+  "light": {
+   "y": 0.535,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "kenney-furniture-lampSquareCeiling",
+  "name": "Lamp square ceiling",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 0.24,
+   "d": 0.24,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/lampSquareCeiling.glb",
+   "scale": 2,
+   "offset": [
+    -0.06,
+    0,
+    0.06
+   ]
+  },
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "kenney-furniture-lampSquareFloor",
+  "name": "Lamp square floor",
+  "category": "lighting",
+  "placement": "floor",
+  "size": {
+   "w": 0.24,
+   "d": 0.24,
+   "h": 1.72
+  },
+  "model": {
+   "file": "furniture/lampSquareFloor.glb",
+   "scale": 2,
+   "offset": [
+    -0.06,
+    0,
+    0.06
+   ]
+  },
+  "light": {
+   "y": 1.462,
+   "intensity": 9
+  }
+ },
+ {
+  "id": "kenney-furniture-lampSquareTable",
+  "name": "Lamp square table",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.24,
+   "d": 0.24,
+   "h": 0.58
+  },
+  "model": {
+   "file": "furniture/lampSquareTable.glb",
+   "scale": 2,
+   "offset": [
+    -0.06,
+    0,
+    0.06
+   ]
+  },
+  "light": {
+   "y": 0.493,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "kenney-furniture-lampWall",
+  "name": "Lamp wall",
+  "category": "lighting",
+  "placement": "wall",
+  "size": {
+   "w": 0.453,
+   "d": 0.301,
+   "h": 0.186
+  },
+  "model": {
+   "file": "furniture/lampWall.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    -0.075
+   ]
+  },
+  "light": {
+   "y": 0.158,
+   "intensity": 5
+  }
+ },
+ {
+  "id": "kenney-furniture-laptop",
+  "name": "Laptop",
+  "category": "office",
+  "placement": "surface",
+  "size": {
+   "w": 0.528,
+   "d": 0.48,
+   "h": 0.324
+  },
+  "model": {
+   "file": "furniture/laptop.glb",
+   "scale": 2,
+   "offset": [
+    -0.132,
+    0,
+    0.12
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeChair",
+  "name": "Lounge chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.98,
+   "d": 0.82,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/loungeChair.glb",
+   "scale": 2,
+   "offset": [
+    -0.245,
+    0,
+    0.205
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeChairRelax",
+  "name": "Lounge chair relax",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.98,
+   "d": 1.349,
+   "h": 1.26
+  },
+  "model": {
+   "file": "furniture/loungeChairRelax.glb",
+   "scale": 2,
+   "offset": [
+    -0.245,
+    0,
+    0.337
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeDesignChair",
+  "name": "Lounge design chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.459,
+   "d": 0.82,
+   "h": 0.8
+  },
+  "model": {
+   "file": "furniture/loungeDesignChair.glb",
+   "scale": 2,
+   "offset": [
+    -0.365,
+    0,
+    0.205
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeDesignSofa",
+  "name": "Lounge design sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.24,
+   "d": 0.82,
+   "h": 0.8
+  },
+  "model": {
+   "file": "furniture/loungeDesignSofa.glb",
+   "scale": 2,
+   "offset": [
+    -0.56,
+    0,
+    0.205
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeDesignSofaCorner",
+  "name": "Lounge design sofa corner",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.7,
+   "d": 2.7,
+   "h": 0.8
+  },
+  "model": {
+   "file": "furniture/loungeDesignSofaCorner.glb",
+   "scale": 2,
+   "offset": [
+    -0.675,
+    0,
+    0.675
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeSofa",
+  "name": "Lounge sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.96,
+   "d": 0.82,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/loungeSofa.glb",
+   "scale": 2,
+   "offset": [
+    -0.49,
+    0,
+    0.205
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeSofaCorner",
+  "name": "Lounge sofa corner",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.96,
+   "d": 1.96,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/loungeSofaCorner.glb",
+   "scale": 2,
+   "offset": [
+    -0.49,
+    0,
+    0.49
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeSofaLong",
+  "name": "Lounge sofa long",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.96,
+   "d": 1.64,
+   "h": 0.92
+  },
+  "model": {
+   "file": "furniture/loungeSofaLong.glb",
+   "scale": 2,
+   "offset": [
+    -0.49,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-loungeSofaOttoman",
+  "name": "Lounge sofa ottoman",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.88,
+   "d": 0.9,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/loungeSofaOttoman.glb",
+   "scale": 2,
+   "offset": [
+    -0.69,
+    0,
+    -0.185
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-pillow",
+  "name": "Pillow",
+  "category": "bedroom",
+  "placement": "surface",
+  "size": {
+   "w": 0.46,
+   "d": 0.177,
+   "h": 0.444
+  },
+  "model": {
+   "file": "furniture/pillow.glb",
+   "scale": 2,
+   "offset": [
+    -0.115,
+    0,
+    0.044
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-pillowBlue",
+  "name": "Pillow blue",
+  "category": "bedroom",
+  "placement": "surface",
+  "size": {
+   "w": 0.46,
+   "d": 0.127,
+   "h": 0.257
+  },
+  "model": {
+   "file": "furniture/pillowBlue.glb",
+   "scale": 2,
+   "offset": [
+    -0.115,
+    0,
+    0.032
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-pillowBlueLong",
+  "name": "Pillow blue long",
+  "category": "bedroom",
+  "placement": "surface",
+  "size": {
+   "w": 1.033,
+   "d": 0.177,
+   "h": 0.444
+  },
+  "model": {
+   "file": "furniture/pillowBlueLong.glb",
+   "scale": 2,
+   "offset": [
+    -0.128,
+    0,
+    0.044
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-pillowLong",
+  "name": "Pillow long",
+  "category": "bedroom",
+  "placement": "surface",
+  "size": {
+   "w": 0.773,
+   "d": 0.177,
+   "h": 0.444
+  },
+  "model": {
+   "file": "furniture/pillowLong.glb",
+   "scale": 2,
+   "offset": [
+    -0.193,
+    0,
+    0.044
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-plantSmall1",
+  "name": "Plant small 1",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.189,
+   "d": 0.189,
+   "h": 0.28
+  },
+  "model": {
+   "file": "furniture/plantSmall1.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-plantSmall2",
+  "name": "Plant small 2",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.189,
+   "d": 0.189,
+   "h": 0.28
+  },
+  "model": {
+   "file": "furniture/plantSmall2.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-plantSmall3",
+  "name": "Plant small 3",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.196,
+   "d": 0.17,
+   "h": 0.29
+  },
+  "model": {
+   "file": "furniture/plantSmall3.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-pottedPlant",
+  "name": "Potted plant",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.424,
+   "d": 0.483,
+   "h": 1.308
+  },
+  "model": {
+   "file": "furniture/pottedPlant.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-radio",
+  "name": "Radio",
+  "category": "living",
+  "placement": "surface",
+  "size": {
+   "w": 0.63,
+   "d": 0.195,
+   "h": 0.456
+  },
+  "model": {
+   "file": "furniture/radio.glb",
+   "scale": 2,
+   "offset": [
+    -0.157,
+    0,
+    0.049
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-rugDoormat",
+  "name": "Rug doormat",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.859,
+   "d": 0.474,
+   "h": 0.02
+  },
+  "model": {
+   "file": "furniture/rugDoormat.glb",
+   "scale": 2,
+   "offset": [
+    -0.215,
+    0,
+    0.119
+   ]
+  },
+  "flat": true
+ },
+ {
+  "id": "kenney-furniture-rugRectangle",
+  "name": "Rug rectangle",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 3.14,
+   "d": 1.84,
+   "h": 0.02
+  },
+  "model": {
+   "file": "furniture/rugRectangle.glb",
+   "scale": 2,
+   "offset": [
+    -0.785,
+    0,
+    0.46
+   ]
+  },
+  "flat": true
+ },
+ {
+  "id": "kenney-furniture-rugRound",
+  "name": "Rug round",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.84,
+   "d": 1.84,
+   "h": 0.02
+  },
+  "model": {
+   "file": "furniture/rugRound.glb",
+   "scale": 2,
+   "offset": [
+    -0.46,
+    0,
+    0.46
+   ]
+  },
+  "flat": true
+ },
+ {
+  "id": "kenney-furniture-rugRounded",
+  "name": "Rug rounded",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 3.14,
+   "d": 1.84,
+   "h": 0.02
+  },
+  "model": {
+   "file": "furniture/rugRounded.glb",
+   "scale": 2,
+   "offset": [
+    -0.785,
+    0,
+    0.46
+   ]
+  },
+  "flat": true
+ },
+ {
+  "id": "kenney-furniture-rugSquare",
+  "name": "Rug square",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.809,
+   "d": 1.84,
+   "h": 0.02
+  },
+  "model": {
+   "file": "furniture/rugSquare.glb",
+   "scale": 2,
+   "offset": [
+    -0.452,
+    0,
+    0.46
+   ]
+  },
+  "flat": true
+ },
+ {
+  "id": "kenney-furniture-shower",
+  "name": "Shower",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.124,
+   "d": 1.164,
+   "h": 2.188
+  },
+  "model": {
+   "file": "furniture/shower.glb",
+   "scale": 2,
+   "offset": [
+    0.281,
+    0,
+    0.271
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-showerRound",
+  "name": "Shower round",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 1.124,
+   "d": 1.124,
+   "h": 2.188
+  },
+  "model": {
+   "file": "furniture/showerRound.glb",
+   "scale": 2,
+   "offset": [
+    -0.281,
+    0,
+    0.281
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-sideTable",
+  "name": "Side table",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.069,
+   "d": 0.44,
+   "h": 0.769
+  },
+  "model": {
+   "file": "furniture/sideTable.glb",
+   "scale": 2,
+   "offset": [
+    -0.257,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-sideTableDrawers",
+  "name": "Side table drawers",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.069,
+   "d": 0.445,
+   "h": 0.769
+  },
+  "model": {
+   "file": "furniture/sideTableDrawers.glb",
+   "scale": 2,
+   "offset": [
+    -0.257,
+    0,
+    0.099
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-speaker",
+  "name": "Speaker",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.296,
+   "d": 0.296,
+   "h": 1.273
+  },
+  "model": {
+   "file": "furniture/speaker.glb",
+   "scale": 2,
+   "offset": [
+    -0.074,
+    0,
+    0.074
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-speakerSmall",
+  "name": "Speaker small",
+  "category": "living",
+  "placement": "surface",
+  "size": {
+   "w": 0.296,
+   "d": 0.266,
+   "h": 0.596
+  },
+  "model": {
+   "file": "furniture/speakerSmall.glb",
+   "scale": 2,
+   "offset": [
+    -0.074,
+    0,
+    0.067
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-stoolBar",
+  "name": "Stool bar",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.531,
+   "d": 0.46,
+   "h": 0.87
+  },
+  "model": {
+   "file": "furniture/stoolBar.glb",
+   "scale": 2,
+   "offset": [
+    -0.133,
+    0,
+    0.115
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-stoolBarSquare",
+  "name": "Stool bar square",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 0.307,
+   "d": 0.295,
+   "h": 0.81
+  },
+  "model": {
+   "file": "furniture/stoolBarSquare.glb",
+   "scale": 2,
+   "offset": [
+    -0.133,
+    0,
+    0.115
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-table",
+  "name": "Table",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.683,
+   "d": 0.895,
+   "h": 0.653
+  },
+  "model": {
+   "file": "furniture/table.glb",
+   "scale": 2,
+   "offset": [
+    -0.421,
+    0,
+    0.224
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCloth",
+  "name": "Table cloth",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.683,
+   "d": 0.895,
+   "h": 0.653
+  },
+  "model": {
+   "file": "furniture/tableCloth.glb",
+   "scale": 2,
+   "offset": [
+    -0.421,
+    0,
+    0.224
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCoffee",
+  "name": "Table coffee",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.322,
+   "d": 0.8,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/tableCoffee.glb",
+   "scale": 2,
+   "offset": [
+    0.13,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCoffeeGlass",
+  "name": "Table coffee glass",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 1.322,
+   "d": 0.8,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/tableCoffeeGlass.glb",
+   "scale": 2,
+   "offset": [
+    0.13,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCoffeeGlassSquare",
+  "name": "Table coffee glass square",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.8,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/tableCoffeeGlassSquare.glb",
+   "scale": 2,
+   "offset": [
+    0.261,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCoffeeSquare",
+  "name": "Table coffee square",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.8,
+   "d": 0.8,
+   "h": 0.46
+  },
+  "model": {
+   "file": "furniture/tableCoffeeSquare.glb",
+   "scale": 2,
+   "offset": [
+    0.261,
+    0,
+    0.1
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCross",
+  "name": "Table cross",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.704,
+   "d": 0.895,
+   "h": 0.695
+  },
+  "model": {
+   "file": "furniture/tableCross.glb",
+   "scale": 2,
+   "offset": [
+    -0.426,
+    0,
+    0.224
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableCrossCloth",
+  "name": "Table cross cloth",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.704,
+   "d": 0.895,
+   "h": 0.695
+  },
+  "model": {
+   "file": "furniture/tableCrossCloth.glb",
+   "scale": 2,
+   "offset": [
+    -0.426,
+    0,
+    0.224
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableGlass",
+  "name": "Table glass",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.683,
+   "d": 0.895,
+   "h": 0.653
+  },
+  "model": {
+   "file": "furniture/tableGlass.glb",
+   "scale": 2,
+   "offset": [
+    -0.421,
+    0,
+    0.224
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-tableRound",
+  "name": "Table round",
+  "category": "kitchen",
+  "placement": "floor",
+  "size": {
+   "w": 1.386,
+   "d": 1.6,
+   "h": 0.733
+  },
+  "model": {
+   "file": "furniture/tableRound.glb",
+   "scale": 2,
+   "offset": [
+    -0.346,
+    0.27,
+    0.4
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-televisionAntenna",
+  "name": "Television antenna",
+  "category": "living",
+  "placement": "surface",
+  "size": {
+   "w": 0.529,
+   "d": 0.16,
+   "h": 0.205
+  },
+  "model": {
+   "file": "furniture/televisionAntenna.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0.04
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-televisionModern",
+  "name": "Television modern",
+  "category": "living",
+  "placement": "surface",
+  "size": {
+   "w": 1.37,
+   "d": 0.257,
+   "h": 0.91
+  },
+  "model": {
+   "file": "furniture/televisionModern.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-televisionVintage",
+  "name": "Television vintage",
+  "category": "living",
+  "placement": "surface",
+  "size": {
+   "w": 0.82,
+   "d": 0.54,
+   "h": 0.54
+  },
+  "model": {
+   "file": "furniture/televisionVintage.glb",
+   "scale": 2,
+   "offset": [
+    -0.205,
+    0,
+    0.135
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-toaster",
+  "name": "Toaster",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.376,
+   "d": 0.2,
+   "h": 0.26
+  },
+  "model": {
+   "file": "furniture/toaster.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-toilet",
+  "name": "Toilet",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.625,
+   "d": 0.954,
+   "h": 0.902
+  },
+  "model": {
+   "file": "furniture/toilet.glb",
+   "scale": 2,
+   "offset": [
+    -0.156,
+    0,
+    -0.239
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-toiletSquare",
+  "name": "Toilet square",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.607,
+   "d": 0.774,
+   "h": 0.902
+  },
+  "model": {
+   "file": "furniture/toiletSquare.glb",
+   "scale": 2,
+   "offset": [
+    -0.152,
+    0,
+    0.194
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-trashcan",
+  "name": "Trashcan",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.415,
+   "d": 0.468,
+   "h": 0.856
+  },
+  "model": {
+   "file": "furniture/trashcan.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0,
+    -0.005
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-washer",
+  "name": "Washer",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.78,
+   "d": 0.78,
+   "h": 0.94
+  },
+  "model": {
+   "file": "furniture/washer.glb",
+   "scale": 2,
+   "offset": [
+    -0.195,
+    0,
+    0.155
+   ]
+  }
+ },
+ {
+  "id": "kenney-furniture-washerDryerStacked",
+  "name": "Washer dryer stacked",
+  "category": "bathroom",
+  "placement": "floor",
+  "size": {
+   "w": 0.78,
+   "d": 0.78,
+   "h": 1.88
+  },
+  "model": {
+   "file": "furniture/washerDryerStacked.glb",
+   "scale": 2,
+   "offset": [
+    -0.195,
+    0,
+    0.155
+   ]
+  }
+ },
+ {
+  "id": "kenney-nature-bed",
+  "name": "Bed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.871,
+   "d": 1.943,
+   "h": 0.712
+  },
+  "model": {
+   "file": "nature/bed.glb",
+   "scale": 2.6,
+   "offset": [
+    0.007,
+    0.05,
+    0.003
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-bed_floor",
+  "name": "Bed floor",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.833,
+   "d": 1.943,
+   "h": 0.239
+  },
+  "model": {
+   "file": "nature/bed_floor.glb",
+   "scale": 2.6,
+   "offset": [
+    0,
+    0.05,
+    0.003
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-cactus_short",
+  "name": "Cactus short",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.854,
+   "d": 0.743,
+   "h": 1.333
+  },
+  "model": {
+   "file": "nature/cactus_short.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.002,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-cactus_tall",
+  "name": "Cactus tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.991,
+   "d": 0.848,
+   "h": 1.875
+  },
+  "model": {
+   "file": "nature/cactus_tall.glb",
+   "scale": 2.5,
+   "offset": [
+    0.001,
+    0.05,
+    -0.037
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-campfire_bricks",
+  "name": "Campfire bricks",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.173,
+   "d": 1.173,
+   "h": 0.169
+  },
+  "model": {
+   "file": "nature/campfire_bricks.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-campfire_logs",
+  "name": "Campfire logs",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.73,
+   "d": 0.73,
+   "h": 0.156
+  },
+  "model": {
+   "file": "nature/campfire_logs.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-campfire_planks",
+  "name": "Campfire planks",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.875,
+   "d": 0.875,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/campfire_planks.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-campfire_stones",
+  "name": "Campfire stones",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.352,
+   "d": 1.289,
+   "h": 0.194
+  },
+  "model": {
+   "file": "nature/campfire_stones.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.02,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-canoe",
+  "name": "Canoe",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.2,
+   "d": 4.6,
+   "h": 0.73
+  },
+  "model": {
+   "file": "nature/canoe.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-canoe_paddle",
+  "name": "Canoe paddle",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.307,
+   "d": 2.361,
+   "h": 0.144
+  },
+  "model": {
+   "file": "nature/canoe_paddle.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0.04
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-crop_carrot",
+  "name": "Crop carrot",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.549,
+   "d": 0.549,
+   "h": 0.991
+  },
+  "model": {
+   "file": "nature/crop_carrot.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crop_melon",
+  "name": "Crop melon",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.668,
+   "d": 0.579,
+   "h": 0.557
+  },
+  "model": {
+   "file": "nature/crop_melon.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crop_pumpkin",
+  "name": "Crop pumpkin",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.706,
+   "d": 0.723,
+   "h": 0.534
+  },
+  "model": {
+   "file": "nature/crop_pumpkin.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crop_turnip",
+  "name": "Crop turnip",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.549,
+   "d": 0.549,
+   "h": 1.057
+  },
+  "model": {
+   "file": "nature/crop_turnip.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_bambooStageA",
+  "name": "Crops bamboo stage A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.544,
+   "d": 0.493,
+   "h": 0.878
+  },
+  "model": {
+   "file": "nature/crops_bambooStageA.glb",
+   "scale": 1.6,
+   "offset": [
+    0.007,
+    0.05,
+    0.007
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_bambooStageB",
+  "name": "Crops bamboo stage B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.544,
+   "d": 0.493,
+   "h": 1.424
+  },
+  "model": {
+   "file": "nature/crops_bambooStageB.glb",
+   "scale": 1.6,
+   "offset": [
+    0.007,
+    0.05,
+    0.007
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_cornStageA",
+  "name": "Crops corn stage A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.487,
+   "d": 0.487,
+   "h": 0.8
+  },
+  "model": {
+   "file": "nature/crops_cornStageA.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_cornStageB",
+  "name": "Crops corn stage B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.487,
+   "d": 0.487,
+   "h": 1.6
+  },
+  "model": {
+   "file": "nature/crops_cornStageB.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_cornStageC",
+  "name": "Crops corn stage C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.487,
+   "d": 0.487,
+   "h": 2
+  },
+  "model": {
+   "file": "nature/crops_cornStageC.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_cornStageD",
+  "name": "Crops corn stage D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.707,
+   "d": 0.707,
+   "h": 2
+  },
+  "model": {
+   "file": "nature/crops_cornStageD.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtDoubleRow",
+  "name": "Crops dirt double row",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 1.501,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtDoubleRow.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtDoubleRowCorner",
+  "name": "Crops dirt double row corner",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.501,
+   "d": 1.501,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtDoubleRowCorner.glb",
+   "scale": 1.6,
+   "offset": [
+    0.031,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtDoubleRowEnd",
+  "name": "Crops dirt double row end",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.96,
+   "d": 1.501,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtDoubleRowEnd.glb",
+   "scale": 1.6,
+   "offset": [
+    -0.2,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtRow",
+  "name": "Crops dirt row",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 0.992,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtRow.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtRowCorner",
+  "name": "Crops dirt row corner",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.246,
+   "d": 1.246,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtRowCorner.glb",
+   "scale": 1.6,
+   "offset": [
+    0.111,
+    0.05,
+    -0.111
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtRowEnd",
+  "name": "Crops dirt row end",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.96,
+   "d": 0.992,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/crops_dirtRowEnd.glb",
+   "scale": 1.6,
+   "offset": [
+    -0.2,
+    0.05,
+    -0.031
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_dirtSingle",
+  "name": "Crops dirt single",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.64,
+   "d": 0.554,
+   "h": 0.16
+  },
+  "model": {
+   "file": "nature/crops_dirtSingle.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_leafsStageA",
+  "name": "Crops leafs stage A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.623,
+   "d": 0.623,
+   "h": 0.683
+  },
+  "model": {
+   "file": "nature/crops_leafsStageA.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_leafsStageB",
+  "name": "Crops leafs stage B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.623,
+   "d": 0.623,
+   "h": 1.083
+  },
+  "model": {
+   "file": "nature/crops_leafsStageB.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_wheatStageA",
+  "name": "Crops wheat stage A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.863,
+   "d": 0.715,
+   "h": 0.536
+  },
+  "model": {
+   "file": "nature/crops_wheatStageA.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-crops_wheatStageB",
+  "name": "Crops wheat stage B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.863,
+   "d": 0.715,
+   "h": 0.856
+  },
+  "model": {
+   "file": "nature/crops_wheatStageB.glb",
+   "scale": 1.6,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Crops",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-fence_bend",
+  "name": "Fence bend",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 3,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_bend.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_bendCenter",
+  "name": "Fence bend center",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 3,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_bendCenter.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_corner",
+  "name": "Fence corner",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 3,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_corner.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_gate",
+  "name": "Fence gate",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 0.21,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_gate.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.465
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_planks",
+  "name": "Fence planks",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 0.288,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_planks.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.478
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_planksDouble",
+  "name": "Fence planks double",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 0.18,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_planksDouble.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.496
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simple",
+  "name": "Fence simple",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 0.21,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_simple.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.465
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simpleCenter",
+  "name": "Fence simple center",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 0.21,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_simpleCenter.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.465
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simpleDiagonal",
+  "name": "Fence simple diagonal",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 3,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_simpleDiagonal.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simpleDiagonalCenter",
+  "name": "Fence simple diagonal center",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3,
+   "d": 3,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_simpleDiagonalCenter.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simpleHigh",
+  "name": "Fence simple high",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.124,
+   "d": 0.334,
+   "h": 1.035
+  },
+  "model": {
+   "file": "nature/fence_simpleHigh.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.465
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-fence_simpleLow",
+  "name": "Fence simple low",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.124,
+   "d": 0.334,
+   "h": 0.585
+  },
+  "model": {
+   "file": "nature/fence_simpleLow.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.465
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-flower_purpleA",
+  "name": "Flower purple A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.318,
+   "d": 0.362,
+   "h": 0.485
+  },
+  "model": {
+   "file": "nature/flower_purpleA.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_purpleB",
+  "name": "Flower purple B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.415,
+   "d": 0.478,
+   "h": 0.417
+  },
+  "model": {
+   "file": "nature/flower_purpleB.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_purpleC",
+  "name": "Flower purple C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.361,
+   "d": 0.362,
+   "h": 0.365
+  },
+  "model": {
+   "file": "nature/flower_purpleC.glb",
+   "scale": 2,
+   "offset": [
+    0.014,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_redA",
+  "name": "Flower red A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.318,
+   "d": 0.362,
+   "h": 0.585
+  },
+  "model": {
+   "file": "nature/flower_redA.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_redB",
+  "name": "Flower red B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.415,
+   "d": 0.478,
+   "h": 0.517
+  },
+  "model": {
+   "file": "nature/flower_redB.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_redC",
+  "name": "Flower red C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.361,
+   "d": 0.362,
+   "h": 0.465
+  },
+  "model": {
+   "file": "nature/flower_redC.glb",
+   "scale": 2,
+   "offset": [
+    0.014,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_yellowA",
+  "name": "Flower yellow A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.318,
+   "d": 0.362,
+   "h": 0.385
+  },
+  "model": {
+   "file": "nature/flower_yellowA.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_yellowB",
+  "name": "Flower yellow B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.415,
+   "d": 0.478,
+   "h": 0.317
+  },
+  "model": {
+   "file": "nature/flower_yellowB.glb",
+   "scale": 2,
+   "offset": [
+    0.025,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-flower_yellowC",
+  "name": "Flower yellow C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.361,
+   "d": 0.362,
+   "h": 0.265
+  },
+  "model": {
+   "file": "nature/flower_yellowC.glb",
+   "scale": 2,
+   "offset": [
+    0.014,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-grass",
+  "name": "Grass",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.762,
+   "d": 0.784,
+   "h": 0.508
+  },
+  "model": {
+   "file": "nature/grass.glb",
+   "scale": 2,
+   "offset": [
+    0.008,
+    0.05,
+    0.043
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-grass_large",
+  "name": "Grass large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.818,
+   "d": 0.816,
+   "h": 0.508
+  },
+  "model": {
+   "file": "nature/grass_large.glb",
+   "scale": 2,
+   "offset": [
+    -0.005,
+    0.05,
+    0.008
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-grass_leafs",
+  "name": "Grass leafs",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.469,
+   "d": 0.515,
+   "h": 0.285
+  },
+  "model": {
+   "file": "nature/grass_leafs.glb",
+   "scale": 2,
+   "offset": [
+    0.006,
+    0.05,
+    0.005
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-grass_leafsLarge",
+  "name": "Grass leafs large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.952,
+   "d": 0.975,
+   "h": 0.285
+  },
+  "model": {
+   "file": "nature/grass_leafsLarge.glb",
+   "scale": 2,
+   "offset": [
+    0.004,
+    0.05,
+    -0.001
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-lily_large",
+  "name": "Lily large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.544,
+   "d": 0.628,
+   "h": 0.196
+  },
+  "model": {
+   "file": "nature/lily_large.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-lily_small",
+  "name": "Lily small",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.378,
+   "d": 0.436,
+   "h": 0.08
+  },
+  "model": {
+   "file": "nature/lily_small.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-log",
+  "name": "Log",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.585,
+   "d": 1.775,
+   "h": 0.433
+  },
+  "model": {
+   "file": "nature/log.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.008,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-log_large",
+  "name": "Log large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.5,
+   "d": 1.373,
+   "h": 1.042
+  },
+  "model": {
+   "file": "nature/log_large.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    -0.022
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-log_stack",
+  "name": "Log stack",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.062,
+   "d": 1.775,
+   "h": 0.866
+  },
+  "model": {
+   "file": "nature/log_stack.glb",
+   "scale": 2.5,
+   "offset": [
+    0.012,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-log_stackLarge",
+  "name": "Log stack large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.585,
+   "d": 1.775,
+   "h": 0.866
+  },
+  "model": {
+   "file": "nature/log_stackLarge.glb",
+   "scale": 2.5,
+   "offset": [
+    0.008,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-mushroom_red",
+  "name": "Mushroom red",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.348,
+   "d": 0.402,
+   "h": 0.406
+  },
+  "model": {
+   "file": "nature/mushroom_red.glb",
+   "scale": 2,
+   "offset": [
+    -0.001,
+    0.05,
+    -0.005
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-mushroom_redGroup",
+  "name": "Mushroom red group",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.539,
+   "d": 0.508,
+   "h": 0.501
+  },
+  "model": {
+   "file": "nature/mushroom_redGroup.glb",
+   "scale": 2,
+   "offset": [
+    0.002,
+    0.05,
+    -0.015
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-mushroom_redTall",
+  "name": "Mushroom red tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.247,
+   "d": 0.285,
+   "h": 0.501
+  },
+  "model": {
+   "file": "nature/mushroom_redTall.glb",
+   "scale": 2,
+   "offset": [
+    -0.001,
+    0.05,
+    -0.004
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-mushroom_tan",
+  "name": "Mushroom tan",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.383,
+   "d": 0.442,
+   "h": 0.308
+  },
+  "model": {
+   "file": "nature/mushroom_tan.glb",
+   "scale": 2,
+   "offset": [
+    -0.001,
+    0.05,
+    -0.005
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-mushroom_tanGroup",
+  "name": "Mushroom tan group",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.539,
+   "d": 0.508,
+   "h": 0.501
+  },
+  "model": {
+   "file": "nature/mushroom_tanGroup.glb",
+   "scale": 2,
+   "offset": [
+    0.002,
+    0.05,
+    -0.015
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-mushroom_tanTall",
+  "name": "Mushroom tan tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.247,
+   "d": 0.285,
+   "h": 0.501
+  },
+  "model": {
+   "file": "nature/mushroom_tanTall.glb",
+   "scale": 2,
+   "offset": [
+    -0.001,
+    0.05,
+    -0.004
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_stone",
+  "name": "Path stone",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2,
+   "d": 1.153,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_stone.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0.01
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_stoneCircle",
+  "name": "Path stone circle",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.865,
+   "d": 1.753,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_stoneCircle.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_stoneCorner",
+  "name": "Path stone corner",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.477,
+   "d": 1.557,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_stoneCorner.glb",
+   "scale": 2,
+   "offset": [
+    0.101,
+    0.05,
+    -0.085
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_stoneEnd",
+  "name": "Path stone end",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.236,
+   "d": 1.142,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_stoneEnd.glb",
+   "scale": 2,
+   "offset": [
+    -0.191,
+    0.05,
+    0.007
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_wood",
+  "name": "Path wood",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2,
+   "d": 1.029,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_wood.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_woodCorner",
+  "name": "Path wood corner",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.5,
+   "d": 1.5,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_woodCorner.glb",
+   "scale": 2,
+   "offset": [
+    0.125,
+    0.05,
+    -0.125
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-path_woodEnd",
+  "name": "Path wood end",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.23,
+   "d": 1.029,
+   "h": 0.1
+  },
+  "model": {
+   "file": "nature/path_woodEnd.glb",
+   "scale": 2,
+   "offset": [
+    -0.193,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bush",
+  "name": "Plant bush",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.792,
+   "d": 0.792,
+   "h": 0.489
+  },
+  "model": {
+   "file": "nature/plant_bush.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bushDetailed",
+  "name": "Plant bush detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.205,
+   "d": 1.205,
+   "h": 0.721
+  },
+  "model": {
+   "file": "nature/plant_bushDetailed.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bushLarge",
+  "name": "Plant bush large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.749,
+   "d": 0.671,
+   "h": 0.486
+  },
+  "model": {
+   "file": "nature/plant_bushLarge.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bushLargeTriangle",
+  "name": "Plant bush large triangle",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.815,
+   "d": 0.942,
+   "h": 0.339
+  },
+  "model": {
+   "file": "nature/plant_bushLargeTriangle.glb",
+   "scale": 2,
+   "offset": [
+    0.047,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bushSmall",
+  "name": "Plant bush small",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.766,
+   "d": 0.673,
+   "h": 0.415
+  },
+  "model": {
+   "file": "nature/plant_bushSmall.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_bushTriangle",
+  "name": "Plant bush triangle",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.729,
+   "d": 0.827,
+   "h": 0.591
+  },
+  "model": {
+   "file": "nature/plant_bushTriangle.glb",
+   "scale": 2,
+   "offset": [
+    0.057,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_flatShort",
+  "name": "Plant flat short",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.555,
+   "d": 0.555,
+   "h": 0.47
+  },
+  "model": {
+   "file": "nature/plant_flatShort.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-plant_flatTall",
+  "name": "Plant flat tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.543,
+   "d": 0.543,
+   "h": 0.569
+  },
+  "model": {
+   "file": "nature/plant_flatTall.glb",
+   "scale": 2,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants",
+  "flat": true
+ },
+ {
+  "id": "kenney-nature-pot_large",
+  "name": "Pot large",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.845,
+   "d": 0.732,
+   "h": 0.3
+  },
+  "model": {
+   "file": "nature/pot_large.glb",
+   "scale": 1.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-pot_small",
+  "name": "Pot small",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.485,
+   "d": 0.42,
+   "h": 0.402
+  },
+  "model": {
+   "file": "nature/pot_small.glb",
+   "scale": 1.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-rock_largeA",
+  "name": "Rock large A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.962,
+   "d": 2.539,
+   "h": 0.649
+  },
+  "model": {
+   "file": "nature/rock_largeA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_largeB",
+  "name": "Rock large B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.917,
+   "d": 2.539,
+   "h": 1.076
+  },
+  "model": {
+   "file": "nature/rock_largeB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_largeC",
+  "name": "Rock large C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.661,
+   "d": 2.539,
+   "h": 0.803
+  },
+  "model": {
+   "file": "nature/rock_largeC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_largeD",
+  "name": "Rock large D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.672,
+   "d": 2.576,
+   "h": 1.421
+  },
+  "model": {
+   "file": "nature/rock_largeD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_largeE",
+  "name": "Rock large E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.739,
+   "d": 2.3,
+   "h": 0.731
+  },
+  "model": {
+   "file": "nature/rock_largeE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_largeF",
+  "name": "Rock large F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.739,
+   "d": 2.247,
+   "h": 1.197
+  },
+  "model": {
+   "file": "nature/rock_largeF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallA",
+  "name": "Rock small A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.478
+  },
+  "model": {
+   "file": "nature/rock_smallA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallB",
+  "name": "Rock small B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.442
+  },
+  "model": {
+   "file": "nature/rock_smallB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallC",
+  "name": "Rock small C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.307
+  },
+  "model": {
+   "file": "nature/rock_smallC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallD",
+  "name": "Rock small D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.064,
+   "d": 0.922,
+   "h": 0.577
+  },
+  "model": {
+   "file": "nature/rock_smallD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallE",
+  "name": "Rock small E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.781,
+   "h": 0.64
+  },
+  "model": {
+   "file": "nature/rock_smallE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallF",
+  "name": "Rock small F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.884,
+   "d": 0.766,
+   "h": 0.613
+  },
+  "model": {
+   "file": "nature/rock_smallF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallFlatA",
+  "name": "Rock small flat A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.239,
+   "d": 1.074,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/rock_smallFlatA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallFlatB",
+  "name": "Rock small flat B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.074,
+   "d": 1.006,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/rock_smallFlatB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallFlatC",
+  "name": "Rock small flat C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.176,
+   "d": 0.901,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/rock_smallFlatC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallG",
+  "name": "Rock small G",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.484,
+   "d": 1.714,
+   "h": 0.613
+  },
+  "model": {
+   "file": "nature/rock_smallG.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallH",
+  "name": "Rock small H",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.155,
+   "d": 1.155,
+   "h": 1.018
+  },
+  "model": {
+   "file": "nature/rock_smallH.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallI",
+  "name": "Rock small I",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.896,
+   "d": 1.034,
+   "h": 0.695
+  },
+  "model": {
+   "file": "nature/rock_smallI.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallTopA",
+  "name": "Rock small top A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.219,
+   "d": 1.223,
+   "h": 0.55
+  },
+  "model": {
+   "file": "nature/rock_smallTopA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_smallTopB",
+  "name": "Rock small top B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.555,
+   "d": 1.616,
+   "h": 0.7
+  },
+  "model": {
+   "file": "nature/rock_smallTopB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallA",
+  "name": "Rock tall A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.458,
+   "d": 1.708,
+   "h": 2.49
+  },
+  "model": {
+   "file": "nature/rock_tallA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallB",
+  "name": "Rock tall B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.912,
+   "d": 1.925,
+   "h": 2.209
+  },
+  "model": {
+   "file": "nature/rock_tallB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallC",
+  "name": "Rock tall C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.091,
+   "h": 1.957
+  },
+  "model": {
+   "file": "nature/rock_tallC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallD",
+  "name": "Rock tall D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.107,
+   "d": 1.154,
+   "h": 1.93
+  },
+  "model": {
+   "file": "nature/rock_tallD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallE",
+  "name": "Rock tall E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.317,
+   "h": 1.109
+  },
+  "model": {
+   "file": "nature/rock_tallE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallF",
+  "name": "Rock tall F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.109,
+   "d": 1.281,
+   "h": 1.434
+  },
+  "model": {
+   "file": "nature/rock_tallF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallG",
+  "name": "Rock tall G",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.062,
+   "d": 1.227,
+   "h": 1.957
+  },
+  "model": {
+   "file": "nature/rock_tallG.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallH",
+  "name": "Rock tall H",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.437,
+   "d": 1.66,
+   "h": 1.777
+  },
+  "model": {
+   "file": "nature/rock_tallH.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallI",
+  "name": "Rock tall I",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.161,
+   "h": 2.03
+  },
+  "model": {
+   "file": "nature/rock_tallI.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-rock_tallJ",
+  "name": "Rock tall J",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.22,
+   "d": 1.346,
+   "h": 1.55
+  },
+  "model": {
+   "file": "nature/rock_tallJ.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-sign",
+  "name": "Sign",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.9,
+   "d": 0.21,
+   "h": 1.226
+  },
+  "model": {
+   "file": "nature/sign.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.018
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_block",
+  "name": "Statue block",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.2,
+   "d": 1.2,
+   "h": 1.2
+  },
+  "model": {
+   "file": "nature/statue_block.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_column",
+  "name": "Statue column",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.9,
+   "d": 0.9,
+   "h": 3
+  },
+  "model": {
+   "file": "nature/statue_column.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_columnDamaged",
+  "name": "Statue column damaged",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.9,
+   "d": 0.9,
+   "h": 2.1
+  },
+  "model": {
+   "file": "nature/statue_columnDamaged.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_head",
+  "name": "Statue head",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.178,
+   "d": 1.663,
+   "h": 3
+  },
+  "model": {
+   "file": "nature/statue_head.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0.037
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_obelisk",
+  "name": "Statue obelisk",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.921,
+   "d": 0.921,
+   "h": 2.626
+  },
+  "model": {
+   "file": "nature/statue_obelisk.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-statue_ring",
+  "name": "Statue ring",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.8,
+   "d": 1.2,
+   "h": 2.389
+  },
+  "model": {
+   "file": "nature/statue_ring.glb",
+   "scale": 3,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Garden"
+ },
+ {
+  "id": "kenney-nature-stone_largeA",
+  "name": "Stone large A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.962,
+   "d": 2.539,
+   "h": 0.649
+  },
+  "model": {
+   "file": "nature/stone_largeA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_largeB",
+  "name": "Stone large B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.917,
+   "d": 2.539,
+   "h": 1.076
+  },
+  "model": {
+   "file": "nature/stone_largeB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_largeC",
+  "name": "Stone large C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.661,
+   "d": 2.539,
+   "h": 0.803
+  },
+  "model": {
+   "file": "nature/stone_largeC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_largeD",
+  "name": "Stone large D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.672,
+   "d": 2.576,
+   "h": 1.421
+  },
+  "model": {
+   "file": "nature/stone_largeD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_largeE",
+  "name": "Stone large E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.739,
+   "d": 2.3,
+   "h": 0.731
+  },
+  "model": {
+   "file": "nature/stone_largeE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_largeF",
+  "name": "Stone large F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.739,
+   "d": 2.247,
+   "h": 1.197
+  },
+  "model": {
+   "file": "nature/stone_largeF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallA",
+  "name": "Stone small A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.478
+  },
+  "model": {
+   "file": "nature/stone_smallA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallB",
+  "name": "Stone small B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.442
+  },
+  "model": {
+   "file": "nature/stone_smallB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallC",
+  "name": "Stone small C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.902,
+   "h": 0.307
+  },
+  "model": {
+   "file": "nature/stone_smallC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallD",
+  "name": "Stone small D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.064,
+   "d": 0.922,
+   "h": 0.577
+  },
+  "model": {
+   "file": "nature/stone_smallD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallE",
+  "name": "Stone small E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.902,
+   "d": 0.781,
+   "h": 0.64
+  },
+  "model": {
+   "file": "nature/stone_smallE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallF",
+  "name": "Stone small F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.884,
+   "d": 0.766,
+   "h": 0.613
+  },
+  "model": {
+   "file": "nature/stone_smallF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallFlatA",
+  "name": "Stone small flat A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.239,
+   "d": 1.074,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/stone_smallFlatA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallFlatB",
+  "name": "Stone small flat B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.074,
+   "d": 1.006,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/stone_smallFlatB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallFlatC",
+  "name": "Stone small flat C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.176,
+   "d": 0.901,
+   "h": 0.162
+  },
+  "model": {
+   "file": "nature/stone_smallFlatC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallG",
+  "name": "Stone small G",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.484,
+   "d": 1.714,
+   "h": 0.613
+  },
+  "model": {
+   "file": "nature/stone_smallG.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallH",
+  "name": "Stone small H",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.155,
+   "d": 1.155,
+   "h": 1.018
+  },
+  "model": {
+   "file": "nature/stone_smallH.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallI",
+  "name": "Stone small I",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.896,
+   "d": 1.034,
+   "h": 0.695
+  },
+  "model": {
+   "file": "nature/stone_smallI.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallTopA",
+  "name": "Stone small top A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.219,
+   "d": 1.223,
+   "h": 0.55
+  },
+  "model": {
+   "file": "nature/stone_smallTopA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_smallTopB",
+  "name": "Stone small top B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.555,
+   "d": 1.616,
+   "h": 0.7
+  },
+  "model": {
+   "file": "nature/stone_smallTopB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallA",
+  "name": "Stone tall A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.458,
+   "d": 1.708,
+   "h": 2.49
+  },
+  "model": {
+   "file": "nature/stone_tallA.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallB",
+  "name": "Stone tall B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.912,
+   "d": 1.925,
+   "h": 2.209
+  },
+  "model": {
+   "file": "nature/stone_tallB.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallC",
+  "name": "Stone tall C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.091,
+   "h": 1.957
+  },
+  "model": {
+   "file": "nature/stone_tallC.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallD",
+  "name": "Stone tall D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.107,
+   "d": 1.154,
+   "h": 1.93
+  },
+  "model": {
+   "file": "nature/stone_tallD.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallE",
+  "name": "Stone tall E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.317,
+   "h": 1.109
+  },
+  "model": {
+   "file": "nature/stone_tallE.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallF",
+  "name": "Stone tall F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.109,
+   "d": 1.281,
+   "h": 1.434
+  },
+  "model": {
+   "file": "nature/stone_tallF.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallG",
+  "name": "Stone tall G",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.062,
+   "d": 1.227,
+   "h": 1.957
+  },
+  "model": {
+   "file": "nature/stone_tallG.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallH",
+  "name": "Stone tall H",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.437,
+   "d": 1.66,
+   "h": 1.777
+  },
+  "model": {
+   "file": "nature/stone_tallH.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallI",
+  "name": "Stone tall I",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.14,
+   "d": 1.161,
+   "h": 2.03
+  },
+  "model": {
+   "file": "nature/stone_tallI.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stone_tallJ",
+  "name": "Stone tall J",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.22,
+   "d": 1.346,
+   "h": 1.55
+  },
+  "model": {
+   "file": "nature/stone_tallJ.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Rocks"
+ },
+ {
+  "id": "kenney-nature-stump_old",
+  "name": "Stump old",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.891,
+   "d": 0.928,
+   "h": 0.666
+  },
+  "model": {
+   "file": "nature/stump_old.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.018,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_oldTall",
+  "name": "Stump old tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.891,
+   "d": 0.928,
+   "h": 1.666
+  },
+  "model": {
+   "file": "nature/stump_oldTall.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.018,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_round",
+  "name": "Stump round",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.803,
+   "d": 0.928,
+   "h": 0.516
+  },
+  "model": {
+   "file": "nature/stump_round.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_roundDetailed",
+  "name": "Stump round detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.891,
+   "d": 0.928,
+   "h": 0.516
+  },
+  "model": {
+   "file": "nature/stump_roundDetailed.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.018,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_square",
+  "name": "Stump square",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 0.899,
+   "d": 0.75,
+   "h": 0.75
+  },
+  "model": {
+   "file": "nature/stump_square.glb",
+   "scale": 2.5,
+   "offset": [
+    -0.03,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_squareDetailed",
+  "name": "Stump square detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.1,
+   "d": 1.1,
+   "h": 0.5
+  },
+  "model": {
+   "file": "nature/stump_squareDetailed.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-stump_squareDetailedWide",
+  "name": "Stump square detailed wide",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.6,
+   "d": 1.6,
+   "h": 0.5
+  },
+  "model": {
+   "file": "nature/stump_squareDetailedWide.glb",
+   "scale": 2.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Plants"
+ },
+ {
+  "id": "kenney-nature-tent_detailedClosed",
+  "name": "Tent detailed closed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.062,
+   "d": 2.227,
+   "h": 1.964
+  },
+  "model": {
+   "file": "nature/tent_detailedClosed.glb",
+   "scale": 3.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-tent_detailedOpen",
+  "name": "Tent detailed open",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.062,
+   "d": 2.332,
+   "h": 1.964
+  },
+  "model": {
+   "file": "nature/tent_detailedOpen.glb",
+   "scale": 3.5,
+   "offset": [
+    0,
+    0.05,
+    0.015
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-tent_smallClosed",
+  "name": "Tent small closed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.917,
+   "d": 2.227,
+   "h": 1.964
+  },
+  "model": {
+   "file": "nature/tent_smallClosed.glb",
+   "scale": 3.5,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-tent_smallOpen",
+  "name": "Tent small open",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.917,
+   "d": 2.332,
+   "h": 1.964
+  },
+  "model": {
+   "file": "nature/tent_smallOpen.glb",
+   "scale": 3.5,
+   "offset": [
+    0,
+    0.05,
+    0.015
+   ]
+  },
+  "group": "Camping"
+ },
+ {
+  "id": "kenney-nature-tree_blocks",
+  "name": "Tree blocks",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.4,
+   "d": 2.4,
+   "h": 4.74
+  },
+  "model": {
+   "file": "nature/tree_blocks.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_blocks_dark",
+  "name": "Tree blocks dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.4,
+   "d": 2.4,
+   "h": 4.74
+  },
+  "model": {
+   "file": "nature/tree_blocks_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_blocks_fall",
+  "name": "Tree blocks fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.4,
+   "d": 2.4,
+   "h": 4.74
+  },
+  "model": {
+   "file": "nature/tree_blocks_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_cone",
+  "name": "Tree cone",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.119,
+   "d": 2.119,
+   "h": 5.721
+  },
+  "model": {
+   "file": "nature/tree_cone.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_cone_dark",
+  "name": "Tree cone dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.119,
+   "d": 2.119,
+   "h": 5.721
+  },
+  "model": {
+   "file": "nature/tree_cone_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_cone_fall",
+  "name": "Tree cone fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.119,
+   "d": 2.119,
+   "h": 5.721
+  },
+  "model": {
+   "file": "nature/tree_cone_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_default",
+  "name": "Tree default",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 6.832
+  },
+  "model": {
+   "file": "nature/tree_default.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_default_dark",
+  "name": "Tree default dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 6.832
+  },
+  "model": {
+   "file": "nature/tree_default_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_default_fall",
+  "name": "Tree default fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 6.832
+  },
+  "model": {
+   "file": "nature/tree_default_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_detailed",
+  "name": "Tree detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.388,
+   "d": 3.046,
+   "h": 5.33
+  },
+  "model": {
+   "file": "nature/tree_detailed.glb",
+   "scale": 4,
+   "offset": [
+    0.009,
+    0.05,
+    -0.009
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_detailed_dark",
+  "name": "Tree detailed dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.388,
+   "d": 3.046,
+   "h": 5.33
+  },
+  "model": {
+   "file": "nature/tree_detailed_dark.glb",
+   "scale": 4,
+   "offset": [
+    0.009,
+    0.05,
+    -0.009
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_detailed_fall",
+  "name": "Tree detailed fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.388,
+   "d": 3.046,
+   "h": 5.33
+  },
+  "model": {
+   "file": "nature/tree_detailed_fall.glb",
+   "scale": 4,
+   "offset": [
+    0.009,
+    0.05,
+    -0.009
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_fat",
+  "name": "Tree fat",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 4.602
+  },
+  "model": {
+   "file": "nature/tree_fat.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_fat_darkh",
+  "name": "Tree fat darkh",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 4.602
+  },
+  "model": {
+   "file": "nature/tree_fat_darkh.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_fat_fall",
+  "name": "Tree fat fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.02,
+   "d": 2.615,
+   "h": 4.602
+  },
+  "model": {
+   "file": "nature/tree_fat_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_oak",
+  "name": "Tree oak",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.562,
+   "d": 2.959,
+   "h": 4.905
+  },
+  "model": {
+   "file": "nature/tree_oak.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_oak_dark",
+  "name": "Tree oak dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.562,
+   "d": 2.959,
+   "h": 4.905
+  },
+  "model": {
+   "file": "nature/tree_oak_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_oak_fall",
+  "name": "Tree oak fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.562,
+   "d": 2.959,
+   "h": 4.905
+  },
+  "model": {
+   "file": "nature/tree_oak_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palm",
+  "name": "Tree palm",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.742,
+   "d": 4.051,
+   "h": 6.058
+  },
+  "model": {
+   "file": "nature/tree_palm.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palmBend",
+  "name": "Tree palm bend",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 3.742,
+   "d": 4.051,
+   "h": 5.52
+  },
+  "model": {
+   "file": "nature/tree_palmBend.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palmDetailedShort",
+  "name": "Tree palm detailed short",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 5.851,
+   "d": 5.851,
+   "h": 4.496
+  },
+  "model": {
+   "file": "nature/tree_palmDetailedShort.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    -0.003
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palmDetailedTall",
+  "name": "Tree palm detailed tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 5.851,
+   "d": 5.851,
+   "h": 5.694
+  },
+  "model": {
+   "file": "nature/tree_palmDetailedTall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    -0.003
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palmShort",
+  "name": "Tree palm short",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 4.137,
+   "d": 4.137,
+   "h": 4.225
+  },
+  "model": {
+   "file": "nature/tree_palmShort.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    -0.003
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_palmTall",
+  "name": "Tree palm tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 4.137,
+   "d": 4.137,
+   "h": 5.423
+  },
+  "model": {
+   "file": "nature/tree_palmTall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    -0.003
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineDefaultA",
+  "name": "Tree pine default A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.128,
+   "d": 2.128,
+   "h": 6.183
+  },
+  "model": {
+   "file": "nature/tree_pineDefaultA.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineDefaultB",
+  "name": "Tree pine default B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.128,
+   "d": 2.128,
+   "h": 6.183
+  },
+  "model": {
+   "file": "nature/tree_pineDefaultB.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineGroundA",
+  "name": "Tree pine ground A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 3.658
+  },
+  "model": {
+   "file": "nature/tree_pineGroundA.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineGroundB",
+  "name": "Tree pine ground B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 4.168
+  },
+  "model": {
+   "file": "nature/tree_pineGroundB.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundA",
+  "name": "Tree pine round A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.468,
+   "d": 2.85,
+   "h": 5.466
+  },
+  "model": {
+   "file": "nature/tree_pineRoundA.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundB",
+  "name": "Tree pine round B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.129,
+   "d": 2.453,
+   "h": 4.784
+  },
+  "model": {
+   "file": "nature/tree_pineRoundB.glb",
+   "scale": 4,
+   "offset": [
+    0.01,
+    0.05,
+    -0.001
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundC",
+  "name": "Tree pine round C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 5.011
+  },
+  "model": {
+   "file": "nature/tree_pineRoundC.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundD",
+  "name": "Tree pine round D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 4.327
+  },
+  "model": {
+   "file": "nature/tree_pineRoundD.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundE",
+  "name": "Tree pine round E",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.128,
+   "d": 2.128,
+   "h": 5.019
+  },
+  "model": {
+   "file": "nature/tree_pineRoundE.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineRoundF",
+  "name": "Tree pine round F",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.128,
+   "d": 2.128,
+   "h": 5.018
+  },
+  "model": {
+   "file": "nature/tree_pineRoundF.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineSmallA",
+  "name": "Tree pine small A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2,
+   "d": 2,
+   "h": 3.869
+  },
+  "model": {
+   "file": "nature/tree_pineSmallA.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineSmallB",
+  "name": "Tree pine small B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 4.034
+  },
+  "model": {
+   "file": "nature/tree_pineSmallB.glb",
+   "scale": 4,
+   "offset": [
+    -0.011,
+    0.05,
+    0.003
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineSmallC",
+  "name": "Tree pine small C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 4.492
+  },
+  "model": {
+   "file": "nature/tree_pineSmallC.glb",
+   "scale": 4,
+   "offset": [
+    -0.015,
+    0.05,
+    -0.018
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineSmallD",
+  "name": "Tree pine small D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.428,
+   "d": 1.428,
+   "h": 3.822
+  },
+  "model": {
+   "file": "nature/tree_pineSmallD.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallA",
+  "name": "Tree pine tall A",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 6.118
+  },
+  "model": {
+   "file": "nature/tree_pineTallA.glb",
+   "scale": 4,
+   "offset": [
+    -0.014,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallA_detailed",
+  "name": "Tree pine tall A detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 6.118
+  },
+  "model": {
+   "file": "nature/tree_pineTallA_detailed.glb",
+   "scale": 4,
+   "offset": [
+    -0.014,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallB",
+  "name": "Tree pine tall B",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 7.738
+  },
+  "model": {
+   "file": "nature/tree_pineTallB.glb",
+   "scale": 4,
+   "offset": [
+    -0.014,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallB_detailed",
+  "name": "Tree pine tall B detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.545,
+   "d": 1.568,
+   "h": 7.738
+  },
+  "model": {
+   "file": "nature/tree_pineTallB_detailed.glb",
+   "scale": 4,
+   "offset": [
+    -0.014,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallC",
+  "name": "Tree pine tall C",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 6.682
+  },
+  "model": {
+   "file": "nature/tree_pineTallC.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallC_detailed",
+  "name": "Tree pine tall C detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 6.682
+  },
+  "model": {
+   "file": "nature/tree_pineTallC_detailed.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallD",
+  "name": "Tree pine tall D",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 8.302
+  },
+  "model": {
+   "file": "nature/tree_pineTallD.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_pineTallD_detailed",
+  "name": "Tree pine tall D detailed",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.922,
+   "d": 2.219,
+   "h": 8.302
+  },
+  "model": {
+   "file": "nature/tree_pineTallD_detailed.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_plateau",
+  "name": "Tree plateau",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.447,
+   "d": 2.62,
+   "h": 4.997
+  },
+  "model": {
+   "file": "nature/tree_plateau.glb",
+   "scale": 4,
+   "offset": [
+    0.022,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_plateau_dark",
+  "name": "Tree plateau dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.447,
+   "d": 2.62,
+   "h": 4.997
+  },
+  "model": {
+   "file": "nature/tree_plateau_dark.glb",
+   "scale": 4,
+   "offset": [
+    0.022,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_plateau_fall",
+  "name": "Tree plateau fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.447,
+   "d": 2.62,
+   "h": 4.997
+  },
+  "model": {
+   "file": "nature/tree_plateau_fall.glb",
+   "scale": 4,
+   "offset": [
+    0.022,
+    0.05,
+    -0.002
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_simple",
+  "name": "Tree simple",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 6.078
+  },
+  "model": {
+   "file": "nature/tree_simple.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_simple_dark",
+  "name": "Tree simple dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 6.078
+  },
+  "model": {
+   "file": "nature/tree_simple_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_simple_fall",
+  "name": "Tree simple fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 6.078
+  },
+  "model": {
+   "file": "nature/tree_simple_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_small",
+  "name": "Tree small",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 4.44
+  },
+  "model": {
+   "file": "nature/tree_small.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_small_dark",
+  "name": "Tree small dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 4.44
+  },
+  "model": {
+   "file": "nature/tree_small_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_small_fall",
+  "name": "Tree small fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.419,
+   "d": 1.638,
+   "h": 4.44
+  },
+  "model": {
+   "file": "nature/tree_small_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_tall",
+  "name": "Tree tall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.598,
+   "d": 1.846,
+   "h": 6.751
+  },
+  "model": {
+   "file": "nature/tree_tall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_tall_dark",
+  "name": "Tree tall dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.598,
+   "d": 1.846,
+   "h": 6.751
+  },
+  "model": {
+   "file": "nature/tree_tall_dark.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_tall_fall",
+  "name": "Tree tall fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 1.598,
+   "d": 1.846,
+   "h": 6.751
+  },
+  "model": {
+   "file": "nature/tree_tall_fall.glb",
+   "scale": 4,
+   "offset": [
+    0,
+    0.05,
+    0
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_thin",
+  "name": "Tree thin",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.722,
+   "d": 2.466,
+   "h": 5.961
+  },
+  "model": {
+   "file": "nature/tree_thin.glb",
+   "scale": 4,
+   "offset": [
+    -0.083,
+    0.05,
+    -0.057
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_thin_dark",
+  "name": "Tree thin dark",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.722,
+   "d": 2.466,
+   "h": 5.961
+  },
+  "model": {
+   "file": "nature/tree_thin_dark.glb",
+   "scale": 4,
+   "offset": [
+    -0.083,
+    0.05,
+    -0.057
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ },
+ {
+  "id": "kenney-nature-tree_thin_fall",
+  "name": "Tree thin fall",
+  "category": "outdoor",
+  "placement": "floor",
+  "size": {
+   "w": 2.722,
+   "d": 2.466,
+   "h": 5.961
+  },
+  "model": {
+   "file": "nature/tree_thin_fall.glb",
+   "scale": 4,
+   "offset": [
+    -0.083,
+    0.05,
+    -0.057
+   ]
+  },
+  "group": "Trees",
+  "collide": {
+   "w": 0.6,
+   "d": 0.6
+  }
+ }
+]
