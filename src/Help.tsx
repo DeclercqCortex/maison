@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { sampleProject } from './model/sample';
-import { markWelcomed } from './store/persistence';
+import { createProject, markWelcomed } from './store/persistence';
 import { useStore } from './store/store';
 
 const STEPS = [
@@ -46,14 +46,10 @@ export function Help() {
     markWelcomed();
     useStore.getState().setHelp(false);
   };
+  // The example opens as a project of its own; the current one stays in the project list.
   const loadExample = () => {
-    const st = useStore.getState();
-    const hasWork = st.project.floors.some((f) => f.walls.length > 0);
-    if (hasWork && !window.confirm('Open the example house? Your current plan will be replaced. Save it to a file first if you want to keep it.')) return;
-    st.loadProject(sampleProject());
-    st.setMode('plan');
-    st.setTool('select');
     close();
+    createProject(sampleProject());
   };
 
   return (
@@ -90,7 +86,7 @@ export function Help() {
           ))}
         </div>
       </details>
-      <p className="note">Your work is saved in this browser as you go. Use “Save file” to keep a copy or move it to another computer.</p>
+      <p className="note">Your work is saved in this browser as you go, and listed on the start screen (“Projects”). Use “Save file” to keep a copy or move it to another computer.</p>
     </dialog>
   );
 }

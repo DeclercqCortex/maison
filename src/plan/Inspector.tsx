@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   OPENING_DEFAULTS,
+  RAILING_HEIGHT,
   STAIR_SIZES,
   type Feature,
   type Floor,
@@ -148,6 +149,23 @@ export function Inspector() {
               onCommit={(t) => setThickness(wall, t)}
             />
           </label>
+          <label className="check" title="A low glass balustrade, for the edge of a balcony, deck or landing">
+            <input type="checkbox" checked={!!wall.railing}
+              onChange={() =>
+                commit(
+                  editFloor((f) => {
+                    const x = f.walls.find((y) => y.id === wall.id);
+                    if (!x) return;
+                    x.railing = !x.railing;
+                    x.height = x.railing ? RAILING_HEIGHT : f.wallHeight;
+                    if (x.railing) x.thickness = Math.min(x.thickness, 0.06);
+                    // A railing has no doors or windows in it.
+                    if (x.railing) f.openings = f.openings.filter((o) => o.wallId !== x.id);
+                  }),
+                )
+              } />
+            Glass railing (balcony edge)
+          </label>
           <button className="danger" onClick={() => remove('wall', wall.id)}>Delete wall</button>
         </section>
       )}
@@ -269,7 +287,7 @@ export function Inspector() {
           </label>
           {lengthField('Ceiling height', floor.wallHeight, 1.8, 6, (f, m) => {
             f.wallHeight = m;
-            f.walls.forEach((w) => (w.height = m));
+            f.walls.forEach((w) => void (!w.railing && (w.height = m)));
           })}
           <div className="fact">
             <span>Floor level</span>

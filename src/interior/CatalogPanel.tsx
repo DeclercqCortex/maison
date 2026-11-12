@@ -5,6 +5,8 @@ import { formatLength } from '../model/units';
 import { useStore } from '../store/store';
 
 const WHERE = { floor: '', wall: 'On a wall', ceiling: 'On the ceiling', surface: 'On furniture' };
+/** Garden groups small enough for a balcony. */
+const BALCONY_GROUPS = ['Plants', 'Garden'];
 const OTHER_COUNT = {
   indoor: CATALOG.filter((c) => c.category !== 'outdoor').length,
   outdoor: CATALOG.filter((c) => c.category === 'outdoor').length,
@@ -23,16 +25,21 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
   const [filter, setFilter] = useState('all');
   const [pictures, setPictures] = useState<Record<string, string>>({});
 
-  const chips = outdoor ? OUTDOOR_GROUPS.map((g) => ({ id: g, label: g })) : CATEGORIES;
+  // An apartment's balcony can have planters, garden furniture and the like from the garden catalog.
+  const balcony = useStore((s) => s.project.kind === 'apartment') && !outdoor;
+  const chips = outdoor
+    ? OUTDOOR_GROUPS.map((g) => ({ id: g, label: g }))
+    : [...CATEGORIES, ...(balcony ? [{ id: 'balcony', label: 'Balcony' }] : [])];
   const shown = useMemo(() => {
     const q = query.trim().toLowerCase();
+    const forBalcony = (c: (typeof CATALOG)[number]) => balcony && c.category === 'outdoor' && BALCONY_GROUPS.includes(c.group ?? '');
     return CATALOG.filter(
       (c) =>
-        (c.category === 'outdoor') === outdoor &&
-        (filter === 'all' || (outdoor ? c.group : c.category) === filter) &&
+        ((c.category === 'outdoor') === outdoor || forBalcony(c)) &&
+        (filter === 'all' || (filter === 'balcony' ? forBalcony(c) : (outdoor ? c.group : c.category) === filter)) &&
         (!q || c.name.toLowerCase().includes(q)),
     );
-  }, [query, filter, outdoor]);
+  }, [query, filter, outdoor, balcony]);
 
   // Pictures are drawn only for what is listed, a few at a time, so the panel appears straight away.
   useEffect(() => {

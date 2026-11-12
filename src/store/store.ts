@@ -4,6 +4,8 @@ import { recomputeElevations, tidyFloor } from '../model/floors';
 import { emptyProject, type FeatureType, type Floor, type OpeningType, type Project, type Vec2 } from '../model/types';
 
 export type Mode = 'plan' | 'interior' | 'exterior';
+/** The start screen with the list of projects, or the editor with one of them open. */
+export type Screen = 'home' | 'editor';
 export type Tool = 'select' | 'wall' | 'rect' | OpeningType | FeatureType | 'erase';
 export type Selection =
   | { kind: 'wall'; id: string }
@@ -16,6 +18,9 @@ export type Selection =
 const HISTORY_LIMIT = 200;
 
 interface State {
+  screen: Screen;
+  /** Where the open project is saved in this browser's project list; null before one is opened. */
+  projectId: string | null;
   project: Project;
   past: Project[];
   future: Project[];
@@ -58,6 +63,9 @@ interface State {
   redo(): void;
   /** Replace the whole project (open a file, start a new one). Clears history. */
   loadProject(project: Project): void;
+  /** Open a saved project in the editor. */
+  openEditor(id: string, project: Project): void;
+  showHome(): void;
 }
 
 /** Runs a change, then restores the invariants every change must keep. */
@@ -74,6 +82,8 @@ const groundFloorId = (project: Project): string =>
 export const useStore = create<State>((set, get) => {
   const initial = emptyProject();
   return {
+    screen: 'home',
+    projectId: null,
     project: initial,
     past: [],
     future: [],
@@ -128,6 +138,11 @@ export const useStore = create<State>((set, get) => {
         project, past: [], future: [], activeFloorId: groundFloorId(project), selection: null, loads: s.loads + 1,
       }));
     },
+    openEditor: (id, loaded) => {
+      get().loadProject(loaded);
+      set({ projectId: id, screen: 'editor', mode: 'plan', tool: 'select', placing: null, walk: false });
+    },
+    showHome: () => set({ screen: 'home', selection: null, placing: null, walk: false, help: false }),
   };
 });
 

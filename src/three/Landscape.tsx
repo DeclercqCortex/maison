@@ -8,7 +8,7 @@ import type { Lot } from '../model/types';
 export const GROUND_Y = -0.06;
 
 /** Small repeatable random generator, so the countryside looks the same every time. */
-function seeded(seed: number): () => number {
+export function seeded(seed: number): () => number {
   let s = seed;
   return () => {
     s = (s * 1664525 + 1013904223) % 4294967296;
@@ -226,7 +226,7 @@ export function Grass(props: {
  * place, size and colour. (Kept as plain geometry rather than GPU instances so
  * the ray tracer, which only understands ordinary meshes, sees every copy.)
  */
-function mergeCopies(
+export function mergeCopies(
   base: THREE.BufferGeometry,
   copies: { position: [number, number, number]; scale: [number, number, number]; color: THREE.Color }[],
 ): THREE.BufferGeometry {

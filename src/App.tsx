@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { Help } from './Help';
+import { Home } from './Home';
 import { TopBar } from './TopBar';
 import { exportProject, hasBeenWelcomed } from './store/persistence';
 import { ExteriorPanel } from './exterior/ExteriorPanel';
@@ -15,6 +16,11 @@ const Scene3D = lazy(() => import('./three/Scene3D'));
 const loading = <div className="loading">Loading 3D view…</div>;
 
 export function App() {
+  const screen = useStore((s) => s.screen);
+  return screen === 'home' ? <Home /> : <Editor />;
+}
+
+function Editor() {
   const mode = useStore((s) => s.mode);
   const showPreview = useStore((s) => s.showPreview);
   const walk = useStore((s) => s.walk);
@@ -24,7 +30,7 @@ export function App() {
     window.dispatchEvent(new Event('resize'));
   }, [mode, walk, showPreview]);
 
-  // Show the guide the first time Maison is opened in this browser.
+  // Show the guide the first time a project is opened in this browser.
   useEffect(() => {
     if (!hasBeenWelcomed()) useStore.getState().setHelp(true);
   }, []);

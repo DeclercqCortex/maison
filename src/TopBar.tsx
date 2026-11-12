@@ -1,7 +1,7 @@
 import { useRef } from 'react';
-import { emptyProject, type Units } from './model/types';
+import type { Units } from './model/types';
 import { CommitField } from './plan/Inspector';
-import { exportProject, importProject } from './store/persistence';
+import { createProject, exportProject, goHome, importProject } from './store/persistence';
 import { useStore, type Mode } from './store/store';
 
 const MODES: { id: Mode; label: string }[] = [
@@ -17,19 +17,15 @@ export function TopBar() {
   const canRedo = useStore((s) => s.future.length > 0);
   const showDimensions = useStore((s) => s.showDimensions);
   const showPreview = useStore((s) => s.showPreview);
-  const { commit, undo, redo, setMode, toggleDimensions, togglePreview, loadProject } = useStore.getState();
+  const { commit, undo, redo, setMode, toggleDimensions, togglePreview } = useStore.getState();
   const fileInput = useRef<HTMLInputElement>(null);
+  const fallbackName = project.kind === 'apartment' ? 'My apartment' : 'My house';
 
-  const startNew = () => {
-    const hasWork = project.floors.some((f) => f.walls.length > 0);
-    if (hasWork && !window.confirm('Start a new house? The current plan will be cleared. Save it to a file first if you want to keep it.')) return;
-    loadProject(emptyProject());
-  };
-
+  // An opened file becomes a project of its own; the current one stays in the project list.
   const open = async (file: File | undefined) => {
     if (!file) return;
     try {
-      loadProject(await importProject(file));
+      createProject(await importProject(file));
     } catch (err) {
       window.alert(err instanceof SyntaxError ? 'This file could not be read.' : (err as Error).message);
     }
@@ -37,12 +33,12 @@ export function TopBar() {
 
   return (
     <header className="top-bar">
-      <div className="brand">Maison</div>
+      <button className="brand" onClick={goHome} title="Back to your projects">Maison</button>
       <CommitField
         className="project-name"
-        ariaLabel="House name"
+        ariaLabel={project.kind === 'apartment' ? 'Apartment name' : 'House name'}
         value={project.name}
-        onCommit={(text) => commit((p) => void (p.name = text.trim() || 'My house'))}
+        onCommit={(text) => commit((p) => void (p.name = text.trim() || fallbackName))}
       />
       <div className="tabs" role="tablist">
         {MODES.map((m) => (
@@ -72,8 +68,8 @@ export function TopBar() {
         <option value="metric">Metres</option>
         <option value="imperial">Feet and inches</option>
       </select>
-      <button onClick={startNew}>New</button>
-      <button onClick={() => fileInput.current?.click()}>Open</button>
+      <button onClick={goHome} title="Your projects, and starting a new house or apartment">Projects</button>
+      <button onClick={() => fileInput.current?.click()}>Open file</button>
       <button onClick={() => exportProject(project)} title="Save to a file (Ctrl+S)">Save file</button>
       <button onClick={() => useStore.getState().setHelp(true)} title="Guide and keyboard shortcuts (?)">Help</button>
       <input ref={fileInput} type="file" accept=".maison,application/json" hidden

@@ -1,7 +1,8 @@
 import { ItemSection, Swatches } from '../interior/DecorPanel';
 import { floorAt } from '../model/floors';
 import { lotSize, wallBounds } from '../model/lot';
-import type { RoofType } from '../model/types';
+import { towerLayout } from '../model/building';
+import { clampBuilding, defaultBuilding, MAX_STOREYS, type Building, type RoofType } from '../model/types';
 import { formatLength, parseLength } from '../model/units';
 import { CommitField } from '../plan/Inspector';
 import { useStore } from '../store/store';
@@ -32,9 +33,13 @@ export function ExteriorPanel() {
   const item = selection?.kind === 'item' ? project.outdoor.find((i) => i.id === selection.id) : undefined;
   const shape = SHAPES.reduce((a, b) => (Math.abs(b.aspect - lot.aspect) < Math.abs(a.aspect - lot.aspect) ? b : a));
 
+  const building = project.kind === 'apartment' ? project.building : undefined;
+  const editBuilding = (change: Partial<Building>) =>
+    commit((p) => void (p.building = clampBuilding({ ...(p.building ?? defaultBuilding()), ...change })));
+
   const centreOnHouse = () =>
     commit((p) => {
-      const b = wallBounds(floorAt(p, 0) ?? p.floors[0]);
+      const b = towerLayout(p)?.rect ?? wallBounds(floorAt(p, 0) ?? p.floors[0]);
       p.lot.centre = b ? { x: (b.minX + b.maxX) / 2, y: (b.minY + b.maxY) / 2 } : { x: 0, y: 0 };
     });
 
@@ -43,7 +48,7 @@ export function ExteriorPanel() {
       {item && <ItemSection item={item} edit={(fn) => commit((p) => fn(p.outdoor))} />}
 
       <section>
-        <h2>Lot</h2>
+        <h2>{building ? 'Your city block' : 'Lot'}</h2>
         <label>
           Size in acres
           <CommitField
@@ -72,10 +77,41 @@ export function ExteriorPanel() {
           <input type="checkbox" checked={lot.fence} onChange={() => commit((p) => void (p.lot.fence = !p.lot.fence))} />
           Fence around the lot
         </label>
-        <button onClick={centreOnHouse}>Centre the lot on the house</button>
+        <button onClick={centreOnHouse}>{building ? 'Centre the grounds on the building' : 'Centre the lot on the house'}</button>
       </section>
 
-      <section>
+      {building && (
+        <section>
+          <h2>Apartment building</h2>
+          <label>
+            Floors in the building: {building.storeys}
+            <input type="range" min="1" max={MAX_STOREYS} step="1" value={building.storeys}
+              onChange={(e) => editBuilding({ storeys: Number(e.target.value) })} />
+          </label>
+          <label>
+            Your apartment is on floor
+            <select value={building.floor} onChange={(e) => editBuilding({ floor: Number(e.target.value) })}>
+              {Array.from({ length: building.storeys }, (_, i) => (
+                <option key={i} value={i + 1}>{i === 0 ? '1 (ground floor)' : i + 1}</option>
+              ))}
+            </select>
+          </label>
+          <label>
+            Apartments side by side
+            <select value={building.unitsPerFloor} onChange={(e) => editBuilding({ unitsPerFloor: Number(e.target.value) })}>
+              {[1, 2, 3, 4, 5].map((n) => (
+                <option key={n} value={n}>{n}</option>
+              ))}
+            </select>
+          </label>
+          <p className="muted">
+            The other apartments copy the outside of yours: its windows and balcony. The block stands in a New York–style
+            city, with the Empire State Building and the Statue of Liberty out across the river.
+          </p>
+        </section>
+      )}
+
+      <section hidden={!!building}>
         <h2>Roof</h2>
         <label>
           Type

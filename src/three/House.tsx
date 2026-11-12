@@ -5,7 +5,7 @@ import { DEFAULT_WALL_COLOR, floorMaterial } from '../catalog/materials';
 import type { Feature, Floor, Opening, Vec2, Wall } from '../model/types';
 import { add, dist, lerp, normalize, pointInPolygon, scale, sub } from '../model/geometry';
 import { SLAB } from '../model/floors';
-import { detectRooms, roomLabel } from '../model/rooms';
+import { detectRooms, isOutdoorRoom, roomLabel } from '../model/rooms';
 import { featureToPlan, stairBoxes, stairOutline } from '../model/stairs';
 import { touchesOtherWall } from '../plan/wallShape';
 import { buildSlabGeometry, buildWallGeometry, paintWallFaces } from './geometry';
@@ -27,9 +27,35 @@ const MATERIALS = {
   stairs: mat('#b99a6f', { roughness: 0.7 }),
   stone: mat('#9a948a'),
   soot: mat('#2a2725'),
+  railGlass: mat('#c4e0ef', { transparent: true, opacity: 0.3, roughness: 0.05 }),
+  metal: mat('#3b3f45', { metalness: 0.6, roughness: 0.35 }),
 };
 
+/** A balcony railing: a glass panel between slim posts, with a handrail on top. */
+function RailingMesh({ wall }: { wall: Wall }) {
+  const len = dist(wall.a, wall.b);
+  const h = wall.height;
+  const posts = Math.max(1, Math.ceil(len / 1.5));
+  return (
+    <group {...wallFrame(wall, 0)}>
+      <mesh position={[len / 2, h / 2, 0]} material={MATERIALS.railGlass}>
+        <boxGeometry args={[len, h - 0.08, 0.015]} />
+      </mesh>
+      <mesh position={[len / 2, h - 0.025, 0]} material={MATERIALS.metal} castShadow>
+        <boxGeometry args={[len + 0.04, 0.05, 0.06]} />
+      </mesh>
+      {Array.from({ length: posts + 1 }, (_, i) => (
+        <mesh key={i} position={[(len * i) / posts, h / 2, 0]} material={MATERIALS.metal} castShadow>
+          <boxGeometry args={[0.04, h, 0.04]} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+
 const NO_OPENINGS: Opening[] = [];
+const NO_HOLES: Vec2[][] = [];
 const rad = (degrees: number): number => (degrees * Math.PI) / 180;
 
 /** Frees a generated geometry's GPU memory when it is replaced or removed. */
@@ -233,6 +259,7 @@ export const FloorModel = memo(function FloorModel(props: {
   const { floor, below, ceiling, cutaway, selectedItemId, siding } = props;
   const walls = floor.walls;
   const rooms = useMemo(() => detectRooms(walls), [walls]);
+  const outdoor = useMemo(() => new Set(rooms.filter((r) => isOutdoorRoom(r, walls))), [rooms, walls]);
   const joined = useMemo(
     () => new Map(walls.map((w) => [w.id, [touchesOtherWall(w.a, w, walls), touchesOtherWall(w.b, w, walls)] as const])),
     [walls],
@@ -255,13 +282,14 @@ export const FloorModel = memo(function FloorModel(props: {
       const colorOn = (side: number): string => {
         const p = add(mid, scale({ x: -dir.y, y: dir.x }, side * (w.thickness / 2 + 0.15)));
         const room = rooms.find((r) => pointInPolygon(p, r.polygon));
-        if (!room) return siding;
+        // A wall facing a balcony is an outside wall.
+        if (!room || outdoor.has(room)) return siding;
         return roomLabel(room, floor.labels)?.wallColor || DEFAULT_WALL_COLOR;
       };
       map.set(w.id, [colorOn(1), colorOn(-1)]);
     }
     return map;
-  }, [walls, rooms, floor.labels, siding]);
+  }, [walls, rooms, outdoor, floor.labels, siding]);
 
   return (
     <group position-y={floor.elevation}>
@@ -269,16 +297,24 @@ export const FloorModel = memo(function FloorModel(props: {
         <Slab key={`f${i}`} outline={r.polygon} holes={arriving} thickness={FINISH} y={0}
           material={floorMaterial(roomLabel(r, floor.labels)?.floorMaterial)} />
       ))}
+      {/* A balcony has nothing below it inside, so it stands on a concrete slab of its own. */}
+      {rooms.filter((r) => outdoor.has(r)).map((r, i) => (
+        <Slab key={`b${i}`} outline={r.polygon} holes={NO_HOLES} thickness={SLAB - FINISH} y={-FINISH} material={MATERIALS.slab} />
+      ))}
       {ceiling &&
-        rooms.map((r, i) => (
+        rooms.filter((r) => !outdoor.has(r)).map((r, i) => (
           <Slab key={`c${i}`} outline={r.polygon} holes={leaving} thickness={SLAB - FINISH}
             y={floor.wallHeight + SLAB - FINISH} material={MATERIALS.slab} />
         ))}
-      {walls.map((w) => (
-        <WallMesh key={w.id} wall={w} openings={openingsByWall.get(w.id) ?? NO_OPENINGS}
-          extendStart={joined.get(w.id)![0]} extendEnd={joined.get(w.id)![1]}
-          extraHeight={ceiling ? SLAB : 0} cutaway={cutaway} front={paint.get(w.id)![0]} back={paint.get(w.id)![1]} />
-      ))}
+      {walls.map((w) =>
+        w.railing ? (
+          <RailingMesh key={w.id} wall={w} />
+        ) : (
+          <WallMesh key={w.id} wall={w} openings={openingsByWall.get(w.id) ?? NO_OPENINGS}
+            extendStart={joined.get(w.id)![0]} extendEnd={joined.get(w.id)![1]}
+            extraHeight={ceiling ? SLAB : 0} cutaway={cutaway} front={paint.get(w.id)![0]} back={paint.get(w.id)![1]} />
+        ),
+      )}
       {floor.items.map((item) => (
         <ItemModel key={item.id} item={item} selected={item.id === selectedItemId} />
       ))}

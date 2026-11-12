@@ -56,7 +56,10 @@ export function removeFloor(project: Project, id: string): void {
 /** Copies the walls of one floor onto another, replacing nothing. */
 export function copyWalls(from: Floor, to: Floor): void {
   for (const w of from.walls) {
-    to.walls.push({ id: uid(), a: { ...w.a }, b: { ...w.b }, thickness: w.thickness, height: to.wallHeight });
+    to.walls.push({
+      id: uid(), a: { ...w.a }, b: { ...w.b }, thickness: w.thickness,
+      ...(w.railing ? { railing: true, height: w.height } : { height: to.wallHeight }),
+    });
   }
 }
 

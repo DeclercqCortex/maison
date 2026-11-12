@@ -9,7 +9,12 @@ export interface Wall {
   b: Vec2;
   thickness: number;
   height: number;
+  /** A low glass balustrade (a balcony or deck edge) rather than a full wall. */
+  railing?: boolean;
 }
+
+/** Height of a balcony railing. */
+export const RAILING_HEIGHT = 1.05;
 
 export type OpeningType = 'door' | 'window' | 'archway';
 
@@ -107,8 +112,27 @@ export interface ExteriorStyle {
   siding: string;
 }
 
+/** A house stands on its own lot; an apartment is one unit in a block of flats. */
+export type ProjectKind = 'house' | 'apartment';
+
+/** The apartment block an apartment belongs to. */
+export interface Building {
+  /** Floors in the block, 1 to 50. */
+  storeys: number;
+  /** Which of them the apartment is on, counting the ground floor as 1. */
+  floor: number;
+  /** Apartments side by side on each floor (the user's one is in the middle). */
+  unitsPerFloor: number;
+}
+
+export const MAX_STOREYS = 50;
+export const defaultBuilding = (): Building => ({ storeys: 12, floor: 8, unitsPerFloor: 3 });
+
 export interface Project {
   version: 2;
+  kind: ProjectKind;
+  /** Only for apartments. */
+  building?: Building;
   name: string;
   units: Units;
   floors: Floor[];
@@ -171,7 +195,7 @@ export function emptyFloor(level: number, wallHeight = DEFAULT_WALL_HEIGHT): Flo
 
 export function emptyProject(): Project {
   return {
-    version: 2, name: 'My house', units: 'metric', floors: [emptyFloor(0)],
+    version: 2, kind: 'house', name: 'My house', units: 'metric', floors: [emptyFloor(0)],
     lot: defaultLot(), exterior: defaultExterior(), outdoor: [],
   };
 }
@@ -182,15 +206,22 @@ export function emptyProject(): Project {
  */
 export function migrateProject(value: unknown): Project | null {
   const p = value as
-    | { version?: unknown; name?: unknown; units?: unknown; floors?: unknown; lot?: Lot; exterior?: ExteriorStyle; outdoor?: unknown }
+    | {
+        version?: unknown; kind?: unknown; building?: Partial<Building>; name?: unknown; units?: unknown; floors?: unknown;
+        lot?: Lot; exterior?: ExteriorStyle; outdoor?: unknown;
+      }
     | null;
   if (!p || (p.version !== 1 && p.version !== 2)) return null;
   if (typeof p.name !== 'string' || (p.units !== 'metric' && p.units !== 'imperial')) return null;
   if (!Array.isArray(p.floors) || p.floors.length === 0) return null;
   const floors = p.floors as Partial<Floor>[];
   if (!floors.every((f) => f && Array.isArray(f.walls) && Array.isArray(f.labels))) return null;
+  // Projects saved before apartments existed are houses.
+  const kind: ProjectKind = p.kind === 'apartment' ? 'apartment' : 'house';
   return {
     version: 2,
+    kind,
+    ...(kind === 'apartment' ? { building: clampBuilding({ ...defaultBuilding(), ...(p.building ?? {}) }) } : {}),
     name: p.name,
     units: p.units,
     floors: floors.map((f, i) => ({
@@ -210,4 +241,11 @@ export function migrateProject(value: unknown): Project | null {
     },
     outdoor: Array.isArray(p.outdoor) ? (p.outdoor as Item[]) : [],
   };
+}
+
+/** Keeps a building's numbers whole and in range, with the apartment on one of its floors. */
+export function clampBuilding(b: Building): Building {
+  const whole = (v: number, min: number, max: number) => Math.max(min, Math.min(max, Math.round(Number(v) || min)));
+  const storeys = whole(b.storeys, 1, MAX_STOREYS);
+  return { storeys, floor: whole(b.floor, 1, storeys), unitsPerFloor: whole(b.unitsPerFloor, 1, 5) };
 }

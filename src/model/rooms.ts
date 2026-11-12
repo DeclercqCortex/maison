@@ -47,6 +47,16 @@ export function setRoomProps(
   floor.labels.push({ id: Math.random().toString(36).slice(2, 10), at: { ...at }, name: '', ...props });
 }
 
+/** Whether a room is open to the outside: a balcony or deck, edged by a railing. */
+export function isOutdoorRoom(room: Room, walls: Wall[]): boolean {
+  const edges = room.polygon.map((p, i) => [p, room.polygon[(i + 1) % room.polygon.length]] as const);
+  return walls.some((w) => {
+    if (!w.railing) return false;
+    const mid = lerp(w.a, w.b, 0.5);
+    return edges.some(([a, b]) => projectOnSegment(mid, a, b).d < 0.01);
+  });
+}
+
 const EPS = 1e-3;
 const pointKey = (p: Vec2): string => `${Math.round(p.x * 1000)},${Math.round(p.y * 1000)}`;
 const edgeKey = (u: number, v: number): string => (u < v ? `${u}-${v}` : `${v}-${u}`);

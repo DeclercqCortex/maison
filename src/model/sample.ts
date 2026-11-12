@@ -138,6 +138,7 @@ export function sampleProject(): Project {
 
   const project: Project = {
     version: 2,
+    kind: 'house',
     name: 'Example farmhouse',
     units: 'metric',
     floors: [ground, upper],

@@ -595,7 +595,8 @@ export function PlanEditor() {
             <FeatureSymbol key={f.id} feature={f} interactive state={f.id === selectedId ? 'selected' : ''} />
           ))}
           {outlines.map(({ wall, outline }) => (
-            <polygon key={wall.id} className={wall === selectedWall ? 'wall selected' : 'wall'} points={pointsAttr(outline)} />
+            <polygon key={wall.id} className={`wall${wall.railing ? ' railing' : ''}${wall === selectedWall ? ' selected' : ''}`}
+              points={pointsAttr(outline)} />
           ))}
           {walls.map((w) => (
             <line key={w.id} data-wall={w.id} className="wall-hit" x1={w.a.x} y1={w.a.y} x2={w.b.x} y2={w.b.y}

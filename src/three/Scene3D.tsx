@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useRef, useState, type ComponentRef } from 'react';
-import { Canvas, useThree } from '@react-three/fiber';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, PerformanceMonitor, Sky } from '@react-three/drei';
 import { fileStem, saveFile } from '../store/persistence';
 import { sceneApi, SceneApi } from './SceneApi';
 import * as THREE from 'three';
 import { catalogItem } from '../catalog/catalog';
 import { floorAt } from '../model/floors';
+import { towerLayout } from '../model/building';
+import { Tower } from './Tower';
 import { lotRect, lotSize, wallBounds } from '../model/lot';
 import { detectRooms } from '../model/rooms';
 import type { Floor, Vec2 } from '../model/types';
@@ -17,6 +19,8 @@ import { setReflective } from '../catalog/build';
 import { ItemModel, ModelWatcher } from './Items';
 import { RayTracer } from './RayTracer';
 import { DistantTrees, Grass, LotFence, Terrain } from './Landscape';
+import { City } from './City';
+import { planCity } from '../model/city';
 import { Roof } from './Roof';
 import { WalkControls } from './Walk';
 
@@ -44,24 +48,68 @@ function boundsOf(floors: Floor[]): Bounds {
 }
 
 /** Orbit camera. Re-frames only when `frameKey` changes, so edits to the plan do not move the view. */
-function CameraRig({ frameKey, bounds, steep }: { frameKey: string; bounds: Bounds; steep: boolean }) {
+function CameraRig({ frameKey, bounds, steep, view, far = 250, shot, glide }: {
+  frameKey: string; bounds: Bounds; steep: boolean;
+  /** Direction to the camera from what it looks at, scaled by the size of the view. */
+  view?: [number, number, number];
+  /** How far the camera may be pulled back. */
+  far?: number;
+  /** Exact camera and target positions, instead of working them out from `bounds` and `view`. */
+  shot?: { from: [number, number, number]; target: [number, number, number] };
+  /** Glide to the new view rather than jumping there. */
+  glide?: boolean;
+}) {
   const camera = useThree((s) => s.camera);
   const controls = useRef<ComponentRef<typeof OrbitControls>>(null);
   const latest = useRef(bounds);
   latest.current = bounds;
   const aspect = useRef(1);
   aspect.current = useThree((s) => s.size.width / Math.max(1, s.size.height));
+  /** A glide in progress: where the camera and its target start and end, and when it began. */
+  const flight = useRef<{ from: THREE.Vector3; to: THREE.Vector3; lookFrom: THREE.Vector3; lookTo: THREE.Vector3; start: number } | null>(null);
+  useFrame(({ clock }) => {
+    const f = flight.current;
+    const c = controls.current;
+    if (!f || !c) return;
+    const t = Math.min(1, (clock.elapsedTime - f.start) / 2.2);
+    const ease = t * t * (3 - 2 * t);
+    // Rise up a little on the way, so the camera arcs over the city rather than ploughing through it.
+    camera.position.lerpVectors(f.from, f.to, ease);
+    camera.position.y += Math.sin(Math.PI * ease) * f.from.distanceTo(f.to) * 0.18;
+    c.target.lerpVectors(f.lookFrom, f.lookTo, ease);
+    c.update();
+    if (t >= 1) flight.current = null;
+  });
+  const clock = useThree((s) => s.clock);
   useEffect(() => {
+    if (shot) {
+      if (glide && controls.current) {
+        flight.current = {
+          from: camera.position.clone(), to: new THREE.Vector3(...shot.from),
+          lookFrom: controls.current.target.clone(), lookTo: new THREE.Vector3(...shot.target), start: clock.elapsedTime,
+        };
+        return;
+      }
+      flight.current = null;
+      camera.position.set(...shot.from);
+      controls.current?.target.set(...shot.target);
+      controls.current?.update();
+      return;
+    }
     const { centre, radius } = latest.current;
     // Indoors, start high up so you look down into the rooms over the near walls.
-    const [dx, dy, dz] = steep ? [0.6, 2.2, 1.2] : [1.7, 1.0, 2.4];
+    const [dx, dy, dz] = view ?? (steep ? [0.6, 2.2, 1.2] : [1.7, 1.0, 2.4]);
     // A tall, narrow view needs the camera further back to fit the house in.
     const back = radius * Math.max(1, 1 / aspect.current);
     camera.position.set(centre[0] + back * dx, centre[1] + back * dy, centre[2] + back * dz);
     controls.current?.target.set(...centre);
     controls.current?.update();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [frameKey, camera, steep]);
-  return <OrbitControls ref={controls} makeDefault maxPolarAngle={Math.PI / 2 - 0.03} minDistance={1.5} maxDistance={250} />;
+  return (
+    <OrbitControls ref={controls} makeDefault maxPolarAngle={Math.PI / 2 - 0.03} minDistance={1.5}
+      maxDistance={Math.max(far, bounds.radius * 6)} />
+  );
 }
 
 const DAY_SKY = { interior: '#e9edf1', exterior: '#d3e2ee' };
@@ -81,8 +129,51 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
   const walking = useStore((s) => s.walk) && mode === 'interior' && !compact;
   const active = useActiveFloor();
   const floors = useMemo(() => (mode === 'interior' ? [active] : project.floors), [mode, active, project.floors]);
-  const bounds = useMemo(() => boundsOf(floors), [floors]);
   const outdoors = mode === 'exterior';
+  const apartment = project.kind === 'apartment';
+  // Outside an apartment, the whole block is shown rather than just the flat.
+  const tower = useMemo(() => (outdoors ? towerLayout(project) : null), [outdoors, project]);
+  const bounds = useMemo<Bounds>(() => {
+    if (!tower) return boundsOf(floors);
+    const r = tower.rect;
+    return {
+      centre: [(r.minX + r.maxX) / 2, tower.height / 2, (r.minY + r.maxY) / 2],
+      radius: Math.max(4, Math.hypot(r.maxX - r.minX, r.maxY - r.minY, tower.height) / 2),
+      reach: Math.max(Math.abs(r.minX), Math.abs(r.maxX), Math.abs(r.minY), Math.abs(r.maxY), tower.height * 0.7),
+    };
+  }, [tower, floors]);
+  // How far below the apartment's floor the ground is (none for a house).
+  // The city around an apartment (a house stands in the countryside instead).
+  const city = useMemo(() => (apartment ? planCity(project.lot) : null), [apartment, project.lot]);
+  // How far below the apartment's floor the ground is (none for a house).
+  const drop = useMemo(() => towerLayout(project)?.base ?? 0, [project]);
+  // Outside an apartment, start almost level with the top of the block, looking past it across the
+  // city toward the Empire State Building and the harbour.
+  // The landmark buttons glide the camera to a view of each one.
+  const [landmark, setLandmark] = useState<{ which: 'home' | 'empire' | 'liberty'; n: number }>({ which: 'home', n: 0 });
+  const cityShot = useMemo(() => {
+    if (!city || !tower) return undefined;
+    const [x, , z] = bounds.centre;
+    type V = [number, number, number];
+    if (landmark.which === 'empire') {
+      // From the apartment's side, far enough back to fit the whole 443 m.
+      const { x: ex, z: ez } = city.empireState;
+      const away = new THREE.Vector2(x - ex, z - ez).normalize();
+      return { target: [ex, 230, ez] as V, from: [ex + away.x * 560, 250, ez + away.y * 560] as V };
+    }
+    if (landmark.which === 'liberty') {
+      // She faces the city, so look at her from the city side.
+      const { x: lx, z: lz } = city.liberty;
+      const toward = new THREE.Vector2(x - lx, z - lz).normalize();
+      return { target: [lx, 55, lz] as V, from: [lx + toward.x * 190, 75, lz + toward.y * 190] as V };
+    }
+    const y = tower.height * 0.7 + 15;
+    const back = Math.max(260, bounds.radius * 4);
+    // Nearly level, so the skyline and the top of the Empire State Building fit in behind the block.
+    const dir = new THREE.Vector3(1, 0.03, 1).normalize().multiplyScalar(back);
+    return { target: [x, y, z] as V, from: [x + dir.x, y + dir.y, z + dir.z] as V };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [city, tower?.height, loads, landmark]);
   const lot = project.lot;
   const ground = floorAt(project, 0) ?? project.floors[0];
   // Outdoors the shadows must reach the garden as well as the house.
@@ -90,9 +181,9 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
   const shadow = outdoors ? Math.max(bounds.reach + 8, Math.min(Math.hypot(lotWidth, lotDepth) / 2, 70)) : bounds.reach + 8;
   const lotEdges = useMemo(() => lotRect(lot), [lot]);
   const houseArea = useMemo(() => {
-    const b = wallBounds(ground);
+    const b = tower ? tower.rect : wallBounds(ground);
     return b && { minX: b.minX - 0.15, maxX: b.maxX + 0.15, minY: b.minY - 0.15, maxY: b.maxY + 0.15 };
-  }, [ground]);
+  }, [ground, tower]);
   // Patios, paths and ponds get a clearing in the grass.
   const clearings = useMemo(() => {
     const list = project.outdoor.flatMap((i): [number, number, number][] => {
@@ -196,7 +287,7 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
   return (
     <div className={`scene${placing && (decorating || outdoors) ? ' placing' : ''}`}>
       {/* Indoors nothing moves on its own, so the view is only redrawn when something changes. */}
-      <Canvas shadows camera={{ fov: 45, near: 0.1, far: 3000 }} dpr={lite ? 1 : [1, 1.5]}
+      <Canvas shadows camera={{ fov: 45, near: 0.1, far: city ? 9000 : 3000 }} dpr={lite ? 1 : [1, 1.5]}
         onCreated={({ gl }) => gl.domElement.addEventListener('webglcontextlost', onContextLost)}
         frameloop={outdoors || walking || tracing ? 'always' : 'demand'}>
         {/*
@@ -214,11 +305,15 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
         )}
         {/* While ray tracing, the tracer supplies its own sky, which also lights the scene. */}
         {!tracing && <color attach="background" args={[sky]} />}
-        {outdoors && <fog attach="fog" args={[sky, 140, 1100]} />}
-        {outdoors && !tracing && (
-          <Sky distance={2500} sunPosition={sunDirection} turbidity={4} rayleigh={1.1} mieCoefficient={0.004} mieDirectionalG={0.85} />
+        {city ? (
+          <fog attach="fog" args={[sky, 900, 5200]} />
+        ) : (
+          outdoors && <fog attach="fog" args={[sky, Math.max(140, bounds.radius * 4), 1100 + bounds.radius * 4]} />
         )}
-        <hemisphereLight args={['#ffffff', outdoors ? '#6f8f4e' : '#b9b4aa', 1.0 - 0.85 * night]} />
+        {(outdoors || city) && !tracing && (
+          <Sky distance={city ? 7000 : 2500} sunPosition={sunDirection} turbidity={4} rayleigh={1.1} mieCoefficient={0.004} mieDirectionalG={0.85} />
+        )}
+        <hemisphereLight args={['#ffffff', city ? '#8c8a86' : outdoors ? '#6f8f4e' : '#b9b4aa', 1.0 - 0.85 * night]} />
         <directionalLight
           // The sun follows the Day–Night slider indoors too, so a low evening sun streams in through the windows.
           position={[sunDirection[0] * shadow * 2, Math.max(0.05, sunDirection[1]) * shadow * 2, sunDirection[2] * shadow * 2]}
@@ -235,17 +330,26 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
         />
         {/* The house and garden: this group is what the 3D model export saves. */}
         <group ref={house}>
-          {floors.map((f) => (
-            <FloorModel key={f.id} floor={f} below={floorAt(project, f.level - 1)} ceiling={mode === 'exterior' || walking}
-              // Walls stay whole while ray tracing, so they cast their real shadows.
-              cutaway={mode === 'interior' && cutaway && !walking && !tracing ? planCentre : null}
-              selectedItemId={selectedItemId} siding={project.exterior.siding} />
-          ))}
-          {outdoors && <Roof floors={project.floors} style={project.exterior} />}
+          {outdoors && apartment ? (
+            <Tower project={project} selectedItemId={selectedItemId} />
+          ) : (
+            floors.map((f) => (
+              <FloorModel key={f.id} floor={f} below={floorAt(project, f.level - 1)} ceiling={mode === 'exterior' || walking}
+                // Walls stay whole while ray tracing, so they cast their real shadows.
+                cutaway={mode === 'interior' && cutaway && !walking && !tracing ? planCentre : null}
+                selectedItemId={selectedItemId} siding={project.exterior.siding} />
+            ))
+          )}
+          {outdoors && !apartment && <Roof floors={project.floors} style={project.exterior} />}
           {outdoors &&
             project.outdoor.map((item) => <ItemModel key={item.id} item={item} selected={item.id === selectedItemId} />)}
         </group>
-        {outdoors ? (
+        {outdoors && city ? (
+          <>
+            <City plan={city} night={night} />
+            {lot.fence && <LotFence lot={lot} />}
+          </>
+        ) : outdoors ? (
           <>
             <Terrain lot={lot} />
             {/* The swaying blades are a visual effect the ray tracer cannot follow; the green ground remains. */}
@@ -255,6 +359,12 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
             <DistantTrees lot={lot} />
             {lot.fence && <LotFence lot={lot} />}
           </>
+        ) : city ? (
+          // From an apartment, the city lies below the windows and balcony, with the floors of the block underneath.
+          <group position-y={-drop}>
+            <City plan={city} night={night} />
+            <Tower project={project} selectedItemId={null} upTo={project.building?.floor ?? 1} />
+          </group>
         ) : (
           <mesh rotation={[-Math.PI / 2, 0, 0]} position-y={active.elevation - 0.06} receiveShadow>
             <planeGeometry args={[400, 400]} />
@@ -264,8 +374,10 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
         {walking ? (
           <WalkControls floor={active} start={walkStart} />
         ) : (
-          <CameraRig frameKey={`${mode}:${loads}:${mode === 'interior' ? active.id : ''}`} bounds={bounds}
-            steep={mode === 'interior'} />
+          <CameraRig frameKey={`${mode}:${loads}:${mode === 'interior' ? active.id : ''}:${landmark.n}`} bounds={bounds}
+            steep={mode === 'interior'}
+            // Outside an apartment, look across the block toward the Empire State Building and the harbour.
+            far={city ? 3000 : 250} shot={cityShot} glide={landmark.n > 0} />
         )}
         {decorating && <Decorator floor={active} />}
         {outdoors && <Decorator floor={ground} outdoor={lotEdges} />}
@@ -274,6 +386,23 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
       {!compact && mode === 'interior' && !walking && <FloorSwitcher />}
       {!isEmpty && (
         <div className="scene-tools">
+          {city && outdoors && !compact && (
+            <span className="landmarks" role="group" aria-label="Look at">
+              Look at
+              {(
+                [
+                  ['home', 'Your building'],
+                  ['empire', 'Empire State Building'],
+                  ['liberty', 'Statue of Liberty'],
+                ] as const
+              ).map(([which, label]) => (
+                <button key={which} className={landmark.which === which ? 'active' : ''}
+                  onClick={() => setLandmark((l) => ({ which, n: l.n + 1 }))}>
+                  {label}
+                </button>
+              ))}
+            </span>
+          )}
           {mode === 'interior' && !walking && !tracing && (
             <label className="check" title="Lower the walls between you and the rooms so you can see inside">
               <input type="checkbox" checked={cutaway} onChange={() => setCutaway((v) => !v)} />

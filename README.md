@@ -24,6 +24,29 @@ npm start
 - `npm test` runs the unit tests.
 - `npm run build` type-checks and builds the production version into `dist/`.
 
+## Projects
+
+Maison opens on a start screen listing every project saved in this browser,
+with a sketch of its plan. From there you can carry on with one, copy or
+delete it, or start something new:
+
+- **New house**: a house of your own on a plot of rural grassland.
+- **New apartment**: one flat in an apartment building of 1 to 50 floors, on
+  the floor you choose. It starts with a ready-drawn flat and a balcony edged
+  by a glass railing; outside, the whole block is shown, every other flat
+  copying the outside of yours. The block stands in a city modelled loosely on
+  New York: a grid of streets and avenues with yellow taxis, hundreds of brick,
+  stone and glass buildings (with water tanks on the older roofs) whose windows
+  light up at night, a large park with a lake, the Empire State Building, and
+  the Statue of Liberty on her island across the river. "Look at" buttons in
+  the Exterior view glide the camera to the block, the Empire State Building
+  or the statue. The city is seen from the flat's windows and balcony too. It is generated from fixed rules in
+  `src/model/city.ts`, so it is the same every time.
+
+"Projects" (or the Maison name) in the top bar goes back to the start screen.
+Any wall can be made a glass railing in the Plan tab's wall panel, which turns
+the space it closes off into an outdoor balcony or deck.
+
 ## The three views
 
 - **Plan**: a top-down drafting sheet. Draw walls and rooms, add doors,
@@ -35,7 +58,9 @@ npm start
 
 All three views draw the same house model, so a change in one shows up in the
 others straight away. Work is saved in the browser as you go; "Save file"
-writes a `.maison` file you can reopen anywhere.
+writes a `.maison` file you can reopen anywhere. For an apartment, Exterior
+shows the apartment block on its grounds, where you set its number of floors,
+which floor the flat is on and how many flats sit side by side.
 
 ## How the code is laid out
 
