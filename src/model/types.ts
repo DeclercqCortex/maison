@@ -1,3 +1,5 @@
+import type { FurnitureStyle } from '../catalog/kinds';
+
 /** All lengths are in metres. Plan coordinates: x to the right, y down the page. */
 export type Vec2 = { x: number; y: number };
 
@@ -140,6 +142,8 @@ export interface Project {
   exterior: ExteriorStyle;
   /** Trees, garden furniture and other things placed on the lot. */
   outdoor: Item[];
+  /** How the furniture is drawn: simple low-poly pieces (the default) or realistic textured ones. */
+  furnitureStyle?: FurnitureStyle;
 }
 
 export const defaultLot = (): Lot => ({ acres: 1, aspect: 1, centre: { x: 0, y: 0 }, fence: true });
@@ -208,7 +212,7 @@ export function migrateProject(value: unknown): Project | null {
   const p = value as
     | {
         version?: unknown; kind?: unknown; building?: Partial<Building>; name?: unknown; units?: unknown; floors?: unknown;
-        lot?: Lot; exterior?: ExteriorStyle; outdoor?: unknown;
+        lot?: Lot; exterior?: ExteriorStyle; outdoor?: unknown; furnitureStyle?: unknown;
       }
     | null;
   if (!p || (p.version !== 1 && p.version !== 2)) return null;
@@ -240,6 +244,7 @@ export function migrateProject(value: unknown): Project | null {
       roof: { ...defaultExterior().roof, ...(p.exterior?.roof ?? {}) },
     },
     outdoor: Array.isArray(p.outdoor) ? (p.outdoor as Item[]) : [],
+    ...(p.furnitureStyle === 'realistic' ? { furnitureStyle: 'realistic' as const } : {}),
   };
 }
 

@@ -511,3 +511,59 @@ dialog.help::backdrop { background: rgba(36, 38, 43, 0.45); }
 
 .landmarks { display: inline-flex; align-items: center; gap: 4px; flex-wrap: wrap; }
 .landmarks button.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
+/* ---- Furniture style switch and imported models ---- */
+.style-switch { display: flex; align-items: center; gap: 4px; background: var(--bg); border-radius: 8px; padding: 3px; }
+.style-switch > span { font-size: 12px; color: var(--muted); padding: 0 6px; }
+.style-switch button { flex: 1; border: none; background: transparent; padding: 4px 10px; border-radius: 6px; }
+.style-switch button.active { background: var(--panel); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); font-weight: 600; }
+.style-switch.compact { display: inline-flex; }
+.style-switch.compact button { flex: none; }
+.import-model { width: 100%; border-style: dashed; color: var(--accent); }
+.card-wrap { position: relative; display: flex; }
+.card-wrap > .card { flex: 1; min-width: 0; }
+.card-remove {
+  position: absolute; top: 4px; right: 4px; width: 22px; height: 22px; padding: 0; line-height: 1;
+  border-radius: 50%; font-size: 15px; color: var(--danger); opacity: 0; transition: opacity 0.15s;
+}
+.card-wrap:hover .card-remove, .card-remove:focus-visible { opacity: 1; }
+
+.import-dialog { border: none; border-radius: 14px; padding: 0; width: min(980px, calc(100% - 32px)); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25); }
+.import-dialog::backdrop { background: rgba(30, 32, 38, 0.35); }
+.import-dialog[open] { animation: rise-in 0.25s ease-out; }
+.import-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--border); }
+.import-head h2 { margin: 0; font-size: 18px; }
+.import-head .close { border: none; font-size: 20px; line-height: 1; padding: 2px 8px; }
+.import-body { display: flex; flex-wrap: wrap; }
+.import-preview { flex: 1 1 420px; min-height: 420px; display: flex; flex-direction: column; background: #f1efe9; }
+.import-preview > div { flex: 1; min-height: 420px; }
+.import-preview .drop {
+  flex: 1; margin: 16px; border: 2px dashed var(--border); border-radius: 12px; background: var(--paper);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 24px;
+}
+.import-preview .drop strong { font-size: 16px; }
+.import-preview .drop span { color: var(--muted); line-height: 1.6; }
+.import-preview .error { margin: 0 16px 16px; color: var(--danger); }
+.import-form { flex: 0 1 340px; display: flex; flex-direction: column; gap: 10px; padding: 16px 18px; }
+.import-form label { display: flex; flex-direction: column; gap: 3px; font-size: 13px; font-weight: 600; flex: 1; }
+.import-form input, .import-form select { font-weight: 400; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; }
+.import-form .row { display: flex; gap: 10px; align-items: flex-end; }
+.import-form .fact { flex: 1; display: flex; flex-direction: column; font-size: 12px; color: var(--muted); }
+.import-form .fact strong { color: var(--text); font-size: 13px; }
+.import-form .hint { margin: -4px 0 0; font-size: 12px; color: var(--muted); }
+.import-form .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: auto; }
+.import-form .primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.import-form .primary:hover:not(:disabled) { background: #245bb8; }
+
+/* ---- Catalog search ---- */
+.quick-searches { display: flex; flex-wrap: wrap; gap: 2px 8px; font-size: 12px; }
+.quick-searches .link { border: none; background: none; padding: 0; color: var(--accent); cursor: pointer; }
+.quick-searches .link:hover:not(:disabled) { background: none; text-decoration: underline; }
+.catalog .online { display: flex; flex-direction: column; gap: 6px; border-top: 1px solid var(--border); padding-top: 10px; }
+.catalog .online h3 { margin: 0; font-size: 13px; }
+.catalog .online .muted { margin: 0; font-size: 11px; }
+.catalog .online > .link { border: none; background: none; color: var(--accent); padding: 4px 0; cursor: pointer; font-size: 12px; text-align: left; }
+.online-card img { object-fit: contain; background: #f4f2ed; }
+
+.catalog-results { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.catalog-results > .catalog-grid { flex: none; overflow: visible; }

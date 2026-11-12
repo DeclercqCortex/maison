@@ -5,7 +5,7 @@
 // Only models useful inside a house are fetched, at the smallest texture size
 // (1K), with Poly Haven's own preview picture of each for the catalog.
 // Models already downloaded are skipped, so it is safe to run again.
-import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -36,13 +36,21 @@ async function save(url, path) {
 }
 
 const assets = await json('https://api.polyhaven.com/assets?t=models');
+// Also a hand-picked list (scripts/polyhaven-extra.json): houseplants, garden plants, small trees and
+// boulders, food, barrels and crates, street lamps, and old blades, axes and shields (no guns). Each is
+// under 15 MB; Poly Haven's biggest scanned trees run to hundreds of megabytes, too heavy to draw.
+const EXTRA = new Set(JSON.parse(readFileSync(join(root, 'scripts', 'polyhaven-extra.json'), 'utf8')));
+/** Never fetched, whatever the lists say. */
+const NEVER = ['firearms'];
 const chosen = Object.entries(assets).filter(
-  ([, a]) =>
-    a.categories.some((c) => [...WANT, ...ALSO].includes(c)) &&
-    !a.categories.some((c) => SKIP.includes(c)) &&
-    a.categories.some((c) => WANT.includes(c)),
+  ([id, a]) =>
+    !a.categories.some((c) => NEVER.includes(c)) &&
+    (EXTRA.has(id) ||
+      (a.categories.some((c) => [...WANT, ...ALSO].includes(c)) &&
+        !a.categories.some((c) => SKIP.includes(c)) &&
+        a.categories.some((c) => WANT.includes(c)))),
 );
-console.log(`${chosen.length} indoor models listed on Poly Haven.`);
+console.log(`${chosen.length} models chosen on Poly Haven.`);
 
 mkdirSync(target, { recursive: true });
 const index = [];

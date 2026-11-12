@@ -10,12 +10,15 @@
     "preview": "vite preview",
     "test": "vitest run",
     "models": "node scripts/build-model-catalog.mjs",
-    "models:download": "node scripts/download-polyhaven.mjs"
+    "models:download": "node scripts/download-polyhaven.mjs",
+    "models:khronos": "node scripts/download-khronos.mjs",
+    "models:smithsonian": "node scripts/build-smithsonian-index.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.2",
     "immer": "^11.2.10",
+    "occt-import-js": "^0.0.23",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "three": "^0.187.0",

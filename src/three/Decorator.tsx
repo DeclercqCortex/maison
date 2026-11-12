@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useThree } from '@react-three/fiber';
 import * as THREE from 'three';
-import { buildItemObject } from '../catalog/build';
+import { buildDisplayObject } from '../catalog/build';
 import { catalogItem, type CatalogItem } from '../catalog/catalog';
 import { pointInPolygon } from '../model/geometry';
 import { insideRect, type Rect } from '../model/lot';
@@ -41,7 +41,9 @@ export function Decorator({ floor, outdoor }: {
   const invalidate = useThree((s) => s.invalidate);
   const placing = useStore((s) => s.placing);
   const def = placing ? catalogItem(placing) : undefined;
-  const ghostObject = useMemo(() => (def ? buildItemObject(def) : null), [def]);
+  const style = useStore((s) => s.project.furnitureStyle ?? 'simple');
+  // The piece being placed looks as it will once placed, in the project's furniture style.
+  const ghostObject = useMemo(() => (def ? buildDisplayObject(def, undefined, style) : null), [def, style]);
   const ghost = useRef<THREE.Group>(null);
   const [valid, setValid] = useState(true);
   const rooms = useMemo(() => detectRooms(floor.walls), [floor.walls]);

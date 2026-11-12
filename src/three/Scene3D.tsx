@@ -8,6 +8,7 @@ import { catalogItem } from '../catalog/catalog';
 import { floorAt } from '../model/floors';
 import { towerLayout } from '../model/building';
 import { Tower } from './Tower';
+import { StyleSwitch } from '../interior/CatalogPanel';
 import { lotRect, lotSize, wallBounds } from '../model/lot';
 import { detectRooms } from '../model/rooms';
 import type { Floor, Vec2 } from '../model/types';
@@ -409,6 +410,8 @@ export default function Scene3D({ mode, compact }: { mode: 'interior' | 'exterio
               Cut away near walls
             </label>
           )}
+          {/* While walking the catalog is hidden, so the furniture style switch comes here. */}
+          {walking && <StyleSwitch compact />}
           {mode === 'interior' && !compact && (
             <button onClick={() => useStore.getState().setWalk(!walking)}>
               {walking ? 'Leave walk-through (Esc)' : 'Walk through'}

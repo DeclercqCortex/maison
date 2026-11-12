@@ -7434,6 +7434,43 @@
   }
  },
  {
+  "id": "polyhaven-anthurium_botany_01",
+  "name": "Anthurium Botany 01",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 2.796,
+   "d": 1.798,
+   "h": 0.5
+  },
+  "model": {
+   "file": "polyhaven/anthurium_botany_01/anthurium_botany_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.022,
+    0.01,
+    0.247
+   ]
+  },
+  "thumb": "polyhaven/anthurium_botany_01/preview.png",
+  "tags": [
+   "plants",
+   "nature",
+   "collection: the_shed",
+   "collection: smugglers_cove",
+   "bush",
+   "leaf",
+   "shrub",
+   "leaves",
+   "forest",
+   "plant",
+   "green",
+   "jungle",
+   "outdoor",
+   "botany"
+  ]
+ },
+ {
   "id": "polyhaven-antique_ceramic_vase_01",
   "name": "Antique Ceramic Vase 01",
   "category": "kitchen",
@@ -7452,7 +7489,82 @@
     0
    ]
   },
-  "thumb": "polyhaven/antique_ceramic_vase_01/preview.png"
+  "thumb": "polyhaven/antique_ceramic_vase_01/preview.png",
+  "tags": [
+   "decorative",
+   "containers",
+   "vases",
+   "vintage",
+   "antique",
+   "pot",
+   "fancy",
+   "pattern",
+   "vase"
+  ]
+ },
+ {
+  "id": "polyhaven-antique_estoc",
+  "name": "Antique Estoc",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.372,
+   "d": 0.149,
+   "h": 1.492
+  },
+  "model": {
+   "file": "polyhaven/antique_estoc/antique_estoc_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.199,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/antique_estoc/preview.png",
+  "tags": [
+   "props",
+   "antique",
+   "vintage",
+   "old",
+   "sword",
+   "historic",
+   "traditional",
+   "ornamental",
+   "weapon"
+  ]
+ },
+ {
+  "id": "polyhaven-antique_katana_01",
+  "name": "Antique Katana 01",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.093,
+   "d": 0.093,
+   "h": 1.003
+  },
+  "model": {
+   "file": "polyhaven/antique_katana_01/antique_katana_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.307,
+    0
+   ]
+  },
+  "thumb": "polyhaven/antique_katana_01/preview.png",
+  "tags": [
+   "props",
+   "antique",
+   "ninja",
+   "katana",
+   "sword",
+   "sharp",
+   "blade",
+   "japanese",
+   "weapon"
+  ]
  },
  {
   "id": "polyhaven-ArmChair_01",
@@ -7473,7 +7585,50 @@
     0.034
    ]
   },
-  "thumb": "polyhaven/ArmChair_01/preview.png"
+  "thumb": "polyhaven/ArmChair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "gothic",
+   "vintage",
+   "chair",
+   "victorian",
+   "couch",
+   "wood",
+   "varnished",
+   "classic"
+  ]
+ },
+ {
+  "id": "polyhaven-bananas",
+  "name": "Bananas",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.6,
+   "d": 0.244,
+   "h": 0.179
+  },
+  "model": {
+   "file": "polyhaven/bananas/bananas_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.055,
+    0.038,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/bananas/preview.png",
+  "tags": [
+   "food",
+   "collection: project_lighthouse",
+   "nature",
+   "banana bunch",
+   "yellow",
+   "single banana",
+   "ripe",
+   "fruit"
+  ]
  },
  {
   "id": "polyhaven-bar_chair_round_01",
@@ -7494,7 +7649,20 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/bar_chair_round_01/preview.png"
+  "thumb": "polyhaven/bar_chair_round_01/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "bar",
+   "pub",
+   "stool",
+   "tall",
+   "wooden",
+   "classical",
+   "old",
+   "vintage",
+   "cigar"
+  ]
  },
  {
   "id": "polyhaven-BarberShopChair_01",
@@ -7515,7 +7683,84 @@
     -0.222
    ]
   },
-  "thumb": "polyhaven/BarberShopChair_01/preview.png"
+  "thumb": "polyhaven/BarberShopChair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "chair",
+   "vintage",
+   "wood",
+   "leather",
+   "fancy",
+   "upholstery",
+   "barber",
+   "salon"
+  ]
+ },
+ {
+  "id": "polyhaven-binder_notebook",
+  "name": "Binder Notebook",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.584,
+   "d": 0.2,
+   "h": 0.025
+  },
+  "model": {
+   "file": "polyhaven/binder_notebook/binder_notebook_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.135,
+    0.002,
+    0
+   ]
+  },
+  "thumb": "polyhaven/binder_notebook/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "books",
+   "props",
+   "old",
+   "leather",
+   "vintage",
+   "worn",
+   "paper",
+   "pencil",
+   "pen",
+   "journal"
+  ]
+ },
+ {
+  "id": "polyhaven-binoculars",
+  "name": "Binoculars",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.167,
+   "d": 0.288,
+   "h": 0.077
+  },
+  "model": {
+   "file": "polyhaven/binoculars/binoculars_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.007,
+    0.008,
+    0.085
+   ]
+  },
+  "thumb": "polyhaven/binoculars/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "tools",
+   "leather",
+   "strap",
+   "vintage",
+   "antique",
+   "optical"
+  ]
  },
  {
   "id": "polyhaven-book_encyclopedia_set_01",
@@ -7536,7 +7781,17 @@
     -0.019
    ]
   },
-  "thumb": "polyhaven/book_encyclopedia_set_01/preview.png"
+  "thumb": "polyhaven/book_encyclopedia_set_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "books",
+   "bookshelf",
+   "library",
+   "reading",
+   "encyclopedia",
+   "set"
+  ]
  },
  {
   "id": "polyhaven-boombox",
@@ -7557,7 +7812,55 @@
     -0.02
    ]
   },
-  "thumb": "polyhaven/boombox/preview.png"
+  "thumb": "polyhaven/boombox/preview.png",
+  "tags": [
+   "appliances",
+   "electronics",
+   "collection: hidden_alley",
+   "loudspeaker",
+   "radio",
+   "cd player",
+   "stereo",
+   "80's",
+   "sound system",
+   "portable"
+  ]
+ },
+ {
+  "id": "polyhaven-boulder_01",
+  "name": "Boulder 01",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 1.272,
+   "d": 1.83,
+   "h": 1.004
+  },
+  "model": {
+   "file": "polyhaven/boulder_01/boulder_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.112,
+    0.074,
+    0.033
+   ]
+  },
+  "thumb": "polyhaven/boulder_01/preview.png",
+  "tags": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail",
+   "boulder",
+   "lichen",
+   "landscape",
+   "rock",
+   "geology",
+   "formation",
+   "weathered",
+   "rock face",
+   "cliff"
+  ]
  },
  {
   "id": "polyhaven-brass_candleholders",
@@ -7579,6 +7882,20 @@
    ]
   },
   "thumb": "polyhaven/brass_candleholders/preview.png",
+  "tags": [
+   "decorative",
+   "lighting",
+   "vintage",
+   "antique",
+   "ornate",
+   "fancy",
+   "brass",
+   "pattern",
+   "candleholders",
+   "elegant",
+   "classic",
+   "ornamental"
+  ],
   "light": {
    "y": 0.71,
    "intensity": 1.5
@@ -7604,6 +7921,17 @@
    ]
   },
   "thumb": "polyhaven/brass_diya_lantern/preview.png",
+  "tags": [
+   "decorative",
+   "lighting",
+   "brass",
+   "metal",
+   "lamp",
+   "candle",
+   "light",
+   "cultural",
+   "hanging"
+  ],
   "light": {
    "y": 0.324,
    "intensity": 1.5
@@ -7628,7 +7956,24 @@
     -0.046
    ]
   },
-  "thumb": "polyhaven/brass_goblets/preview.png"
+  "thumb": "polyhaven/brass_goblets/preview.png",
+  "tags": [
+   "props",
+   "dishes",
+   "decorative",
+   "containers",
+   "vintage",
+   "old",
+   "antique",
+   "fancy",
+   "brass",
+   "cup",
+   "chalice",
+   "goblet",
+   "engraved",
+   "ornate",
+   "container"
+  ]
  },
  {
   "id": "polyhaven-brass_pan_01",
@@ -7649,7 +7994,25 @@
     0.127
    ]
   },
-  "thumb": "polyhaven/brass_pan_01/preview.png"
+  "thumb": "polyhaven/brass_pan_01/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "decorative",
+   "dishes",
+   "brass",
+   "pan",
+   "copper",
+   "old",
+   "metal",
+   "prop",
+   "container",
+   "cooking",
+   "pot",
+   "cookware",
+   "fancy",
+   "gold"
+  ]
  },
  {
   "id": "polyhaven-brass_pot_01",
@@ -7670,7 +8033,23 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_pot_01/preview.png"
+  "thumb": "polyhaven/brass_pot_01/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "decorative",
+   "brass",
+   "metal",
+   "prop",
+   "pot",
+   "cooking",
+   "container",
+   "pattern",
+   "copper",
+   "old",
+   "fancy",
+   "cookware"
+  ]
  },
  {
   "id": "polyhaven-brass_pot_02",
@@ -7691,7 +8070,23 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_pot_02/preview.png"
+  "thumb": "polyhaven/brass_pot_02/preview.png",
+  "tags": [
+   "props",
+   "dishes",
+   "containers",
+   "decorative",
+   "brass",
+   "metal",
+   "prop",
+   "cooking",
+   "container",
+   "pot",
+   "cookware",
+   "pan",
+   "gold",
+   "copper"
+  ]
  },
  {
   "id": "polyhaven-brass_vase_01",
@@ -7712,7 +8107,19 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_vase_01/preview.png"
+  "thumb": "polyhaven/brass_vase_01/preview.png",
+  "tags": [
+   "decorative",
+   "vases",
+   "brass",
+   "antique",
+   "metal",
+   "ancient",
+   "artifact",
+   "vase",
+   "old",
+   "clean"
+  ]
  },
  {
   "id": "polyhaven-brass_vase_02",
@@ -7733,7 +8140,22 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_vase_02/preview.png"
+  "thumb": "polyhaven/brass_vase_02/preview.png",
+  "tags": [
+   "decorative",
+   "vases",
+   "brass",
+   "antique",
+   "metal",
+   "ancient",
+   "old",
+   "gold",
+   "container",
+   "vase",
+   "clean",
+   "ornate",
+   "pattern"
+  ]
  },
  {
   "id": "polyhaven-brass_vase_03",
@@ -7754,7 +8176,27 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_vase_03/preview.png"
+  "thumb": "polyhaven/brass_vase_03/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "decorative",
+   "vases",
+   "metal",
+   "prop",
+   "brass",
+   "ornate",
+   "vase",
+   "gold",
+   "pitcher",
+   "copper",
+   "container",
+   "pattern",
+   "old",
+   "antique",
+   "fancy",
+   "decor"
+  ]
  },
  {
   "id": "polyhaven-brass_vase_04",
@@ -7775,7 +8217,23 @@
     0
    ]
   },
-  "thumb": "polyhaven/brass_vase_04/preview.png"
+  "thumb": "polyhaven/brass_vase_04/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "vases",
+   "dishes",
+   "vintage",
+   "fancy",
+   "metal",
+   "brass",
+   "copper",
+   "old",
+   "vase",
+   "pitcher",
+   "ornate",
+   "pattern"
+  ]
  },
  {
   "id": "polyhaven-bronze_ray_statue",
@@ -7796,7 +8254,20 @@
     0.049
    ]
   },
-  "thumb": "polyhaven/bronze_ray_statue/preview.png"
+  "thumb": "polyhaven/bronze_ray_statue/preview.png",
+  "tags": [
+   "decorative",
+   "collection: project_lighthouse",
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "manta ray",
+   "stingray",
+   "underwater"
+  ]
  },
  {
   "id": "polyhaven-bronze_shark_statue",
@@ -7817,7 +8288,20 @@
     0.034
    ]
   },
-  "thumb": "polyhaven/bronze_shark_statue/preview.png"
+  "thumb": "polyhaven/bronze_shark_statue/preview.png",
+  "tags": [
+   "decorative",
+   "collection: project_lighthouse",
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "underwater",
+   "shark",
+   "fish"
+  ]
  },
  {
   "id": "polyhaven-bronze_whale_statue",
@@ -7838,7 +8322,20 @@
     0.134
    ]
   },
-  "thumb": "polyhaven/bronze_whale_statue/preview.png"
+  "thumb": "polyhaven/bronze_whale_statue/preview.png",
+  "tags": [
+   "decorative",
+   "collection: project_lighthouse",
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "underwater",
+   "whale",
+   "fish"
+  ]
  },
  {
   "id": "polyhaven-bull_head",
@@ -7859,7 +8356,95 @@
     0.03
    ]
   },
-  "thumb": "polyhaven/bull_head/preview.png"
+  "thumb": "polyhaven/bull_head/preview.png",
+  "tags": [
+   "decorative",
+   "antique",
+   "vintage",
+   "old",
+   "ornate",
+   "statue",
+   "sculpture",
+   "animal",
+   "art",
+   "wildlife"
+  ]
+ },
+ {
+  "id": "polyhaven-caged_hanging_light",
+  "name": "Caged Hanging Light",
+  "category": "lighting",
+  "placement": "ceiling",
+  "size": {
+   "w": 1.162,
+   "d": 0.315,
+   "h": 0.75
+  },
+  "model": {
+   "file": "polyhaven/caged_hanging_light/caged_hanging_light_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0.75,
+    0
+   ]
+  },
+  "thumb": "polyhaven/caged_hanging_light/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "lighting",
+   "industrial",
+   "warehouse",
+   "ceiling-mounted",
+   "fluorescent",
+   "chain",
+   "utility",
+   "infrastructure",
+   "electrical",
+   "bunker"
+  ],
+  "light": {
+   "y": -0.05,
+   "intensity": 14
+  }
+ },
+ {
+  "id": "polyhaven-calathea_orbifolia_01",
+  "name": "Calathea Orbifolia 01",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 2.492,
+   "d": 1.194,
+   "h": 0.424
+  },
+  "model": {
+   "file": "polyhaven/calathea_orbifolia_01/calathea_orbifolia_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.048,
+    0.008,
+    -0.281
+   ]
+  },
+  "thumb": "polyhaven/calathea_orbifolia_01/preview.png",
+  "tags": [
+   "plants",
+   "nature",
+   "ground cover",
+   "collection: smugglers_cove",
+   "bush",
+   "leaf",
+   "shrub",
+   "green",
+   "leaves",
+   "forest",
+   "plant",
+   "jungle",
+   "outdoor",
+   "botany",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-Camera_01",
@@ -7880,7 +8465,52 @@
     -0.071
    ]
   },
-  "thumb": "polyhaven/Camera_01/preview.png"
+  "thumb": "polyhaven/Camera_01/preview.png",
+  "tags": [
+   "props",
+   "electronics",
+   "vintage",
+   "camera",
+   "antique",
+   "ornate",
+   "photography",
+   "retro",
+   "lens",
+   "classic",
+   "analog"
+  ]
+ },
+ {
+  "id": "polyhaven-carrot_cake",
+  "name": "Carrot Cake",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.225,
+   "d": 0.225,
+   "h": 0.098
+  },
+  "model": {
+   "file": "polyhaven/carrot_cake/carrot_cake_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0.002,
+    0.002
+   ]
+  },
+  "thumb": "polyhaven/carrot_cake/preview.png",
+  "tags": [
+   "food",
+   "props",
+   "baked goods",
+   "cake",
+   "carrot",
+   "bakery",
+   "dish",
+   "cooking",
+   "dessert"
+  ]
  },
  {
   "id": "polyhaven-carved_wooden_elephant",
@@ -7901,7 +8531,17 @@
     -0.004
    ]
   },
-  "thumb": "polyhaven/carved_wooden_elephant/preview.png"
+  "thumb": "polyhaven/carved_wooden_elephant/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "wood",
+   "wooden",
+   "woodwork",
+   "statue",
+   "carved",
+   "animal"
+  ]
  },
  {
   "id": "polyhaven-carved_wooden_plate",
@@ -7922,7 +8562,20 @@
     0.008
    ]
   },
-  "thumb": "polyhaven/carved_wooden_plate/preview.png"
+  "thumb": "polyhaven/carved_wooden_plate/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "dishes",
+   "vintage",
+   "wood",
+   "antique",
+   "carved",
+   "hand made",
+   "crafted",
+   "fruitbowl",
+   "plate"
+  ]
  },
  {
   "id": "polyhaven-CashRegister_01",
@@ -7943,7 +8596,23 @@
     -0.139
    ]
   },
-  "thumb": "polyhaven/CashRegister_01/preview.png"
+  "thumb": "polyhaven/CashRegister_01/preview.png",
+  "tags": [
+   "appliances",
+   "props",
+   "commercial",
+   "store",
+   "vintage",
+   "cash",
+   "transaction",
+   "register",
+   "money",
+   "sales",
+   "convenience store",
+   "cashier",
+   "retail",
+   "business"
+  ]
  },
  {
   "id": "polyhaven-cassette_player",
@@ -7964,7 +8633,24 @@
     -0.024
    ]
   },
-  "thumb": "polyhaven/cassette_player/preview.png"
+  "thumb": "polyhaven/cassette_player/preview.png",
+  "tags": [
+   "props",
+   "electronics",
+   "walkman",
+   "vintage",
+   "device",
+   "audio",
+   "retro",
+   "music",
+   "gadget",
+   "nostalgia",
+   "portable",
+   "cassette tape",
+   "analog",
+   "old school",
+   "classic"
+  ]
  },
  {
   "id": "polyhaven-ceiling_fan",
@@ -7985,7 +8671,61 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/ceiling_fan/preview.png"
+  "thumb": "polyhaven/ceiling_fan/preview.png",
+  "tags": [
+   "appliances",
+   "electronics",
+   "utility",
+   "ceiling",
+   "air circulation",
+   "ventilation",
+   "fixture",
+   "cooling",
+   "fan",
+   "interior"
+  ]
+ },
+ {
+  "id": "polyhaven-celandine_01",
+  "name": "Celandine 01",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.239,
+   "d": 0.307,
+   "h": 0.186
+  },
+  "model": {
+   "file": "polyhaven/celandine_01/celandine_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.025,
+    0.007,
+    0.005
+   ]
+  },
+  "thumb": "polyhaven/celandine_01/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "flowers",
+   "field",
+   "green",
+   "shrub",
+   "plant",
+   "outdoor",
+   "leaf",
+   "botany",
+   "leaves",
+   "meadow",
+   "floral",
+   "flower",
+   "small",
+   "natural",
+   "celandine"
+  ]
  },
  {
   "id": "polyhaven-ceramic_pot",
@@ -8006,7 +8746,19 @@
     0
    ]
   },
-  "thumb": "polyhaven/ceramic_pot/preview.png"
+  "thumb": "polyhaven/ceramic_pot/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "decorative",
+   "dishes",
+   "collection: project_lighthouse",
+   "earthenware",
+   "glazed",
+   "aged",
+   "weathered",
+   "ceramic"
+  ]
  },
  {
   "id": "polyhaven-ceramic_vase_01",
@@ -8027,7 +8779,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/ceramic_vase_01/preview.png"
+  "thumb": "polyhaven/ceramic_vase_01/preview.png",
+  "tags": [
+   "vases",
+   "containers",
+   "decorative",
+   "pot",
+   "clean",
+   "tall",
+   "modern",
+   "fancy",
+   "decor"
+  ]
  },
  {
   "id": "polyhaven-ceramic_vase_02",
@@ -8048,7 +8811,19 @@
     0
    ]
   },
-  "thumb": "polyhaven/ceramic_vase_02/preview.png"
+  "thumb": "polyhaven/ceramic_vase_02/preview.png",
+  "tags": [
+   "decorative",
+   "containers",
+   "vases",
+   "fancy",
+   "modern",
+   "vase",
+   "decor",
+   "clay",
+   "pot",
+   "painted"
+  ]
  },
  {
   "id": "polyhaven-ceramic_vase_03",
@@ -8069,7 +8844,21 @@
     0
    ]
   },
-  "thumb": "polyhaven/ceramic_vase_03/preview.png"
+  "thumb": "polyhaven/ceramic_vase_03/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "vases",
+   "clay",
+   "pot",
+   "exterior",
+   "decor",
+   "painted",
+   "vase",
+   "tall",
+   "modern",
+   "fancy"
+  ]
  },
  {
   "id": "polyhaven-ceramic_vase_04",
@@ -8090,7 +8879,20 @@
     0
    ]
   },
-  "thumb": "polyhaven/ceramic_vase_04/preview.png"
+  "thumb": "polyhaven/ceramic_vase_04/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "vases",
+   "fancy",
+   "modern",
+   "vase",
+   "decor",
+   "painted",
+   "jug",
+   "clay",
+   "pot"
+  ]
  },
  {
   "id": "polyhaven-Chandelier_01",
@@ -8112,6 +8914,16 @@
    ]
   },
   "thumb": "polyhaven/Chandelier_01/preview.png",
+  "tags": [
+   "lighting",
+   "decorative",
+   "ceiling",
+   "hanging",
+   "fixture",
+   "chandelier",
+   "ornate",
+   "vintage"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
@@ -8137,6 +8949,16 @@
    ]
   },
   "thumb": "polyhaven/Chandelier_02/preview.png",
+  "tags": [
+   "lighting",
+   "ceiling",
+   "decorative",
+   "chandelier",
+   "elegant",
+   "hanging",
+   "ornate",
+   "vintage"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
@@ -8162,10 +8984,58 @@
    ]
   },
   "thumb": "polyhaven/Chandelier_03/preview.png",
+  "tags": [
+   "lighting",
+   "decorative",
+   "ceiling",
+   "hanging",
+   "fixture",
+   "chandelier",
+   "ornate",
+   "decor",
+   "elegant"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
   }
+ },
+ {
+  "id": "polyhaven-cheiridopsis_succulent",
+  "name": "Cheiridopsis Succulent",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.161,
+   "d": 0.959,
+   "h": 0.271
+  },
+  "model": {
+   "file": "polyhaven/cheiridopsis_succulent/cheiridopsis_succulent_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.026,
+    0.043,
+    0.111
+   ]
+  },
+  "thumb": "polyhaven/cheiridopsis_succulent/preview.png",
+  "tags": [
+   "collection: namaqualand",
+   "nature",
+   "plants",
+   "ground cover",
+   "karoo",
+   "desert",
+   "south africa",
+   "succulent",
+   "quartz",
+   "tiny",
+   "aloe",
+   "cactus",
+   "flower"
+  ]
  },
  {
   "id": "polyhaven-chess_set",
@@ -8186,7 +9056,22 @@
     0
    ]
   },
-  "thumb": "polyhaven/chess_set/preview.png"
+  "thumb": "polyhaven/chess_set/preview.png",
+  "tags": [
+   "decorative",
+   "props",
+   "boardgame",
+   "game",
+   "old",
+   "decor",
+   "home",
+   "vintage",
+   "antique",
+   "tabletop",
+   "display piece",
+   "ornamental",
+   "elegant"
+  ]
  },
  {
   "id": "polyhaven-chinese_armchair",
@@ -8207,7 +9092,20 @@
     -0.007
    ]
   },
-  "thumb": "polyhaven/chinese_armchair/preview.png"
+  "thumb": "polyhaven/chinese_armchair/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "antique",
+   "ornate",
+   "chinese",
+   "asian",
+   "varnished",
+   "elegant",
+   "wooden",
+   "traditional"
+  ]
  },
  {
   "id": "polyhaven-chinese_cabinet",
@@ -8228,7 +9126,20 @@
     -0.017
    ]
   },
-  "thumb": "polyhaven/chinese_cabinet/preview.png"
+  "thumb": "polyhaven/chinese_cabinet/preview.png",
+  "tags": [
+   "shelves",
+   "furniture",
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "ornate",
+   "traditional",
+   "asian",
+   "elegant",
+   "ornamental"
+  ]
  },
  {
   "id": "polyhaven-chinese_chandelier",
@@ -8250,6 +9161,17 @@
    ]
   },
   "thumb": "polyhaven/chinese_chandelier/preview.png",
+  "tags": [
+   "lighting",
+   "decorative",
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
@@ -8274,7 +9196,18 @@
     0.034
    ]
   },
-  "thumb": "polyhaven/chinese_commode/preview.png"
+  "thumb": "polyhaven/chinese_commode/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "asian",
+   "traditional",
+   "cabinet"
+  ]
  },
  {
   "id": "polyhaven-chinese_console_table",
@@ -8295,7 +9228,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/chinese_console_table/preview.png"
+  "thumb": "polyhaven/chinese_console_table/preview.png",
+  "tags": [
+   "table",
+   "furniture",
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ]
  },
  {
   "id": "polyhaven-chinese_screen_panels",
@@ -8316,7 +9259,18 @@
     0.123
    ]
   },
-  "thumb": "polyhaven/chinese_screen_panels/preview.png"
+  "thumb": "polyhaven/chinese_screen_panels/preview.png",
+  "tags": [
+   "furniture",
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "asian",
+   "divider",
+   "wall"
+  ]
  },
  {
   "id": "polyhaven-chinese_sofa",
@@ -8337,7 +9291,17 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/chinese_sofa/preview.png"
+  "thumb": "polyhaven/chinese_sofa/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "fancy"
+  ]
  },
  {
   "id": "polyhaven-chinese_stool",
@@ -8358,7 +9322,17 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/chinese_stool/preview.png"
+  "thumb": "polyhaven/chinese_stool/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ]
  },
  {
   "id": "polyhaven-chinese_tea_table",
@@ -8379,7 +9353,17 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/chinese_tea_table/preview.png"
+  "thumb": "polyhaven/chinese_tea_table/preview.png",
+  "tags": [
+   "table",
+   "furniture",
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional"
+  ]
  },
  {
   "id": "polyhaven-circuit_board",
@@ -8400,7 +9384,22 @@
     0
    ]
   },
-  "thumb": "polyhaven/circuit_board/preview.png"
+  "thumb": "polyhaven/circuit_board/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "electronics",
+   "computer",
+   "components",
+   "chip",
+   "motherboard",
+   "pc hardware",
+   "connectors",
+   "wiring",
+   "power supply",
+   "circuit",
+   "power",
+   "electrical"
+  ]
  },
  {
   "id": "polyhaven-classic_laptop",
@@ -8421,7 +9420,18 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/classic_laptop/preview.png"
+  "thumb": "polyhaven/classic_laptop/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "office",
+   "electronics",
+   "old",
+   "vintage",
+   "beige",
+   "notebook",
+   "lcd",
+   "trackball"
+  ]
  },
  {
   "id": "polyhaven-ClassicConsole_01",
@@ -8442,7 +9452,16 @@
     0.044
    ]
   },
-  "thumb": "polyhaven/ClassicConsole_01/preview.png"
+  "thumb": "polyhaven/ClassicConsole_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "wood",
+   "vintage",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-ClassicNightstand_01",
@@ -8463,7 +9482,16 @@
     0
    ]
   },
-  "thumb": "polyhaven/ClassicNightstand_01/preview.png"
+  "thumb": "polyhaven/ClassicNightstand_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "wood",
+   "vintage",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-coffee_table_round_01",
@@ -8484,7 +9512,19 @@
     0
    ]
   },
-  "thumb": "polyhaven/coffee_table_round_01/preview.png"
+  "thumb": "polyhaven/coffee_table_round_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "modern",
+   "marble",
+   "tea",
+   "coffee",
+   "metal",
+   "sleek",
+   "contemporary",
+   "cocktail"
+  ]
  },
  {
   "id": "polyhaven-CoffeeCart_01",
@@ -8505,7 +9545,25 @@
     0.021
    ]
   },
-  "thumb": "polyhaven/CoffeeCart_01/preview.png"
+  "thumb": "polyhaven/CoffeeCart_01/preview.png",
+  "tags": [
+   "appliances",
+   "props",
+   "furniture",
+   "office",
+   "table",
+   "metal",
+   "shelf",
+   "plastic",
+   "cart",
+   "coffee",
+   "portable",
+   "wheels",
+   "tea",
+   "coffee maker",
+   "mobile",
+   "catering"
+  ]
  },
  {
   "id": "polyhaven-CoffeeTable_01",
@@ -8526,7 +9584,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/CoffeeTable_01/preview.png"
+  "thumb": "polyhaven/CoffeeTable_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "wood",
+   "vintage",
+   "painted",
+   "old",
+   "worn",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-concrete_cat_statue",
@@ -8548,7 +9616,127 @@
     0.025
    ]
   },
-  "thumb": "polyhaven/concrete_cat_statue/preview.png"
+  "thumb": "polyhaven/concrete_cat_statue/preview.png",
+  "tags": [
+   "decorative",
+   "garden",
+   "outdoor",
+   "landscaping",
+   "gardening",
+   "statue",
+   "concrete",
+   "sculpture",
+   "cat",
+   "lawn decoration"
+  ]
+ },
+ {
+  "id": "polyhaven-croissant",
+  "name": "Croissant",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.2,
+   "d": 0.076,
+   "h": 0.062
+  },
+  "model": {
+   "file": "polyhaven/croissant/croissant_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.001,
+    -0.005
+   ]
+  },
+  "thumb": "polyhaven/croissant/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "pastry",
+   "baked goods",
+   "french",
+   "breakfast",
+   "bakery",
+   "savory"
+  ]
+ },
+ {
+  "id": "polyhaven-crystalline_iceplant",
+  "name": "Crystalline Iceplant",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 1.693,
+   "d": 0.738,
+   "h": 0.082
+  },
+  "model": {
+   "file": "polyhaven/crystalline_iceplant/crystalline_iceplant_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.046,
+    0.003,
+    0.063
+   ]
+  },
+  "thumb": "polyhaven/crystalline_iceplant/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: namaqualand",
+   "leaf",
+   "small",
+   "succulent",
+   "foliage",
+   "leaves",
+   "karoo",
+   "botanical",
+   "south africa"
+  ]
+ },
+ {
+  "id": "polyhaven-dandelion_01",
+  "name": "Dandelion 01",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 4.214,
+   "d": 0.258,
+   "h": 0.17
+  },
+  "model": {
+   "file": "polyhaven/dandelion_01/dandelion_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    2.013,
+    0.008,
+    0.008
+   ]
+  },
+  "thumb": "polyhaven/dandelion_01/preview.png",
+  "tags": [
+   "plants",
+   "flowers",
+   "nature",
+   "ground cover",
+   "plant",
+   "green",
+   "shrub",
+   "outdoor",
+   "leaf",
+   "bush",
+   "botany",
+   "field",
+   "flower",
+   "meadow",
+   "foliage",
+   "small",
+   "floral"
+  ]
  },
  {
   "id": "polyhaven-dartboard",
@@ -8569,7 +9757,65 @@
     -0.02
    ]
   },
-  "thumb": "polyhaven/dartboard/preview.png"
+  "thumb": "polyhaven/dartboard/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "wall decoration",
+   "collection: the_shed",
+   "shed",
+   "bar",
+   "activities",
+   "darts",
+   "game",
+   "toy",
+   "pub",
+   "sports",
+   "sport",
+   "fun",
+   "entertainment",
+   "competition",
+   "target",
+   "bullseye",
+   "indoor games"
+  ]
+ },
+ {
+  "id": "polyhaven-didelta_spinosa",
+  "name": "Didelta Spinosa",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.123,
+   "d": 4.563,
+   "h": 2.072
+  },
+  "model": {
+   "file": "polyhaven/didelta_spinosa/didelta_spinosa_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.164,
+    0.1,
+    0.412
+   ]
+  },
+  "thumb": "polyhaven/didelta_spinosa/preview.png",
+  "tags": [
+   "plants",
+   "collection: namaqualand",
+   "green",
+   "dessert",
+   "shrub",
+   "leaves",
+   "nature",
+   "botany",
+   "natural",
+   "bush",
+   "foliage",
+   "leaf",
+   "flower"
+  ]
  },
  {
   "id": "polyhaven-dining_chair_02",
@@ -8590,7 +9836,17 @@
     0.043
    ]
   },
-  "thumb": "polyhaven/dining_chair_02/preview.png"
+  "thumb": "polyhaven/dining_chair_02/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "modern",
+   "chair",
+   "seat",
+   "dining",
+   "fancy",
+   "leather"
+  ]
  },
  {
   "id": "polyhaven-dining_table",
@@ -8611,7 +9867,19 @@
     -0.017
    ]
   },
-  "thumb": "polyhaven/dining_table/preview.png"
+  "thumb": "polyhaven/dining_table/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "table",
+   "old",
+   "scratched",
+   "cloth-covered",
+   "rectangular",
+   "checkered-tablecloth",
+   "tapered-legs",
+   "worn"
+  ]
  },
  {
   "id": "polyhaven-drawer_cabinet",
@@ -8632,7 +9900,15 @@
     0.004
    ]
   },
-  "thumb": "polyhaven/drawer_cabinet/preview.png"
+  "thumb": "polyhaven/drawer_cabinet/preview.png",
+  "tags": [
+   "furniture",
+   "wood",
+   "shelf",
+   "drawer",
+   "metal",
+   "modern"
+  ]
  },
  {
   "id": "polyhaven-fancy_picture_frame_01",
@@ -8653,7 +9929,21 @@
     -0.012
    ]
   },
-  "thumb": "polyhaven/fancy_picture_frame_01/preview.png"
+  "thumb": "polyhaven/fancy_picture_frame_01/preview.png",
+  "tags": [
+   "decorative",
+   "wall decoration",
+   "art",
+   "vintage",
+   "old",
+   "dutch",
+   "painting",
+   "oil",
+   "antique",
+   "fancy",
+   "frame",
+   "picture"
+  ]
  },
  {
   "id": "polyhaven-fancy_picture_frame_02",
@@ -8674,7 +9964,59 @@
     -0.046
    ]
   },
-  "thumb": "polyhaven/fancy_picture_frame_02/preview.png"
+  "thumb": "polyhaven/fancy_picture_frame_02/preview.png",
+  "tags": [
+   "decorative",
+   "wall decoration",
+   "art",
+   "vintage",
+   "old",
+   "dutch",
+   "painting",
+   "oil",
+   "antique",
+   "fancy",
+   "frame",
+   "picture"
+  ]
+ },
+ {
+  "id": "polyhaven-fern_02",
+  "name": "Fern 02",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 1.973,
+   "d": 1.724,
+   "h": 0.428
+  },
+  "model": {
+   "file": "polyhaven/fern_02/fern_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.458,
+    0.031,
+    -0.44
+   ]
+  },
+  "thumb": "polyhaven/fern_02/preview.png",
+  "tags": [
+   "plants",
+   "nature",
+   "collection: smugglers_cove",
+   "collection: pine_forest",
+   "plant",
+   "fern",
+   "foliage",
+   "jungle",
+   "shrub",
+   "bush",
+   "leaf",
+   "leaves",
+   "green",
+   "forest",
+   "outdoor"
+  ]
  },
  {
   "id": "polyhaven-filmstrip_projector_8mm",
@@ -8695,7 +10037,235 @@
     -0.021
    ]
   },
-  "thumb": "polyhaven/filmstrip_projector_8mm/preview.png"
+  "thumb": "polyhaven/filmstrip_projector_8mm/preview.png",
+  "tags": [
+   "electronics",
+   "appliances",
+   "collection: project_lighthouse",
+   "antique",
+   "vintage",
+   "old",
+   "retro",
+   "film",
+   "movie",
+   "theater"
+  ]
+ },
+ {
+  "id": "polyhaven-fish_knife",
+  "name": "Fish Knife",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.029,
+   "d": 0.016,
+   "h": 0.216
+  },
+  "model": {
+   "file": "polyhaven/fish_knife/fish_knife_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.11,
+    0
+   ]
+  },
+  "thumb": "polyhaven/fish_knife/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "fishing",
+   "blade",
+   "dagger",
+   "sharp",
+   "survival",
+   "weapon"
+  ]
+ },
+ {
+  "id": "polyhaven-flower_empodium",
+  "name": "Flower Empodium",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 1.323,
+   "d": 0.284,
+   "h": 0.268
+  },
+  "model": {
+   "file": "polyhaven/flower_empodium/flower_empodium_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.022,
+    0.004,
+    0.035
+   ]
+  },
+  "thumb": "polyhaven/flower_empodium/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "flowers",
+   "ground cover",
+   "collection: namaqualand",
+   "karoo",
+   "field",
+   "yellow",
+   "floral",
+   "wildflower",
+   "south africa"
+  ]
+ },
+ {
+  "id": "polyhaven-flower_gazania",
+  "name": "Flower Gazania",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 1.579,
+   "d": 0.81,
+   "h": 0.399
+  },
+  "model": {
+   "file": "polyhaven/flower_gazania/flower_gazania_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.016,
+    0.141,
+    0.025
+   ]
+  },
+  "thumb": "polyhaven/flower_gazania/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "flowers",
+   "ground cover",
+   "collection: namaqualand",
+   "karoo",
+   "outdoor",
+   "field",
+   "orange",
+   "botanical",
+   "floral",
+   "african",
+   "wildflower",
+   "daisy",
+   "south africa"
+  ]
+ },
+ {
+  "id": "polyhaven-flower_heliophila",
+  "name": "Flower Heliophila",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.754,
+   "d": 1.417,
+   "h": 0.399
+  },
+  "model": {
+   "file": "polyhaven/flower_heliophila/flower_heliophila_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.043,
+    0.005,
+    -0.086
+   ]
+  },
+  "thumb": "polyhaven/flower_heliophila/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "grass",
+   "collection: namaqualand",
+   "plant",
+   "natural",
+   "botany",
+   "tiny",
+   "small",
+   "karoo",
+   "desert",
+   "south africa",
+   "white",
+   "wildflower",
+   "floral"
+  ]
+ },
+ {
+  "id": "polyhaven-flower_stinkkruid",
+  "name": "Flower Stinkkruid",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 1.705,
+   "d": 0.3,
+   "h": 0.178
+  },
+  "model": {
+   "file": "polyhaven/flower_stinkkruid/flower_stinkkruid_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.149,
+    0.005,
+    0.01
+   ]
+  },
+  "thumb": "polyhaven/flower_stinkkruid/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "flowers",
+   "collection: namaqualand",
+   "karoo",
+   "field",
+   "yellow",
+   "botanical",
+   "botany",
+   "floral",
+   "south africa",
+   "wildflower"
+  ]
+ },
+ {
+  "id": "polyhaven-flower_ursinia",
+  "name": "Flower Ursinia",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.194,
+   "d": 0.343,
+   "h": 0.172
+  },
+  "model": {
+   "file": "polyhaven/flower_ursinia/flower_ursinia_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.205,
+    0.009,
+    -0.031
+   ]
+  },
+  "thumb": "polyhaven/flower_ursinia/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "flowers",
+   "collection: namaqualand",
+   "ground cover",
+   "karoo",
+   "south africa",
+   "desert",
+   "wildflower",
+   "botanical",
+   "orange"
+  ]
  },
  {
   "id": "polyhaven-folding_wooden_stool",
@@ -8716,7 +10286,284 @@
     -0.002
    ]
   },
-  "thumb": "polyhaven/folding_wooden_stool/preview.png"
+  "thumb": "polyhaven/folding_wooden_stool/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "workshop",
+   "garage",
+   "woodwork",
+   "camping",
+   "folding stool",
+   "portable",
+   "compact",
+   "outdoor",
+   "garden"
+  ]
+ },
+ {
+  "id": "polyhaven-food_apple_01",
+  "name": "Food Apple 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.098,
+   "d": 0.096,
+   "h": 0.085
+  },
+  "model": {
+   "file": "polyhaven/food_apple_01/food_apple_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/food_apple_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruit",
+   "apple",
+   "fruitbowl",
+   "red",
+   "ripe",
+   "fresh",
+   "organic",
+   "stem",
+   "ripe apple"
+  ]
+ },
+ {
+  "id": "polyhaven-food_avocado_01",
+  "name": "Food Avocado 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.095,
+   "d": 0.095,
+   "h": 0.143
+  },
+  "model": {
+   "file": "polyhaven/food_avocado_01/food_avocado_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0.002
+   ]
+  },
+  "thumb": "polyhaven/food_avocado_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruit",
+   "fruitbowl",
+   "avo",
+   "dark",
+   "ripe"
+  ]
+ },
+ {
+  "id": "polyhaven-food_ginger_01",
+  "name": "Food Ginger 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.24,
+   "d": 0.147,
+   "h": 0.575
+  },
+  "model": {
+   "file": "polyhaven/food_ginger_01/food_ginger_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.025,
+    -0.001,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/food_ginger_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "cooking",
+   "ginger",
+   "chef",
+   "resturant",
+   "organic",
+   "root",
+   "herbal",
+   "botanical",
+   "rhizome"
+  ]
+ },
+ {
+  "id": "polyhaven-food_kiwi_01",
+  "name": "Food Kiwi 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.07,
+   "d": 0.069,
+   "h": 0.09
+  },
+  "model": {
+   "file": "polyhaven/food_kiwi_01/food_kiwi_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/food_kiwi_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruitbowl",
+   "fruit",
+   "kiwi",
+   "exotic",
+   "tropical"
+  ]
+ },
+ {
+  "id": "polyhaven-food_lime_01",
+  "name": "Food Lime 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.06,
+   "d": 0.061,
+   "h": 0.075
+  },
+  "model": {
+   "file": "polyhaven/food_lime_01/food_lime_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.002
+   ]
+  },
+  "thumb": "polyhaven/food_lime_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruit",
+   "fruitbowl",
+   "lemon",
+   "lime",
+   "citrus",
+   "green",
+   "fresh"
+  ]
+ },
+ {
+  "id": "polyhaven-food_lychee_01",
+  "name": "Food Lychee 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.041,
+   "d": 0.042,
+   "h": 0.051
+  },
+  "model": {
+   "file": "polyhaven/food_lychee_01/food_lychee_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.001,
+    -0.002
+   ]
+  },
+  "thumb": "polyhaven/food_lychee_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruitbowl",
+   "fruit",
+   "lychee",
+   "fresh",
+   "lychee skin ",
+   "spikey",
+   "tropical",
+   "organic"
+  ]
+ },
+ {
+  "id": "polyhaven-food_pears_asian_01",
+  "name": "Pears Asian 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.156,
+   "d": 0.178,
+   "h": 0.11
+  },
+  "model": {
+   "file": "polyhaven/food_pears_asian_01/food_pears_asian_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.013,
+    0.032,
+    0.02
+   ]
+  },
+  "thumb": "polyhaven/food_pears_asian_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruit",
+   "fruitbowl",
+   "tropical",
+   "pears",
+   "organic",
+   "asian pears",
+   "produce",
+   "fresh fruit",
+   "greenhouse",
+   "ripe",
+   "stem",
+   "raw"
+  ]
+ },
+ {
+  "id": "polyhaven-food_pomegranate_01",
+  "name": "Food Pomegranate 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.114,
+   "d": 0.115,
+   "h": 0.115
+  },
+  "model": {
+   "file": "polyhaven/food_pomegranate_01/food_pomegranate_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.003,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/food_pomegranate_01/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "fruit",
+   "fruitbowl",
+   "red",
+   "pomegranite",
+   "produce",
+   "fresh fruit",
+   "ripe",
+   "calyx",
+   "raw"
+  ]
  },
  {
   "id": "polyhaven-gallinera_chair",
@@ -8737,7 +10584,17 @@
     -0.036
    ]
   },
-  "thumb": "polyhaven/gallinera_chair/preview.png"
+  "thumb": "polyhaven/gallinera_chair/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "antique",
+   "philippines",
+   "traditional",
+   "old",
+   "wooden"
+  ]
  },
  {
   "id": "polyhaven-gallinera_table",
@@ -8758,7 +10615,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/gallinera_table/preview.png"
+  "thumb": "polyhaven/gallinera_table/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "antique",
+   "philippines",
+   "traditional",
+   "old",
+   "wooden"
+  ]
  },
  {
   "id": "polyhaven-gaming_console",
@@ -8779,7 +10646,18 @@
     -0.022
    ]
   },
-  "thumb": "polyhaven/gaming_console/preview.png"
+  "thumb": "polyhaven/gaming_console/preview.png",
+  "tags": [
+   "appliances",
+   "electronics",
+   "game",
+   "gaming",
+   "console",
+   "playstation",
+   "entertainment",
+   "video games",
+   "xbox"
+  ]
  },
  {
   "id": "polyhaven-garden_gnome",
@@ -8801,7 +10679,61 @@
     -0.007
    ]
   },
-  "thumb": "polyhaven/garden_gnome/preview.png"
+  "thumb": "polyhaven/garden_gnome/preview.png",
+  "tags": [
+   "decorative",
+   "collection: the_shed",
+   "shed",
+   "outdoor",
+   "garage",
+   "garden",
+   "gardening",
+   "farmhouse",
+   "greenhouse"
+  ]
+ },
+ {
+  "id": "polyhaven-garden_hose_wall_mounted_01",
+  "name": "Garden Hose Wall Mounted 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.467,
+   "d": 0.25,
+   "h": 0.557
+  },
+  "model": {
+   "file": "polyhaven/garden_hose_wall_mounted_01/garden_hose_wall_mounted_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0.302,
+    -0.119
+   ]
+  },
+  "thumb": "polyhaven/garden_hose_wall_mounted_01/preview.png",
+  "tags": [
+   "wall decoration",
+   "plants",
+   "collection: the_shed",
+   "garden",
+   "gardening",
+   "landscaping",
+   "pipes",
+   "cable",
+   "valve",
+   "hose",
+   "water",
+   "tap",
+   "outdoor",
+   "green",
+   "shed",
+   "irrigation",
+   "greenhouse",
+   "farm",
+   "farmhouse"
+  ]
  },
  {
   "id": "polyhaven-gothic_coffee_table",
@@ -8822,7 +10754,18 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/gothic_coffee_table/preview.png"
+  "thumb": "polyhaven/gothic_coffee_table/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "gothic",
+   "medieval",
+   "dark decor"
+  ]
  },
  {
   "id": "polyhaven-gothic_statue",
@@ -8843,7 +10786,21 @@
     0.408
    ]
   },
-  "thumb": "polyhaven/gothic_statue/preview.png"
+  "thumb": "polyhaven/gothic_statue/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "decorative",
+   "old",
+   "stones",
+   "sculpture",
+   "medieval",
+   "statue",
+   "artwork",
+   "ornamental",
+   "gothic",
+   "weathered",
+   "ornate"
+  ]
  },
  {
   "id": "polyhaven-GothicBed_01",
@@ -8864,7 +10821,15 @@
     0.033
    ]
   },
-  "thumb": "polyhaven/GothicBed_01/preview.png"
+  "thumb": "polyhaven/GothicBed_01/preview.png",
+  "tags": [
+   "furniture",
+   "bed",
+   "vintage",
+   "gothic",
+   "wood",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-GothicCabinet_01",
@@ -8885,7 +10850,17 @@
     -0.107
    ]
   },
-  "thumb": "polyhaven/GothicCabinet_01/preview.png"
+  "thumb": "polyhaven/GothicCabinet_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "vintage",
+   "wood",
+   "gothic",
+   "table",
+   "shelf",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-GothicCommode_01",
@@ -8906,7 +10881,17 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/GothicCommode_01/preview.png"
+  "thumb": "polyhaven/GothicCommode_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "vintage",
+   "wood",
+   "table",
+   "gothic",
+   "shelf",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-GreenChair_01",
@@ -8927,13 +10912,54 @@
     0.046
    ]
   },
-  "thumb": "polyhaven/GreenChair_01/preview.png"
+  "thumb": "polyhaven/GreenChair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "wood",
+   "gothic",
+   "chair",
+   "fabric",
+   "decorative"
+  ]
+ },
+ {
+  "id": "polyhaven-hamburger_buns",
+  "name": "Hamburger Buns",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.397,
+   "d": 0.114,
+   "h": 0.063
+  },
+  "model": {
+   "file": "polyhaven/hamburger_buns/hamburger_buns_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/hamburger_buns/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "collection: project_lighthouse",
+   "baked goods",
+   "bread",
+   "bakery",
+   "bread rolls",
+   "buns"
+  ]
  },
  {
   "id": "polyhaven-hanging_industrial_lamp",
   "name": "Hanging Industrial Lamp",
   "category": "lighting",
-  "placement": "floor",
+  "placement": "ceiling",
   "size": {
    "w": 0.55,
    "d": 0.55,
@@ -8949,9 +10975,19 @@
    ]
   },
   "thumb": "polyhaven/hanging_industrial_lamp/preview.png",
+  "tags": [
+   "lighting",
+   "industrial lighting",
+   "hanging lamp",
+   "warehouse lighting",
+   "bunker",
+   "metal lamp",
+   "factory",
+   "warehouse"
+  ],
   "light": {
-   "y": 1.152,
-   "intensity": 9
+   "y": -0.05,
+   "intensity": 14
   }
  },
  {
@@ -8973,7 +11009,17 @@
     -0.008
    ]
   },
-  "thumb": "polyhaven/hanging_picture_frame_01/preview.png"
+  "thumb": "polyhaven/hanging_picture_frame_01/preview.png",
+  "tags": [
+   "decorative",
+   "wall decoration",
+   "modern",
+   "minimalist",
+   "clean",
+   "frame",
+   "simple",
+   "art"
+  ]
  },
  {
   "id": "polyhaven-hanging_picture_frame_02",
@@ -8994,7 +11040,16 @@
     -0.019
    ]
   },
-  "thumb": "polyhaven/hanging_picture_frame_02/preview.png"
+  "thumb": "polyhaven/hanging_picture_frame_02/preview.png",
+  "tags": [
+   "decorative",
+   "wall decoration",
+   "wood",
+   "painting",
+   "old",
+   "art",
+   "frame"
+  ]
  },
  {
   "id": "polyhaven-hanging_picture_frame_03",
@@ -9015,7 +11070,55 @@
     -0.016
    ]
   },
-  "thumb": "polyhaven/hanging_picture_frame_03/preview.png"
+  "thumb": "polyhaven/hanging_picture_frame_03/preview.png",
+  "tags": [
+   "wall decoration",
+   "decorative",
+   "vintage",
+   "photo",
+   "photograph",
+   "old",
+   "antique",
+   "picture",
+   "fancy",
+   "wooden",
+   "varnished"
+  ]
+ },
+ {
+  "id": "polyhaven-hatchet",
+  "name": "Hatchet",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.026,
+   "d": 0.104,
+   "h": 0.289
+  },
+  "model": {
+   "file": "polyhaven/hatchet/hatchet_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.062,
+    -0.025
+   ]
+  },
+  "thumb": "polyhaven/hatchet/preview.png",
+  "tags": [
+   "tools",
+   "weapon",
+   "axe",
+   "lumber",
+   "hatchet",
+   "chopping",
+   "woodwork",
+   "camping",
+   "forestry",
+   "hiking",
+   "firewood",
+   "hand tool"
+  ]
  },
  {
   "id": "polyhaven-horse_head",
@@ -9036,7 +11139,19 @@
     -0.056
    ]
   },
-  "thumb": "polyhaven/horse_head/preview.png"
+  "thumb": "polyhaven/horse_head/preview.png",
+  "tags": [
+   "decorative",
+   "old",
+   "vintage",
+   "antique",
+   "ornate",
+   "sculpture",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental"
+  ]
  },
  {
   "id": "polyhaven-horse_statue_01",
@@ -9057,7 +11172,59 @@
     0
    ]
   },
-  "thumb": "polyhaven/horse_statue_01/preview.png"
+  "thumb": "polyhaven/horse_statue_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "horse",
+   "statue",
+   "figurine",
+   "porcelain",
+   "animal",
+   "sculpture",
+   "white",
+   "fancy"
+  ]
+ },
+ {
+  "id": "polyhaven-industrial_caged_sconce",
+  "name": "Industrial Caged Sconce",
+  "category": "lighting",
+  "placement": "wall",
+  "size": {
+   "w": 1.21,
+   "d": 0.389,
+   "h": 0.913
+  },
+  "model": {
+   "file": "polyhaven/industrial_caged_sconce/industrial_caged_sconce_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.105,
+    -0.132
+   ]
+  },
+  "thumb": "polyhaven/industrial_caged_sconce/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "lighting",
+   "industrial",
+   "caged lamp",
+   "pipe fixture",
+   "guarded light",
+   "utility lighting",
+   "warehouse",
+   "factory",
+   "bunker",
+   "wall light",
+   "modular",
+   "heavy duty"
+  ],
+  "light": {
+   "y": 0.776,
+   "intensity": 5
+  }
  },
  {
   "id": "polyhaven-industrial_coffee_table",
@@ -9078,13 +11245,60 @@
     0
    ]
   },
-  "thumb": "polyhaven/industrial_coffee_table/preview.png"
+  "thumb": "polyhaven/industrial_coffee_table/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "metal",
+   "industrial",
+   "steel",
+   "rustic",
+   "workshop",
+   "metal frame",
+   "garage",
+   "urban loft"
+  ]
+ },
+ {
+  "id": "polyhaven-industrial_pipe_lamp",
+  "name": "Industrial Pipe Lamp",
+  "category": "lighting",
+  "placement": "surface",
+  "size": {
+   "w": 0.183,
+   "d": 0.262,
+   "h": 0.364
+  },
+  "model": {
+   "file": "polyhaven/industrial_pipe_lamp/industrial_pipe_lamp_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    -0.004
+   ]
+  },
+  "thumb": "polyhaven/industrial_pipe_lamp/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "industrial",
+   "lighting",
+   "desk light",
+   "lamp",
+   "metal",
+   "workshop lamp",
+   "mechanical"
+  ],
+  "light": {
+   "y": 0.309,
+   "intensity": 5
+  }
  },
  {
   "id": "polyhaven-industrial_wall_lamp",
   "name": "Industrial Wall Lamp",
   "category": "lighting",
-  "placement": "surface",
+  "placement": "wall",
   "size": {
    "w": 0.273,
    "d": 0.14,
@@ -9100,6 +11314,16 @@
    ]
   },
   "thumb": "polyhaven/industrial_wall_lamp/preview.png",
+  "tags": [
+   "lighting",
+   "industrial",
+   "factory",
+   "warehouse",
+   "wall light",
+   "metal",
+   "bunker",
+   "mine"
+  ],
   "light": {
    "y": 0.366,
    "intensity": 5
@@ -9109,7 +11333,7 @@
   "id": "polyhaven-industrial_wall_sconce",
   "name": "Industrial Wall Sconce",
   "category": "lighting",
-  "placement": "surface",
+  "placement": "wall",
   "size": {
    "w": 0.15,
    "d": 0.252,
@@ -9125,6 +11349,19 @@
    ]
   },
   "thumb": "polyhaven/industrial_wall_sconce/preview.png",
+  "tags": [
+   "lighting",
+   "decorative",
+   "old",
+   "vintage",
+   "antique",
+   "fancy",
+   "farmhouse",
+   "rustic",
+   "brass",
+   "copper",
+   "wall light"
+  ],
   "light": {
    "y": 0.291,
    "intensity": 5
@@ -9149,7 +11386,20 @@
     0
    ]
   },
-  "thumb": "polyhaven/jug_01/preview.png"
+  "thumb": "polyhaven/jug_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "dishes",
+   "containers",
+   "ceramic",
+   "milk",
+   "white",
+   "antique",
+   "vintage",
+   "old",
+   "fancy"
+  ]
  },
  {
   "id": "polyhaven-katana_stand_01",
@@ -9170,7 +11420,52 @@
     -0.027
    ]
   },
-  "thumb": "polyhaven/katana_stand_01/preview.png"
+  "thumb": "polyhaven/katana_stand_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "katana",
+   "stand",
+   "wooden",
+   "painted",
+   "worn",
+   "simple",
+   "display"
+  ]
+ },
+ {
+  "id": "polyhaven-kite_shield",
+  "name": "Kite Shield",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.543,
+   "d": 0.135,
+   "h": 1.394
+  },
+  "model": {
+   "file": "polyhaven/kite_shield/kite_shield_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.747,
+    -0.015
+   ]
+  },
+  "thumb": "polyhaven/kite_shield/preview.png",
+  "tags": [
+   "props",
+   "collection: the_shed",
+   "weapon",
+   "shield",
+   "war",
+   "knight",
+   "crusades",
+   "old",
+   "wooden",
+   "metal",
+   "shed"
+  ]
  },
  {
   "id": "polyhaven-lambis_shell",
@@ -9191,7 +11486,22 @@
     -0.004
    ]
   },
-  "thumb": "polyhaven/lambis_shell/preview.png"
+  "thumb": "polyhaven/lambis_shell/preview.png",
+  "tags": [
+   "decorative",
+   "nature",
+   "shell",
+   "beach",
+   "shore",
+   "shoreline",
+   "underwater",
+   "coral",
+   "reef",
+   "ocean",
+   "sea",
+   "marine life",
+   "mollusk"
+  ]
  },
  {
   "id": "polyhaven-Lantern_01",
@@ -9213,6 +11523,22 @@
    ]
   },
   "thumb": "polyhaven/Lantern_01/preview.png",
+  "tags": [
+   "props",
+   "lighting",
+   "prop",
+   "metal",
+   "glass",
+   "lantern",
+   "antique",
+   "vintage",
+   "hurricane",
+   "lamp",
+   "bronze",
+   "oldfashioned",
+   "brass",
+   "copper"
+  ],
   "light": {
    "y": 0.25,
    "intensity": 5
@@ -9238,10 +11564,93 @@
    ]
   },
   "thumb": "polyhaven/lantern_chandelier_01/preview.png",
+  "tags": [
+   "lighting",
+   "old",
+   "victorian",
+   "metal",
+   "antique",
+   "ornate",
+   "vintage",
+   "brass",
+   "fancy",
+   "ornamental",
+   "chandelier",
+   "light",
+   "indoor light",
+   "light fixture"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
   }
+ },
+ {
+  "id": "polyhaven-leipoldtia_schultzei",
+  "name": "Leipoldtia Schultzei",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.312,
+   "d": 0.81,
+   "h": 0.317
+  },
+  "model": {
+   "file": "polyhaven/leipoldtia_schultzei/leipoldtia_schultzei_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.587,
+    0.027,
+    0.071
+   ]
+  },
+  "thumb": "polyhaven/leipoldtia_schultzei/preview.png",
+  "tags": [
+   "plants",
+   "collection: namaqualand",
+   "succulent",
+   "wildflower",
+   "flower",
+   "floral",
+   "african",
+   "purple",
+   "plant",
+   "flora",
+   "nature"
+  ]
+ },
+ {
+  "id": "polyhaven-lemon",
+  "name": "Lemon",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.069,
+   "d": 0.068,
+   "h": 0.095
+  },
+  "model": {
+   "file": "polyhaven/lemon/lemon_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.052,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/lemon/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "culinary",
+   "cooking",
+   "vegetable",
+   "vegetables",
+   "organic",
+   "ingredients",
+   "produce"
+  ]
  },
  {
   "id": "polyhaven-lightbulb_01",
@@ -9263,6 +11672,20 @@
    ]
   },
   "thumb": "polyhaven/lightbulb_01/preview.png",
+  "tags": [
+   "lighting",
+   "collection: the_shed",
+   "globe",
+   "filament",
+   "light",
+   "lamp",
+   "shed",
+   "bulb",
+   "illumination",
+   "incandescent",
+   "coil filament",
+   "glass bulb"
+  ],
   "light": {
    "y": 0.085,
    "intensity": 5
@@ -9288,6 +11711,16 @@
    ]
   },
   "thumb": "polyhaven/lightbulb_led/preview.png",
+  "tags": [
+   "electronics",
+   "lighting",
+   "collection: the_shed",
+   "shed",
+   "indoor",
+   "interrior",
+   "globe",
+   "light"
+  ],
   "light": {
    "y": 0.085,
    "intensity": 5
@@ -9312,7 +11745,90 @@
     0
    ]
   },
-  "thumb": "polyhaven/lion_head/preview.png"
+  "thumb": "polyhaven/lion_head/preview.png",
+  "tags": [
+   "decorative",
+   "old",
+   "wooden",
+   "vintage",
+   "sculpture",
+   "ornament",
+   "wildlife",
+   "figurine",
+   "art",
+   "animal"
+  ]
+ },
+ {
+  "id": "polyhaven-long_life_food",
+  "name": "Long Life Food",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.524,
+   "d": 0.114,
+   "h": 0.238
+  },
+  "model": {
+   "file": "polyhaven/long_life_food/long_life_food_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.024,
+    0.002,
+    0
+   ]
+  },
+  "thumb": "polyhaven/long_life_food/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "food",
+   "containers",
+   "props",
+   "groceries",
+   "canned beans",
+   "carton milk",
+   "tinned food",
+   "canned tomatoes",
+   "sardines"
+  ]
+ },
+ {
+  "id": "polyhaven-machete",
+  "name": "Machete",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.044,
+   "d": 0.061,
+   "h": 0.755
+  },
+  "model": {
+   "file": "polyhaven/machete/machete_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.214,
+    -0.011
+   ]
+  },
+  "thumb": "polyhaven/machete/preview.png",
+  "tags": [
+   "props",
+   "collection: the_shed",
+   "weapon",
+   "knife",
+   "iron",
+   "steel",
+   "shed",
+   "gardening",
+   "metal",
+   "jungle",
+   "blade",
+   "sharp",
+   "survival",
+   "tool",
+   "combat"
+  ]
  },
  {
   "id": "polyhaven-marble_bust_01",
@@ -9333,7 +11849,20 @@
     -0.005
    ]
   },
-  "thumb": "polyhaven/marble_bust_01/preview.png"
+  "thumb": "polyhaven/marble_bust_01/preview.png",
+  "tags": [
+   "decorative",
+   "sculpt",
+   "sculpture",
+   "statue",
+   "art",
+   "sandstone",
+   "bust",
+   "marble",
+   "mansion",
+   "renaissance",
+   "man"
+  ]
  },
  {
   "id": "polyhaven-metal_detector",
@@ -9354,7 +11883,18 @@
     -0.125
    ]
   },
-  "thumb": "polyhaven/metal_detector/preview.png"
+  "thumb": "polyhaven/metal_detector/preview.png",
+  "tags": [
+   "props",
+   "electronics",
+   "detector",
+   "exploration",
+   "adventure",
+   "treasure",
+   "equipment",
+   "archaeology",
+   "technology"
+  ]
  },
  {
   "id": "polyhaven-metal_jug",
@@ -9375,7 +11915,22 @@
     0
    ]
   },
-  "thumb": "polyhaven/metal_jug/preview.png"
+  "thumb": "polyhaven/metal_jug/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "vases",
+   "milk jug",
+   "metal",
+   "vase",
+   "farmhouse",
+   "countryside",
+   "kitchen decor",
+   "vintage",
+   "farmhouse decor",
+   "pitcher",
+   "rustic"
+  ]
  },
  {
   "id": "polyhaven-metal_office_desk",
@@ -9396,7 +11951,20 @@
     -0.004
    ]
   },
-  "thumb": "polyhaven/metal_office_desk/preview.png"
+  "thumb": "polyhaven/metal_office_desk/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "table",
+   "office",
+   "old",
+   "vintage",
+   "metal",
+   "dirty",
+   "scratched",
+   "industrial",
+   "rectangular"
+  ]
  },
  {
   "id": "polyhaven-metal_stool_01",
@@ -9417,7 +11985,20 @@
     0
    ]
   },
-  "thumb": "polyhaven/metal_stool_01/preview.png"
+  "thumb": "polyhaven/metal_stool_01/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating",
+   "vintage",
+   "antique",
+   "old",
+   "leather",
+   "round",
+   "metal",
+   "industrial",
+   "barstool"
+  ]
  },
  {
   "id": "polyhaven-metal_stool_02",
@@ -9438,7 +12019,18 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/metal_stool_02/preview.png"
+  "thumb": "polyhaven/metal_stool_02/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating",
+   "wooden",
+   "metal frame",
+   "industrial",
+   "small",
+   "workshop",
+   "round"
+  ]
  },
  {
   "id": "polyhaven-metal_stool_03",
@@ -9459,7 +12051,20 @@
     0.003
    ]
   },
-  "thumb": "polyhaven/metal_stool_03/preview.png"
+  "thumb": "polyhaven/metal_stool_03/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating",
+   "old",
+   "metal",
+   "barstool",
+   "backrest",
+   "heavy-duty",
+   "weathered",
+   "rusted",
+   "workshop"
+  ]
  },
  {
   "id": "polyhaven-mid_century_lounge_chair",
@@ -9480,7 +12085,25 @@
     0.066
    ]
   },
-  "thumb": "polyhaven/mid_century_lounge_chair/preview.png"
+  "thumb": "polyhaven/mid_century_lounge_chair/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "wooden",
+   "leather",
+   "couch",
+   "lounge",
+   "architecture",
+   "modern",
+   "interior design",
+   "home decor",
+   "living room",
+   "comfort",
+   "stylish",
+   "recliner",
+   "retro",
+   "classy"
+  ]
  },
  {
   "id": "polyhaven-modern_arm_chair_01",
@@ -9501,7 +12124,20 @@
     0.082
    ]
   },
-  "thumb": "polyhaven/modern_arm_chair_01/preview.png"
+  "thumb": "polyhaven/modern_arm_chair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "office",
+   "wood",
+   "leather",
+   "fancy",
+   "modern",
+   "chair",
+   "contemporary",
+   "wooden",
+   "lounge"
+  ]
  },
  {
   "id": "polyhaven-modern_ceiling_lamp_01",
@@ -9523,6 +12159,19 @@
    ]
   },
   "thumb": "polyhaven/modern_ceiling_lamp_01/preview.png",
+  "tags": [
+   "lighting",
+   "light",
+   "modern",
+   "glass",
+   "round",
+   "hanging",
+   "hanging lamp",
+   "ceiling lamp",
+   "decorative lighting",
+   "modern decor",
+   "interior design"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
@@ -9547,7 +12196,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/modern_coffee_table_01/preview.png"
+  "thumb": "polyhaven/modern_coffee_table_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "contemporary",
+   "modern",
+   "rectangular",
+   "stone",
+   "wood",
+   "deco",
+   "clean"
+  ]
  },
  {
   "id": "polyhaven-modern_coffee_table_02",
@@ -9568,7 +12228,18 @@
     -0.003
    ]
   },
-  "thumb": "polyhaven/modern_coffee_table_02/preview.png"
+  "thumb": "polyhaven/modern_coffee_table_02/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "contemporary",
+   "modern",
+   "rectangular",
+   "stone",
+   "wood",
+   "deco",
+   "clean"
+  ]
  },
  {
   "id": "polyhaven-modern_wooden_cabinet",
@@ -9589,7 +12260,19 @@
     0.01
    ]
   },
-  "thumb": "polyhaven/modern_wooden_cabinet/preview.png"
+  "thumb": "polyhaven/modern_wooden_cabinet/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "cabinet",
+   "wood",
+   "modern",
+   "minimalist",
+   "interrior",
+   "living room",
+   "contemporary",
+   "design"
+  ]
  },
  {
   "id": "polyhaven-modular_street_seating",
@@ -9611,7 +12294,300 @@
     -0.015
    ]
   },
-  "thumb": "polyhaven/modular_street_seating/preview.png"
+  "thumb": "polyhaven/modular_street_seating/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "collection: hidden_alley",
+   "chair",
+   "outdoor",
+   "urban",
+   "cityscape",
+   "contemporary",
+   "bench",
+   "city",
+   "infrastructure"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulder_02",
+  "name": "Namaqualand Boulder 02",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 2.532,
+   "d": 1.234,
+   "h": 0.883
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulder_02/namaqualand_boulder_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.082,
+    0.059,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulder_02/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "desert",
+   "south africa",
+   "boulders",
+   "geological",
+   "rock",
+   "landscaping"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulder_03",
+  "name": "Namaqualand Boulder 03",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 2.407,
+   "d": 3.065,
+   "h": 1.473
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulder_03/namaqualand_boulder_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.149,
+    0.015,
+    -0.143
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulder_03/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "rough",
+   "brown",
+   "geological",
+   "landscaping",
+   "stone"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulder_04",
+  "name": "Namaqualand Boulder 04",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 2.522,
+   "d": 2.496,
+   "h": 1.9
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulder_04/namaqualand_boulder_04_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.079,
+    0.029,
+    -0.217
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulder_04/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulder_05",
+  "name": "Namaqualand Boulder 05",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 1.364,
+   "d": 0.748,
+   "h": 0.538
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulder_05/namaqualand_boulder_05_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.047,
+    0.01,
+    0.024
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulder_05/preview.png",
+  "tags": [
+   "collection: namaqualand",
+   "nature",
+   "rocks",
+   "karoo",
+   "desert",
+   "dry",
+   "south africa",
+   "rock",
+   "formation",
+   "geological",
+   "boulder"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulder_06",
+  "name": "Namaqualand Boulder 06",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 0.675,
+   "d": 1.212,
+   "h": 0.652
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulder_06/namaqualand_boulder_06_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.017,
+    0.018,
+    0.055
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulder_06/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping",
+   "rough"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_boulders_01",
+  "name": "Namaqualand Boulders 01",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 1.058,
+   "d": 0.587,
+   "h": 0.252
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_boulders_01/namaqualand_boulders_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.369,
+    0.002,
+    0.01
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_boulders_01/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "south africa",
+   "karoo",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping",
+   "rough"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_rocks_01",
+  "name": "Namaqualand Rocks 01",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 1.448,
+   "d": 0.217,
+   "h": 0.152
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_rocks_01/namaqualand_rocks_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.628,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_rocks_01/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "quartz",
+   "desert",
+   "geological",
+   "stones"
+  ]
+ },
+ {
+  "id": "polyhaven-namaqualand_stones_01",
+  "name": "Namaqualand Stones 01",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 1.022,
+   "d": 0.112,
+   "h": 0.084
+  },
+  "model": {
+   "file": "polyhaven/namaqualand_stones_01/namaqualand_stones_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.431,
+    0.002,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/namaqualand_stones_01/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "quartz",
+   "desert",
+   "geological",
+   "mineral",
+   "stones"
+  ]
  },
  {
   "id": "polyhaven-old_bed_frame",
@@ -9632,7 +12608,87 @@
     -0.002
    ]
   },
-  "thumb": "polyhaven/old_bed_frame/preview.png"
+  "thumb": "polyhaven/old_bed_frame/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "bed",
+   "furniture",
+   "rusty",
+   "metal",
+   "bedroom",
+   "vintage",
+   "antique",
+   "hospital",
+   "traditional"
+  ]
+ },
+ {
+  "id": "polyhaven-ornate_medieval_dagger",
+  "name": "Ornate Medieval Dagger",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.12,
+   "d": 0.025,
+   "h": 0.349
+  },
+  "model": {
+   "file": "polyhaven/ornate_medieval_dagger/ornate_medieval_dagger_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.02,
+    0.079,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ornate_medieval_dagger/preview.png",
+  "tags": [
+   "props",
+   "weapon",
+   "blade",
+   "knife",
+   "combat",
+   "sharp",
+   "detailed",
+   "silver",
+   "medieval"
+  ]
+ },
+ {
+  "id": "polyhaven-ornate_medieval_mace",
+  "name": "Ornate Medieval Mace",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.095,
+   "d": 0.102,
+   "h": 0.63
+  },
+  "model": {
+   "file": "polyhaven/ornate_medieval_mace/ornate_medieval_mace_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.104,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ornate_medieval_mace/preview.png",
+  "tags": [
+   "props",
+   "weapon",
+   "fantasy",
+   "battle",
+   "combat",
+   "knight",
+   "iron",
+   "seige",
+   "war",
+   "steel",
+   "crusades",
+   "silver",
+   "medieval"
+  ]
  },
  {
   "id": "polyhaven-ornate_mirror_01",
@@ -9653,7 +12709,97 @@
     -0.013
    ]
   },
-  "thumb": "polyhaven/ornate_mirror_01/preview.png"
+  "thumb": "polyhaven/ornate_mirror_01/preview.png",
+  "tags": [
+   "decorative",
+   "wall decoration",
+   "furniture",
+   "decor",
+   "decoration",
+   "ornate",
+   "fancy",
+   "wealthy",
+   "mansion",
+   "manor",
+   "vintage",
+   "victorian",
+   "floral",
+   "gold",
+   "mirror"
+  ]
+ },
+ {
+  "id": "polyhaven-ornate_war_hammer",
+  "name": "Ornate War Hammer",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.144,
+   "d": 0.035,
+   "h": 0.711
+  },
+  "model": {
+   "file": "polyhaven/ornate_war_hammer/ornate_war_hammer_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.005,
+    0.15,
+    0
+   ]
+  },
+  "thumb": "polyhaven/ornate_war_hammer/preview.png",
+  "tags": [
+   "props",
+   "weapon",
+   "fantasy",
+   "battle",
+   "combat",
+   "knight",
+   "medieval",
+   "iron",
+   "seige",
+   "war",
+   "steel",
+   "crusades",
+   "silver",
+   "historic"
+  ]
+ },
+ {
+  "id": "polyhaven-othonna_cerarioides",
+  "name": "Othonna Cerarioides",
+  "category": "outdoor",
+  "group": "Trees",
+  "placement": "floor",
+  "size": {
+   "w": 3.969,
+   "d": 1.799,
+   "h": 1.97
+  },
+  "model": {
+   "file": "polyhaven/othonna_cerarioides/othonna_cerarioides_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.134,
+    0.061,
+    0.27
+   ]
+  },
+  "thumb": "polyhaven/othonna_cerarioides/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "trees",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "succulent",
+   "bush",
+   "shrub",
+   "botany",
+   "green",
+   "leaf"
+  ]
  },
  {
   "id": "polyhaven-Ottoman_01",
@@ -9674,7 +12820,19 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/Ottoman_01/preview.png"
+  "thumb": "polyhaven/Ottoman_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "leather",
+   "chair",
+   "fabric",
+   "ottoman",
+   "upholstery",
+   "interior design",
+   "living room",
+   "lounge"
+  ]
  },
  {
   "id": "polyhaven-outdoor_table_chair_set_01",
@@ -9696,7 +12854,22 @@
     -0.006
    ]
   },
-  "thumb": "polyhaven/outdoor_table_chair_set_01/preview.png"
+  "thumb": "polyhaven/outdoor_table_chair_set_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "outdoor",
+   "foldable",
+   "folding",
+   "coffee",
+   "diner",
+   "street",
+   "urban",
+   "deli",
+   "wood",
+   "city",
+   "cafe"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_bench",
@@ -9717,7 +12890,22 @@
     0.005
    ]
   },
-  "thumb": "polyhaven/painted_wooden_bench/preview.png"
+  "thumb": "polyhaven/painted_wooden_bench/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "old",
+   "wooden",
+   "worn",
+   "antique",
+   "farmhouse",
+   "aged",
+   "rustic",
+   "small",
+   "seat",
+   "stool"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_cabinet",
@@ -9738,7 +12926,22 @@
     -0.026
    ]
   },
-  "thumb": "polyhaven/painted_wooden_cabinet/preview.png"
+  "thumb": "polyhaven/painted_wooden_cabinet/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "old",
+   "worn",
+   "antique",
+   "wooden",
+   "vintage",
+   "colonial",
+   "farmhouse",
+   "storage",
+   "aged",
+   "rustic",
+   "weathered"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_cabinet_02",
@@ -9759,7 +12962,20 @@
     -0.043
    ]
   },
-  "thumb": "polyhaven/painted_wooden_cabinet_02/preview.png"
+  "thumb": "polyhaven/painted_wooden_cabinet_02/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "storage",
+   "cabinet",
+   "wood",
+   "vintage",
+   "rustic",
+   "worn",
+   "carpentry",
+   "aged",
+   "bookcase"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_chair_01",
@@ -9780,7 +12996,19 @@
     0.031
    ]
   },
-  "thumb": "polyhaven/painted_wooden_chair_01/preview.png"
+  "thumb": "polyhaven/painted_wooden_chair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "chair",
+   "wood",
+   "painted",
+   "farmhouse",
+   "dining",
+   "diner",
+   "american",
+   "kitchen"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_chair_02",
@@ -9801,7 +13029,19 @@
     0.032
    ]
   },
-  "thumb": "polyhaven/painted_wooden_chair_02/preview.png"
+  "thumb": "polyhaven/painted_wooden_chair_02/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "farmhouse",
+   "seat",
+   "dining",
+   "chair"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_nightstand",
@@ -9822,7 +13062,20 @@
     -0.005
    ]
   },
-  "thumb": "polyhaven/painted_wooden_nightstand/preview.png"
+  "thumb": "polyhaven/painted_wooden_nightstand/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "old",
+   "wooden",
+   "worn",
+   "vintage",
+   "antique",
+   "aged",
+   "bedside",
+   "bedroom",
+   "night"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_shelves",
@@ -9843,7 +13096,17 @@
     -0.184
    ]
   },
-  "thumb": "polyhaven/painted_wooden_shelves/preview.png"
+  "thumb": "polyhaven/painted_wooden_shelves/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "old",
+   "wooden",
+   "worn",
+   "vintage",
+   "farmhouse",
+   "aged"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_sofa",
@@ -9864,7 +13127,17 @@
     0.021
    ]
   },
-  "thumb": "polyhaven/painted_wooden_sofa/preview.png"
+  "thumb": "polyhaven/painted_wooden_sofa/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "chair",
+   "outdoor",
+   "couch",
+   "wooden",
+   "vintage",
+   "aged"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_stool",
@@ -9885,7 +13158,21 @@
     -0.013
    ]
   },
-  "thumb": "polyhaven/painted_wooden_stool/preview.png"
+  "thumb": "polyhaven/painted_wooden_stool/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "painted",
+   "worn",
+   "old",
+   "antique",
+   "vintage",
+   "farmhouse",
+   "rustic",
+   "carpentry",
+   "aged",
+   "chair"
+  ]
  },
  {
   "id": "polyhaven-painted_wooden_table",
@@ -9906,7 +13193,56 @@
     0.003
    ]
   },
-  "thumb": "polyhaven/painted_wooden_table/preview.png"
+  "thumb": "polyhaven/painted_wooden_table/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "old",
+   "wooden",
+   "vintage",
+   "farmhouse",
+   "aged",
+   "worn",
+   "carpentry"
+  ]
+ },
+ {
+  "id": "polyhaven-periwinkle_plant",
+  "name": "Periwinkle Plant",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 1.235,
+   "d": 0.321,
+   "h": 0.411
+  },
+  "model": {
+   "file": "polyhaven/periwinkle_plant/periwinkle_plant_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.058,
+    0,
+    0.03
+   ]
+  },
+  "thumb": "polyhaven/periwinkle_plant/preview.png",
+  "tags": [
+   "nature",
+   "ground cover",
+   "plants",
+   "flowers",
+   "small flowers",
+   "shrub",
+   "bush",
+   "spring",
+   "botanical",
+   "garden plant",
+   "foliage",
+   "leaf",
+   "leaves",
+   "meadow",
+   "wildflower"
+  ]
  },
  {
   "id": "polyhaven-planter_box_01",
@@ -9928,7 +13264,27 @@
     0
    ]
   },
-  "thumb": "polyhaven/planter_box_01/preview.png"
+  "thumb": "polyhaven/planter_box_01/preview.png",
+  "tags": [
+   "decorative",
+   "containers",
+   "potted plants",
+   "collection: the_shed",
+   "old",
+   "wooden",
+   "wood",
+   "farmhouse",
+   "shed",
+   "outdoor",
+   "gardening",
+   "greenhouse",
+   "landscaping",
+   "garden",
+   "farm",
+   "planter",
+   "flower box",
+   "planters"
+  ]
  },
  {
   "id": "polyhaven-planter_box_02",
@@ -9950,7 +13306,27 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/planter_box_02/preview.png"
+  "thumb": "polyhaven/planter_box_02/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "potted plants",
+   "collection: the_shed",
+   "old",
+   "wooden",
+   "wood",
+   "worn",
+   "shed",
+   "outdoor",
+   "gardening",
+   "farm",
+   "greenhouse",
+   "landscaping",
+   "farmhouse",
+   "garden",
+   "flower box",
+   "planters"
+  ]
  },
  {
   "id": "polyhaven-planter_box_03",
@@ -9972,7 +13348,63 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/planter_box_03/preview.png"
+  "thumb": "polyhaven/planter_box_03/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "potted plants",
+   "collection: the_shed",
+   "old",
+   "wooden",
+   "wood",
+   "shed",
+   "farm",
+   "gardening",
+   "landscaping",
+   "garden",
+   "greenhouse",
+   "planters",
+   "farmhouse",
+   "outdoor",
+   "flower box"
+  ]
+ },
+ {
+  "id": "polyhaven-planter_pot_clay",
+  "name": "Planter Pot Clay",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.266,
+   "d": 0.263,
+   "h": 0.222
+  },
+  "model": {
+   "file": "polyhaven/planter_pot_clay/planter_pot_clay_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.011
+   ]
+  },
+  "thumb": "polyhaven/planter_pot_clay/preview.png",
+  "tags": [
+   "containers",
+   "vases",
+   "collection: the_shed",
+   "outdoor",
+   "mossy",
+   "dirty",
+   "used",
+   "worn",
+   "shed",
+   "garden",
+   "gardening",
+   "farmhouse",
+   "greenhouse",
+   "landscaping"
+  ]
  },
  {
   "id": "polyhaven-plastic_monobloc_chair_01",
@@ -9993,7 +13425,53 @@
     0.022
    ]
   },
-  "thumb": "polyhaven/plastic_monobloc_chair_01/preview.png"
+  "thumb": "polyhaven/plastic_monobloc_chair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "collection: the_shed",
+   "plastic",
+   "dirty",
+   "old",
+   "monobloc",
+   "outdoor",
+   "cheap",
+   "shed"
+  ]
+ },
+ {
+  "id": "polyhaven-pocket_watch",
+  "name": "Pocket Watch",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.058,
+   "d": 0.016,
+   "h": 0.076
+  },
+  "model": {
+   "file": "polyhaven/pocket_watch/pocket_watch_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.029,
+    0
+   ]
+  },
+  "thumb": "polyhaven/pocket_watch/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "antique",
+   "brass",
+   "ornate",
+   "gold",
+   "vintage",
+   "watch",
+   "timepiece",
+   "watchface",
+   "time"
+  ]
  },
  {
   "id": "polyhaven-portable_cassette_player",
@@ -10014,7 +13492,19 @@
     -0.003
    ]
   },
-  "thumb": "polyhaven/portable_cassette_player/preview.png"
+  "thumb": "polyhaven/portable_cassette_player/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "electronics",
+   "old",
+   "vintage",
+   "cassette tape",
+   "tape",
+   "retro",
+   "analog",
+   "walkman"
+  ]
  },
  {
   "id": "polyhaven-pot_enamel_01",
@@ -10035,12 +13525,25 @@
     0
    ]
   },
-  "thumb": "polyhaven/pot_enamel_01/preview.png"
+  "thumb": "polyhaven/pot_enamel_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "dishes",
+   "pot",
+   "container",
+   "cooking",
+   "cookware",
+   "kitchen",
+   "enamel",
+   "crockery",
+   "cuisine"
+  ]
  },
  {
   "id": "polyhaven-potted_plant_01",
   "name": "Potted Plant 01",
-  "category": "kitchen",
+  "category": "decor",
   "placement": "floor",
   "size": {
    "w": 0.587,
@@ -10056,12 +13559,26 @@
     0.047
    ]
   },
-  "thumb": "polyhaven/potted_plant_01/preview.png"
+  "thumb": "polyhaven/potted_plant_01/preview.png",
+  "tags": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "nature",
+   "potplant",
+   "plant",
+   "terracotta",
+   "pot",
+   "vase",
+   "medium",
+   "leaf",
+   "green"
+  ]
  },
  {
   "id": "polyhaven-potted_plant_02",
   "name": "Potted Plant 02",
-  "category": "kitchen",
+  "category": "decor",
   "placement": "floor",
   "size": {
    "w": 0.701,
@@ -10077,12 +13594,26 @@
     0.092
    ]
   },
-  "thumb": "polyhaven/potted_plant_02/preview.png"
+  "thumb": "polyhaven/potted_plant_02/preview.png",
+  "tags": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "nature",
+   "potplant",
+   "plant",
+   "pot",
+   "vase",
+   "medium",
+   "leaf",
+   "green",
+   "terracotta"
+  ]
  },
  {
   "id": "polyhaven-potted_plant_04",
   "name": "Potted Plant 04",
-  "category": "kitchen",
+  "category": "decor",
   "placement": "surface",
   "size": {
    "w": 0.168,
@@ -10098,7 +13629,21 @@
     -0.008
    ]
   },
-  "thumb": "polyhaven/potted_plant_04/preview.png"
+  "thumb": "polyhaven/potted_plant_04/preview.png",
+  "tags": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "succulent",
+   "nature",
+   "cactus",
+   "aloe",
+   "potplant",
+   "small",
+   "pot",
+   "plant",
+   "decor"
+  ]
  },
  {
   "id": "polyhaven-pull_chain_light_socket",
@@ -10120,10 +13665,157 @@
    ]
   },
   "thumb": "polyhaven/pull_chain_light_socket/preview.png",
+  "tags": [
+   "lighting",
+   "collection: hidden_alley",
+   "light",
+   "fitting",
+   "socket",
+   "bulb",
+   "fixture",
+   "ceiling",
+   "lamp",
+   "chord"
+  ],
   "light": {
    "y": -0.05,
    "intensity": 14
   }
+ },
+ {
+  "id": "polyhaven-quiver_tree_01",
+  "name": "Quiver Tree 01",
+  "category": "outdoor",
+  "group": "Trees",
+  "placement": "floor",
+  "size": {
+   "w": 1.181,
+   "d": 0.969,
+   "h": 2.715
+  },
+  "model": {
+   "file": "polyhaven/quiver_tree_01/quiver_tree_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.044,
+    0.042,
+    -0.018
+   ]
+  },
+  "thumb": "polyhaven/quiver_tree_01/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "trees",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "desert",
+   "succulent",
+   "aloe"
+  ]
+ },
+ {
+  "id": "polyhaven-quiver_tree_02",
+  "name": "Quiver Tree 02",
+  "category": "outdoor",
+  "group": "Trees",
+  "placement": "floor",
+  "size": {
+   "w": 0.872,
+   "d": 0.881,
+   "h": 1.469
+  },
+  "model": {
+   "file": "polyhaven/quiver_tree_02/quiver_tree_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.048,
+    0.049,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/quiver_tree_02/preview.png",
+  "tags": [
+   "nature",
+   "trees",
+   "plants",
+   "collection: namaqualand",
+   "south africa",
+   "karoo",
+   "succulent",
+   "aloe"
+  ]
+ },
+ {
+  "id": "polyhaven-rock_07",
+  "name": "Rock 07",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 0.169,
+   "d": 0.32,
+   "h": 0.144
+  },
+  "model": {
+   "file": "polyhaven/rock_07/rock_07_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.003,
+    0.002,
+    0.018
+   ]
+  },
+  "thumb": "polyhaven/rock_07/preview.png",
+  "tags": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail",
+   "rock",
+   "stones",
+   "landscape",
+   "geology",
+   "formation",
+   "weathered",
+   "boulder"
+  ]
+ },
+ {
+  "id": "polyhaven-rock_09",
+  "name": "Rock 09",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 0.074,
+   "d": 0.145,
+   "h": 0.033
+  },
+  "model": {
+   "file": "polyhaven/rock_09/rock_09_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.011
+   ]
+  },
+  "thumb": "polyhaven/rock_09/preview.png",
+  "tags": [
+   "nature",
+   "rocks",
+   "collection: verdant_trail",
+   "rock",
+   "landscape",
+   "geology",
+   "formation",
+   "weathered",
+   "stone",
+   "dirt",
+   "boulder",
+   "terrain"
+  ]
  },
  {
   "id": "polyhaven-Rockingchair_01",
@@ -10144,7 +13836,55 @@
     -0.062
    ]
   },
-  "thumb": "polyhaven/Rockingchair_01/preview.png"
+  "thumb": "polyhaven/Rockingchair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "chair",
+   "vintage",
+   "prop",
+   "wood",
+   "rocking chair",
+   "rocking",
+   "decorative",
+   "curved legs",
+   "traditional",
+   "solid wood",
+   "armrest",
+   "slatted backrest",
+   "antique style"
+  ]
+ },
+ {
+  "id": "polyhaven-round_spectacles",
+  "name": "Round Spectacles",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.158,
+   "d": 0.149,
+   "h": 0.046
+  },
+  "model": {
+   "file": "polyhaven/round_spectacles/round_spectacles_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.023,
+    0.074
+   ]
+  },
+  "thumb": "polyhaven/round_spectacles/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "vintage",
+   "round frame",
+   "retro",
+   "eyewear",
+   "accessories",
+   "glasses"
+  ]
  },
  {
   "id": "polyhaven-round_wooden_table_01",
@@ -10165,7 +13905,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/round_wooden_table_01/preview.png"
+  "thumb": "polyhaven/round_wooden_table_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "wooden",
+   "wood",
+   "polish",
+   "circle",
+   "dark",
+   "old"
+  ]
  },
  {
   "id": "polyhaven-round_wooden_table_02",
@@ -10186,7 +13937,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/round_wooden_table_02/preview.png"
+  "thumb": "polyhaven/round_wooden_table_02/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "antique",
+   "vintage",
+   "wooden",
+   "traditional",
+   "circle",
+   "lounge",
+   "dining"
+  ]
  },
  {
   "id": "polyhaven-rubber_duck_toy",
@@ -10207,7 +13969,56 @@
     -0.004
    ]
   },
-  "thumb": "polyhaven/rubber_duck_toy/preview.png"
+  "thumb": "polyhaven/rubber_duck_toy/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "collection: the_shed",
+   "shed",
+   "toy",
+   "bathroom",
+   "child",
+   "home",
+   "fun",
+   "kids",
+   "play",
+   "float",
+   "plastic",
+   "cute",
+   "animal"
+  ]
+ },
+ {
+  "id": "polyhaven-russian_food_cans_01",
+  "name": "Russian Food Cans 01",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.142,
+   "d": 0.046,
+   "h": 0.085
+  },
+  "model": {
+   "file": "polyhaven/russian_food_cans_01/russian_food_cans_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/russian_food_cans_01/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "food",
+   "russian",
+   "culinary",
+   "cooking",
+   "pantry",
+   "tuna",
+   "can"
+  ]
  },
  {
   "id": "polyhaven-scandinavian_masonry_heater",
@@ -10228,7 +14039,16 @@
     -0.191
    ]
   },
-  "thumb": "polyhaven/scandinavian_masonry_heater/preview.png"
+  "thumb": "polyhaven/scandinavian_masonry_heater/preview.png",
+  "tags": [
+   "appliances",
+   "heater",
+   "home heating",
+   "furnace",
+   "fireplace",
+   "wood stove",
+   "central heating"
+  ]
  },
  {
   "id": "polyhaven-SchoolChair_01",
@@ -10249,7 +14069,16 @@
     0
    ]
   },
-  "thumb": "polyhaven/SchoolChair_01/preview.png"
+  "thumb": "polyhaven/SchoolChair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "prop",
+   "metal",
+   "plastic",
+   "chair",
+   "school"
+  ]
  },
  {
   "id": "polyhaven-SchoolDesk_01",
@@ -10270,7 +14099,22 @@
     0.005
    ]
   },
-  "thumb": "polyhaven/SchoolDesk_01/preview.png"
+  "thumb": "polyhaven/SchoolDesk_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "school",
+   "desk",
+   "wood",
+   "metal",
+   "classroom",
+   "student",
+   "single-seat",
+   "school furniture",
+   "storage-shelf",
+   "metal legs",
+   "student seating"
+  ]
  },
  {
   "id": "polyhaven-Shelf_01",
@@ -10291,7 +14135,189 @@
     -0.128
    ]
   },
-  "thumb": "polyhaven/Shelf_01/preview.png"
+  "thumb": "polyhaven/Shelf_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "wood",
+   "shelf",
+   "storage",
+   "home",
+   "organization",
+   "display",
+   "wooden",
+   "bookcase",
+   "bookshelf",
+   "dirty",
+   "weathered",
+   "distressed",
+   "aged",
+   "simple"
+  ]
+ },
+ {
+  "id": "polyhaven-shrub_01",
+  "name": "Shrub 01",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.587,
+   "d": 0.219,
+   "h": 0.396
+  },
+  "model": {
+   "file": "polyhaven/shrub_01/shrub_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.561,
+    0.009,
+    0.005
+   ]
+  },
+  "thumb": "polyhaven/shrub_01/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "flowers",
+   "collection: verdant_trail",
+   "plant",
+   "foliage",
+   "forest",
+   "leaf",
+   "botany",
+   "green",
+   "leaves",
+   "bush",
+   "shrub",
+   "small",
+   "meadow",
+   "flower",
+   "floral",
+   "garden",
+   "environment",
+   "ageratina adenophora"
+  ]
+ },
+ {
+  "id": "polyhaven-shrub_03",
+  "name": "Shrub 03",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 1.367,
+   "d": 0.151,
+   "h": 0.403
+  },
+  "model": {
+   "file": "polyhaven/shrub_03/shrub_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.61,
+    0.002,
+    -0.003
+   ]
+  },
+  "thumb": "polyhaven/shrub_03/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: verdant_trail",
+   "meadow",
+   "field",
+   "shrub",
+   "botany",
+   "green",
+   "plant",
+   "leaf",
+   "bush",
+   "foliage",
+   "small",
+   "undergrowth",
+   "garden",
+   "flora",
+   "environment",
+   "vegetation"
+  ]
+ },
+ {
+  "id": "polyhaven-shrub_04",
+  "name": "Shrub 04",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 0.584,
+   "d": 0.146,
+   "h": 0.219
+  },
+  "model": {
+   "file": "polyhaven/shrub_04/shrub_04_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.267,
+    0.006,
+    0.002
+   ]
+  },
+  "thumb": "polyhaven/shrub_04/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: verdant_trail",
+   "plant",
+   "shrub",
+   "bush",
+   "green",
+   "leaf",
+   "foliage",
+   "vegetation",
+   "undergrowth"
+  ]
+ },
+ {
+  "id": "polyhaven-shrub_sorrel_01",
+  "name": "Shrub Sorrel 01",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 0.352,
+   "d": 0.146,
+   "h": 0.058
+  },
+  "model": {
+   "file": "polyhaven/shrub_sorrel_01/shrub_sorrel_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.01,
+    0.001,
+    0.051
+   ]
+  },
+  "thumb": "polyhaven/shrub_sorrel_01/preview.png",
+  "tags": [
+   "plants",
+   "flowers",
+   "nature",
+   "collection: smugglers_cove",
+   "sorrel",
+   "potplant",
+   "bush",
+   "shrub",
+   "leaf",
+   "leaves",
+   "green",
+   "small",
+   "forest",
+   "field",
+   "floral",
+   "flower"
+  ]
  },
  {
   "id": "polyhaven-side_table_01",
@@ -10312,7 +14338,22 @@
     0
    ]
   },
-  "thumb": "polyhaven/side_table_01/preview.png"
+  "thumb": "polyhaven/side_table_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "wood",
+   "minimalist",
+   "modern",
+   "decor",
+   "living room",
+   "bedroom",
+   "shelf",
+   "contemporary",
+   "interior",
+   "home",
+   "wooden"
+  ]
  },
  {
   "id": "polyhaven-side_table_tall_01",
@@ -10333,7 +14374,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/side_table_tall_01/preview.png"
+  "thumb": "polyhaven/side_table_tall_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "antique",
+   "worn",
+   "old",
+   "wood",
+   "side table",
+   "side"
+  ]
  },
  {
   "id": "polyhaven-signal_flashlight",
@@ -10354,7 +14406,19 @@
     0
    ]
   },
-  "thumb": "polyhaven/signal_flashlight/preview.png"
+  "thumb": "polyhaven/signal_flashlight/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "props",
+   "electronics",
+   "handheld",
+   "light",
+   "torch",
+   "signal device",
+   "portable beacon",
+   "emergency signal",
+   "vintage"
+  ]
  },
  {
   "id": "polyhaven-small_wooden_table_01",
@@ -10375,7 +14439,15 @@
     0
    ]
   },
-  "thumb": "polyhaven/small_wooden_table_01/preview.png"
+  "thumb": "polyhaven/small_wooden_table_01/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "wood",
+   "small",
+   "wooden"
+  ]
  },
  {
   "id": "polyhaven-Sofa_01",
@@ -10396,7 +14468,19 @@
     0.032
    ]
   },
-  "thumb": "polyhaven/Sofa_01/preview.png"
+  "thumb": "polyhaven/Sofa_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "wood",
+   "prop",
+   "vintage",
+   "gothic",
+   "chair",
+   "couch",
+   "victorian",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-sofa_02",
@@ -10417,7 +14501,17 @@
     0.069
    ]
   },
-  "thumb": "polyhaven/sofa_02/preview.png"
+  "thumb": "polyhaven/sofa_02/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "wood",
+   "chair",
+   "prop",
+   "couch",
+   "leather",
+   "fabric"
+  ]
  },
  {
   "id": "polyhaven-sofa_03",
@@ -10438,7 +14532,55 @@
     0.001
    ]
   },
-  "thumb": "polyhaven/sofa_03/preview.png"
+  "thumb": "polyhaven/sofa_03/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "vintage",
+   "chair",
+   "couch",
+   "seat",
+   "fancy",
+   "mansion",
+   "manor",
+   "victorian",
+   "antique",
+   "leather"
+  ]
+ },
+ {
+  "id": "polyhaven-spinning_wheel_01",
+  "name": "Spinning Wheel 01",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.489,
+   "d": 1.025,
+   "h": 0.966
+  },
+  "model": {
+   "file": "polyhaven/spinning_wheel_01/spinning_wheel_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.025,
+    0,
+    -0.038
+   ]
+  },
+  "thumb": "polyhaven/spinning_wheel_01/preview.png",
+  "tags": [
+   "props",
+   "tools",
+   "vintage",
+   "victorian",
+   "loom",
+   "fabric",
+   "cloth",
+   "yarn",
+   "village",
+   "wooden",
+   "old"
+  ]
  },
  {
   "id": "polyhaven-standing_chalkboard_01",
@@ -10459,7 +14601,21 @@
     0
    ]
   },
-  "thumb": "polyhaven/standing_chalkboard_01/preview.png"
+  "thumb": "polyhaven/standing_chalkboard_01/preview.png",
+  "tags": [
+   "decorative",
+   "resturant",
+   "sign",
+   "signage",
+   "chalk",
+   "board",
+   "coffee",
+   "workshop",
+   "cafe",
+   "urban",
+   "deli",
+   "menu"
+  ]
  },
  {
   "id": "polyhaven-standing_picture_frame_01",
@@ -10480,7 +14636,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/standing_picture_frame_01/preview.png"
+  "thumb": "polyhaven/standing_picture_frame_01/preview.png",
+  "tags": [
+   "decorative",
+   "modern",
+   "minimalist",
+   "clean",
+   "frame",
+   "photo",
+   "simple",
+   "art"
+  ]
  },
  {
   "id": "polyhaven-standing_picture_frame_02",
@@ -10501,7 +14667,49 @@
     0
    ]
   },
-  "thumb": "polyhaven/standing_picture_frame_02/preview.png"
+  "thumb": "polyhaven/standing_picture_frame_02/preview.png",
+  "tags": [
+   "decorative",
+   "wood",
+   "painting",
+   "old",
+   "art",
+   "frame",
+   "photo"
+  ]
+ },
+ {
+  "id": "polyhaven-steel_frame_shelves_02",
+  "name": "Steel Frame Shelves 02",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.593,
+   "d": 0.502,
+   "h": 2.142
+  },
+  "model": {
+   "file": "polyhaven/steel_frame_shelves_02/steel_frame_shelves_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    0
+   ]
+  },
+  "thumb": "polyhaven/steel_frame_shelves_02/preview.png",
+  "tags": [
+   "furniture",
+   "industrial",
+   "shelves",
+   "collection: the_shed",
+   "commercial",
+   "modern",
+   "shelf",
+   "bookshelf",
+   "metal",
+   "wood"
+  ]
  },
  {
   "id": "polyhaven-steel_frame_shelves_03",
@@ -10522,7 +14730,195 @@
     -0.002
    ]
   },
-  "thumb": "polyhaven/steel_frame_shelves_03/preview.png"
+  "thumb": "polyhaven/steel_frame_shelves_03/preview.png",
+  "tags": [
+   "shelves",
+   "furniture",
+   "storage",
+   "home decor",
+   "contemporary",
+   "minimalist",
+   "display",
+   "frame"
+  ]
+ },
+ {
+  "id": "polyhaven-stick_grenade",
+  "name": "Stick Grenade",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.081,
+   "d": 0.081,
+   "h": 0.379
+  },
+  "model": {
+   "file": "polyhaven/stick_grenade/stick_grenade_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0.16,
+    0.002
+   ]
+  },
+  "thumb": "polyhaven/stick_grenade/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "weapons",
+   "hand grenade",
+   "world war 2",
+   "bomb",
+   "explosive",
+   "german",
+   "wooden handle"
+  ]
+ },
+ {
+  "id": "polyhaven-stone_01",
+  "name": "Stone 01",
+  "category": "outdoor",
+  "group": "Rocks",
+  "placement": "floor",
+  "size": {
+   "w": 0.147,
+   "d": 0.089,
+   "h": 0.072
+  },
+  "model": {
+   "file": "polyhaven/stone_01/stone_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.003,
+    0.015,
+    0
+   ]
+  },
+  "thumb": "polyhaven/stone_01/preview.png",
+  "tags": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail",
+   "rock",
+   "stone",
+   "pebbles",
+   "dirt",
+   "terrain",
+   "gravel",
+   "quartz"
+  ]
+ },
+ {
+  "id": "polyhaven-strawberry_chocolate_cake",
+  "name": "Strawberry Chocolate Cake",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.244,
+   "d": 0.24,
+   "h": 0.079
+  },
+  "model": {
+   "file": "polyhaven/strawberry_chocolate_cake/strawberry_chocolate_cake_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.002,
+    0,
+    0.007
+   ]
+  },
+  "thumb": "polyhaven/strawberry_chocolate_cake/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "cooking",
+   "culinary",
+   "cake",
+   "baked goods",
+   "bakery",
+   "treat"
+  ]
+ },
+ {
+  "id": "polyhaven-street_lamp_01",
+  "name": "Street Lamp 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.704,
+   "d": 0.386,
+   "h": 3.871
+  },
+  "model": {
+   "file": "polyhaven/street_lamp_01/street_lamp_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/street_lamp_01/preview.png",
+  "tags": [
+   "lighting",
+   "industrial",
+   "collection: hidden_alley",
+   "street",
+   "road",
+   "light",
+   "lamppost",
+   "outdoor",
+   "pole",
+   "sidewalk",
+   "night",
+   " urban",
+   "city"
+  ],
+  "light": {
+   "y": 3.29,
+   "intensity": 9
+  }
+ },
+ {
+  "id": "polyhaven-street_lamp_02",
+  "name": "Street Lamp 02",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.386,
+   "d": 0.807,
+   "h": 1.675
+  },
+  "model": {
+   "file": "polyhaven/street_lamp_02/street_lamp_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.395,
+    -0.403
+   ]
+  },
+  "thumb": "polyhaven/street_lamp_02/preview.png",
+  "tags": [
+   "lighting",
+   "industrial",
+   "collection: hidden_alley",
+   "street",
+   "road",
+   "light",
+   "lamppost",
+   "outdoor",
+   "pole",
+   "sidewalk",
+   "night",
+   "urban",
+   "city"
+  ],
+  "light": {
+   "y": 1.424,
+   "intensity": 9
+  }
  },
  {
   "id": "polyhaven-sungka_board",
@@ -10543,7 +14939,19 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/sungka_board/preview.png"
+  "thumb": "polyhaven/sungka_board/preview.png",
+  "tags": [
+   "decorative",
+   "props",
+   "collection: the_shed",
+   "shed",
+   "game",
+   "boardgame",
+   "wooden",
+   "traditional",
+   "filipino",
+   "hand made"
+  ]
  },
  {
   "id": "polyhaven-sungka_board_02",
@@ -10564,7 +14972,56 @@
     0.018
    ]
   },
-  "thumb": "polyhaven/sungka_board_02/preview.png"
+  "thumb": "polyhaven/sungka_board_02/preview.png",
+  "tags": [
+   "decorative",
+   "props",
+   "game",
+   "boardgame",
+   "wooden",
+   "filipino",
+   "traditional",
+   "hand-carved",
+   "handmade",
+   "shell",
+   "table top",
+   "toy"
+  ]
+ },
+ {
+  "id": "polyhaven-sweet_potato",
+  "name": "Sweet Potato",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.058,
+   "d": 0.061,
+   "h": 0.1
+  },
+  "model": {
+   "file": "polyhaven/sweet_potato/sweet_potato_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0.052,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/sweet_potato/preview.png",
+  "tags": [
+   "food",
+   "nature",
+   "potato",
+   "root",
+   "vegetable",
+   "dirty",
+   "raw",
+   "organic",
+   "oblong",
+   "sweet potato",
+   "roots",
+   "tuberous"
+  ]
  },
  {
   "id": "polyhaven-tea_set_01",
@@ -10585,7 +15042,23 @@
     0.042
    ]
   },
-  "thumb": "polyhaven/tea_set_01/preview.png"
+  "thumb": "polyhaven/tea_set_01/preview.png",
+  "tags": [
+   "props",
+   "dishes",
+   "antique",
+   "tea",
+   "cup",
+   "english",
+   "ornate",
+   "vintage",
+   "floral",
+   "decorative",
+   "ceramic",
+   "food",
+   "coffee",
+   "victorian"
+  ]
  },
  {
   "id": "polyhaven-Television_01",
@@ -10606,7 +15079,21 @@
     0.023
    ]
   },
-  "thumb": "polyhaven/Television_01/preview.png"
+  "thumb": "polyhaven/Television_01/preview.png",
+  "tags": [
+   "props",
+   "electronics",
+   "collection: the_shed",
+   "vintage",
+   "prop",
+   "furniture",
+   "metal",
+   "wood",
+   "tv",
+   "television",
+   "video",
+   "audio"
+  ]
  },
  {
   "id": "polyhaven-television_02",
@@ -10627,7 +15114,19 @@
     0.053
    ]
   },
-  "thumb": "polyhaven/television_02/preview.png"
+  "thumb": "polyhaven/television_02/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "electronics",
+   "old",
+   "vintage",
+   "crt",
+   "cathode ray tube",
+   "tv",
+   "retro",
+   "boxy",
+   "screen"
+  ]
  },
  {
   "id": "polyhaven-throw_pillows_01",
@@ -10648,7 +15147,17 @@
     -0.072
    ]
   },
-  "thumb": "polyhaven/throw_pillows_01/preview.png"
+  "thumb": "polyhaven/throw_pillows_01/preview.png",
+  "tags": [
+   "decorative",
+   "pillow",
+   "throw",
+   "pattern",
+   "african",
+   "red",
+   "triangle",
+   "orange"
+  ]
  },
  {
   "id": "polyhaven-treasure_chest",
@@ -10669,7 +15178,128 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/treasure_chest/preview.png"
+  "thumb": "polyhaven/treasure_chest/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "decorative",
+   "collection: smugglers_cove",
+   "old",
+   "wooden",
+   "chest",
+   "treasure",
+   "pirates",
+   "gold",
+   "crate",
+   "maritime",
+   "colonial",
+   "worn",
+   "antique",
+   "wood",
+   "prop",
+   "container",
+   "metal",
+   "box",
+   "ornate"
+  ]
+ },
+ {
+  "id": "polyhaven-tree_stump_01",
+  "name": "Tree Stump 01",
+  "category": "outdoor",
+  "group": "Trees",
+  "placement": "floor",
+  "size": {
+   "w": 1.426,
+   "d": 1.59,
+   "h": 0.573
+  },
+  "model": {
+   "file": "polyhaven/tree_stump_01/tree_stump_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.072,
+    0.193,
+    -0.035
+   ]
+  },
+  "thumb": "polyhaven/tree_stump_01/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "trees",
+   "collection: pine_forest",
+   "tree",
+   "trunk",
+   "stump",
+   "dead tree",
+   "bark",
+   "forest",
+   "natural",
+   "woodland",
+   "foliage",
+   "environment",
+   "forest floor",
+   "leaf",
+   "dead",
+   "roots",
+   "decayed",
+   "log",
+   "dry",
+   "mossy",
+   "debris",
+   "moss",
+   "rough texture"
+  ]
+ },
+ {
+  "id": "polyhaven-tree_stump_02",
+  "name": "Tree Stump 02",
+  "category": "outdoor",
+  "group": "Trees",
+  "placement": "floor",
+  "size": {
+   "w": 1.522,
+   "d": 1.393,
+   "h": 0.522
+  },
+  "model": {
+   "file": "polyhaven/tree_stump_02/tree_stump_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.043,
+    0.233,
+    -0.022
+   ]
+  },
+  "thumb": "polyhaven/tree_stump_02/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "ground cover",
+   "trees",
+   "collection: pine_forest",
+   "woodland",
+   "tree",
+   "stump",
+   "dead",
+   "environment",
+   "trunk",
+   "bark",
+   "forest",
+   "natural",
+   "forest floor",
+   "dry",
+   "dead tree",
+   "decayed",
+   "mossy",
+   "moss",
+   "rough texture",
+   "roots",
+   "leaf",
+   "leaves"
+  ]
  },
  {
   "id": "polyhaven-vintage_cabinet_01",
@@ -10690,7 +15320,21 @@
     -0.057
    ]
   },
-  "thumb": "polyhaven/vintage_cabinet_01/preview.png"
+  "thumb": "polyhaven/vintage_cabinet_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "vintage",
+   "farmhouse",
+   "old",
+   "antique",
+   "fancy",
+   "wooden",
+   "varnished",
+   "cupboard",
+   "shelf",
+   "cabinet"
+  ]
  },
  {
   "id": "polyhaven-vintage_day_bed",
@@ -10711,7 +15355,22 @@
     0.042
    ]
   },
-  "thumb": "polyhaven/vintage_day_bed/preview.png"
+  "thumb": "polyhaven/vintage_day_bed/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "furniture",
+   "bed",
+   "seating",
+   "old",
+   "vintage",
+   "antique",
+   "wooden",
+   "couch",
+   "bench",
+   "sofa-bed",
+   "matress",
+   "chaise"
+  ]
  },
  {
   "id": "polyhaven-vintage_electric_kettle",
@@ -10732,7 +15391,21 @@
     0
    ]
   },
-  "thumb": "polyhaven/vintage_electric_kettle/preview.png"
+  "thumb": "polyhaven/vintage_electric_kettle/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "decorative",
+   "appliances",
+   "old",
+   "vintage",
+   "antique",
+   "electric",
+   "gooseneck spout",
+   "metal",
+   "rusted",
+   "dirty",
+   "traditional"
+  ]
  },
  {
   "id": "polyhaven-vintage_microwave",
@@ -10753,7 +15426,18 @@
     -0.014
    ]
   },
-  "thumb": "polyhaven/vintage_microwave/preview.png"
+  "thumb": "polyhaven/vintage_microwave/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "appliances",
+   "electronics",
+   "vintage",
+   "retro",
+   "wooden",
+   "70s",
+   "oven",
+   "analog"
+  ]
  },
  {
   "id": "polyhaven-vintage_oil_lamp",
@@ -10775,10 +15459,58 @@
    ]
   },
   "thumb": "polyhaven/vintage_oil_lamp/preview.png",
+  "tags": [
+   "lighting",
+   "decorative",
+   "lamp",
+   "oil",
+   "antique",
+   "victorian",
+   "manor",
+   "historic"
+  ],
   "light": {
    "y": 0.682,
    "intensity": 5
   }
+ },
+ {
+  "id": "polyhaven-vintage_pocket_watch",
+  "name": "Vintage Pocket Watch",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.061,
+   "d": 0.014,
+   "h": 0.08
+  },
+  "model": {
+   "file": "polyhaven/vintage_pocket_watch/vintage_pocket_watch_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.031,
+    0
+   ]
+  },
+  "thumb": "polyhaven/vintage_pocket_watch/preview.png",
+  "tags": [
+   "props",
+   "vintage",
+   "watch",
+   "time",
+   "gold",
+   "antique",
+   "pocket watch",
+   "timepiece",
+   "ornate",
+   "watchface",
+   "round",
+   "minute hand",
+   "old-fashioned",
+   "mechanical",
+   "numerals"
+  ]
  },
  {
   "id": "polyhaven-vintage_radio_transceiver",
@@ -10799,7 +15531,22 @@
     -0.071
    ]
   },
-  "thumb": "polyhaven/vintage_radio_transceiver/preview.png"
+  "thumb": "polyhaven/vintage_radio_transceiver/preview.png",
+  "tags": [
+   "appliances",
+   "electronics",
+   "collection: project_lighthouse",
+   "military",
+   "army",
+   "communications",
+   "frequency dial",
+   "field radio",
+   "radio",
+   "ww2",
+   "telegraph",
+   "handset",
+   "microphone"
+  ]
  },
  {
   "id": "polyhaven-vintage_suitcase",
@@ -10820,7 +15567,23 @@
     0.009
    ]
   },
-  "thumb": "polyhaven/vintage_suitcase/preview.png"
+  "thumb": "polyhaven/vintage_suitcase/preview.png",
+  "tags": [
+   "decorative",
+   "props",
+   "vintage",
+   "old",
+   "hand made",
+   "stickers",
+   "travel",
+   "garbage",
+   "suitcase",
+   "trunk",
+   "rustic",
+   "luggage",
+   "worn",
+   "aged"
+  ]
  },
  {
   "id": "polyhaven-vintage_telephone_wall_clock",
@@ -10841,7 +15604,19 @@
     -0.096
    ]
   },
-  "thumb": "polyhaven/vintage_telephone_wall_clock/preview.png"
+  "thumb": "polyhaven/vintage_telephone_wall_clock/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "wall decoration",
+   "collection: project_lighthouse",
+   "old",
+   "vintage",
+   "antique",
+   "rotary phone",
+   "ornate",
+   "red"
+  ]
  },
  {
   "id": "polyhaven-vintage_video_camera",
@@ -10862,7 +15637,21 @@
     -0.017
    ]
   },
-  "thumb": "polyhaven/vintage_video_camera/preview.png"
+  "thumb": "polyhaven/vintage_video_camera/preview.png",
+  "tags": [
+   "electronics",
+   "appliances",
+   "old",
+   "vintage",
+   "photography",
+   "film",
+   "cinematic",
+   "video",
+   "camera",
+   "recording",
+   "tape",
+   "world war 2"
+  ]
  },
  {
   "id": "polyhaven-vintage_wooden_drawer_01",
@@ -10883,7 +15672,20 @@
     -0.063
    ]
   },
-  "thumb": "polyhaven/vintage_wooden_drawer_01/preview.png"
+  "thumb": "polyhaven/vintage_wooden_drawer_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "table",
+   "vintage",
+   "old",
+   "filing",
+   "drawer",
+   "office",
+   "wooden",
+   "worn",
+   "cabinet"
+  ]
  },
  {
   "id": "polyhaven-wall_clock",
@@ -10904,7 +15706,62 @@
     -0.024
    ]
   },
-  "thumb": "polyhaven/wall_clock/preview.png"
+  "thumb": "polyhaven/wall_clock/preview.png",
+  "tags": [
+   "collection: project_lighthouse",
+   "decorative",
+   "appliances",
+   "time",
+   "timepiece",
+   "watch",
+   "watchface",
+   "wall clock",
+   "analog",
+   "modern",
+   "office decor",
+   "home interior",
+   "admin",
+   "office",
+   "90s"
+  ]
+ },
+ {
+  "id": "polyhaven-watering_can_metal_01",
+  "name": "Watering Can Metal 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.191,
+   "d": 0.452,
+   "h": 0.197
+  },
+  "model": {
+   "file": "polyhaven/watering_can_metal_01/watering_can_metal_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.001,
+    -0.051
+   ]
+  },
+  "thumb": "polyhaven/watering_can_metal_01/preview.png",
+  "tags": [
+   "containers",
+   "tools",
+   "props",
+   "collection: the_shed",
+   "metal",
+   "garage",
+   "garden",
+   "gardening",
+   "landscaping",
+   "outdoor",
+   "shed",
+   "irrigation",
+   "farm",
+   "farmhouse"
+  ]
  },
  {
   "id": "polyhaven-wicker_basket_01",
@@ -10925,7 +15782,23 @@
     0
    ]
   },
-  "thumb": "polyhaven/wicker_basket_01/preview.png"
+  "thumb": "polyhaven/wicker_basket_01/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "collection: the_shed",
+   "wood",
+   "wicker",
+   "twine",
+   "basket",
+   "picnic",
+   "outdoor",
+   "kitchen",
+   "dining",
+   "table",
+   "shed",
+   "farm"
+  ]
  },
  {
   "id": "polyhaven-wicker_basket_02",
@@ -10946,7 +15819,86 @@
     0.026
    ]
   },
-  "thumb": "polyhaven/wicker_basket_02/preview.png"
+  "thumb": "polyhaven/wicker_basket_02/preview.png",
+  "tags": [
+   "containers",
+   "decorative",
+   "handcrafted",
+   "home decor",
+   "rattan",
+   "basket",
+   "handwoven",
+   "woven",
+   "rustic decor",
+   "wicker",
+   "twine"
+  ]
+ },
+ {
+  "id": "polyhaven-wild_rooibos_bush",
+  "name": "Wild Rooibos Bush",
+  "category": "outdoor",
+  "group": "Plants",
+  "placement": "floor",
+  "size": {
+   "w": 2.279,
+   "d": 0.843,
+   "h": 0.541
+  },
+  "model": {
+   "file": "polyhaven/wild_rooibos_bush/wild_rooibos_bush_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.807,
+    0.002,
+    0.115
+   ]
+  },
+  "thumb": "polyhaven/wild_rooibos_bush/preview.png",
+  "tags": [
+   "nature",
+   "plants",
+   "collection: namaqualand",
+   "karoo",
+   "south africa",
+   "desert",
+   "dried",
+   "dry",
+   "shrub"
+  ]
+ },
+ {
+  "id": "polyhaven-wine_barrel_01",
+  "name": "Wine Barrel 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.742,
+   "d": 0.756,
+   "h": 0.871
+  },
+  "model": {
+   "file": "polyhaven/wine_barrel_01/wine_barrel_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    -0.007
+   ]
+  },
+  "thumb": "polyhaven/wine_barrel_01/preview.png",
+  "tags": [
+   "containers",
+   "barrel",
+   "wine",
+   "celler",
+   "old",
+   "worn",
+   "grape",
+   "farmhouse",
+   "farm"
+  ]
  },
  {
   "id": "polyhaven-wine_bottles_01",
@@ -10967,7 +15919,167 @@
     0
    ]
   },
-  "thumb": "polyhaven/wine_bottles_01/preview.png"
+  "thumb": "polyhaven/wine_bottles_01/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "dishes",
+   "wine",
+   "drink",
+   "bottle",
+   "champagne",
+   "grape",
+   "farmhouse",
+   "vineyard"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_axe",
+  "name": "Wooden Axe",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.047,
+   "d": 0.214,
+   "h": 0.63
+  },
+  "model": {
+   "file": "polyhaven/wooden_axe/wooden_axe_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.219,
+    -0.071
+   ]
+  },
+  "thumb": "polyhaven/wooden_axe/preview.png",
+  "tags": [
+   "props",
+   "tool",
+   "axe",
+   "weapon",
+   "sharp",
+   "lumberjack",
+   "forestry",
+   "forestry tools",
+   "chopping",
+   "gardening",
+   "garden",
+   "firewood",
+   "camping",
+   "survival",
+   "hand tool"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_axe_02",
+  "name": "Wooden Axe 02",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.051,
+   "d": 0.226,
+   "h": 0.704
+  },
+  "model": {
+   "file": "polyhaven/wooden_axe_02/wooden_axe_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.282,
+    -0.073
+   ]
+  },
+  "thumb": "polyhaven/wooden_axe_02/preview.png",
+  "tags": [
+   "props",
+   "tool",
+   "axe",
+   "weapon",
+   "hatchet",
+   "forestry",
+   "firewood",
+   "camping",
+   "hand tool",
+   "lumber",
+   "survival"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_axe_03",
+  "name": "Wooden Axe 03",
+  "category": "decor",
+  "placement": "surface",
+  "size": {
+   "w": 0.05,
+   "d": 0.158,
+   "h": 0.632
+  },
+  "model": {
+   "file": "polyhaven/wooden_axe_03/wooden_axe_03_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.224,
+    -0.043
+   ]
+  },
+  "thumb": "polyhaven/wooden_axe_03/preview.png",
+  "tags": [
+   "props",
+   "tools",
+   "forest",
+   "gardening",
+   "garden",
+   "lumberjack",
+   "woodwork",
+   "firewood",
+   "fireman",
+   "saw",
+   "cutting",
+   "chopping"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_barrels_01",
+  "name": "Wooden Barrels 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 4.44,
+   "d": 3.345,
+   "h": 0.957
+  },
+  "model": {
+   "file": "polyhaven/wooden_barrels_01/wooden_barrels_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.112,
+    0.04,
+    0.26
+   ]
+  },
+  "thumb": "polyhaven/wooden_barrels_01/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "collection: smugglers_cove",
+   "barrel",
+   "celler",
+   "old",
+   "worn",
+   "wood",
+   "antique",
+   "prop",
+   "maritime",
+   "colonial",
+   "cove",
+   "farmhouse",
+   "farm",
+   "furniture",
+   "wooden"
+  ]
  },
  {
   "id": "polyhaven-wooden_bookshelf_worn",
@@ -10988,7 +16100,27 @@
     0
    ]
   },
-  "thumb": "polyhaven/wooden_bookshelf_worn/preview.png"
+  "thumb": "polyhaven/wooden_bookshelf_worn/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "collection: the_shed",
+   "old",
+   "wooden",
+   "wood",
+   "worn",
+   "garage",
+   "shed",
+   "rustic",
+   "antique",
+   "distressed",
+   "aged",
+   "weathered",
+   "bookcase",
+   "carpentry",
+   "vintage",
+   "storage"
+  ]
  },
  {
   "id": "polyhaven-wooden_bowl_01",
@@ -11009,7 +16141,18 @@
     -0.001
    ]
   },
-  "thumb": "polyhaven/wooden_bowl_01/preview.png"
+  "thumb": "polyhaven/wooden_bowl_01/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "dishes",
+   "bowl",
+   "wooden",
+   "carved",
+   "fruit",
+   "fruitbowl",
+   "decoration"
+  ]
  },
  {
   "id": "polyhaven-wooden_bowl_02",
@@ -11030,7 +16173,94 @@
     0
    ]
   },
-  "thumb": "polyhaven/wooden_bowl_02/preview.png"
+  "thumb": "polyhaven/wooden_bowl_02/preview.png",
+  "tags": [
+   "props",
+   "decorative",
+   "dishes",
+   "antique",
+   "vintage",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional",
+   "fruitbowl",
+   "rustic decor",
+   "home decor"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_bucket_01",
+  "name": "Wooden Bucket 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.367,
+   "d": 0.342,
+   "h": 0.55
+  },
+  "model": {
+   "file": "polyhaven/wooden_bucket_01/wooden_bucket_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.001
+   ]
+  },
+  "thumb": "polyhaven/wooden_bucket_01/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "collection: smugglers_cove",
+   "wooden",
+   "bucket",
+   "old",
+   "worn",
+   "wood",
+   "prop",
+   "container"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_bucket_02",
+  "name": "Wooden Bucket 02",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.615,
+   "d": 0.616,
+   "h": 0.35
+  },
+  "model": {
+   "file": "polyhaven/wooden_bucket_02/wooden_bucket_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0,
+    0.001
+   ]
+  },
+  "thumb": "polyhaven/wooden_bucket_02/preview.png",
+  "tags": [
+   "props",
+   "containers",
+   "collection: smugglers_cove",
+   "old",
+   "wooden",
+   "bucket",
+   "vintage",
+   "wood",
+   "prop",
+   "worn",
+   "antique",
+   "farmhouse",
+   "colonial",
+   "maritime",
+   "container"
+  ]
  },
  {
   "id": "polyhaven-wooden_candlestick",
@@ -11052,10 +16282,137 @@
    ]
   },
   "thumb": "polyhaven/wooden_candlestick/preview.png",
+  "tags": [
+   "decorative",
+   "lighting",
+   "old",
+   "antique",
+   "vintage",
+   "fancy",
+   "candle",
+   "historic",
+   "victorian"
+  ],
   "light": {
    "y": 0.187,
    "intensity": 1.5
   }
+ },
+ {
+  "id": "polyhaven-wooden_crate_01",
+  "name": "Wooden Crate 01",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.825,
+   "d": 0.409,
+   "h": 0.35
+  },
+  "model": {
+   "file": "polyhaven/wooden_crate_01/wooden_crate_01_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.008,
+    -0.008
+   ]
+  },
+  "thumb": "polyhaven/wooden_crate_01/preview.png",
+  "tags": [
+   "containers",
+   "collection: smugglers_cove",
+   "vintage",
+   "wood",
+   "old",
+   "wooden",
+   "fancy",
+   "colonial",
+   "chest",
+   "box",
+   "prop",
+   "antique",
+   "farmhouse",
+   "crate",
+   "maritime",
+   "commercial",
+   "container"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_crate_02",
+  "name": "Wooden Crate 02",
+  "category": "outdoor",
+  "group": "Garden",
+  "placement": "floor",
+  "size": {
+   "w": 0.529,
+   "d": 1.166,
+   "h": 0.464
+  },
+  "model": {
+   "file": "polyhaven/wooden_crate_02/wooden_crate_02_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.01,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_crate_02/preview.png",
+  "tags": [
+   "containers",
+   "props",
+   "collection: smugglers_cove",
+   "vintage",
+   "wood",
+   "old",
+   "wooden",
+   "worn",
+   "colonial",
+   "commercial",
+   "maritime",
+   "chest",
+   "box",
+   "container",
+   "prop",
+   "farmhouse",
+   "crate",
+   "farm"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_cutting_board",
+  "name": "Wooden Cutting Board",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.45,
+   "d": 0.247,
+   "h": 0.041
+  },
+  "model": {
+   "file": "polyhaven/wooden_cutting_board/wooden_cutting_board_1k.gltf",
+   "scale": 1,
+   "offset": [
+    -0.001,
+    0,
+    0
+   ]
+  },
+  "thumb": "polyhaven/wooden_cutting_board/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "culinary",
+   "cooking",
+   "kitchen",
+   "cutting",
+   "chopping",
+   "cheese",
+   "cooking equipment",
+   "wood"
+  ]
  },
  {
   "id": "polyhaven-wooden_display_shelves_01",
@@ -11076,7 +16433,50 @@
     0
    ]
   },
-  "thumb": "polyhaven/wooden_display_shelves_01/preview.png"
+  "thumb": "polyhaven/wooden_display_shelves_01/preview.png",
+  "tags": [
+   "furniture",
+   "shelves",
+   "modern",
+   "wood",
+   "pine",
+   "square",
+   "display",
+   "shelf",
+   "bookshelf"
+  ]
+ },
+ {
+  "id": "polyhaven-wooden_handle_saber",
+  "name": "Wooden Handle Saber",
+  "category": "decor",
+  "placement": "floor",
+  "size": {
+   "w": 0.026,
+   "d": 0.123,
+   "h": 0.935
+  },
+  "model": {
+   "file": "polyhaven/wooden_handle_saber/wooden_handle_saber_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0,
+    0.096,
+    0.004
+   ]
+  },
+  "thumb": "polyhaven/wooden_handle_saber/preview.png",
+  "tags": [
+   "props",
+   "collection: hidden_alley",
+   "sword",
+   "weapon",
+   "pirates",
+   "blade",
+   "combat",
+   "survival",
+   "sharp"
+  ]
  },
  {
   "id": "polyhaven-wooden_lantern_01",
@@ -11098,6 +16498,23 @@
    ]
   },
   "thumb": "polyhaven/wooden_lantern_01/preview.png",
+  "tags": [
+   "props",
+   "lighting",
+   "collection: smugglers_cove",
+   "lantern",
+   "wooden",
+   "wood",
+   "old",
+   "worn",
+   "farmhouse",
+   "maritime",
+   "colonial",
+   "cove",
+   "prop",
+   "vintage",
+   "candle"
+  ],
   "light": {
    "y": 0.451,
    "intensity": 1.5
@@ -11123,7 +16540,21 @@
     -0.01
    ]
   },
-  "thumb": "polyhaven/wooden_picnic_table/preview.png"
+  "thumb": "polyhaven/wooden_picnic_table/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "table",
+   "vintage",
+   "old",
+   "worn",
+   "park",
+   "bench",
+   "outdoor",
+   "weathered",
+   "countryside",
+   "outdoor seating"
+  ]
  },
  {
   "id": "polyhaven-wooden_spoon",
@@ -11144,7 +16575,19 @@
     0.055
    ]
   },
-  "thumb": "polyhaven/wooden_spoon/preview.png"
+  "thumb": "polyhaven/wooden_spoon/preview.png",
+  "tags": [
+   "props",
+   "dishes",
+   "cutlery",
+   "spoon",
+   "kitchen",
+   "cookware",
+   "cooking",
+   "serving spoon",
+   "mixing spoon",
+   "culinary"
+  ]
  },
  {
   "id": "polyhaven-wooden_stool_01",
@@ -11165,7 +16608,20 @@
     0
    ]
   },
-  "thumb": "polyhaven/wooden_stool_01/preview.png"
+  "thumb": "polyhaven/wooden_stool_01/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "collection: the_shed",
+   "old",
+   "worn",
+   "dirty",
+   "workshop",
+   "outdoor",
+   "stool",
+   "woodwork",
+   "shop"
+  ]
  },
  {
   "id": "polyhaven-wooden_stool_02",
@@ -11186,7 +16642,20 @@
     0.004
    ]
   },
-  "thumb": "polyhaven/wooden_stool_02/preview.png"
+  "thumb": "polyhaven/wooden_stool_02/preview.png",
+  "tags": [
+   "seating",
+   "furniture",
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "wood",
+   "farmhouse",
+   "carpentry",
+   "handcrafted",
+   "footstool"
+  ]
  },
  {
   "id": "polyhaven-wooden_table_02",
@@ -11207,7 +16676,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/wooden_table_02/preview.png"
+  "thumb": "polyhaven/wooden_table_02/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "wooden",
+   "worn",
+   "village",
+   "rural",
+   "natural",
+   "simple"
+  ]
  },
  {
   "id": "polyhaven-WoodenChair_01",
@@ -11228,7 +16707,18 @@
     0.038
    ]
   },
-  "thumb": "polyhaven/WoodenChair_01/preview.png"
+  "thumb": "polyhaven/WoodenChair_01/preview.png",
+  "tags": [
+   "furniture",
+   "seating",
+   "wood",
+   "prop",
+   "vintage",
+   "chair",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
  },
  {
   "id": "polyhaven-WoodenTable_01",
@@ -11249,7 +16739,18 @@
     0
    ]
   },
-  "thumb": "polyhaven/WoodenTable_01/preview.png"
+  "thumb": "polyhaven/WoodenTable_01/preview.png",
+  "tags": [
+   "furniture",
+   "vintage",
+   "wood",
+   "prop",
+   "table",
+   "school",
+   "desk",
+   "old",
+   "worn"
+  ]
  },
  {
   "id": "polyhaven-WoodenTable_02",
@@ -11270,7 +16771,17 @@
     0
    ]
   },
-  "thumb": "polyhaven/WoodenTable_02/preview.png"
+  "thumb": "polyhaven/WoodenTable_02/preview.png",
+  "tags": [
+   "furniture",
+   "table",
+   "vintage",
+   "wood",
+   "prop",
+   "old",
+   "worn",
+   "small"
+  ]
  },
  {
   "id": "polyhaven-WoodenTable_03",
@@ -11291,6 +16802,162 @@
     -0.007
    ]
   },
-  "thumb": "polyhaven/WoodenTable_03/preview.png"
+  "thumb": "polyhaven/WoodenTable_03/preview.png",
+  "tags": [
+   "furniture",
+   "collection: the_shed",
+   "vintage",
+   "wood",
+   "prop",
+   "table",
+   "metal",
+   "shelf"
+  ]
+ },
+ {
+  "id": "polyhaven-yellow_onion",
+  "name": "Yellow Onion",
+  "category": "kitchen",
+  "placement": "surface",
+  "size": {
+   "w": 0.072,
+   "d": 0.069,
+   "h": 0.086
+  },
+  "model": {
+   "file": "polyhaven/yellow_onion/yellow_onion_1k.gltf",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    0.003
+   ]
+  },
+  "thumb": "polyhaven/yellow_onion/preview.png",
+  "tags": [
+   "props",
+   "food",
+   "culinary",
+   "kitchen",
+   "cooking",
+   "vegetables",
+   "organic",
+   "produce",
+   "nutrition",
+   "ingredients"
+  ]
+ },
+ {
+  "id": "khronos-SheenChair",
+  "name": "Velvet accent chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.827,
+   "d": 0.57,
+   "h": 0.686
+  },
+  "model": {
+   "file": "khronos/SheenChair.glb",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.008
+   ]
+  },
+  "kind": "armchair",
+  "tags": [
+   "velvet",
+   "fabric",
+   "upholstered",
+   "seating",
+   "wayfair"
+  ]
+ },
+ {
+  "id": "khronos-ChairDamaskPurplegold",
+  "name": "Damask accent chair",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 0.829,
+   "d": 0.572,
+   "h": 0.687
+  },
+  "model": {
+   "file": "khronos/ChairDamaskPurplegold.glb",
+   "scale": 1,
+   "offset": [
+    0.001,
+    0,
+    -0.009
+   ]
+  },
+  "kind": "armchair",
+  "tags": [
+   "damask",
+   "fabric",
+   "upholstered",
+   "gold",
+   "purple",
+   "seating",
+   "wayfair"
+  ]
+ },
+ {
+  "id": "khronos-GlamVelvetSofa",
+  "name": "Glam velvet sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.188,
+   "d": 1.023,
+   "h": 0.788
+  },
+  "model": {
+   "file": "khronos/GlamVelvetSofa.glb",
+   "scale": 1,
+   "offset": [
+    0.02,
+    0,
+    0.116
+   ]
+  },
+  "kind": "sofa",
+  "tags": [
+   "velvet",
+   "couch",
+   "upholstered",
+   "seating",
+   "wayfair"
+  ]
+ },
+ {
+  "id": "khronos-SheenWoodLeatherSofa",
+  "name": "Wood and leather sofa",
+  "category": "living",
+  "placement": "floor",
+  "size": {
+   "w": 2.726,
+   "d": 0.923,
+   "h": 1.117
+  },
+  "model": {
+   "file": "khronos/SheenWoodLeatherSofa.glb",
+   "scale": 1,
+   "offset": [
+    0,
+    -0.001,
+    0.001
+   ]
+  },
+  "kind": "sofa",
+  "tags": [
+   "leather",
+   "wood",
+   "couch",
+   "seating"
+  ]
  }
 ]

@@ -1,0 +1,18 @@
+Models from the Khronos glTF sample assets, https://github.com/KhronosGroup/glTF-Sample-Assets
+made by Wayfair. Licences and credits, per model (CC-BY 4.0 requires this credit):
+
+Sheen Chair (SheenChair.glb)
+  CC0-1.0 — © 2020 Wayfair, LLC, by Eric Chadwick (Everything)
+
+GlamVelvetSofa (GlamVelvetSofa.glb)
+  CC-BY-4.0 — © 2021 Wayfair, LLC, by Eric Chadwick (Everything)
+
+Chair Damask Purplegold (ChairDamaskPurplegold.glb)
+  CC-BY-4.0 — © 2021 Wayfair, by Eric Chadwick (Models and Textures)
+
+Sheen Wood Leather Sofa (SheenWoodLeatherSofa.glb)
+  CC-BY-4.0 — © 2024 Darmstadt Graphics Group GmbH, by Eric Chadwick (Improvements)
+  CC0-1.0 — © 2021 Public domain, by Fran Calvente (Original asset)
+
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/

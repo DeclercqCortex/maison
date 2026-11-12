@@ -79,17 +79,98 @@ The catalog has two kinds of piece:
 
 - **Built-in pieces** (69) are made from simple shapes in
   `src/catalog/catalog.ts` and can be recoloured.
-- **Downloaded models** (524) come from Kenney's Furniture Kit and Nature Kit
-  (344, simple low-poly) and from [Poly Haven](https://polyhaven.com) (180,
-  realistic and textured). All are public domain (CC0, see
-  `public/models/*/License.txt`). The model files live in `public/models`.
+- **Downloaded models** (619) come from Kenney's Furniture Kit and Nature Kit
+  (344, simple low-poly), from [Poly Haven](https://polyhaven.com) (271,
+  realistic and textured) and from Khronos (4, below). The Kenney and Poly
+  Haven models are public domain (CC0, see `public/models/*/License.txt`).
+  The model files live in `public/models`.
 
-The Poly Haven files (about 360 MB) are in the repository, in
-`public/models/polyhaven`. `npm run models:download` fetches any that Poly
-Haven has added since, then `npm run models` adds them to the catalog.
+Four highly detailed pieces (two velvet accent chairs and two sofas, with
+velvet "sheen" and leather materials) come from the
+[Khronos glTF sample assets](https://github.com/KhronosGroup/glTF-Sample-Assets),
+made by Wayfair (Eric Chadwick), in `public/models/khronos` (19 MB). The
+Velvet accent chair is CC0; the Damask accent chair, Glam velvet sofa and Wood
+and leather sofa are CC-BY 4.0: © 2021 Wayfair, LLC, and (Wood and leather
+sofa) © 2024 Darmstadt Graphics Group GmbH, after a CC0 original by Fran
+Calvente. Full credits are in `public/models/khronos/License.txt`;
+`npm run models:khronos` downloads them again.
+
+The Poly Haven files (about 630 MB) are in the repository, in
+`public/models/polyhaven`: every model Poly Haven files under furniture,
+seating, tables, shelves, lighting, decorative, appliances, electronics or
+dishes, plus a hand-picked list in `scripts/polyhaven-extra.json`
+(houseplants, garden plants, small trees and boulders, food, barrels, crates
+and street lamps, and old swords, axes, a mace and a shield; never guns).
+Each of those is under 15 MB: Poly Haven's largest scanned trees run to
+hundreds of megabytes, too heavy to draw. A few files are left out of the
+catalog because they hold several variants side by side or have broken sizes.
+`npm run models:download` fetches any that Poly Haven has added since, then
+`npm run models` adds them to the catalog. Any other Poly Haven model can be
+added from the catalog's search.
 
 `npm run models` measures every model file and rewrites
 `src/catalog/models.json`, which gives each one its name, category, real-world
 size and where it may be placed. The rules are in
 `scripts/build-model-catalog.mjs`. Run it again after adding or removing model
 files.
+
+### Simple and Realistic furniture
+
+The switch at the top of the catalog (also in the walk-through toolbar) shows
+a project's furniture either as **Simple** low-poly pieces (the built-in pieces
+and Kenney's) or as **Realistic** textured ones (Poly Haven's and your own
+imported models). It is saved with the project.
+
+Every piece has a kind (sofa, bed, toilet...), worked out from its name in
+`src/catalog/kinds.ts`. In the other style, a placed piece is drawn as the
+closest-sized piece of the same kind, fitted to the same footprint
+(`src/catalog/style.ts`): tables, rugs and plants may be turned a quarter;
+beds, tables and cabinets may be stretched a little; everything else is scaled
+evenly. So the room's layout is the same in both styles. Kinds with nothing in
+the other style (there is no realistic toilet, fridge or kitchen cabinet yet)
+are shown as they are, and the catalog lists them marked "Simple only" or
+"Realistic only".
+
+### Searching
+
+The catalog's search finds pieces by what they are, not just their exact
+names (`src/catalog/search.ts`). Plurals count ("chairs"); synonyms count
+("couch" finds sofas, "sculpture" finds statues); broad words reach down
+("kitchenware" finds pots, pans, kettles, jugs, bowls and the tea set;
+"decor" finds statues, vases and frames; "chinese" finds the Chinese and
+oriental pieces). Each model's own tags from its library are searched too.
+Every word typed must match, and the best matches (by name, then by what the
+piece is, then by its tags) come first. While searching, both furniture styles
+are listed. Common searches (Chairs, Sofas, Beds, Statues, Chinese,
+Kitchenware...) are one click away under the search box.
+
+Below the catalog's matches, **Free models online** lists matching
+public-domain (CC0) models that are not in the catalog yet, from
+[Poly Haven](https://polyhaven.com) (all its models, listed live) and the
+[Smithsonian's open-access 3D scans](https://3d.si.edu) (listed in
+`src/catalog/smithsonian.json` by `npm run models:smithsonian`). Clicking one
+downloads it and opens it in the import dialog below, credited to its source.
+Smithsonian scans are Draco-compressed; the decoder is in `public/draco`.
+
+`npm run models:smithsonian` needs a free api.data.gov key
+(https://api.data.gov/signup) passed as `SI_API_KEY`; without one it uses the
+shared demo key, which allows only a few requests an hour.
+
+### Importing your own models and CAD files
+
+"Import a model or CAD file…" in the catalog adds your own piece. It reads:
+
+- 3D models: glTF (.glb, .gltf), OBJ (with its .mtl and textures), FBX, STL,
+  PLY, Collada (.dae), 3DS and 3MF;
+- CAD files: STEP (.step, .stp), IGES (.iges, .igs) and BREP, turned into a
+  mesh in the browser by OpenCascade
+  ([occt-import-js](https://github.com/kovacsv/occt-import-js), LGPL-2.1,
+  loaded only when a CAD file is imported).
+
+The dialog shows the model beside a 1.75 m figure. You set what it is (so it
+can stand in for simple pieces of that kind), where it goes, the file's units
+(guessed from its size: CAD files often measure in millimetres), which way is
+up (CAD programs usually use Z), which way it faces, and its width. It is saved
+as binary glTF in this browser's IndexedDB, under "Your models". Imported
+models are not inside saved `.maison` files, so another browser opening the
+project will not have them.

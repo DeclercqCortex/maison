@@ -98,16 +98,30 @@ for (const kit of ['furniture', 'nature']) {
   }
 }
 
-// ---- Poly Haven: realistic indoor models, already in real-world metres. ----
+// ---- Poly Haven: realistic models, already in real-world metres. ----
 // Downloaded by `npm run models:download`; listed in public/models/polyhaven/index.json.
 // Sorted by Poly Haven's own categories and tags, plus a few words in the name.
 const words = (m) => [m.name, ...m.tags].join(' ').toLowerCase();
 const has = (m, pattern) => pattern.test(words(m));
-/** Pieces meant for outside, which go in the garden catalog. */
-const POLY_OUTDOOR = /\b(garden gnome|street seating|outdoor table|picnic|planter box|concrete cat)\b/i;
+/** Plants for indoors, which go in Decor rather than the garden. */
+const HOUSEPLANT = /anthurium|calathea|pachira|\bfern\b|planter pot|potted|periwinkle/i;
+/**
+ * Pieces meant for outside, and the garden catalog's group for each: trees,
+ * rocks, plants, or other garden things. Null for indoor pieces.
+ */
+function polyGarden(m) {
+  const cats = m.categories;
+  if (HOUSEPLANT.test(m.name)) return null;
+  if (cats.includes('trees') || /\btree\b|sapling/i.test(m.name)) return 'Trees';
+  if (cats.includes('rocks') || /boulder|\brocks?\b|\bstones?\b/i.test(m.name)) return 'Rocks';
+  if (/garden gnome|street seating|outdoor table|picnic|planter box|concrete cat|street lamp|garden hose|watering can|barrel|bucket|crate/i.test(m.name)) return 'Garden';
+  if (cats.some((c) => ['plants', 'flowers', 'grass'].includes(c)) || /shrub|bush|flower|succulent|stump/i.test(m.name)) return 'Plants';
+  return null;
+}
 function polyCategory(m) {
   const cats = m.categories;
-  if (POLY_OUTDOOR.test(m.name)) return 'outdoor';
+  if (polyGarden(m)) return 'outdoor';
+  if (HOUSEPLANT.test(m.name)) return 'decor';
   if (has(m, /\bceiling fan\b/)) return 'living';
   if (cats.includes('lighting')) return 'lighting';
   if (has(m, /\b(bath|toilet|soap|towel|shower|sink)\b/)) return 'bathroom';
@@ -119,8 +133,10 @@ function polyCategory(m) {
 }
 const BIG = ['furniture', 'seating', 'table', 'shelves'];
 function polyPlacement(m, size) {
-  if (has(m, /\b(chandelier|pendant|ceiling)\b/)) return 'ceiling';
-  if (has(m, /\b(picture|frame|painting|wall clock|wall mounted|mirror)\b/) && !/standing/i.test(m.name) && size.d < 0.25) return 'wall';
+  if (has(m, /\b(chandelier|pendant|ceiling)\b/) || /hanging (light|lamp)|hanging industrial lamp/i.test(m.name)) return 'ceiling';
+  if (has(m, /\b(picture|frame|painting|wall clock|wall mounted|mirror)\b/) && !/standing|spectacles|glasses/i.test(m.name) && size.d < 0.25) return 'wall';
+  // Wall lights fix to the wall, however far their arm reaches out.
+  if (/wall (lamp|light)|sconce/i.test(m.name)) return 'wall';
   // Small things that are not furniture stand on tables and shelves.
   if (!m.categories.some((c) => BIG.includes(c)) && Math.max(size.w, size.d) < 0.7 && size.h < 0.8) return 'surface';
   return 'floor';
@@ -140,7 +156,7 @@ for (const m of polyIndex) {
     id: `polyhaven-${m.id}`,
     name: m.name.replace(/_/g, ' '),
     category,
-    ...(category === 'outdoor' ? { group: 'Garden' } : {}),
+    ...(category === 'outdoor' ? { group: polyGarden(m) ?? 'Garden' } : {}),
     placement,
     size,
     model: {
@@ -149,6 +165,8 @@ for (const m of polyIndex) {
       offset: [round(-(min[0] + max[0]) / 2), round(-min[1]), round(-(min[2] + max[2]) / 2)],
     },
     thumb: `polyhaven/${m.id}/preview.png`,
+    // Poly Haven's own categories and tags, for searching by more than the name.
+    tags: [...new Set([...m.categories, ...m.tags].map((t) => t.toLowerCase()))],
   };
   if (has(m, /\brug|carpet\b/) && size.h < 0.05) entry.flat = true;
   if (m.categories.includes('lighting')) {
@@ -159,9 +177,34 @@ for (const m of polyIndex) {
   entries.push(entry);
 }
 
+// ---- Khronos glTF sample assets: four detailed Wayfair pieces, in metres. ----
+// Downloaded by `npm run models:khronos`. Named here by what they are.
+const KHRONOS = {
+  SheenChair: { name: 'Velvet accent chair', kind: 'armchair', tags: ['velvet', 'fabric', 'upholstered', 'seating', 'wayfair'] },
+  ChairDamaskPurplegold: { name: 'Damask accent chair', kind: 'armchair', tags: ['damask', 'fabric', 'upholstered', 'gold', 'purple', 'seating', 'wayfair'] },
+  GlamVelvetSofa: { name: 'Glam velvet sofa', kind: 'sofa', tags: ['velvet', 'couch', 'upholstered', 'seating', 'wayfair'] },
+  SheenWoodLeatherSofa: { name: 'Wood and leather sofa', kind: 'sofa', tags: ['leather', 'wood', 'couch', 'seating'] },
+};
+const khronosDir = join(root, 'public', 'models', 'khronos');
+for (const [file, info] of Object.entries(KHRONOS)) {
+  const path = join(khronosDir, `${file}.glb`);
+  if (!existsSync(path)) continue;
+  const { min, max } = modelBounds(readGlbJson(path));
+  entries.push({
+    id: `khronos-${file}`,
+    name: info.name,
+    category: 'living',
+    placement: 'floor',
+    size: { w: round(max[0] - min[0]), d: round(max[2] - min[2]), h: round(max[1] - min[1]) },
+    model: { file: `khronos/${file}.glb`, scale: 1, offset: [round(-(min[0] + max[0]) / 2), round(-min[1]), round(-(min[2] + max[2]) / 2)] },
+    kind: info.kind,
+    tags: info.tags,
+  });
+}
+
 writeFileSync(join(root, 'src', 'catalog', 'models.json'), JSON.stringify(entries, null, 1) + '\n');
 const count = (prefix) => entries.filter((e) => e.id.startsWith(prefix)).length;
 console.log(
   `Wrote ${entries.length} catalog entries: ${count('kenney-furniture-')} Kenney furniture, ` +
-    `${count('kenney-nature-')} Kenney nature, ${count('polyhaven-')} Poly Haven.`,
+    `${count('kenney-nature-')} Kenney nature, ${count('polyhaven-')} Poly Haven, ${count('khronos-')} Khronos.`,
 );

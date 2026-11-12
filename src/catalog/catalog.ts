@@ -7,6 +7,7 @@
  * z through its depth with the front at +z and the back (the wall side) at -z.
  */
 import downloaded from './models.json';
+import { kindOf, styleOf, type FurnitureStyle } from './kinds';
 
 export type Placement = 'floor' | 'wall' | 'ceiling' | 'surface';
 export type Category = 'living' | 'bedroom' | 'kitchen' | 'bathroom' | 'office' | 'lighting' | 'decor' | 'outdoor';
@@ -62,9 +63,23 @@ export interface CatalogItem {
    * to real size and `offset` (in the file's own units) centres it on its
    * footprint with its base on the floor.
    */
-  model?: { file: string; scale: number; offset: [number, number, number] };
+  model?: {
+    file: string;
+    scale: number;
+    offset: [number, number, number];
+    /** Where to load the file from, when it is not under public/models (a model the user imported). */
+    url?: string;
+  };
   /** A ready-made preview picture (under public/models), used instead of drawing one. */
   thumb?: string;
+  /** Extra words to search by (a model library's own categories and tags). */
+  tags?: string[];
+  /** Where the model comes from and its licence, for pieces added from an online library. */
+  credit?: string;
+  /** What the piece is (sofa, bed...), so it can stand in for a piece of the same kind in the other style. */
+  kind?: string;
+  /** Simple low-poly pieces, or realistic textured ones. */
+  style: FurnitureStyle;
 }
 
 const P = 'primary';
@@ -194,7 +209,9 @@ const item = (
   secondary: string,
   parts: Part[],
   extra: Partial<Pick<CatalogItem, 'light' | 'flat' | 'collide'>> = {},
-): CatalogItem => ({ id, name, category, placement, size: { w: size[0], d: size[1], h: size[2] }, colors, secondary, parts, ...extra });
+): CatalogItem => ({
+  id, name, category, placement, size: { w: size[0], d: size[1], h: size[2] }, colors, secondary, parts, style: 'simple', ...extra,
+});
 
 /** Sub-headings for the built-in garden pieces. */
 const BUILT_IN_GROUPS: Record<string, string> = {
@@ -425,21 +442,49 @@ const BUILT_IN: CatalogItem[] = [
  * public domain), listed in models.json by `npm run models`. They keep the
  * colours and textures they were made with, so they offer no colour choices.
  */
-const DOWNLOADED: CatalogItem[] = (downloaded as Omit<CatalogItem, 'colors' | 'secondary' | 'parts'>[]).map((entry) => ({
+const DOWNLOADED: CatalogItem[] = (downloaded as Omit<CatalogItem, 'colors' | 'secondary' | 'parts' | 'style'>[]).map((entry) => ({
   ...entry,
   colors: ['#c9ccd1'],
   secondary: '#c9ccd1',
   parts: [],
+  style: 'simple',
 }));
 
-/** Everything that can be placed: the built-in pieces first, then the downloaded models. */
+/** Gives a piece its kind and style, worked out from its id and name. */
+const classify = (c: CatalogItem): CatalogItem => ({ ...c, kind: c.kind ?? kindOf(c), style: styleOf(c.id) });
+
+/** Everything that ships with Maison: the built-in pieces first, then the downloaded models. */
 export const CATALOG: CatalogItem[] = [
   ...BUILT_IN.map((c) => (c.category === 'outdoor' ? { ...c, group: BUILT_IN_GROUPS[c.id] ?? 'Garden' } : c)),
   ...DOWNLOADED,
-];
+].map(classify);
 
 /** Sub-headings of the garden catalog, in display order. */
 export const OUTDOOR_GROUPS = ['Trees', 'Plants', 'Rocks', 'Crops', 'Garden', 'Camping'];
 
 const BY_ID = new Map(CATALOG.map((c) => [c.id, c]));
-export const catalogItem = (id: string): CatalogItem | undefined => BY_ID.get(id);
+
+/**
+ * Models the user imported (kept in this browser), added once they have been
+ * read from storage. `version` changes with every change to them, so lists of
+ * the catalog know to refresh.
+ */
+const custom = new Map<string, CatalogItem>();
+let version = 0;
+const listeners = new Set<() => void>();
+export function setCustomItems(items: CatalogItem[]): void {
+  custom.clear();
+  for (const item of items) custom.set(item.id, classify(item));
+  version++;
+  listeners.forEach((fn) => fn());
+}
+/** Calls `fn` when the imported models change. Returns the unsubscribe function. */
+export function onCatalogChange(fn: () => void): () => void {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+export const catalogVersion = (): number => version;
+/** Everything that can be placed, imported models last. */
+export const allCatalog = (): CatalogItem[] => [...CATALOG, ...custom.values()];
+
+export const catalogItem = (id: string): CatalogItem | undefined => BY_ID.get(id) ?? custom.get(id);

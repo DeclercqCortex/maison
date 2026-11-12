@@ -1,5 +1,29 @@
 [
  {
+  "id": "anthurium_botany_01",
+  "name": "Anthurium Botany 01",
+  "file": "anthurium_botany_01/anthurium_botany_01_1k.gltf",
+  "categories": [
+   "plants",
+   "nature",
+   "collection: the_shed",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "nature",
+   "bush",
+   "leaf",
+   "shrub",
+   "leaves",
+   "forest",
+   "plant",
+   "green",
+   "jungle",
+   "outdoor",
+   "botany"
+  ]
+ },
+ {
   "id": "antique_ceramic_vase_01",
   "name": "Antique Ceramic Vase 01",
   "file": "antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
@@ -15,6 +39,42 @@
    "fancy",
    "pattern",
    "vase"
+  ]
+ },
+ {
+  "id": "antique_estoc",
+  "name": "Antique Estoc",
+  "file": "antique_estoc/antique_estoc_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "antique",
+   "vintage",
+   "old",
+   "sword",
+   "historic",
+   "traditional",
+   "ornamental",
+   "weapon"
+  ]
+ },
+ {
+  "id": "antique_katana_01",
+  "name": "Antique Katana 01",
+  "file": "antique_katana_01/antique_katana_01_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "antique",
+   "ninja",
+   "katana",
+   "sword",
+   "sharp",
+   "blade",
+   "japanese",
+   "weapon"
   ]
  },
  {
@@ -35,6 +95,23 @@
    "wood",
    "varnished",
    "classic"
+  ]
+ },
+ {
+  "id": "bananas",
+  "name": "Bananas",
+  "file": "bananas/bananas_1k.gltf",
+  "categories": [
+   "food",
+   "collection: project_lighthouse",
+   "nature"
+  ],
+  "tags": [
+   "banana bunch",
+   "yellow",
+   "single banana",
+   "ripe",
+   "fruit"
   ]
  },
  {
@@ -77,6 +154,43 @@
   ]
  },
  {
+  "id": "binder_notebook",
+  "name": "Binder Notebook",
+  "file": "binder_notebook/binder_notebook_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "books",
+   "props"
+  ],
+  "tags": [
+   "old",
+   "leather",
+   "vintage",
+   "worn",
+   "paper",
+   "pencil",
+   "pen",
+   "journal"
+  ]
+ },
+ {
+  "id": "binoculars",
+  "name": "Binoculars",
+  "file": "binoculars/binoculars_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props",
+   "tools"
+  ],
+  "tags": [
+   "leather",
+   "strap",
+   "vintage",
+   "antique",
+   "optical"
+  ]
+ },
+ {
   "id": "book_encyclopedia_set_01",
   "name": "Book Encyclopedia Set 01",
   "file": "book_encyclopedia_set_01/book_encyclopedia_set_01_1k.gltf",
@@ -111,6 +225,28 @@
    "80's",
    "sound system",
    "portable"
+  ]
+ },
+ {
+  "id": "boulder_01",
+  "name": "Boulder 01",
+  "file": "boulder_01/boulder_01_1k.gltf",
+  "categories": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "rocks",
+   "boulder",
+   "lichen",
+   "landscape",
+   "rock",
+   "geology",
+   "formation",
+   "weathered",
+   "rock face",
+   "cliff"
   ]
  },
  {
@@ -423,6 +559,52 @@
   ]
  },
  {
+  "id": "caged_hanging_light",
+  "name": "Caged Hanging Light",
+  "file": "caged_hanging_light/caged_hanging_light_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "lighting",
+   "industrial"
+  ],
+  "tags": [
+   "industrial",
+   "warehouse",
+   "ceiling-mounted",
+   "fluorescent",
+   "chain",
+   "utility",
+   "infrastructure",
+   "electrical",
+   "bunker"
+  ]
+ },
+ {
+  "id": "calathea_orbifolia_01",
+  "name": "Calathea Orbifolia 01",
+  "file": "calathea_orbifolia_01/calathea_orbifolia_01_1k.gltf",
+  "categories": [
+   "plants",
+   "nature",
+   "ground cover",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "nature",
+   "bush",
+   "leaf",
+   "shrub",
+   "green",
+   "leaves",
+   "forest",
+   "plant",
+   "jungle",
+   "outdoor",
+   "botany",
+   "decorative"
+  ]
+ },
+ {
   "id": "Camera_01",
   "name": "Camera 01",
   "file": "Camera_01/Camera_01_1k.gltf",
@@ -442,6 +624,25 @@
    "classic",
    "classic",
    "analog"
+  ]
+ },
+ {
+  "id": "carrot_cake",
+  "name": "Carrot Cake",
+  "file": "carrot_cake/carrot_cake_1k.gltf",
+  "categories": [
+   "food",
+   "props"
+  ],
+  "tags": [
+   "baked goods",
+   "cake",
+   "carrot",
+   "food",
+   "bakery",
+   "dish",
+   "cooking",
+   "dessert"
   ]
  },
  {
@@ -545,6 +746,34 @@
    "cooling",
    "fan",
    "interior"
+  ]
+ },
+ {
+  "id": "celandine_01",
+  "name": "Celandine 01",
+  "file": "celandine_01/celandine_01_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "flowers"
+  ],
+  "tags": [
+   "field",
+   "nature",
+   "green",
+   "shrub",
+   "plant",
+   "outdoor",
+   "leaf",
+   "botany",
+   "leaves",
+   "meadow",
+   "floral",
+   "flower",
+   "small",
+   "natural",
+   "celandine"
   ]
  },
  {
@@ -697,6 +926,28 @@
    "ornate",
    "decor",
    "elegant"
+  ]
+ },
+ {
+  "id": "cheiridopsis_succulent",
+  "name": "Cheiridopsis Succulent",
+  "file": "cheiridopsis_succulent/cheiridopsis_succulent_1k.gltf",
+  "categories": [
+   "collection: namaqualand",
+   "nature",
+   "plants",
+   "ground cover"
+  ],
+  "tags": [
+   "karoo",
+   "desert",
+   "south africa",
+   "succulent",
+   "quartz",
+   "tiny",
+   "aloe",
+   "cactus",
+   "flower"
   ]
  },
  {
@@ -1039,6 +1290,72 @@
   ]
  },
  {
+  "id": "croissant",
+  "name": "Croissant",
+  "file": "croissant/croissant_1k.gltf",
+  "categories": [
+   "props",
+   "food"
+  ],
+  "tags": [
+   "food",
+   "pastry",
+   "baked goods",
+   "french",
+   "breakfast",
+   "bakery",
+   "savory"
+  ]
+ },
+ {
+  "id": "crystalline_iceplant",
+  "name": "Crystalline Iceplant",
+  "file": "crystalline_iceplant/crystalline_iceplant_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "leaf",
+   "small",
+   "succulent",
+   "foliage",
+   "leaves",
+   "karoo",
+   "botanical",
+   "south africa"
+  ]
+ },
+ {
+  "id": "dandelion_01",
+  "name": "Dandelion 01",
+  "file": "dandelion_01/dandelion_01_1k.gltf",
+  "categories": [
+   "plants",
+   "flowers",
+   "nature",
+   "ground cover"
+  ],
+  "tags": [
+   "plant",
+   "nature",
+   "green",
+   "shrub",
+   "outdoor",
+   "leaf",
+   "bush",
+   "botany",
+   "field",
+   "flower",
+   "meadow",
+   "foliage",
+   "small",
+   "floral"
+  ]
+ },
+ {
   "id": "dartboard",
   "name": "Dartboard",
   "file": "dartboard/dartboard_1k.gltf",
@@ -1064,6 +1381,28 @@
    "target",
    "bullseye",
    "indoor games"
+  ]
+ },
+ {
+  "id": "didelta_spinosa",
+  "name": "Didelta Spinosa",
+  "file": "didelta_spinosa/didelta_spinosa_1k.gltf",
+  "categories": [
+   "plants",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "green",
+   "dessert",
+   "shrub",
+   "leaves",
+   "nature",
+   "botany",
+   "natural",
+   "bush",
+   "foliage",
+   "leaf",
+   "flower"
   ]
  },
  {
@@ -1180,6 +1519,31 @@
   ]
  },
  {
+  "id": "fern_02",
+  "name": "Fern 02",
+  "file": "fern_02/fern_02_1k.gltf",
+  "categories": [
+   "plants",
+   "nature",
+   "collection: smugglers_cove",
+   "collection: pine_forest"
+  ],
+  "tags": [
+   "plant",
+   "fern",
+   "foliage",
+   "jungle",
+   "shrub",
+   "bush",
+   "leaf",
+   "leaves",
+   "green",
+   "nature",
+   "forest",
+   "outdoor"
+  ]
+ },
+ {
   "id": "filmstrip_projector_8mm",
   "name": "Filmstrip Projector 8mm",
   "file": "filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf",
@@ -1196,6 +1560,133 @@
    "film",
    "movie",
    "theater"
+  ]
+ },
+ {
+  "id": "fish_knife",
+  "name": "Fish Knife",
+  "file": "fish_knife/fish_knife_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props"
+  ],
+  "tags": [
+   "fishing",
+   "blade",
+   "dagger",
+   "sharp",
+   "survival",
+   "weapon"
+  ]
+ },
+ {
+  "id": "flower_empodium",
+  "name": "Flower Empodium",
+  "file": "flower_empodium/flower_empodium_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "flowers",
+   "ground cover",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "field",
+   "yellow",
+   "floral",
+   "wildflower",
+   "south africa"
+  ]
+ },
+ {
+  "id": "flower_gazania",
+  "name": "Flower Gazania",
+  "file": "flower_gazania/flower_gazania_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "flowers",
+   "ground cover",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "outdoor",
+   "field",
+   "orange",
+   "botanical",
+   "floral",
+   "african",
+   "wildflower",
+   "daisy",
+   "south africa"
+  ]
+ },
+ {
+  "id": "flower_heliophila",
+  "name": "Flower Heliophila",
+  "file": "flower_heliophila/flower_heliophila_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "grass",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "plant",
+   "natural",
+   "botany",
+   "tiny",
+   "small",
+   "karoo",
+   "desert",
+   "south africa",
+   "white",
+   "wildflower",
+   "floral"
+  ]
+ },
+ {
+  "id": "flower_stinkkruid",
+  "name": "Flower Stinkkruid",
+  "file": "flower_stinkkruid/flower_stinkkruid_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "flowers",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "field",
+   "yellow",
+   "botanical",
+   "botany",
+   "floral",
+   "south africa",
+   "wildflower"
+  ]
+ },
+ {
+  "id": "flower_ursinia",
+  "name": "Flower Ursinia",
+  "file": "flower_ursinia/flower_ursinia_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "flowers",
+   "collection: namaqualand",
+   "ground cover"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "wildflower",
+   "botanical",
+   "orange"
   ]
  },
  {
@@ -1216,6 +1707,166 @@
    "compact",
    "outdoor",
    "garden"
+  ]
+ },
+ {
+  "id": "food_apple_01",
+  "name": "Food Apple 01",
+  "file": "food_apple_01/food_apple_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "food",
+   "fruit",
+   "apple",
+   "fruitbowl",
+   "red",
+   "ripe",
+   "fresh",
+   "organic",
+   "stem",
+   "ripe apple"
+  ]
+ },
+ {
+  "id": "food_avocado_01",
+  "name": "Food Avocado 01",
+  "file": "food_avocado_01/food_avocado_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "fruit",
+   "food",
+   "fruitbowl",
+   "avo",
+   "dark",
+   "ripe"
+  ]
+ },
+ {
+  "id": "food_ginger_01",
+  "name": "Food Ginger 01",
+  "file": "food_ginger_01/food_ginger_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "food",
+   "cooking",
+   "ginger",
+   "chef",
+   "resturant",
+   "organic",
+   "root",
+   "herbal",
+   "botanical",
+   "rhizome"
+  ]
+ },
+ {
+  "id": "food_kiwi_01",
+  "name": "Food Kiwi 01",
+  "file": "food_kiwi_01/food_kiwi_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "food",
+   "fruitbowl",
+   "fruit",
+   "kiwi",
+   "exotic",
+   "tropical"
+  ]
+ },
+ {
+  "id": "food_lime_01",
+  "name": "Food Lime 01",
+  "file": "food_lime_01/food_lime_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "fruit",
+   "fruitbowl",
+   "food",
+   "lemon",
+   "lime",
+   "citrus",
+   "green",
+   "fresh"
+  ]
+ },
+ {
+  "id": "food_lychee_01",
+  "name": "Food Lychee 01",
+  "file": "food_lychee_01/food_lychee_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "fruitbowl",
+   "fruit",
+   "food",
+   "lychee",
+   "fresh",
+   "lychee skin ",
+   "spikey",
+   "tropical",
+   "organic"
+  ]
+ },
+ {
+  "id": "food_pears_asian_01",
+  "name": "Pears Asian 01",
+  "file": "food_pears_asian_01/food_pears_asian_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "fruit",
+   "fruitbowl",
+   "tropical",
+   "food",
+   "pears",
+   "organic",
+   "asian pears",
+   "produce",
+   "fresh fruit",
+   "greenhouse",
+   "ripe",
+   "stem",
+   "raw"
+  ]
+ },
+ {
+  "id": "food_pomegranate_01",
+  "name": "Food Pomegranate 01",
+  "file": "food_pomegranate_01/food_pomegranate_01_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "fruit",
+   "fruitbowl",
+   "food",
+   "red",
+   "pomegranite",
+   "produce",
+   "fresh fruit",
+   "ripe",
+   "calyx",
+   "raw"
   ]
  },
  {
@@ -1286,6 +1937,34 @@
    "gardening",
    "farmhouse",
    "greenhouse"
+  ]
+ },
+ {
+  "id": "garden_hose_wall_mounted_01",
+  "name": "Garden Hose Wall Mounted 01",
+  "file": "garden_hose_wall_mounted_01/garden_hose_wall_mounted_01_1k.gltf",
+  "categories": [
+   "wall decoration",
+   "plants",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "garden",
+   "gardening",
+   "landscaping",
+   "pipes",
+   "cable",
+   "valve",
+   "hose",
+   "water",
+   "tap",
+   "outdoor",
+   "green",
+   "shed",
+   "irrigation",
+   "greenhouse",
+   "farm",
+   "farmhouse"
   ]
  },
  {
@@ -1399,6 +2078,23 @@
   ]
  },
  {
+  "id": "hamburger_buns",
+  "name": "Hamburger Buns",
+  "file": "hamburger_buns/hamburger_buns_1k.gltf",
+  "categories": [
+   "props",
+   "food",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "baked goods",
+   "bread",
+   "bakery",
+   "bread rolls",
+   "buns"
+  ]
+ },
+ {
   "id": "hanging_industrial_lamp",
   "name": "Hanging Industrial Lamp",
   "file": "hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf",
@@ -1469,6 +2165,27 @@
   ]
  },
  {
+  "id": "hatchet",
+  "name": "Hatchet",
+  "file": "hatchet/hatchet_1k.gltf",
+  "categories": [
+   "tools"
+  ],
+  "tags": [
+   "weapon",
+   "axe",
+   "lumber",
+   "hatchet",
+   "chopping",
+   "woodwork",
+   "camping",
+   "forestry",
+   "hiking",
+   "firewood",
+   "hand tool"
+  ]
+ },
+ {
   "id": "horse_head",
   "name": "Horse Head",
   "file": "horse_head/horse_head_1k.gltf",
@@ -1508,6 +2225,28 @@
   ]
  },
  {
+  "id": "industrial_caged_sconce",
+  "name": "Industrial Caged Sconce",
+  "file": "industrial_caged_sconce/industrial_caged_sconce_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "lighting",
+   "industrial"
+  ],
+  "tags": [
+   "caged lamp",
+   "pipe fixture",
+   "guarded light",
+   "utility lighting",
+   "warehouse",
+   "factory",
+   "bunker",
+   "wall light",
+   "modular",
+   "heavy duty"
+  ]
+ },
+ {
   "id": "industrial_coffee_table",
   "name": "Industrial Coffee Table",
   "file": "industrial_coffee_table/industrial_coffee_table_1k.gltf",
@@ -1524,6 +2263,24 @@
    "metal frame",
    "garage",
    "urban loft"
+  ]
+ },
+ {
+  "id": "industrial_pipe_lamp",
+  "name": "Industrial Pipe Lamp",
+  "file": "industrial_pipe_lamp/industrial_pipe_lamp_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "industrial",
+   "lighting"
+  ],
+  "tags": [
+   "desk light",
+   "lamp",
+   "metal",
+   "industrial",
+   "workshop lamp",
+   "mechanical"
   ]
  },
  {
@@ -1603,6 +2360,26 @@
   ]
  },
  {
+  "id": "kite_shield",
+  "name": "Kite Shield",
+  "file": "kite_shield/kite_shield_1k.gltf",
+  "categories": [
+   "props",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "weapon",
+   "shield",
+   "war",
+   "knight",
+   "crusades",
+   "old",
+   "wooden",
+   "metal",
+   "shed"
+  ]
+ },
+ {
   "id": "lambis_shell",
   "name": "Lambis Shell",
   "file": "lambis_shell/lambis_shell_1k.gltf",
@@ -1672,6 +2449,44 @@
   ]
  },
  {
+  "id": "leipoldtia_schultzei",
+  "name": "Leipoldtia Schultzei",
+  "file": "leipoldtia_schultzei/leipoldtia_schultzei_1k.gltf",
+  "categories": [
+   "plants",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "succulent",
+   "wildflower",
+   "flower",
+   "floral",
+   "african",
+   "purple",
+   "plant",
+   "flora",
+   "nature"
+  ]
+ },
+ {
+  "id": "lemon",
+  "name": "Lemon",
+  "file": "lemon/lemon_1k.gltf",
+  "categories": [
+   "props",
+   "food"
+  ],
+  "tags": [
+   "culinary",
+   "cooking",
+   "vegetable",
+   "vegetables",
+   "organic",
+   "ingredients",
+   "produce"
+  ]
+ },
+ {
   "id": "lightbulb_01",
   "name": "Lightbulb 01",
   "file": "lightbulb_01/lightbulb_01_1k.gltf",
@@ -1726,6 +2541,49 @@
    "figurine",
    "art",
    "animal"
+  ]
+ },
+ {
+  "id": "long_life_food",
+  "name": "Long Life Food",
+  "file": "long_life_food/long_life_food_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "food",
+   "containers",
+   "props"
+  ],
+  "tags": [
+   "groceries",
+   "canned beans",
+   "carton milk",
+   "tinned food",
+   "canned tomatoes",
+   "sardines"
+  ]
+ },
+ {
+  "id": "machete",
+  "name": "Machete",
+  "file": "machete/machete_1k.gltf",
+  "categories": [
+   "props",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "weapon",
+   "knife",
+   "iron",
+   "steel",
+   "shed",
+   "gardening",
+   "metal",
+   "jungle",
+   "blade",
+   "sharp",
+   "survival",
+   "tool",
+   "combat"
   ]
  },
  {
@@ -2009,6 +2867,170 @@
   ]
  },
  {
+  "id": "namaqualand_boulder_02",
+  "name": "Namaqualand Boulder 02",
+  "file": "namaqualand_boulder_02/namaqualand_boulder_02_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "desert",
+   "south africa",
+   "boulders",
+   "rocks",
+   "geological",
+   "rock",
+   "landscaping"
+  ]
+ },
+ {
+  "id": "namaqualand_boulder_03",
+  "name": "Namaqualand Boulder 03",
+  "file": "namaqualand_boulder_03/namaqualand_boulder_03_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "rough",
+   "brown",
+   "geological",
+   "landscaping",
+   "stone"
+  ]
+ },
+ {
+  "id": "namaqualand_boulder_04",
+  "name": "Namaqualand Boulder 04",
+  "file": "namaqualand_boulder_04/namaqualand_boulder_04_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping"
+  ]
+ },
+ {
+  "id": "namaqualand_boulder_05",
+  "name": "Namaqualand Boulder 05",
+  "file": "namaqualand_boulder_05/namaqualand_boulder_05_1k.gltf",
+  "categories": [
+   "collection: namaqualand",
+   "nature",
+   "rocks"
+  ],
+  "tags": [
+   "karoo",
+   "desert",
+   "dry",
+   "south africa",
+   "rock",
+   "rocks",
+   "formation",
+   "geological",
+   "boulder"
+  ]
+ },
+ {
+  "id": "namaqualand_boulder_06",
+  "name": "Namaqualand Boulder 06",
+  "file": "namaqualand_boulder_06/namaqualand_boulder_06_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping",
+   "rough"
+  ]
+ },
+ {
+  "id": "namaqualand_boulders_01",
+  "name": "Namaqualand Boulders 01",
+  "file": "namaqualand_boulders_01/namaqualand_boulders_01_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "south africa",
+   "karoo",
+   "desert",
+   "boulder",
+   "rock",
+   "brown",
+   "geological",
+   "landscaping",
+   "rough"
+  ]
+ },
+ {
+  "id": "namaqualand_rocks_01",
+  "name": "Namaqualand Rocks 01",
+  "file": "namaqualand_rocks_01/namaqualand_rocks_01_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "quartz",
+   "desert",
+   "geological",
+   "stones",
+   "rocks"
+  ]
+ },
+ {
+  "id": "namaqualand_stones_01",
+  "name": "Namaqualand Stones 01",
+  "file": "namaqualand_stones_01/namaqualand_stones_01_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "quartz",
+   "desert",
+   "geological",
+   "mineral",
+   "stones",
+   "rocks"
+  ]
+ },
+ {
   "id": "old_bed_frame",
   "name": "Old Bed Frame",
   "file": "old_bed_frame/old_bed_frame_1k.gltf",
@@ -2025,6 +3047,46 @@
    "antique",
    "hospital",
    "traditional"
+  ]
+ },
+ {
+  "id": "ornate_medieval_dagger",
+  "name": "Ornate Medieval Dagger",
+  "file": "ornate_medieval_dagger/ornate_medieval_dagger_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "weapon",
+   "blade",
+   "knife",
+   "combat",
+   "sharp",
+   "detailed",
+   "silver",
+   "medieval"
+  ]
+ },
+ {
+  "id": "ornate_medieval_mace",
+  "name": "Ornate Medieval Mace",
+  "file": "ornate_medieval_mace/ornate_medieval_mace_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "weapon",
+   "fantasy",
+   "battle",
+   "combat",
+   "knight",
+   "iron",
+   "seige",
+   "war",
+   "steel",
+   "crusades",
+   "silver",
+   "medieval"
   ]
  },
  {
@@ -2049,6 +3111,50 @@
    "floral",
    "gold",
    "mirror"
+  ]
+ },
+ {
+  "id": "ornate_war_hammer",
+  "name": "Ornate War Hammer",
+  "file": "ornate_war_hammer/ornate_war_hammer_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "weapon",
+   "fantasy",
+   "battle",
+   "combat",
+   "knight",
+   "medieval",
+   "iron",
+   "seige",
+   "war",
+   "steel",
+   "crusades",
+   "silver",
+   "historic"
+  ]
+ },
+ {
+  "id": "othonna_cerarioides",
+  "name": "Othonna Cerarioides",
+  "file": "othonna_cerarioides/othonna_cerarioides_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "trees",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "succulent",
+   "bush",
+   "shrub",
+   "botany",
+   "green",
+   "leaf"
   ]
  },
  {
@@ -2092,6 +3198,29 @@
    "wood",
    "city",
    "cafe"
+  ]
+ },
+ {
+  "id": "pachira_aquatica_01",
+  "name": "Pachira Aquatica 01",
+  "file": "pachira_aquatica_01/pachira_aquatica_01_1k.gltf",
+  "categories": [
+   "plants",
+   "nature",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "nature",
+   "plant",
+   "shrub",
+   "leaves",
+   "forest",
+   "jungle",
+   "outdoor",
+   "bush",
+   "green",
+   "leaf",
+   "botany"
   ]
  },
  {
@@ -2291,6 +3420,30 @@
   ]
  },
  {
+  "id": "periwinkle_plant",
+  "name": "Periwinkle Plant",
+  "file": "periwinkle_plant/periwinkle_plant_1k.gltf",
+  "categories": [
+   "nature",
+   "ground cover",
+   "plants",
+   "flowers"
+  ],
+  "tags": [
+   "small flowers",
+   "shrub",
+   "bush",
+   "spring",
+   "botanical",
+   "garden plant",
+   "foliage",
+   "leaf",
+   "leaves",
+   "meadow",
+   "wildflower"
+  ]
+ },
+ {
   "id": "planter_box_01",
   "name": "Planter Box 01",
   "file": "planter_box_01/planter_box_01_1k.gltf",
@@ -2371,6 +3524,29 @@
   ]
  },
  {
+  "id": "planter_pot_clay",
+  "name": "Planter Pot Clay",
+  "file": "planter_pot_clay/planter_pot_clay_1k.gltf",
+  "categories": [
+   "containers",
+   "vases",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "outdoor",
+   "mossy",
+   "dirty",
+   "used",
+   "worn",
+   "shed",
+   "garden",
+   "gardening",
+   "farmhouse",
+   "greenhouse",
+   "landscaping"
+  ]
+ },
+ {
   "id": "plastic_monobloc_chair_01",
   "name": "Plastic Monobloc Chair 01",
   "file": "plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
@@ -2390,6 +3566,26 @@
   ]
  },
  {
+  "id": "pocket_watch",
+  "name": "Pocket Watch",
+  "file": "pocket_watch/pocket_watch_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props"
+  ],
+  "tags": [
+   "antique",
+   "brass",
+   "ornate",
+   "gold",
+   "vintage",
+   "watch",
+   "timepiece",
+   "watchface",
+   "time"
+  ]
+ },
+ {
   "id": "portable_cassette_player",
   "name": "Portable Cassette Player",
   "file": "portable_cassette_player/portable_cassette_player_1k.gltf",
@@ -2406,6 +3602,25 @@
    "retro",
    "analog",
    "walkman"
+  ]
+ },
+ {
+  "id": "postcard_set_01",
+  "name": "Postcard Set 01",
+  "file": "postcard_set_01/postcard_set_01_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "scatter",
+   "paper",
+   "cards",
+   "notes",
+   "travel",
+   "post",
+   "mail",
+   "card",
+   "tour"
   ]
  },
  {
@@ -2512,6 +3727,81 @@
   ]
  },
  {
+  "id": "quiver_tree_01",
+  "name": "Quiver Tree 01",
+  "file": "quiver_tree_01/quiver_tree_01_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "trees",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "succulent",
+   "aloe"
+  ]
+ },
+ {
+  "id": "quiver_tree_02",
+  "name": "Quiver Tree 02",
+  "file": "quiver_tree_02/quiver_tree_02_1k.gltf",
+  "categories": [
+   "nature",
+   "trees",
+   "plants",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "south africa",
+   "karoo",
+   "succulent",
+   "aloe"
+  ]
+ },
+ {
+  "id": "rock_07",
+  "name": "Rock 07",
+  "file": "rock_07/rock_07_1k.gltf",
+  "categories": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "rock",
+   "stones",
+   "landscape",
+   "geology",
+   "formation",
+   "weathered",
+   "boulder"
+  ]
+ },
+ {
+  "id": "rock_09",
+  "name": "Rock 09",
+  "file": "rock_09/rock_09_1k.gltf",
+  "categories": [
+   "nature",
+   "rocks",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "rock",
+   "landscape",
+   "geology",
+   "formation",
+   "weathered",
+   "stone",
+   "dirt",
+   "boulder",
+   "terrain"
+  ]
+ },
+ {
   "id": "Rockingchair_01",
   "name": "Rockingchair 01",
   "file": "Rockingchair_01/Rockingchair_01_1k.gltf",
@@ -2534,6 +3824,23 @@
    "armrest",
    "slatted backrest",
    "antique style"
+  ]
+ },
+ {
+  "id": "round_spectacles",
+  "name": "Round Spectacles",
+  "file": "round_spectacles/round_spectacles_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props"
+  ],
+  "tags": [
+   "vintage",
+   "round frame",
+   "retro",
+   "eyewear",
+   "accessories",
+   "glasses"
   ]
  },
  {
@@ -2594,6 +3901,25 @@
    "plastic",
    "cute",
    "animal"
+  ]
+ },
+ {
+  "id": "russian_food_cans_01",
+  "name": "Russian Food Cans 01",
+  "file": "russian_food_cans_01/russian_food_cans_01_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "food"
+  ],
+  "tags": [
+   "russian",
+   "food",
+   "culinary",
+   "cooking",
+   "pantry",
+   "tuna",
+   "can"
   ]
  },
  {
@@ -2676,6 +4002,143 @@
    "distressed",
    "aged",
    "simple"
+  ]
+ },
+ {
+  "id": "shrub_01",
+  "name": "Shrub 01",
+  "file": "shrub_01/shrub_01_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "flowers",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "plant",
+   "foliage",
+   "nature",
+   "forest",
+   "leaf",
+   "botany",
+   "green",
+   "leaves",
+   "bush",
+   "shrub",
+   "small",
+   "meadow",
+   "flower",
+   "floral",
+   "ground cover",
+   "garden",
+   "environment",
+   "ageratina adenophora"
+  ]
+ },
+ {
+  "id": "shrub_02",
+  "name": "Shrub 02",
+  "file": "shrub_02/shrub_02_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "sapling",
+   "vegetation",
+   "environment",
+   "ground cover",
+   "foliage",
+   "forest",
+   "leaves",
+   "bush",
+   "jungle",
+   "nature",
+   "leaf",
+   "plant",
+   "green"
+  ]
+ },
+ {
+  "id": "shrub_03",
+  "name": "Shrub 03",
+  "file": "shrub_03/shrub_03_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "meadow",
+   "field",
+   "shrub",
+   "botany",
+   "green",
+   "nature",
+   "plant",
+   "leaf",
+   "bush",
+   "foliage",
+   "small",
+   "ground cover",
+   "undergrowth",
+   "garden",
+   "flora",
+   "environment",
+   "vegetation"
+  ]
+ },
+ {
+  "id": "shrub_04",
+  "name": "Shrub 04",
+  "file": "shrub_04/shrub_04_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "plant",
+   "shrub",
+   "bush",
+   "nature",
+   "green",
+   "leaf",
+   "foliage",
+   "ground cover",
+   "vegetation",
+   "undergrowth"
+  ]
+ },
+ {
+  "id": "shrub_sorrel_01",
+  "name": "Shrub Sorrel 01",
+  "file": "shrub_sorrel_01/shrub_sorrel_01_1k.gltf",
+  "categories": [
+   "plants",
+   "flowers",
+   "nature",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "nature",
+   "sorrel",
+   "potplant",
+   "bush",
+   "shrub",
+   "leaf",
+   "leaves",
+   "green",
+   "small",
+   "forest",
+   "field",
+   "floral",
+   "flower"
   ]
  },
  {
@@ -2815,6 +4278,26 @@
   ]
  },
  {
+  "id": "spinning_wheel_01",
+  "name": "Spinning Wheel 01",
+  "file": "spinning_wheel_01/spinning_wheel_01_1k.gltf",
+  "categories": [
+   "props",
+   "tools"
+  ],
+  "tags": [
+   "vintage",
+   "victorian",
+   "loom",
+   "fabric",
+   "cloth",
+   "yarn",
+   "village",
+   "wooden",
+   "old"
+  ]
+ },
+ {
   "id": "standing_chalkboard_01",
   "name": "Standing Chalkboard 01",
   "file": "standing_chalkboard_01/standing_chalkboard_01_1k.gltf",
@@ -2869,6 +4352,44 @@
   ]
  },
  {
+  "id": "steel_frame_shelves_01",
+  "name": "Steel Frame Shelves 01",
+  "file": "steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves",
+   "industrial",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "commercial",
+   "modern",
+   "shelf",
+   "bookshelf",
+   "metal",
+   "wood"
+  ]
+ },
+ {
+  "id": "steel_frame_shelves_02",
+  "name": "Steel Frame Shelves 02",
+  "file": "steel_frame_shelves_02/steel_frame_shelves_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "industrial",
+   "shelves",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "commercial",
+   "modern",
+   "shelf",
+   "bookshelf",
+   "metal",
+   "wood"
+  ]
+ },
+ {
   "id": "steel_frame_shelves_03",
   "name": "Steel Frame Shelves 03",
   "file": "steel_frame_shelves_03/steel_frame_shelves_03_1k.gltf",
@@ -2883,6 +4404,103 @@
    "minimalist",
    "display",
    "frame"
+  ]
+ },
+ {
+  "id": "stick_grenade",
+  "name": "Stick Grenade",
+  "file": "stick_grenade/stick_grenade_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "weapons"
+  ],
+  "tags": [
+   "hand grenade",
+   "world war 2",
+   "bomb",
+   "explosive",
+   "german",
+   "wooden handle"
+  ]
+ },
+ {
+  "id": "stone_01",
+  "name": "Stone 01",
+  "file": "stone_01/stone_01_1k.gltf",
+  "categories": [
+   "rocks",
+   "nature",
+   "collection: verdant_trail"
+  ],
+  "tags": [
+   "rock",
+   "stone",
+   "pebbles",
+   "dirt",
+   "terrain",
+   "gravel",
+   "quartz"
+  ]
+ },
+ {
+  "id": "strawberry_chocolate_cake",
+  "name": "Strawberry Chocolate Cake",
+  "file": "strawberry_chocolate_cake/strawberry_chocolate_cake_1k.gltf",
+  "categories": [
+   "props",
+   "food"
+  ],
+  "tags": [
+   "cooking",
+   "culinary",
+   "cake",
+   "baked goods",
+   "bakery",
+   "treat"
+  ]
+ },
+ {
+  "id": "street_lamp_01",
+  "name": "Street Lamp 01",
+  "file": "street_lamp_01/street_lamp_01_1k.gltf",
+  "categories": [
+   "lighting",
+   "industrial",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "street",
+   "road",
+   "light",
+   "lamppost",
+   "outdoor",
+   "pole",
+   "sidewalk",
+   "night",
+   " urban",
+   "city"
+  ]
+ },
+ {
+  "id": "street_lamp_02",
+  "name": "Street Lamp 02",
+  "file": "street_lamp_02/street_lamp_02_1k.gltf",
+  "categories": [
+   "lighting",
+   "industrial",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "street",
+   "road",
+   "light",
+   "lamppost",
+   "outdoor",
+   "pole",
+   "sidewalk",
+   "night",
+   "urban",
+   "city"
   ]
  },
  {
@@ -2923,6 +4541,27 @@
    "shell",
    "table top",
    "toy"
+  ]
+ },
+ {
+  "id": "sweet_potato",
+  "name": "Sweet Potato",
+  "file": "sweet_potato/sweet_potato_1k.gltf",
+  "categories": [
+   "food",
+   "nature"
+  ],
+  "tags": [
+   "potato",
+   "root",
+   "vegetable",
+   "dirty",
+   "raw",
+   "organic",
+   "oblong",
+   "sweet potato",
+   "roots",
+   "tuberous"
   ]
  },
  {
@@ -3037,6 +4676,76 @@
   ]
  },
  {
+  "id": "tree_stump_01",
+  "name": "Tree Stump 01",
+  "file": "tree_stump_01/tree_stump_01_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "trees",
+   "collection: pine_forest"
+  ],
+  "tags": [
+   "tree",
+   "trunk",
+   "stump",
+   "dead tree",
+   "bark",
+   "forest",
+   "natural",
+   "nature",
+   "woodland",
+   "foliage",
+   "environment",
+   "forest floor",
+   "leaf",
+   "dead",
+   "roots",
+   "decayed",
+   "log",
+   "dry",
+   "mossy",
+   "debris",
+   "ground cover",
+   "moss",
+   "rough texture"
+  ]
+ },
+ {
+  "id": "tree_stump_02",
+  "name": "Tree Stump 02",
+  "file": "tree_stump_02/tree_stump_02_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "ground cover",
+   "trees",
+   "collection: pine_forest"
+  ],
+  "tags": [
+   "woodland",
+   "tree",
+   "stump",
+   "dead",
+   "environment",
+   "trunk",
+   "bark",
+   "forest",
+   "natural",
+   "forest floor",
+   "dry",
+   "dead tree",
+   "decayed",
+   "mossy",
+   "moss",
+   "rough texture",
+   "roots",
+   "leaf",
+   "leaves"
+  ]
+ },
+ {
   "id": "vintage_cabinet_01",
   "name": "Vintage Cabinet 01",
   "file": "vintage_cabinet_01/vintage_cabinet_01_1k.gltf",
@@ -3133,6 +4842,30 @@
    "victorian",
    "manor",
    "historic"
+  ]
+ },
+ {
+  "id": "vintage_pocket_watch",
+  "name": "Vintage Pocket Watch",
+  "file": "vintage_pocket_watch/vintage_pocket_watch_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "vintage",
+   "watch",
+   "time",
+   "gold",
+   "antique",
+   "pocket watch",
+   "timepiece",
+   "ornate",
+   "watchface",
+   "round",
+   "minute hand",
+   "old-fashioned",
+   "mechanical",
+   "numerals"
   ]
  },
  {
@@ -3265,6 +4998,29 @@
   ]
  },
  {
+  "id": "watering_can_metal_01",
+  "name": "Watering Can Metal 01",
+  "file": "watering_can_metal_01/watering_can_metal_01_1k.gltf",
+  "categories": [
+   "containers",
+   "tools",
+   "props",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "metal",
+   "garage",
+   "garden",
+   "gardening",
+   "landscaping",
+   "outdoor",
+   "shed",
+   "irrigation",
+   "farm",
+   "farmhouse"
+  ]
+ },
+ {
   "id": "wicker_basket_01",
   "name": "Wicker Basket 01",
   "file": "wicker_basket_01/wicker_basket_01_1k.gltf",
@@ -3308,6 +5064,42 @@
   ]
  },
  {
+  "id": "wild_rooibos_bush",
+  "name": "Wild Rooibos Bush",
+  "file": "wild_rooibos_bush/wild_rooibos_bush_1k.gltf",
+  "categories": [
+   "nature",
+   "plants",
+   "collection: namaqualand"
+  ],
+  "tags": [
+   "karoo",
+   "south africa",
+   "desert",
+   "dried",
+   "dry",
+   "shrub"
+  ]
+ },
+ {
+  "id": "wine_barrel_01",
+  "name": "Wine Barrel 01",
+  "file": "wine_barrel_01/wine_barrel_01_1k.gltf",
+  "categories": [
+   "containers"
+  ],
+  "tags": [
+   "barrel",
+   "wine",
+   "celler",
+   "old",
+   "worn",
+   "grape",
+   "farmhouse",
+   "farm"
+  ]
+ },
+ {
   "id": "wine_bottles_01",
   "name": "Wine Bottles 01",
   "file": "wine_bottles_01/wine_bottles_01_1k.gltf",
@@ -3324,6 +5116,97 @@
    "grape",
    "farmhouse",
    "vineyard"
+  ]
+ },
+ {
+  "id": "wooden_axe",
+  "name": "Wooden Axe",
+  "file": "wooden_axe/wooden_axe_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "tool",
+   "axe",
+   "weapon",
+   "sharp",
+   "lumberjack",
+   "forestry",
+   "forestry tools",
+   "chopping",
+   "gardening",
+   "garden",
+   "firewood",
+   "camping",
+   "survival",
+   "hand tool"
+  ]
+ },
+ {
+  "id": "wooden_axe_02",
+  "name": "Wooden Axe 02",
+  "file": "wooden_axe_02/wooden_axe_02_1k.gltf",
+  "categories": [
+   "props"
+  ],
+  "tags": [
+   "tool",
+   "axe",
+   "weapon",
+   "hatchet",
+   "forestry",
+   "firewood",
+   "camping",
+   "hand tool",
+   "lumber",
+   "survival"
+  ]
+ },
+ {
+  "id": "wooden_axe_03",
+  "name": "Wooden Axe 03",
+  "file": "wooden_axe_03/wooden_axe_03_1k.gltf",
+  "categories": [
+   "props",
+   "tools"
+  ],
+  "tags": [
+   "forest",
+   "gardening",
+   "garden",
+   "lumberjack",
+   "woodwork",
+   "firewood",
+   "fireman",
+   "saw",
+   "cutting",
+   "chopping"
+  ]
+ },
+ {
+  "id": "wooden_barrels_01",
+  "name": "Wooden Barrels 01",
+  "file": "wooden_barrels_01/wooden_barrels_01_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "barrel",
+   "celler",
+   "old",
+   "worn",
+   "wood",
+   "antique",
+   "prop",
+   "maritime",
+   "colonial",
+   "cove",
+   "farmhouse",
+   "farm",
+   "furniture",
+   "wooden"
   ]
  },
  {
@@ -3394,6 +5277,49 @@
   ]
  },
  {
+  "id": "wooden_bucket_01",
+  "name": "Wooden Bucket 01",
+  "file": "wooden_bucket_01/wooden_bucket_01_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "wooden",
+   "bucket",
+   "old",
+   "worn",
+   "wood",
+   "prop",
+   "container"
+  ]
+ },
+ {
+  "id": "wooden_bucket_02",
+  "name": "Wooden Bucket 02",
+  "file": "wooden_bucket_02/wooden_bucket_02_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "bucket",
+   "vintage",
+   "wood",
+   "prop",
+   "worn",
+   "antique",
+   "farmhouse",
+   "colonial",
+   "maritime",
+   "container"
+  ]
+ },
+ {
   "id": "wooden_candlestick",
   "name": "Wooden Candlestick",
   "file": "wooden_candlestick/wooden_candlestick_1k.gltf",
@@ -3412,6 +5338,78 @@
   ]
  },
  {
+  "id": "wooden_crate_01",
+  "name": "Wooden Crate 01",
+  "file": "wooden_crate_01/wooden_crate_01_1k.gltf",
+  "categories": [
+   "containers",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "old",
+   "wooden",
+   "fancy",
+   "colonial",
+   "chest",
+   "box",
+   "prop",
+   "antique",
+   "farmhouse",
+   "crate",
+   "maritime",
+   "commercial",
+   "container"
+  ]
+ },
+ {
+  "id": "wooden_crate_02",
+  "name": "Wooden Crate 02",
+  "file": "wooden_crate_02/wooden_crate_02_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "old",
+   "wooden",
+   "worn",
+   "colonial",
+   "commercial",
+   "maritime",
+   "chest",
+   "box",
+   "container",
+   "prop",
+   "farmhouse",
+   "crate",
+   "farm"
+  ]
+ },
+ {
+  "id": "wooden_cutting_board",
+  "name": "Wooden Cutting Board",
+  "file": "wooden_cutting_board/wooden_cutting_board_1k.gltf",
+  "categories": [
+   "props",
+   "food"
+  ],
+  "tags": [
+   "culinary",
+   "cooking",
+   "kitchen",
+   "cutting",
+   "chopping",
+   "cheese",
+   "cooking equipment",
+   "wood"
+  ]
+ },
+ {
   "id": "wooden_display_shelves_01",
   "name": "Wooden Display Shelves 01",
   "file": "wooden_display_shelves_01/wooden_display_shelves_01_1k.gltf",
@@ -3427,6 +5425,24 @@
    "display",
    "shelf",
    "bookshelf"
+  ]
+ },
+ {
+  "id": "wooden_handle_saber",
+  "name": "Wooden Handle Saber",
+  "file": "wooden_handle_saber/wooden_handle_saber_1k.gltf",
+  "categories": [
+   "props",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "sword",
+   "weapon",
+   "pirates",
+   "blade",
+   "combat",
+   "survival",
+   "sharp"
   ]
  },
  {
@@ -3622,6 +5638,25 @@
    "furniture",
    "metal",
    "shelf"
+  ]
+ },
+ {
+  "id": "yellow_onion",
+  "name": "Yellow Onion",
+  "file": "yellow_onion/yellow_onion_1k.gltf",
+  "categories": [
+   "props",
+   "food"
+  ],
+  "tags": [
+   "culinary",
+   "kitchen",
+   "cooking",
+   "vegetables",
+   "organic",
+   "produce",
+   "nutrition",
+   "ingredients"
   ]
  }
 ]

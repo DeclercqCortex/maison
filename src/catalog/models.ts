@@ -22,10 +22,14 @@ export function loadModel(def: CatalogItem): Promise<THREE.Group> {
   if (!model) return Promise.reject(new Error(`${def.id} has no model file`));
   let template = templates.get(model.file);
   if (!template) {
-    template = loader.loadAsync(`${import.meta.env.BASE_URL}models/${model.file}`).then((gltf) => {
+    template = loader.loadAsync(model.url ?? `${import.meta.env.BASE_URL}models/${model.file}`).then((gltf) => {
       const inner = gltf.scene;
       inner.scale.setScalar(model.scale);
       inner.position.set(model.offset[0] * model.scale, model.offset[1] * model.scale, model.offset[2] * model.scale);
+      // Some models carry their own lights (a showroom set-up); each placed copy would light the room, so drop them.
+      const lights: THREE.Object3D[] = [];
+      inner.traverse((o) => void ((o as THREE.Light).isLight && lights.push(o)));
+      lights.forEach((l) => l.removeFromParent());
       inner.traverse((o) => {
         if ((o as THREE.Mesh).isMesh) {
           o.castShadow = !def.flat;

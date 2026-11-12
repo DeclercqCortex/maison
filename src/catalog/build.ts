@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import type { CatalogItem, Part } from './catalog';
 import { attachModel, loadModel } from './models';
+import type { FurnitureStyle } from './kinds';
+import { counterpart, fitInto } from './style';
 
 /** A ridged roof one unit across (x), one high and one deep (z), centred on the origin. */
 function unitPrism(): THREE.BufferGeometry {
@@ -81,6 +83,29 @@ export function buildItemObject(def: CatalogItem, color?: string): THREE.Group {
     mesh.receiveShadow = true;
     group.add(mesh);
   }
+  return group;
+}
+
+/**
+ * The 3D object for a placed piece in the chosen furniture style. In the other
+ * style it is the closest piece of the same kind, turned and scaled to fit the
+ * same footprint, so the room's layout is the same in both styles. Pieces with
+ * nothing of their kind in that style are shown as they are.
+ */
+export function buildDisplayObject(def: CatalogItem, color: string | undefined, style: FurnitureStyle): THREE.Group {
+  const stand = counterpart(def, style);
+  if (!stand) return buildItemObject(def, color);
+  const fit = fitInto(def.size, stand.size, def.kind);
+  // Colours carry over only between pieces that can be recoloured.
+  const inner = buildItemObject(stand, stand.parts.length ? color : undefined);
+  // Turned first, then scaled along the room's axes, so the stretch lines up with the space.
+  const turned = new THREE.Group();
+  turned.add(inner);
+  if (fit.turn) inner.rotation.y = Math.PI / 2;
+  turned.scale.set(fit.x, fit.y, fit.z);
+  const group = new THREE.Group();
+  group.add(turned);
+  group.userData.standIn = stand.id;
   return group;
 }
 
