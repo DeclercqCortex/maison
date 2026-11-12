@@ -1,0 +1,3627 @@
+[
+ {
+  "id": "antique_ceramic_vase_01",
+  "name": "Antique Ceramic Vase 01",
+  "file": "antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "containers",
+   "vases"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "pot",
+   "fancy",
+   "pattern",
+   "vase"
+  ]
+ },
+ {
+  "id": "ArmChair_01",
+  "name": "Arm Chair 01",
+  "file": "ArmChair_01/ArmChair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "gothic",
+   "vintage",
+   "chair",
+   "furniture",
+   "victorian",
+   "couch",
+   "wood",
+   "varnished",
+   "classic"
+  ]
+ },
+ {
+  "id": "bar_chair_round_01",
+  "name": "Bar Chair Round 01",
+  "file": "bar_chair_round_01/bar_chair_round_01_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture"
+  ],
+  "tags": [
+   "bar",
+   "pub",
+   "stool",
+   "tall",
+   "wooden",
+   "classical",
+   "old",
+   "vintage",
+   "cigar"
+  ]
+ },
+ {
+  "id": "BarberShopChair_01",
+  "name": "Barber Shop Chair 01",
+  "file": "BarberShopChair_01/BarberShopChair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "chair",
+   "vintage",
+   "wood",
+   "leather",
+   "fancy",
+   "upholstery",
+   "barber",
+   "salon"
+  ]
+ },
+ {
+  "id": "book_encyclopedia_set_01",
+  "name": "Book Encyclopedia Set 01",
+  "file": "book_encyclopedia_set_01/book_encyclopedia_set_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "books"
+  ],
+  "tags": [
+   "bookshelf",
+   "books",
+   "library",
+   "reading",
+   "encyclopedia",
+   "set"
+  ]
+ },
+ {
+  "id": "boombox",
+  "name": "Boombox",
+  "file": "boombox/boombox_1k.gltf",
+  "categories": [
+   "appliances",
+   "electronics",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "loudspeaker",
+   "radio",
+   "cd player",
+   "stereo",
+   "80's",
+   "sound system",
+   "portable"
+  ]
+ },
+ {
+  "id": "brass_candleholders",
+  "name": "Brass Candleholders",
+  "file": "brass_candleholders/brass_candleholders_1k.gltf",
+  "categories": [
+   "decorative",
+   "lighting"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "ornate",
+   "fancy",
+   "brass",
+   "pattern",
+   "candleholders",
+   "elegant",
+   "classic",
+   "ornamental"
+  ]
+ },
+ {
+  "id": "brass_diya_lantern",
+  "name": "Brass Diya Lantern",
+  "file": "brass_diya_lantern/brass_diya_lantern_1k.gltf",
+  "categories": [
+   "decorative",
+   "lighting"
+  ],
+  "tags": [
+   "lighting",
+   "brass",
+   "metal",
+   "lamp",
+   "candle",
+   "light",
+   "cultural",
+   "hanging"
+  ]
+ },
+ {
+  "id": "brass_goblets",
+  "name": "Brass Goblets",
+  "file": "brass_goblets/brass_goblets_1k.gltf",
+  "categories": [
+   "props",
+   "dishes",
+   "decorative",
+   "containers"
+  ],
+  "tags": [
+   "vintage",
+   "old",
+   "antique",
+   "fancy",
+   "brass",
+   "cup",
+   "chalice",
+   "goblet",
+   "engraved",
+   "ornate",
+   "container"
+  ]
+ },
+ {
+  "id": "brass_pan_01",
+  "name": "Brass Pan 01",
+  "file": "brass_pan_01/brass_pan_01_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "decorative",
+   "dishes"
+  ],
+  "tags": [
+   "brass",
+   "pan",
+   "copper",
+   "old",
+   "metal",
+   "prop",
+   "container",
+   "cooking",
+   "pot",
+   "cookware",
+   "decorative",
+   "fancy",
+   "gold"
+  ]
+ },
+ {
+  "id": "brass_pot_01",
+  "name": "Brass Pot 01",
+  "file": "brass_pot_01/brass_pot_01_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "decorative"
+  ],
+  "tags": [
+   "brass",
+   "metal",
+   "prop",
+   "pot",
+   "cooking",
+   "container",
+   "pattern",
+   "decorative",
+   "copper",
+   "old",
+   "fancy",
+   "cookware"
+  ]
+ },
+ {
+  "id": "brass_pot_02",
+  "name": "Brass Pot 02",
+  "file": "brass_pot_02/brass_pot_02_1k.gltf",
+  "categories": [
+   "props",
+   "dishes",
+   "containers",
+   "decorative"
+  ],
+  "tags": [
+   "brass",
+   "metal",
+   "prop",
+   "cooking",
+   "container",
+   "pot",
+   "cookware",
+   "pan",
+   "gold",
+   "copper"
+  ]
+ },
+ {
+  "id": "brass_vase_01",
+  "name": "Brass Vase 01",
+  "file": "brass_vase_01/brass_vase_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "brass",
+   "antique",
+   "metal",
+   "ancient",
+   "artifact",
+   "vase",
+   "old",
+   "clean"
+  ]
+ },
+ {
+  "id": "brass_vase_02",
+  "name": "Brass Vase 02",
+  "file": "brass_vase_02/brass_vase_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "brass",
+   "antique",
+   "metal",
+   "ancient",
+   "old",
+   "gold",
+   "container",
+   "vase",
+   "clean",
+   "ornate",
+   "decorative",
+   "pattern"
+  ]
+ },
+ {
+  "id": "brass_vase_03",
+  "name": "Brass Vase 03",
+  "file": "brass_vase_03/brass_vase_03_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "metal",
+   "prop",
+   "brass",
+   "decorative",
+   "ornate",
+   "vase",
+   "gold",
+   "pitcher",
+   "copper",
+   "container",
+   "pattern",
+   "old",
+   "antique",
+   "fancy",
+   "decor"
+  ]
+ },
+ {
+  "id": "brass_vase_04",
+  "name": "Brass Vase 04",
+  "file": "brass_vase_04/brass_vase_04_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "vases",
+   "dishes"
+  ],
+  "tags": [
+   "vintage",
+   "fancy",
+   "metal",
+   "brass",
+   "copper",
+   "old",
+   "vase",
+   "pitcher",
+   "ornate",
+   "pattern"
+  ]
+ },
+ {
+  "id": "bronze_ray_statue",
+  "name": "Bronze Ray Statue",
+  "file": "bronze_ray_statue/bronze_ray_statue_1k.gltf",
+  "categories": [
+   "decorative",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "manta ray",
+   "stingray",
+   "underwater"
+  ]
+ },
+ {
+  "id": "bronze_shark_statue",
+  "name": "Bronze Shark Statue",
+  "file": "bronze_shark_statue/bronze_shark_statue_1k.gltf",
+  "categories": [
+   "decorative",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "underwater",
+   "shark",
+   "fish"
+  ]
+ },
+ {
+  "id": "bronze_whale_statue",
+  "name": "Bronze Whale Statue",
+  "file": "bronze_whale_statue/bronze_whale_statue_1k.gltf",
+  "categories": [
+   "decorative",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "sculpture",
+   "ornate",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental",
+   "underwater",
+   "whale",
+   "fish"
+  ]
+ },
+ {
+  "id": "bull_head",
+  "name": "Bull Head",
+  "file": "bull_head/bull_head_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "antique",
+   "vintage",
+   "old",
+   "ornate",
+   "statue",
+   "sculpture",
+   "animal",
+   "art",
+   "wildlife"
+  ]
+ },
+ {
+  "id": "Camera_01",
+  "name": "Camera 01",
+  "file": "Camera_01/Camera_01_1k.gltf",
+  "categories": [
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "vintage",
+   "camera",
+   "antique",
+   "ornate",
+   "photography",
+   "photography",
+   "retro",
+   "lens",
+   "classic",
+   "classic",
+   "analog"
+  ]
+ },
+ {
+  "id": "carved_wooden_elephant",
+  "name": "Carved Wooden Elephant",
+  "file": "carved_wooden_elephant/carved_wooden_elephant_1k.gltf",
+  "categories": [
+   "props",
+   "decorative"
+  ],
+  "tags": [
+   "wood",
+   "wooden",
+   "woodwork",
+   "statue",
+   "carved",
+   "animal"
+  ]
+ },
+ {
+  "id": "carved_wooden_plate",
+  "name": "Carved Wooden Plate",
+  "file": "carved_wooden_plate/carved_wooden_plate_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "dishes"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "antique",
+   "carved",
+   "hand made",
+   "crafted",
+   "fruitbowl",
+   "plate"
+  ]
+ },
+ {
+  "id": "CashRegister_01",
+  "name": "Cash Register 01",
+  "file": "CashRegister_01/CashRegister_01_1k.gltf",
+  "categories": [
+   "appliances",
+   "props"
+  ],
+  "tags": [
+   "commercial",
+   "store",
+   "vintage",
+   "cash",
+   "transaction",
+   "register",
+   "money",
+   "sales",
+   "convenience store",
+   "cashier",
+   "retail",
+   "business"
+  ]
+ },
+ {
+  "id": "cassette_player",
+  "name": "Cassette Player",
+  "file": "cassette_player/cassette_player_1k.gltf",
+  "categories": [
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "walkman",
+   "vintage",
+   "device",
+   "audio",
+   "retro",
+   "music",
+   "gadget",
+   "nostalgia",
+   "portable",
+   "cassette tape",
+   "analog",
+   "old school",
+   "classic"
+  ]
+ },
+ {
+  "id": "ceiling_fan",
+  "name": "Ceiling Fan",
+  "file": "ceiling_fan/ceiling_fan_1k.gltf",
+  "categories": [
+   "appliances",
+   "electronics"
+  ],
+  "tags": [
+   "utility",
+   "ceiling",
+   "air circulation",
+   "ventilation",
+   "fixture",
+   "cooling",
+   "fan",
+   "interior"
+  ]
+ },
+ {
+  "id": "ceramic_pot",
+  "name": "Ceramic Pot",
+  "file": "ceramic_pot/ceramic_pot_1k.gltf",
+  "categories": [
+   "containers",
+   "props",
+   "decorative",
+   "dishes",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "earthenware",
+   "glazed",
+   "aged",
+   "weathered",
+   "ceramic"
+  ]
+ },
+ {
+  "id": "ceramic_vase_01",
+  "name": "Ceramic Vase 01",
+  "file": "ceramic_vase_01/ceramic_vase_01_1k.gltf",
+  "categories": [
+   "vases",
+   "containers",
+   "decorative"
+  ],
+  "tags": [
+   "pot",
+   "clean",
+   "tall",
+   "modern",
+   "fancy",
+   "decor"
+  ]
+ },
+ {
+  "id": "ceramic_vase_02",
+  "name": "Ceramic Vase 02",
+  "file": "ceramic_vase_02/ceramic_vase_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "containers",
+   "vases"
+  ],
+  "tags": [
+   "fancy",
+   "modern",
+   "vase",
+   "decor",
+   "clay",
+   "pot",
+   "painted"
+  ]
+ },
+ {
+  "id": "ceramic_vase_03",
+  "name": "Ceramic Vase 03",
+  "file": "ceramic_vase_03/ceramic_vase_03_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "clay",
+   "pot",
+   "exterior",
+   "decor",
+   "painted",
+   "vase",
+   "tall",
+   "modern",
+   "fancy"
+  ]
+ },
+ {
+  "id": "ceramic_vase_04",
+  "name": "Ceramic Vase 04",
+  "file": "ceramic_vase_04/ceramic_vase_04_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "fancy",
+   "modern",
+   "vase",
+   "decor",
+   "painted",
+   "jug",
+   "clay",
+   "pot"
+  ]
+ },
+ {
+  "id": "Chandelier_01",
+  "name": "Chandelier 01",
+  "file": "Chandelier_01/Chandelier_01_1k.gltf",
+  "categories": [
+   "lighting",
+   "decorative"
+  ],
+  "tags": [
+   "lighting",
+   "ceiling",
+   "hanging",
+   "fixture",
+   "chandelier",
+   "ornate",
+   "vintage"
+  ]
+ },
+ {
+  "id": "Chandelier_02",
+  "name": "Chandelier 02",
+  "file": "Chandelier_02/Chandelier_02_1k.gltf",
+  "categories": [
+   "lighting"
+  ],
+  "tags": [
+   "lighting",
+   "ceiling",
+   "decorative",
+   "chandelier",
+   "elegant",
+   "hanging",
+   "ornate",
+   "vintage"
+  ]
+ },
+ {
+  "id": "Chandelier_03",
+  "name": "Chandelier 03",
+  "file": "Chandelier_03/Chandelier_03_1k.gltf",
+  "categories": [
+   "lighting",
+   "decorative"
+  ],
+  "tags": [
+   "lighting",
+   "ceiling",
+   "hanging",
+   "fixture",
+   "chandelier",
+   "ornate",
+   "decor",
+   "elegant"
+  ]
+ },
+ {
+  "id": "chess_set",
+  "name": "Chess Set",
+  "file": "chess_set/chess_set_1k.gltf",
+  "categories": [
+   "decorative",
+   "props"
+  ],
+  "tags": [
+   "boardgame",
+   "game",
+   "old",
+   "decor",
+   "home",
+   "vintage",
+   "antique",
+   "tabletop",
+   "display piece",
+   "ornamental",
+   "elegant"
+  ]
+ },
+ {
+  "id": "chinese_armchair",
+  "name": "Chinese Armchair",
+  "file": "chinese_armchair/chinese_armchair_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "ornate",
+   "chinese",
+   "asian",
+   "varnished",
+   "elegant",
+   "wooden",
+   "traditional"
+  ]
+ },
+ {
+  "id": "chinese_cabinet",
+  "name": "Chinese Cabinet",
+  "file": "chinese_cabinet/chinese_cabinet_1k.gltf",
+  "categories": [
+   "shelves",
+   "furniture"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "ornate",
+   "traditional",
+   "asian",
+   "elegant",
+   "ornamental"
+  ]
+ },
+ {
+  "id": "chinese_chandelier",
+  "name": "Chinese Chandelier",
+  "file": "chinese_chandelier/chinese_chandelier_1k.gltf",
+  "categories": [
+   "lighting",
+   "decorative"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ]
+ },
+ {
+  "id": "chinese_commode",
+  "name": "Chinese Commode",
+  "file": "chinese_commode/chinese_commode_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "asian",
+   "traditional",
+   "cabinet"
+  ]
+ },
+ {
+  "id": "chinese_console_table",
+  "name": "Chinese Console Table",
+  "file": "chinese_console_table/chinese_console_table_1k.gltf",
+  "categories": [
+   "table",
+   "furniture"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ]
+ },
+ {
+  "id": "chinese_screen_panels",
+  "name": "Chinese Screen Panels",
+  "file": "chinese_screen_panels/chinese_screen_panels_1k.gltf",
+  "categories": [
+   "furniture"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "asian",
+   "divider",
+   "wall"
+  ]
+ },
+ {
+  "id": "chinese_sofa",
+  "name": "Chinese Sofa",
+  "file": "chinese_sofa/chinese_sofa_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "fancy"
+  ]
+ },
+ {
+  "id": "chinese_stool",
+  "name": "Chinese Stool",
+  "file": "chinese_stool/chinese_stool_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "wooden",
+   "ornate",
+   "traditional",
+   "asian"
+  ]
+ },
+ {
+  "id": "chinese_tea_table",
+  "name": "Chinese Tea Table",
+  "file": "chinese_tea_table/chinese_tea_table_1k.gltf",
+  "categories": [
+   "table",
+   "furniture"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional"
+  ]
+ },
+ {
+  "id": "circuit_board",
+  "name": "Circuit Board",
+  "file": "circuit_board/circuit_board_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "electronics"
+  ],
+  "tags": [
+   "computer",
+   "components",
+   "chip",
+   "motherboard",
+   "pc hardware",
+   "connectors",
+   "wiring",
+   "power supply",
+   "circuit",
+   "power",
+   "electrical"
+  ]
+ },
+ {
+  "id": "classic_laptop",
+  "name": "Classic Laptop",
+  "file": "classic_laptop/classic_laptop_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "office",
+   "electronics"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "beige",
+   "notebook",
+   "lcd",
+   "trackball"
+  ]
+ },
+ {
+  "id": "ClassicConsole_01",
+  "name": "Classic Console 01",
+  "file": "ClassicConsole_01/ClassicConsole_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "wood",
+   "vintage",
+   "table",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
+ },
+ {
+  "id": "ClassicNightstand_01",
+  "name": "Classic Nightstand 01",
+  "file": "ClassicNightstand_01/ClassicNightstand_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "wood",
+   "vintage",
+   "table",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
+ },
+ {
+  "id": "coffee_table_round_01",
+  "name": "Coffee Table Round 01",
+  "file": "coffee_table_round_01/coffee_table_round_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "modern",
+   "marble",
+   "tea",
+   "coffee",
+   "metal",
+   "sleek",
+   "contemporary",
+   "cocktail"
+  ]
+ },
+ {
+  "id": "CoffeeCart_01",
+  "name": "Coffee Cart 01",
+  "file": "CoffeeCart_01/CoffeeCart_01_1k.gltf",
+  "categories": [
+   "appliances",
+   "props",
+   "furniture",
+   "office"
+  ],
+  "tags": [
+   "table",
+   "metal",
+   "shelf",
+   "plastic",
+   "cart",
+   "coffee",
+   "portable",
+   "wheels",
+   "tea",
+   "coffee maker",
+   "mobile",
+   "catering"
+  ]
+ },
+ {
+  "id": "CoffeeTable_01",
+  "name": "Coffee Table 01",
+  "file": "CoffeeTable_01/CoffeeTable_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "wood",
+   "vintage",
+   "table",
+   "painted",
+   "old",
+   "worn",
+   "decorative"
+  ]
+ },
+ {
+  "id": "concrete_cat_statue",
+  "name": "Concrete Cat Statue",
+  "file": "concrete_cat_statue/concrete_cat_statue_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "garden",
+   "outdoor",
+   "landscaping",
+   "gardening",
+   "statue",
+   "concrete",
+   "sculpture",
+   "cat",
+   "lawn decoration"
+  ]
+ },
+ {
+  "id": "dartboard",
+  "name": "Dartboard",
+  "file": "dartboard/dartboard_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "wall decoration",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "shed",
+   "bar",
+   "activities",
+   "darts",
+   "game",
+   "toy",
+   "pub",
+   "sports",
+   "sport",
+   "fun",
+   "entertainment",
+   "competition",
+   "target",
+   "bullseye",
+   "indoor games"
+  ]
+ },
+ {
+  "id": "digital_wrist_watch",
+  "name": "Digital Wrist Watch",
+  "file": "digital_wrist_watch/digital_wrist_watch_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "vintage",
+   "seven segment display",
+   "casio style",
+   "retro digital",
+   "80s aesthetic",
+   "backlit lcd",
+   "scratched"
+  ]
+ },
+ {
+  "id": "dining_chair_02",
+  "name": "Dining Chair 02",
+  "file": "dining_chair_02/dining_chair_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "modern",
+   "chair",
+   "seat",
+   "dining",
+   "fancy",
+   "leather"
+  ]
+ },
+ {
+  "id": "dining_table",
+  "name": "Dining Table",
+  "file": "dining_table/dining_table_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "old",
+   "scratched",
+   "cloth-covered",
+   "rectangular",
+   "checkered-tablecloth",
+   "tapered-legs",
+   "worn"
+  ]
+ },
+ {
+  "id": "drawer_cabinet",
+  "name": "Drawer Cabinet",
+  "file": "drawer_cabinet/drawer_cabinet_1k.gltf",
+  "categories": [
+   "furniture"
+  ],
+  "tags": [
+   "wood",
+   "furniture",
+   "shelf",
+   "drawer",
+   "metal",
+   "modern"
+  ]
+ },
+ {
+  "id": "fancy_picture_frame_01",
+  "name": "Fancy Picture Frame 01",
+  "file": "fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "wall decoration"
+  ],
+  "tags": [
+   "art",
+   "vintage",
+   "old",
+   "dutch",
+   "painting",
+   "oil",
+   "antique",
+   "fancy",
+   "frame",
+   "picture"
+  ]
+ },
+ {
+  "id": "fancy_picture_frame_02",
+  "name": "Fancy Picture Frame 02",
+  "file": "fancy_picture_frame_02/fancy_picture_frame_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "wall decoration"
+  ],
+  "tags": [
+   "art",
+   "vintage",
+   "old",
+   "dutch",
+   "painting",
+   "oil",
+   "antique",
+   "fancy",
+   "frame",
+   "picture"
+  ]
+ },
+ {
+  "id": "filmstrip_projector_8mm",
+  "name": "Filmstrip Projector 8mm",
+  "file": "filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf",
+  "categories": [
+   "electronics",
+   "appliances",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "antique",
+   "vintage",
+   "old",
+   "retro",
+   "film",
+   "movie",
+   "theater"
+  ]
+ },
+ {
+  "id": "folding_wooden_stool",
+  "name": "Folding Wooden Stool",
+  "file": "folding_wooden_stool/folding_wooden_stool_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture"
+  ],
+  "tags": [
+   "workshop",
+   "garage",
+   "woodwork",
+   "camping",
+   "folding stool",
+   "portable",
+   "compact",
+   "outdoor",
+   "garden"
+  ]
+ },
+ {
+  "id": "gallinera_chair",
+  "name": "Gallinera Chair",
+  "file": "gallinera_chair/gallinera_chair_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "philippines",
+   "traditional",
+   "old",
+   "wooden"
+  ]
+ },
+ {
+  "id": "gallinera_table",
+  "name": "Gallinera Table",
+  "file": "gallinera_table/gallinera_table_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "philippines",
+   "traditional",
+   "old",
+   "wooden"
+  ]
+ },
+ {
+  "id": "gaming_console",
+  "name": "Gaming Console",
+  "file": "gaming_console/gaming_console_1k.gltf",
+  "categories": [
+   "appliances",
+   "electronics"
+  ],
+  "tags": [
+   "game",
+   "gaming",
+   "console",
+   "playstation",
+   "entertainment",
+   "video games",
+   "xbox"
+  ]
+ },
+ {
+  "id": "garden_gnome",
+  "name": "Garden Gnome",
+  "file": "garden_gnome/garden_gnome_1k.gltf",
+  "categories": [
+   "decorative",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "shed",
+   "outdoor",
+   "garage",
+   "garden",
+   "gardening",
+   "farmhouse",
+   "greenhouse"
+  ]
+ },
+ {
+  "id": "gothic_coffee_table",
+  "name": "Gothic Coffee Table",
+  "file": "gothic_coffee_table/gothic_coffee_table_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "old",
+   "wooden",
+   "gothic",
+   "medieval",
+   "dark decor"
+  ]
+ },
+ {
+  "id": "gothic_statue",
+  "name": "Gothic Statue",
+  "file": "gothic_statue/gothic_statue_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "decorative"
+  ],
+  "tags": [
+   "old",
+   "stones",
+   "sculpture",
+   "medieval",
+   "statue",
+   "artwork",
+   "ornamental",
+   "gothic",
+   "weathered",
+   "ornate"
+  ]
+ },
+ {
+  "id": "GothicBed_01",
+  "name": "Gothic Bed 01",
+  "file": "GothicBed_01/GothicBed_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "bed"
+  ],
+  "tags": [
+   "vintage",
+   "gothic",
+   "furniture",
+   "bed",
+   "wood",
+   "decorative"
+  ]
+ },
+ {
+  "id": "GothicCabinet_01",
+  "name": "Gothic Cabinet 01",
+  "file": "GothicCabinet_01/GothicCabinet_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "gothic",
+   "furniture",
+   "table",
+   "shelf",
+   "decorative"
+  ]
+ },
+ {
+  "id": "GothicCommode_01",
+  "name": "Gothic Commode 01",
+  "file": "GothicCommode_01/GothicCommode_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "table",
+   "gothic",
+   "shelf",
+   "furniture",
+   "decorative"
+  ]
+ },
+ {
+  "id": "GreenChair_01",
+  "name": "Green Chair 01",
+  "file": "GreenChair_01/GreenChair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "gothic",
+   "furniture",
+   "chair",
+   "fabric",
+   "decorative"
+  ]
+ },
+ {
+  "id": "hanging_industrial_lamp",
+  "name": "Hanging Industrial Lamp",
+  "file": "hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf",
+  "categories": [
+   "lighting"
+  ],
+  "tags": [
+   "industrial lighting",
+   "hanging lamp",
+   "warehouse lighting",
+   "bunker",
+   "metal lamp",
+   "factory",
+   "warehouse"
+  ]
+ },
+ {
+  "id": "hanging_picture_frame_01",
+  "name": "Hanging Picture Frame 01",
+  "file": "hanging_picture_frame_01/hanging_picture_frame_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "wall decoration"
+  ],
+  "tags": [
+   "modern",
+   "minimalist",
+   "clean",
+   "frame",
+   "simple",
+   "art"
+  ]
+ },
+ {
+  "id": "hanging_picture_frame_02",
+  "name": "Hanging Picture Frame 02",
+  "file": "hanging_picture_frame_02/hanging_picture_frame_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "wall decoration"
+  ],
+  "tags": [
+   "wood",
+   "painting",
+   "old",
+   "art",
+   "frame"
+  ]
+ },
+ {
+  "id": "hanging_picture_frame_03",
+  "name": "Hanging Picture Frame 03",
+  "file": "hanging_picture_frame_03/hanging_picture_frame_03_1k.gltf",
+  "categories": [
+   "wall decoration",
+   "decorative"
+  ],
+  "tags": [
+   "vintage",
+   "photo",
+   "photograph",
+   "old",
+   "antique",
+   "picture",
+   "fancy",
+   "wooden",
+   "varnished"
+  ]
+ },
+ {
+  "id": "horse_head",
+  "name": "Horse Head",
+  "file": "horse_head/horse_head_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "antique",
+   "ornate",
+   "sculpture",
+   "artwork",
+   "art",
+   "statue",
+   "ornamental"
+  ]
+ },
+ {
+  "id": "horse_statue_01",
+  "name": "Horse Statue 01",
+  "file": "horse_statue_01/horse_statue_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative"
+  ],
+  "tags": [
+   "decorative",
+   "horse",
+   "statue",
+   "figurine",
+   "porcelain",
+   "animal",
+   "sculpture",
+   "white",
+   "fancy"
+  ]
+ },
+ {
+  "id": "industrial_coffee_table",
+  "name": "Industrial Coffee Table",
+  "file": "industrial_coffee_table/industrial_coffee_table_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "metal",
+   "industrial",
+   "steel",
+   "rustic",
+   "workshop",
+   "metal frame",
+   "garage",
+   "urban loft"
+  ]
+ },
+ {
+  "id": "industrial_wall_lamp",
+  "name": "Industrial Wall Lamp",
+  "file": "industrial_wall_lamp/industrial_wall_lamp_1k.gltf",
+  "categories": [
+   "lighting"
+  ],
+  "tags": [
+   "industrial",
+   "factory",
+   "warehouse",
+   "wall light",
+   "metal",
+   "bunker",
+   "mine"
+  ]
+ },
+ {
+  "id": "industrial_wall_sconce",
+  "name": "Industrial Wall Sconce",
+  "file": "industrial_wall_sconce/industrial_wall_sconce_1k.gltf",
+  "categories": [
+   "lighting",
+   "decorative"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "antique",
+   "fancy",
+   "farmhouse",
+   "rustic",
+   "brass",
+   "copper",
+   "wall light"
+  ]
+ },
+ {
+  "id": "jug_01",
+  "name": "Jug 01",
+  "file": "jug_01/jug_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "dishes",
+   "containers"
+  ],
+  "tags": [
+   "ceramic",
+   "milk",
+   "white",
+   "antique",
+   "vintage",
+   "old",
+   "fancy",
+   "decorative"
+  ]
+ },
+ {
+  "id": "katana_stand_01",
+  "name": "Katana Stand 01",
+  "file": "katana_stand_01/katana_stand_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative"
+  ],
+  "tags": [
+   "katana",
+   "stand",
+   "wooden",
+   "painted",
+   "worn",
+   "simple",
+   "display"
+  ]
+ },
+ {
+  "id": "lambis_shell",
+  "name": "Lambis Shell",
+  "file": "lambis_shell/lambis_shell_1k.gltf",
+  "categories": [
+   "decorative",
+   "nature"
+  ],
+  "tags": [
+   "shell",
+   "beach",
+   "shore",
+   "shoreline",
+   "underwater",
+   "coral",
+   "reef",
+   "ocean",
+   "sea",
+   "marine life",
+   "mollusk"
+  ]
+ },
+ {
+  "id": "Lantern_01",
+  "name": "Lantern 01",
+  "file": "Lantern_01/Lantern_01_1k.gltf",
+  "categories": [
+   "props",
+   "lighting"
+  ],
+  "tags": [
+   "prop",
+   "metal",
+   "glass",
+   "lantern",
+   "antique",
+   "vintage",
+   "hurricane",
+   "lamp",
+   "bronze",
+   "oldfashioned",
+   "brass",
+   "copper"
+  ]
+ },
+ {
+  "id": "lantern_chandelier_01",
+  "name": "Lantern Chandelier 01",
+  "file": "lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+  "categories": [
+   "lighting"
+  ],
+  "tags": [
+   "lighting",
+   "old",
+   "victorian",
+   "metal",
+   "antique",
+   "ornate",
+   "vintage",
+   "brass",
+   "fancy",
+   "ornamental",
+   "chandelier",
+   "light",
+   "indoor light",
+   "light fixture"
+  ]
+ },
+ {
+  "id": "lightbulb_01",
+  "name": "Lightbulb 01",
+  "file": "lightbulb_01/lightbulb_01_1k.gltf",
+  "categories": [
+   "lighting",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "globe",
+   "filament",
+   "light",
+   "lamp",
+   "shed",
+   "bulb",
+   "illumination",
+   "incandescent",
+   "coil filament",
+   "glass bulb"
+  ]
+ },
+ {
+  "id": "lightbulb_led",
+  "name": "Lightbulb Led",
+  "file": "lightbulb_led/lightbulb_led_1k.gltf",
+  "categories": [
+   "electronics",
+   "lighting",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "shed",
+   "indoor",
+   "interrior",
+   "globe",
+   "light"
+  ]
+ },
+ {
+  "id": "lion_head",
+  "name": "Lion Head",
+  "file": "lion_head/lion_head_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "vintage",
+   "sculpture",
+   "ornament",
+   "wildlife",
+   "figurine",
+   "art",
+   "animal"
+  ]
+ },
+ {
+  "id": "marble_bust_01",
+  "name": "Marble Bust 01",
+  "file": "marble_bust_01/marble_bust_01_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "sculpt",
+   "sculpture",
+   "statue",
+   "art",
+   "sandstone",
+   "bust",
+   "marble",
+   "mansion",
+   "renaissance",
+   "man"
+  ]
+ },
+ {
+  "id": "metal_detector",
+  "name": "Metal Detector",
+  "file": "metal_detector/metal_detector_1k.gltf",
+  "categories": [
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "detector",
+   "exploration",
+   "adventure",
+   "treasure",
+   "equipment",
+   "archaeology",
+   "technology"
+  ]
+ },
+ {
+  "id": "metal_jug",
+  "name": "Metal Jug",
+  "file": "metal_jug/metal_jug_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "vases"
+  ],
+  "tags": [
+   "milk jug",
+   "metal",
+   "vase",
+   "farmhouse",
+   "countryside",
+   "kitchen decor",
+   "vintage",
+   "farmhouse decor",
+   "pitcher",
+   "rustic"
+  ]
+ },
+ {
+  "id": "metal_office_desk",
+  "name": "Metal Office Desk",
+  "file": "metal_office_desk/metal_office_desk_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "table",
+   "office"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "metal",
+   "dirty",
+   "scratched",
+   "industrial",
+   "rectangular"
+  ]
+ },
+ {
+  "id": "metal_stool_01",
+  "name": "Metal Stool 01",
+  "file": "metal_stool_01/metal_stool_01_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "old",
+   "leather",
+   "round",
+   "metal",
+   "industrial",
+   "barstool"
+  ]
+ },
+ {
+  "id": "metal_stool_02",
+  "name": "Metal Stool 02",
+  "file": "metal_stool_02/metal_stool_02_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "wooden",
+   "metal frame",
+   "industrial",
+   "small",
+   "workshop",
+   "round"
+  ]
+ },
+ {
+  "id": "metal_stool_03",
+  "name": "Metal Stool 03",
+  "file": "metal_stool_03/metal_stool_03_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "old",
+   "metal",
+   "barstool",
+   "backrest",
+   "heavy-duty",
+   "weathered",
+   "rusted",
+   "workshop"
+  ]
+ },
+ {
+  "id": "mid_century_lounge_chair",
+  "name": "Mid Century Lounge Chair",
+  "file": "mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "wooden",
+   "leather",
+   "couch",
+   "lounge",
+   "architecture",
+   "modern",
+   "interior design",
+   "home decor",
+   "living room",
+   "comfort",
+   "stylish",
+   "recliner",
+   "retro",
+   "classy"
+  ]
+ },
+ {
+  "id": "modern_arm_chair_01",
+  "name": "Modern Arm Chair 01",
+  "file": "modern_arm_chair_01/modern_arm_chair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating",
+   "office"
+  ],
+  "tags": [
+   "wood",
+   "leather",
+   "fancy",
+   "modern",
+   "chair",
+   "contemporary",
+   "wooden",
+   "lounge"
+  ]
+ },
+ {
+  "id": "modern_ceiling_lamp_01",
+  "name": "Modern Ceiling Lamp 01",
+  "file": "modern_ceiling_lamp_01/modern_ceiling_lamp_01_1k.gltf",
+  "categories": [
+   "lighting"
+  ],
+  "tags": [
+   "lighting",
+   "light",
+   "modern",
+   "glass",
+   "round",
+   "hanging",
+   "hanging lamp",
+   "ceiling lamp",
+   "decorative lighting",
+   "modern decor",
+   "interior design"
+  ]
+ },
+ {
+  "id": "modern_coffee_table_01",
+  "name": "Modern Coffee Table 01",
+  "file": "modern_coffee_table_01/modern_coffee_table_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "table",
+   "contemporary",
+   "modern",
+   "rectangular",
+   "stone",
+   "wood",
+   "deco",
+   "clean"
+  ]
+ },
+ {
+  "id": "modern_coffee_table_02",
+  "name": "Modern Coffee Table 02",
+  "file": "modern_coffee_table_02/modern_coffee_table_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "contemporary",
+   "modern",
+   "rectangular",
+   "stone",
+   "wood",
+   "deco",
+   "clean"
+  ]
+ },
+ {
+  "id": "modern_wooden_cabinet",
+  "name": "Modern Wooden Cabinet",
+  "file": "modern_wooden_cabinet/modern_wooden_cabinet_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "cabinet",
+   "wood",
+   "modern",
+   "minimalist",
+   "interrior",
+   "living room",
+   "contemporary",
+   "design"
+  ]
+ },
+ {
+  "id": "modular_street_seating",
+  "name": "Modular Street Seating",
+  "file": "modular_street_seating/modular_street_seating_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "chair",
+   "outdoor",
+   "urban",
+   "cityscape",
+   "contemporary",
+   "bench",
+   "city",
+   "infrastructure"
+  ]
+ },
+ {
+  "id": "old_bed_frame",
+  "name": "Old Bed Frame",
+  "file": "old_bed_frame/old_bed_frame_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "bed",
+   "furniture"
+  ],
+  "tags": [
+   "rusty",
+   "metal",
+   "bedroom",
+   "vintage",
+   "antique",
+   "hospital",
+   "traditional"
+  ]
+ },
+ {
+  "id": "ornate_mirror_01",
+  "name": "Ornate Mirror 01",
+  "file": "ornate_mirror_01/ornate_mirror_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "wall decoration",
+   "furniture"
+  ],
+  "tags": [
+   "decor",
+   "decoration",
+   "ornate",
+   "fancy",
+   "wealthy",
+   "mansion",
+   "manor",
+   "vintage",
+   "victorian",
+   "floral",
+   "gold",
+   "mirror"
+  ]
+ },
+ {
+  "id": "Ottoman_01",
+  "name": "Ottoman 01",
+  "file": "Ottoman_01/Ottoman_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "furniture",
+   "leather",
+   "chair",
+   "fabric",
+   "ottoman",
+   "upholstery",
+   "interior design",
+   "living room",
+   "lounge"
+  ]
+ },
+ {
+  "id": "outdoor_table_chair_set_01",
+  "name": "Outdoor Table Chair Set 01",
+  "file": "outdoor_table_chair_set_01/outdoor_table_chair_set_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "outdoor",
+   "foldable",
+   "folding",
+   "seating",
+   "coffee",
+   "diner",
+   "street",
+   "urban",
+   "deli",
+   "wood",
+   "city",
+   "cafe"
+  ]
+ },
+ {
+  "id": "painted_wooden_bench",
+  "name": "Painted Wooden Bench",
+  "file": "painted_wooden_bench/painted_wooden_bench_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "old",
+   "wooden",
+   "worn",
+   "antique",
+   "farmhouse",
+   "aged",
+   "rustic",
+   "small",
+   "seat",
+   "stool"
+  ]
+ },
+ {
+  "id": "painted_wooden_cabinet",
+  "name": "Painted Wooden Cabinet",
+  "file": "painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "old",
+   "worn",
+   "antique",
+   "wooden",
+   "vintage",
+   "colonial",
+   "farmhouse",
+   "storage",
+   "aged",
+   "rustic",
+   "weathered"
+  ]
+ },
+ {
+  "id": "painted_wooden_cabinet_02",
+  "name": "Painted Wooden Cabinet 02",
+  "file": "painted_wooden_cabinet_02/painted_wooden_cabinet_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "storage",
+   "cabinet",
+   "wood",
+   "vintage",
+   "rustic",
+   "worn",
+   "carpentry",
+   "aged",
+   "bookcase"
+  ]
+ },
+ {
+  "id": "painted_wooden_chair_01",
+  "name": "Painted Wooden Chair 01",
+  "file": "painted_wooden_chair_01/painted_wooden_chair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "chair",
+   "wood",
+   "painted",
+   "farmhouse",
+   "dining",
+   "diner",
+   "american",
+   "kitchen"
+  ]
+ },
+ {
+  "id": "painted_wooden_chair_02",
+  "name": "Painted Wooden Chair 02",
+  "file": "painted_wooden_chair_02/painted_wooden_chair_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "farmhouse",
+   "seat",
+   "dining",
+   "chair"
+  ]
+ },
+ {
+  "id": "painted_wooden_nightstand",
+  "name": "Painted Wooden Nightstand",
+  "file": "painted_wooden_nightstand/painted_wooden_nightstand_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "worn",
+   "vintage",
+   "antique",
+   "aged",
+   "bedside",
+   "bedroom",
+   "night",
+   "table"
+  ]
+ },
+ {
+  "id": "painted_wooden_shelves",
+  "name": "Painted Wooden Shelves",
+  "file": "painted_wooden_shelves/painted_wooden_shelves_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "worn",
+   "vintage",
+   "farmhouse",
+   "aged"
+  ]
+ },
+ {
+  "id": "painted_wooden_sofa",
+  "name": "Painted Wooden Sofa",
+  "file": "painted_wooden_sofa/painted_wooden_sofa_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "chair",
+   "outdoor",
+   "couch",
+   "wooden",
+   "vintage",
+   "aged"
+  ]
+ },
+ {
+  "id": "painted_wooden_stool",
+  "name": "Painted Wooden Stool",
+  "file": "painted_wooden_stool/painted_wooden_stool_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture"
+  ],
+  "tags": [
+   "painted",
+   "worn",
+   "old",
+   "antique",
+   "vintage",
+   "farmhouse",
+   "rustic",
+   "carpentry",
+   "aged",
+   "chair"
+  ]
+ },
+ {
+  "id": "painted_wooden_table",
+  "name": "Painted Wooden Table",
+  "file": "painted_wooden_table/painted_wooden_table_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "vintage",
+   "farmhouse",
+   "aged",
+   "worn",
+   "carpentry"
+  ]
+ },
+ {
+  "id": "planter_box_01",
+  "name": "Planter Box 01",
+  "file": "planter_box_01/planter_box_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "containers",
+   "potted plants",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "wood",
+   "farmhouse",
+   "shed",
+   "outdoor",
+   "gardening",
+   "greenhouse",
+   "landscaping",
+   "garden",
+   "farm",
+   "planter",
+   "flower box",
+   "planters"
+  ]
+ },
+ {
+  "id": "planter_box_02",
+  "name": "Planter Box 02",
+  "file": "planter_box_02/planter_box_02_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "potted plants",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "wood",
+   "worn",
+   "shed",
+   "outdoor",
+   "gardening",
+   "farm",
+   "greenhouse",
+   "landscaping",
+   "farmhouse",
+   "garden",
+   "flower box",
+   "planters"
+  ]
+ },
+ {
+  "id": "planter_box_03",
+  "name": "Planter Box 03",
+  "file": "planter_box_03/planter_box_03_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "potted plants",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "wood",
+   "shed",
+   "farm",
+   "gardening",
+   "landscaping",
+   "garden",
+   "greenhouse",
+   "planters",
+   "farmhouse",
+   "outdoor",
+   "flower box"
+  ]
+ },
+ {
+  "id": "plastic_monobloc_chair_01",
+  "name": "Plastic Monobloc Chair 01",
+  "file": "plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "plastic",
+   "dirty",
+   "old",
+   "monobloc",
+   "outdoor",
+   "cheap",
+   "shed"
+  ]
+ },
+ {
+  "id": "portable_cassette_player",
+  "name": "Portable Cassette Player",
+  "file": "portable_cassette_player/portable_cassette_player_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "cassette tape",
+   "tape",
+   "retro",
+   "analog",
+   "walkman"
+  ]
+ },
+ {
+  "id": "pot_enamel_01",
+  "name": "Pot Enamel 01",
+  "file": "pot_enamel_01/pot_enamel_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "dishes"
+  ],
+  "tags": [
+   "pot",
+   "container",
+   "cooking",
+   "cookware",
+   "kitchen",
+   "enamel",
+   "crockery",
+   "cuisine"
+  ]
+ },
+ {
+  "id": "potted_plant_01",
+  "name": "Potted Plant 01",
+  "file": "potted_plant_01/potted_plant_01_1k.gltf",
+  "categories": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "nature"
+  ],
+  "tags": [
+   "potplant",
+   "plant",
+   "terracotta",
+   "pot",
+   "vase",
+   "medium",
+   "leaf",
+   "green"
+  ]
+ },
+ {
+  "id": "potted_plant_02",
+  "name": "Potted Plant 02",
+  "file": "potted_plant_02/potted_plant_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "nature"
+  ],
+  "tags": [
+   "potplant",
+   "plant",
+   "pot",
+   "vase",
+   "medium",
+   "leaf",
+   "green",
+   "terracotta"
+  ]
+ },
+ {
+  "id": "potted_plant_04",
+  "name": "Potted Plant 04",
+  "file": "potted_plant_04/potted_plant_04_1k.gltf",
+  "categories": [
+   "decorative",
+   "plants",
+   "potted plants",
+   "succulent",
+   "nature"
+  ],
+  "tags": [
+   "cactus",
+   "aloe",
+   "succulent",
+   "potplant",
+   "small",
+   "pot",
+   "plant",
+   "decor"
+  ]
+ },
+ {
+  "id": "pull_chain_light_socket",
+  "name": "Pull Chain Light Socket",
+  "file": "pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+  "categories": [
+   "lighting",
+   "collection: hidden_alley"
+  ],
+  "tags": [
+   "light",
+   "fitting",
+   "socket",
+   "bulb",
+   "fixture",
+   "ceiling",
+   "lamp",
+   "chord"
+  ]
+ },
+ {
+  "id": "Rockingchair_01",
+  "name": "Rockingchair 01",
+  "file": "Rockingchair_01/Rockingchair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "chair",
+   "vintage",
+   "prop",
+   "wood",
+   "furniture",
+   "rocking chair",
+   "rocking",
+   "decorative",
+   "curved legs",
+   "traditional",
+   "solid wood",
+   "armrest",
+   "slatted backrest",
+   "antique style"
+  ]
+ },
+ {
+  "id": "round_wooden_table_01",
+  "name": "Round Wooden Table 01",
+  "file": "round_wooden_table_01/round_wooden_table_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "wooden",
+   "wood",
+   "polish",
+   "circle",
+   "dark",
+   "old"
+  ]
+ },
+ {
+  "id": "round_wooden_table_02",
+  "name": "Round Wooden Table 02",
+  "file": "round_wooden_table_02/round_wooden_table_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "antique",
+   "vintage",
+   "wooden",
+   "traditional",
+   "circle",
+   "lounge",
+   "dining"
+  ]
+ },
+ {
+  "id": "rubber_duck_toy",
+  "name": "Rubber Duck Toy",
+  "file": "rubber_duck_toy/rubber_duck_toy_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "shed",
+   "toy",
+   "bathroom",
+   "child",
+   "home",
+   "fun",
+   "kids",
+   "play",
+   "float",
+   "plastic",
+   "cute",
+   "animal"
+  ]
+ },
+ {
+  "id": "scandinavian_masonry_heater",
+  "name": "Scandinavian Masonry Heater",
+  "file": "scandinavian_masonry_heater/scandinavian_masonry_heater_1k.gltf",
+  "categories": [
+   "appliances"
+  ],
+  "tags": [
+   "heater",
+   "home heating",
+   "furnace",
+   "fireplace",
+   "wood stove",
+   "central heating"
+  ]
+ },
+ {
+  "id": "SchoolChair_01",
+  "name": "School Chair 01",
+  "file": "SchoolChair_01/SchoolChair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "prop",
+   "furniture",
+   "metal",
+   "plastic",
+   "chair",
+   "school"
+  ]
+ },
+ {
+  "id": "SchoolDesk_01",
+  "name": "School Desk 01",
+  "file": "SchoolDesk_01/SchoolDesk_01_1k.gltf",
+  "categories": [
+   "furniture"
+  ],
+  "tags": [
+   "table",
+   "school",
+   "desk",
+   "wood",
+   "metal",
+   "classroom",
+   "student",
+   "single-seat",
+   "school furniture",
+   "storage-shelf",
+   "metal legs",
+   "student seating"
+  ]
+ },
+ {
+  "id": "Shelf_01",
+  "name": "Shelf 01",
+  "file": "Shelf_01/Shelf_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "wood",
+   "shelf",
+   "furniture",
+   "storage",
+   "home",
+   "organization",
+   "display",
+   "wooden",
+   "bookcase",
+   "shelves",
+   "bookshelf",
+   "dirty",
+   "weathered",
+   "distressed",
+   "aged",
+   "simple"
+  ]
+ },
+ {
+  "id": "side_table_01",
+  "name": "Side Table 01",
+  "file": "side_table_01/side_table_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "table",
+   "wood",
+   "minimalist",
+   "modern",
+   "decor",
+   "living room",
+   "bedroom",
+   "shelf",
+   "contemporary",
+   "interior",
+   "home",
+   "wooden"
+  ]
+ },
+ {
+  "id": "side_table_tall_01",
+  "name": "Side Table Tall 01",
+  "file": "side_table_tall_01/side_table_tall_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "antique",
+   "worn",
+   "old",
+   "wood",
+   "side table",
+   "side",
+   "table"
+  ]
+ },
+ {
+  "id": "signal_flashlight",
+  "name": "Signal Flashlight",
+  "file": "signal_flashlight/signal_flashlight_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "props",
+   "electronics"
+  ],
+  "tags": [
+   "handheld",
+   "light",
+   "torch",
+   "signal device",
+   "portable beacon",
+   "emergency signal",
+   "vintage"
+  ]
+ },
+ {
+  "id": "small_wooden_table_01",
+  "name": "Small Wooden Table 01",
+  "file": "small_wooden_table_01/small_wooden_table_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "small",
+   "table",
+   "wooden"
+  ]
+ },
+ {
+  "id": "Sofa_01",
+  "name": "Sofa 01",
+  "file": "Sofa_01/Sofa_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "wood",
+   "prop",
+   "furniture",
+   "vintage",
+   "gothic",
+   "chair",
+   "couch",
+   "victorian",
+   "decorative"
+  ]
+ },
+ {
+  "id": "sofa_02",
+  "name": "Sofa 02",
+  "file": "sofa_02/sofa_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "wood",
+   "furniture",
+   "chair",
+   "prop",
+   "couch",
+   "leather",
+   "fabric"
+  ]
+ },
+ {
+  "id": "sofa_03",
+  "name": "Sofa 03",
+  "file": "sofa_03/sofa_03_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "vintage",
+   "chair",
+   "couch",
+   "seat",
+   "fancy",
+   "mansion",
+   "manor",
+   "victorian",
+   "antique",
+   "leather"
+  ]
+ },
+ {
+  "id": "standing_chalkboard_01",
+  "name": "Standing Chalkboard 01",
+  "file": "standing_chalkboard_01/standing_chalkboard_01_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "resturant",
+   "sign",
+   "signage",
+   "chalk",
+   "board",
+   "coffee",
+   "workshop",
+   "cafe",
+   "urban",
+   "deli",
+   "menu"
+  ]
+ },
+ {
+  "id": "standing_picture_frame_01",
+  "name": "Standing Picture Frame 01",
+  "file": "standing_picture_frame_01/standing_picture_frame_01_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "modern",
+   "minimalist",
+   "clean",
+   "frame",
+   "photo",
+   "simple",
+   "art"
+  ]
+ },
+ {
+  "id": "standing_picture_frame_02",
+  "name": "Standing Picture Frame 02",
+  "file": "standing_picture_frame_02/standing_picture_frame_02_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "wood",
+   "painting",
+   "old",
+   "art",
+   "frame",
+   "photo"
+  ]
+ },
+ {
+  "id": "steel_frame_shelves_03",
+  "name": "Steel Frame Shelves 03",
+  "file": "steel_frame_shelves_03/steel_frame_shelves_03_1k.gltf",
+  "categories": [
+   "shelves",
+   "furniture"
+  ],
+  "tags": [
+   "storage",
+   "home decor",
+   "contemporary",
+   "minimalist",
+   "display",
+   "frame"
+  ]
+ },
+ {
+  "id": "sungka_board",
+  "name": "Sungka Board",
+  "file": "sungka_board/sungka_board_1k.gltf",
+  "categories": [
+   "decorative",
+   "props",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "shed",
+   "game",
+   "boardgame",
+   "wooden",
+   "traditional",
+   "filipino",
+   "hand made"
+  ]
+ },
+ {
+  "id": "sungka_board_02",
+  "name": "Sungka Board 02",
+  "file": "sungka_board_02/sungka_board_02_1k.gltf",
+  "categories": [
+   "decorative",
+   "props"
+  ],
+  "tags": [
+   "game",
+   "boardgame",
+   "wooden",
+   "filipino",
+   "traditional",
+   "hand-carved",
+   "handmade",
+   "shell",
+   "table top",
+   "toy"
+  ]
+ },
+ {
+  "id": "tea_set_01",
+  "name": "Tea Set 01",
+  "file": "tea_set_01/tea_set_01_1k.gltf",
+  "categories": [
+   "props",
+   "dishes"
+  ],
+  "tags": [
+   "antique",
+   "tea",
+   "cup",
+   "english",
+   "ornate",
+   "vintage",
+   "floral",
+   "decorative",
+   "ceramic",
+   "food",
+   "coffee",
+   "victorian"
+  ]
+ },
+ {
+  "id": "Television_01",
+  "name": "Television 01",
+  "file": "Television_01/Television_01_1k.gltf",
+  "categories": [
+   "props",
+   "electronics",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "vintage",
+   "prop",
+   "furniture",
+   "metal",
+   "wood",
+   "tv",
+   "television",
+   "video",
+   "audio"
+  ]
+ },
+ {
+  "id": "television_02",
+  "name": "Television 02",
+  "file": "television_02/television_02_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "electronics"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "crt",
+   "cathode ray tube",
+   "tv",
+   "retro",
+   "boxy",
+   "screen"
+  ]
+ },
+ {
+  "id": "throw_pillows_01",
+  "name": "Throw Pillows 01",
+  "file": "throw_pillows_01/throw_pillows_01_1k.gltf",
+  "categories": [
+   "decorative"
+  ],
+  "tags": [
+   "decorative",
+   "pillow",
+   "throw",
+   "pattern",
+   "african",
+   "red",
+   "triangle",
+   "orange"
+  ]
+ },
+ {
+  "id": "treasure_chest",
+  "name": "Treasure Chest",
+  "file": "treasure_chest/treasure_chest_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "decorative",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "chest",
+   "treasure",
+   "pirates",
+   "gold",
+   "crate",
+   "maritime",
+   "colonial",
+   "worn",
+   "antique",
+   "wood",
+   "prop",
+   "container",
+   "metal",
+   "box",
+   "ornate"
+  ]
+ },
+ {
+  "id": "vintage_cabinet_01",
+  "name": "Vintage Cabinet 01",
+  "file": "vintage_cabinet_01/vintage_cabinet_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "vintage",
+   "farmhouse",
+   "old",
+   "antique",
+   "fancy",
+   "wooden",
+   "varnished",
+   "cupboard",
+   "shelf",
+   "cabinet"
+  ]
+ },
+ {
+  "id": "vintage_day_bed",
+  "name": "Vintage Day Bed",
+  "file": "vintage_day_bed/vintage_day_bed_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "furniture",
+   "bed",
+   "seating"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "antique",
+   "wooden",
+   "couch",
+   "bench",
+   "sofa-bed",
+   "matress",
+   "chaise"
+  ]
+ },
+ {
+  "id": "vintage_electric_kettle",
+  "name": "Vintage Electric Kettle",
+  "file": "vintage_electric_kettle/vintage_electric_kettle_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "decorative",
+   "appliances"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "antique",
+   "electric",
+   "gooseneck spout",
+   "metal",
+   "rusted",
+   "dirty",
+   "traditional"
+  ]
+ },
+ {
+  "id": "vintage_microwave",
+  "name": "Vintage Microwave",
+  "file": "vintage_microwave/vintage_microwave_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "appliances",
+   "electronics"
+  ],
+  "tags": [
+   "vintage",
+   "retro",
+   "wooden",
+   "70s",
+   "oven",
+   "analog"
+  ]
+ },
+ {
+  "id": "vintage_oil_lamp",
+  "name": "Vintage Oil Lamp",
+  "file": "vintage_oil_lamp/vintage_oil_lamp_1k.gltf",
+  "categories": [
+   "lighting",
+   "decorative"
+  ],
+  "tags": [
+   "lamp",
+   "oil",
+   "antique",
+   "victorian",
+   "manor",
+   "historic"
+  ]
+ },
+ {
+  "id": "vintage_radio_transceiver",
+  "name": "Vintage Radio Transceiver",
+  "file": "vintage_radio_transceiver/vintage_radio_transceiver_1k.gltf",
+  "categories": [
+   "appliances",
+   "electronics",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "military",
+   "army",
+   "communications",
+   "frequency dial",
+   "field radio",
+   "radio",
+   "ww2",
+   "telegraph",
+   "handset",
+   "microphone"
+  ]
+ },
+ {
+  "id": "vintage_suitcase",
+  "name": "Vintage Suitcase",
+  "file": "vintage_suitcase/vintage_suitcase_1k.gltf",
+  "categories": [
+   "decorative",
+   "props"
+  ],
+  "tags": [
+   "vintage",
+   "old",
+   "hand made",
+   "stickers",
+   "travel",
+   "garbage",
+   "suitcase",
+   "trunk",
+   "rustic",
+   "luggage",
+   "worn",
+   "aged"
+  ]
+ },
+ {
+  "id": "vintage_telephone_wall_clock",
+  "name": "Vintage Telephone Wall Clock",
+  "file": "vintage_telephone_wall_clock/vintage_telephone_wall_clock_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "wall decoration",
+   "collection: project_lighthouse"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "antique",
+   "rotary phone",
+   "ornate",
+   "red"
+  ]
+ },
+ {
+  "id": "vintage_video_camera",
+  "name": "Vintage Video Camera",
+  "file": "vintage_video_camera/vintage_video_camera_1k.gltf",
+  "categories": [
+   "electronics",
+   "appliances"
+  ],
+  "tags": [
+   "old",
+   "vintage",
+   "photography",
+   "film",
+   "cinematic",
+   "video",
+   "camera",
+   "recording",
+   "tape",
+   "world war 2"
+  ]
+ },
+ {
+  "id": "vintage_wooden_drawer_01",
+  "name": "Vintage Wooden Drawer 01",
+  "file": "vintage_wooden_drawer_01/vintage_wooden_drawer_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "old",
+   "filing",
+   "drawer",
+   "office",
+   "wooden",
+   "worn",
+   "cabinet"
+  ]
+ },
+ {
+  "id": "wall_clock",
+  "name": "Wall Clock",
+  "file": "wall_clock/wall_clock_1k.gltf",
+  "categories": [
+   "collection: project_lighthouse",
+   "decorative",
+   "appliances"
+  ],
+  "tags": [
+   "time",
+   "timepiece",
+   "watch",
+   "watchface",
+   "wall clock",
+   "analog",
+   "modern",
+   "office decor",
+   "home interior",
+   "admin",
+   "office",
+   "90s"
+  ]
+ },
+ {
+  "id": "wicker_basket_01",
+  "name": "Wicker Basket 01",
+  "file": "wicker_basket_01/wicker_basket_01_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "wood",
+   "wicker",
+   "twine",
+   "basket",
+   "picnic",
+   "outdoor",
+   "kitchen",
+   "dining",
+   "table",
+   "shed",
+   "farm"
+  ]
+ },
+ {
+  "id": "wicker_basket_02",
+  "name": "Wicker Basket 02",
+  "file": "wicker_basket_02/wicker_basket_02_1k.gltf",
+  "categories": [
+   "containers",
+   "decorative"
+  ],
+  "tags": [
+   "handcrafted",
+   "home decor",
+   "rattan",
+   "basket",
+   "handwoven",
+   "woven",
+   "rustic decor",
+   "wicker",
+   "twine"
+  ]
+ },
+ {
+  "id": "wine_bottles_01",
+  "name": "Wine Bottles 01",
+  "file": "wine_bottles_01/wine_bottles_01_1k.gltf",
+  "categories": [
+   "props",
+   "containers",
+   "dishes"
+  ],
+  "tags": [
+   "wine",
+   "drink",
+   "bottle",
+   "champagne",
+   "grape",
+   "farmhouse",
+   "vineyard"
+  ]
+ },
+ {
+  "id": "wooden_bookshelf_worn",
+  "name": "Wooden Bookshelf Worn",
+  "file": "wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "wood",
+   "worn",
+   "garage",
+   "shed",
+   "rustic",
+   "antique",
+   "distressed",
+   "aged",
+   "weathered",
+   "bookcase",
+   "shelves",
+   "carpentry",
+   "vintage",
+   "storage"
+  ]
+ },
+ {
+  "id": "wooden_bowl_01",
+  "name": "Wooden Bowl 01",
+  "file": "wooden_bowl_01/wooden_bowl_01_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "dishes"
+  ],
+  "tags": [
+   "bowl",
+   "wooden",
+   "carved",
+   "fruit",
+   "fruitbowl",
+   "decoration"
+  ]
+ },
+ {
+  "id": "wooden_bowl_02",
+  "name": "Wooden Bowl 02",
+  "file": "wooden_bowl_02/wooden_bowl_02_1k.gltf",
+  "categories": [
+   "props",
+   "decorative",
+   "dishes"
+  ],
+  "tags": [
+   "antique",
+   "vintage",
+   "old",
+   "wooden",
+   "ornate",
+   "traditional",
+   "fruitbowl",
+   "rustic decor",
+   "home decor"
+  ]
+ },
+ {
+  "id": "wooden_candlestick",
+  "name": "Wooden Candlestick",
+  "file": "wooden_candlestick/wooden_candlestick_1k.gltf",
+  "categories": [
+   "decorative",
+   "lighting"
+  ],
+  "tags": [
+   "old",
+   "antique",
+   "vintage",
+   "fancy",
+   "candle",
+   "historic",
+   "victorian"
+  ]
+ },
+ {
+  "id": "wooden_display_shelves_01",
+  "name": "Wooden Display Shelves 01",
+  "file": "wooden_display_shelves_01/wooden_display_shelves_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "shelves"
+  ],
+  "tags": [
+   "modern",
+   "wood",
+   "pine",
+   "square",
+   "display",
+   "shelf",
+   "bookshelf"
+  ]
+ },
+ {
+  "id": "wooden_lantern_01",
+  "name": "Wooden Lantern 01",
+  "file": "wooden_lantern_01/wooden_lantern_01_1k.gltf",
+  "categories": [
+   "props",
+   "lighting",
+   "collection: smugglers_cove"
+  ],
+  "tags": [
+   "lantern",
+   "wooden",
+   "wood",
+   "old",
+   "worn",
+   "farmhouse",
+   "maritime",
+   "colonial",
+   "cove",
+   "prop",
+   "vintage",
+   "candle"
+  ]
+ },
+ {
+  "id": "wooden_picnic_table",
+  "name": "Wooden Picnic Table",
+  "file": "wooden_picnic_table/wooden_picnic_table_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "old",
+   "worn",
+   "park",
+   "bench",
+   "outdoor",
+   "weathered",
+   "countryside",
+   "outdoor seating"
+  ]
+ },
+ {
+  "id": "wooden_spoon",
+  "name": "Wooden Spoon",
+  "file": "wooden_spoon/wooden_spoon_1k.gltf",
+  "categories": [
+   "props",
+   "dishes"
+  ],
+  "tags": [
+   "cutlery",
+   "spoon",
+   "kitchen",
+   "cookware",
+   "cooking",
+   "serving spoon",
+   "mixing spoon",
+   "culinary"
+  ]
+ },
+ {
+  "id": "wooden_stool_01",
+  "name": "Wooden Stool 01",
+  "file": "wooden_stool_01/wooden_stool_01_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "old",
+   "worn",
+   "dirty",
+   "workshop",
+   "outdoor",
+   "stool",
+   "woodwork",
+   "shop"
+  ]
+ },
+ {
+  "id": "wooden_stool_02",
+  "name": "Wooden Stool 02",
+  "file": "wooden_stool_02/wooden_stool_02_1k.gltf",
+  "categories": [
+   "seating",
+   "furniture"
+  ],
+  "tags": [
+   "old",
+   "wooden",
+   "vintage",
+   "antique",
+   "wood",
+   "farmhouse",
+   "carpentry",
+   "handcrafted",
+   "footstool"
+  ]
+ },
+ {
+  "id": "wooden_table_02",
+  "name": "Wooden Table 02",
+  "file": "wooden_table_02/wooden_table_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "wooden",
+   "worn",
+   "village",
+   "rural",
+   "natural",
+   "simple"
+  ]
+ },
+ {
+  "id": "WoodenChair_01",
+  "name": "Wooden Chair 01",
+  "file": "WoodenChair_01/WoodenChair_01_1k.gltf",
+  "categories": [
+   "furniture",
+   "seating"
+  ],
+  "tags": [
+   "wood",
+   "prop",
+   "vintage",
+   "furniture",
+   "chair",
+   "gothic",
+   "victorian",
+   "decorative"
+  ]
+ },
+ {
+  "id": "WoodenTable_01",
+  "name": "Wooden Table 01",
+  "file": "WoodenTable_01/WoodenTable_01_1k.gltf",
+  "categories": [
+   "furniture"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "prop",
+   "table",
+   "school",
+   "desk",
+   "old",
+   "worn"
+  ]
+ },
+ {
+  "id": "WoodenTable_02",
+  "name": "Wooden Table 02",
+  "file": "WoodenTable_02/WoodenTable_02_1k.gltf",
+  "categories": [
+   "furniture",
+   "table"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "prop",
+   "table",
+   "furniture",
+   "old",
+   "worn",
+   "small"
+  ]
+ },
+ {
+  "id": "WoodenTable_03",
+  "name": "Wooden Table 03",
+  "file": "WoodenTable_03/WoodenTable_03_1k.gltf",
+  "categories": [
+   "furniture",
+   "collection: the_shed"
+  ],
+  "tags": [
+   "vintage",
+   "wood",
+   "prop",
+   "table",
+   "furniture",
+   "metal",
+   "shelf"
+  ]
+ }
+]

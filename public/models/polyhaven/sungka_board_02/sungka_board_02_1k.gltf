@@ -1,0 +1,237 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.5.47",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "sungka_board_02"
+    },
+    {
+      "mesh": 1,
+      "name": "sungka_board_02_shells"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "sungka_board_02",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.015",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.070",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "sungka_board_02_nor_gl",
+      "uri": "textures/sungka_board_02_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "sungka_board_02_diff",
+      "uri": "textures/sungka_board_02_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "sungka_board_02_rough",
+      "uri": "textures/sungka_board_02_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4476,
+      "max": [
+        0.46587371826171875,
+        0.025777442380785942,
+        0.06961103528738022
+      ],
+      "min": [
+        -0.4658263325691223,
+        8.825883810459345e-7,
+        -0.10608096420764923
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4476,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4476,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 21948,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 21574,
+      "max": [
+        0.42615216970443726,
+        0.02536480873823166,
+        0.05186261981725693
+      ],
+      "min": [
+        -0.42299124598503113,
+        0.0018031531944870949,
+        -0.051908791065216064
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 21574,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 21574,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 105726,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 53712,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53712,
+      "byteOffset": 53712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35808,
+      "byteOffset": 107424,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43896,
+      "byteOffset": 143232,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 258888,
+      "byteOffset": 187128,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 258888,
+      "byteOffset": 446016,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 172592,
+      "byteOffset": 704904,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 211452,
+      "byteOffset": 877496,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1088948,
+      "uri": "sungka_board_02.bin"
+    }
+  ]
+}

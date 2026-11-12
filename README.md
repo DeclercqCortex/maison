@@ -84,9 +84,9 @@ The catalog has two kinds of piece:
   realistic and textured). All are public domain (CC0, see
   `public/models/*/License.txt`). The model files live in `public/models`.
 
-The Poly Haven files (about 360 MB) are kept out of git. On a fresh copy of
-the project, fetch them with `npm run models:download`; until then those
-catalog pieces have no picture and do not appear in the 3D view.
+The Poly Haven files (about 360 MB) are in the repository, in
+`public/models/polyhaven`. `npm run models:download` fetches any that Poly
+Haven has added since, then `npm run models` adds them to the catalog.
 
 `npm run models` measures every model file and rewrites
 `src/catalog/models.json`, which gives each one its name, category, real-world
