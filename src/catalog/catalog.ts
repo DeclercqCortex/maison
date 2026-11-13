@@ -7,7 +7,7 @@
  * z through its depth with the front at +z and the back (the wall side) at -z.
  */
 import downloaded from './models.json';
-import { kindOf, styleOf, type FurnitureStyle } from './kinds';
+import { kindOf, NEUTRAL, styleOf, type FurnitureStyle } from './kinds';
 
 export type Placement = 'floor' | 'wall' | 'ceiling' | 'surface';
 export type Category = 'living' | 'bedroom' | 'kitchen' | 'bathroom' | 'office' | 'lighting' | 'decor' | 'outdoor';
@@ -80,6 +80,8 @@ export interface CatalogItem {
   kind?: string;
   /** Simple low-poly pieces, or realistic textured ones. */
   style: FurnitureStyle;
+  /** A flat ground surface (patio, path, pond) that belongs to both styles. */
+  neutral?: boolean;
 }
 
 const P = 'primary';
@@ -451,7 +453,12 @@ const DOWNLOADED: CatalogItem[] = (downloaded as Omit<CatalogItem, 'colors' | 's
 }));
 
 /** Gives a piece its kind and style, worked out from its id and name. */
-const classify = (c: CatalogItem): CatalogItem => ({ ...c, kind: c.kind ?? kindOf(c), style: styleOf(c.id) });
+const classify = (c: CatalogItem): CatalogItem => ({
+  ...c,
+  kind: c.kind ?? kindOf(c),
+  style: styleOf(c.id),
+  ...(NEUTRAL(c.id) ? { neutral: true } : {}),
+});
 
 /** Everything that ships with Maison: the built-in pieces first, then the downloaded models. */
 export const CATALOG: CatalogItem[] = [

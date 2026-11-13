@@ -55,7 +55,7 @@ export const ItemModel = memo(function ItemModel({ item, selected }: { item: Ite
   return (
     <group position={[item.at.x, item.elevation, item.at.y]} rotation={[0, (-item.rotation * Math.PI) / 180, 0]}>
       <primitive object={object} />
-      {def.light && (
+      {def.light && !object.userData.outline && (
         <pointLight position={[0, def.light.y, 0]} color="#ffe2b8" intensity={def.light.intensity} distance={9} decay={2} />
       )}
       {selected && <OutlineBox size={def.size} />}

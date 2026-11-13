@@ -7,7 +7,12 @@
 // The Smithsonian's open-access search needs an api.data.gov key: a free one
 // from https://api.data.gov/signup, passed as SI_API_KEY. Without one the
 // shared DEMO_KEY is used, which allows only a few requests an hour.
-import { writeFileSync } from 'node:fs';
+//
+//   npm run models:smithsonian -- --files-only
+//
+// keeps the scans already listed and only looks up their files again, which
+// needs no key.
+import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -26,9 +31,12 @@ async function json(url) {
   return body;
 }
 
+const filesOnly = process.argv.includes('--files-only');
+const listFile = join(root, 'src', 'catalog', 'smithsonian.json');
+
 // 1. Every open-access record with a 3D scan.
 const records = [];
-for (let start = 0; ; start += 1000) {
+for (let start = 0; !filesOnly; start += 1000) {
   const page = await json(`https://api.si.edu/openaccess/api/v1.0/search?q=3d_voyager&rows=1000&start=${start}&api_key=${KEY}`);
   records.push(...page.response.rows);
   if (records.length >= page.response.rowCount || !page.response.rows.length) break;
@@ -36,7 +44,7 @@ for (let start = 0; ; start += 1000) {
 console.log(`${records.length} records with 3D scans.`);
 
 const clean = (t) => t.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-const candidates = [];
+const candidates = filesOnly ? JSON.parse(readFileSync(listFile, 'utf8')).map(({ glb, thumbGlb, upright, ...rest }) => rest) : [];
 for (const r of records) {
   const d = r.content?.descriptiveNonRepeating ?? {};
   if (SKIP_UNITS.test(d.unit_code ?? '')) continue;
@@ -61,16 +69,21 @@ for (const r of records) {
 }
 console.log(`${candidates.length} public-domain scans of objects.`);
 
-// 2. The 150,000-triangle GLB of each scan, from the Smithsonian's 3D service (no key needed).
+// 2. The GLB of each scan, from the Smithsonian's 3D service (no key needed). The version made for
+// augmented reality comes first: like any AR model it is in metres and stands the right way up, with
+// about 100,000 triangles and 2K textures. The other versions keep each scan's own units and
+// orientation (often millimetres, or lying on its side), which the importer can only guess.
+const isAr = (f) => f.content.usage === 'App3D' || /_std(_draco)?[.]glb$/.test(f.content.uri);
 const out = [];
 for (const [i, c] of candidates.entries()) {
   try {
     const found = await json(`https://3d-api.si.edu/api/v1.0/content/file/search?q=${encodeURIComponent(c.title.slice(0, 120))}&rows=100`);
-    const files = found.rows.filter((f) => f.content.model_url === `3d_package:${c.pkg}` && f.content.file_type === 'glb' && f.content.usage === 'Web3D');
-    const pick = files.find((f) => f.content.quality === 'Medium') ?? files.find((f) => f.content.quality === 'Low') ?? files[0];
+    const glbs = found.rows.filter((f) => f.content.model_url === `3d_package:${c.pkg}` && f.content.file_type === 'glb');
+    const web = glbs.filter((f) => f.content.usage === 'Web3D');
+    const pick = glbs.find(isAr) ?? web.find((f) => f.content.quality === 'Medium') ?? web.find((f) => f.content.quality === 'Low') ?? web[0];
     if (pick) {
-      const thumbGlb = files.find((f) => f.content.quality === 'Thumb');
-      out.push({ ...c, glb: pick.content.uri, ...(c.thumb ? {} : { thumbGlb: thumbGlb?.content.uri }) });
+      const thumbGlb = web.find((f) => f.content.quality === 'Thumb');
+      out.push({ ...c, glb: pick.content.uri, upright: isAr(pick), ...(c.thumb ? {} : { thumbGlb: thumbGlb?.content.uri }) });
     }
   } catch (err) {
     console.log(`  skipped ${c.title}: ${err.message}`);
@@ -81,5 +94,5 @@ for (const [i, c] of candidates.entries()) {
 // Scans without a photo of the object cannot be shown in the catalog; leave them out.
 const listed = out.filter((e) => e.thumb);
 listed.sort((a, b) => a.title.localeCompare(b.title));
-writeFileSync(join(root, 'src', 'catalog', 'smithsonian.json'), JSON.stringify(listed, null, 1) + '\n');
-console.log(`Listed ${listed.length} scans in src/catalog/smithsonian.json.`);
+writeFileSync(listFile, JSON.stringify(listed, null, 1) + '\n');
+console.log(`Listed ${listed.length} scans in src/catalog/smithsonian.json, ${listed.filter((e) => e.upright).length} as upright, metre-sized AR models.`);

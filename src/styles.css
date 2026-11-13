@@ -567,3 +567,12 @@ dialog.help::backdrop { background: rgba(36, 38, 43, 0.45); }
 
 .catalog-results { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
 .catalog-results > .catalog-grid { flex: none; overflow: visible; }
+
+/* ---- Pieces with no version in the current furniture style ---- */
+.outlined { display: flex; flex-direction: column; gap: 4px; font-size: 12px; padding: 8px 10px; border-radius: 8px; background: #f1f2f4; border: 1px dashed #9aa0a6; }
+.outlined strong { font-size: 12px; }
+.outlined > span { color: var(--muted); }
+.outlined > div { display: flex; flex-wrap: wrap; gap: 2px 10px; }
+.outlined .link { border: none; background: none; padding: 0; color: var(--accent); cursor: pointer; font-size: 12px; }
+.outlined .link:hover:not(:disabled) { background: none; text-decoration: underline; }
+.catalog .style-note { margin: 0; font-size: 11px; }

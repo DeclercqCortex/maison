@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import type { CatalogItem, Part } from './catalog';
 import { attachModel, loadModel } from './models';
 import type { FurnitureStyle } from './kinds';
-import { counterpart, fitInto } from './style';
+import { display, fitInto, plantRows } from './style';
 
 /** A ridged roof one unit across (x), one high and one deep (z), centred on the origin. */
 function unitPrism(): THREE.BufferGeometry {
@@ -86,15 +86,54 @@ export function buildItemObject(def: CatalogItem, color?: string): THREE.Group {
   return group;
 }
 
+const OUTLINE_FILL = new THREE.MeshBasicMaterial({ color: '#8f969e', transparent: true, opacity: 0.16, depthWrite: false });
+const OUTLINE_EDGE = new THREE.LineBasicMaterial({ color: '#6b7280', transparent: true, opacity: 0.85 });
+
+/** A plain see-through box the size of a piece: where it is, without showing it in the wrong style. */
+function outlineObject(def: CatalogItem): THREE.Group {
+  const { w, d, h } = def.size;
+  const height = Math.max(h, 0.02);
+  const box = new THREE.BoxGeometry(w, height, d);
+  const group = new THREE.Group();
+  const fill = new THREE.Mesh(box, OUTLINE_FILL);
+  fill.position.y = height / 2;
+  const edges = new THREE.LineSegments(new THREE.EdgesGeometry(box), OUTLINE_EDGE);
+  edges.position.y = height / 2;
+  group.add(fill, edges);
+  group.userData.outline = true;
+  return group;
+}
+
 /**
- * The 3D object for a placed piece in the chosen furniture style. In the other
- * style it is the closest piece of the same kind, turned and scaled to fit the
- * same footprint, so the room's layout is the same in both styles. Pieces with
- * nothing of their kind in that style are shown as they are.
+ * The 3D object for a placed piece in the project's furniture style. The two
+ * styles never mix (see `display`): a piece from the other style is drawn as
+ * its closest stand-in of the same kind, turned and scaled to fit the same
+ * footprint so the room's layout is the same in both styles, or, if nothing of
+ * its kind exists in this style, as a plain outline of the space it takes.
  */
 export function buildDisplayObject(def: CatalogItem, color: string | undefined, style: FurnitureStyle): THREE.Group {
-  const stand = counterpart(def, style);
-  if (!stand) return buildItemObject(def, color);
+  const shown = display(def, style);
+  if (shown.as === 'itself') return buildItemObject(def, color);
+  if (shown.as === 'outline') return outlineObject(def);
+  const stand = shown.def;
+  // A bed of flowers or a hedge is filled with copies of the plant, slightly turned so they do not look stamped out.
+  const rows = plantRows(def.kind, def.size, stand.size);
+  if (rows) {
+    const group = new THREE.Group();
+    const stepX = def.size.w / rows.across;
+    const stepZ = def.size.d / rows.deep;
+    for (let i = 0; i < rows.across; i++) {
+      for (let j = 0; j < rows.deep; j++) {
+        const copy = buildItemObject(stand);
+        copy.scale.setScalar(rows.scale * (0.85 + ((i * 7 + j * 3) % 5) * 0.06));
+        copy.rotation.y = ((i * 5 + j * 11) % 12) * (Math.PI / 6);
+        copy.position.set(-def.size.w / 2 + stepX * (i + 0.5), 0, -def.size.d / 2 + stepZ * (j + 0.5));
+        group.add(copy);
+      }
+    }
+    group.userData.standIn = stand.id;
+    return group;
+  }
   const fit = fitInto(def.size, stand.size, def.kind);
   // Colours carry over only between pieces that can be recoloured.
   const inner = buildItemObject(stand, stand.parts.length ? color : undefined);

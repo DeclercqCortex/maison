@@ -57,7 +57,25 @@ export const KINDS: { id: string; label: string }[] = [
   { id: 'bench', label: 'Bench' },
   { id: 'picnic-table', label: 'Picnic or garden table' },
   { id: 'planter', label: 'Planter' },
+  // In the garden.
+  { id: 'tree', label: 'Tree' },
+  { id: 'shrub', label: 'Shrub or bush' },
+  { id: 'flower', label: 'Flowers' },
+  { id: 'rock', label: 'Rock or boulder' },
+  { id: 'stump', label: 'Tree stump or log' },
+  { id: 'lamp-post', label: 'Lamp post' },
+  { id: 'barrel', label: 'Barrel' },
+  { id: 'crate', label: 'Crate or box' },
+  { id: 'bucket', label: 'Bucket' },
+  { id: 'garden-statue', label: 'Garden statue' },
 ];
+
+/**
+ * Flat ground surfaces (patios, paths, a driveway, a pond). They are the
+ * ground's own finish rather than furniture, so they belong to both styles.
+ */
+export const NEUTRAL = (id: string): boolean =>
+  ['patio', 'path', 'driveway', 'pond'].includes(id) || /^kenney-nature-path/.test(id);
 
 /** The built-in pieces' kinds, by catalog id. */
 export const BUILT_IN_KINDS: Record<string, string> = {
@@ -71,7 +89,26 @@ export const BUILT_IN_KINDS: Record<string, string> = {
   'lamp-floor': 'lamp-floor', 'lamp-table': 'lamp-table', 'light-ceiling': 'light-ceiling', 'light-pendant': 'light-pendant',
   'light-sconce': 'light-sconce', plant: 'plant', 'plant-tall': 'plant-tall', painting: 'painting', clock: 'clock', vase: 'vase',
   books: 'books', bench: 'bench', 'picnic-table': 'picnic-table',
+  'tree-oak': 'tree', 'tree-pine': 'tree', 'tree-young': 'tree', bush: 'shrub', hedge: 'shrub', flowers: 'flower',
+  rock: 'rock', boulder: 'rock', 'lamp-post': 'lamp-post',
 };
+
+/** Kinds of garden pieces, read from their names. Garden pieces only stand in for garden pieces. */
+const GARDEN_RULES: Rule[] = [
+  [/stump|\blogs?\b/, 'stump'],
+  [/\btrees?\b|sapling|\bpine\b|\boak\b/, 'tree'],
+  [/boulder|\brocks?\b|\bstones?\b/, 'rock'],
+  [/flower|lily|gazania|ursinia|heliophila|empodium|stinkkruid|celandine|dandelion/, 'flower'],
+  [/bush|shrub|hedge|succulent|cactus|iceplant|didelta|leipoldtia|rooibos|sorrel|othonna/, 'shrub'],
+  [/lamp ?post|street lamp/, 'lamp-post'],
+  [/barrel/, 'barrel'],
+  [/crate|cardboard box/, 'crate'],
+  [/bucket/, 'bucket'],
+  [/planter|\bpot\b/, 'planter'],
+  [/picnic|outdoor table|garden table/, 'picnic-table'],
+  [/bench|seating/, 'bench'],
+  [/gnome|statue/, 'garden-statue'],
+];
 
 type Rule = [RegExp, string | ((size: { w: number; d: number; h: number }) => string | undefined)];
 
@@ -131,10 +168,10 @@ const NAME_RULES: Rule[] = [
 ];
 
 /** The kind of a piece, from its catalog id (built-in pieces) or its name. Undefined if it is nothing in particular. */
-export function kindOf(def: { id: string; name: string; size: { w: number; d: number; h: number } }): string | undefined {
+export function kindOf(def: { id: string; name: string; size: { w: number; d: number; h: number }; category?: string }): string | undefined {
   if (BUILT_IN_KINDS[def.id]) return BUILT_IN_KINDS[def.id];
   const name = def.name.toLowerCase();
-  for (const [pattern, kind] of NAME_RULES) {
+  for (const [pattern, kind] of def.category === 'outdoor' ? GARDEN_RULES : NAME_RULES) {
     if (pattern.test(name)) return typeof kind === 'string' ? kind : kind(def.size);
   }
   return undefined;

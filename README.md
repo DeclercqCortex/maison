@@ -118,18 +118,33 @@ files.
 
 The switch at the top of the catalog (also in the walk-through toolbar) shows
 a project's furniture either as **Simple** low-poly pieces (the built-in pieces
-and Kenney's) or as **Realistic** textured ones (Poly Haven's and your own
-imported models). It is saved with the project.
+and Kenney's) or as **Realistic** textured ones (Poly Haven's, the Khronos
+pieces, museum scans and your own imported models). It is saved with the
+project.
 
-Every piece has a kind (sofa, bed, toilet...), worked out from its name in
-`src/catalog/kinds.ts`. In the other style, a placed piece is drawn as the
-closest-sized piece of the same kind, fitted to the same footprint
-(`src/catalog/style.ts`): tables, rugs and plants may be turned a quarter;
-beds, tables and cabinets may be stretched a little; everything else is scaled
-evenly. So the room's layout is the same in both styles. Kinds with nothing in
-the other style (there is no realistic toilet, fridge or kitchen cabinet yet)
-are shown as they are, and the catalog lists them marked "Simple only" or
-"Realistic only".
+The two styles never mix (`display` in `src/catalog/style.ts`):
+
+- The catalog, and its search, list only the current style's pieces.
+  Imported and online models are realistic, so importing and the online
+  results are offered only in the Realistic style.
+- A placed piece is drawn as itself only in its own style. In the other style
+  it is drawn as the closest-sized piece of the same kind (sofa, bed, tree,
+  rock...; kinds come from names in `src/catalog/kinds.ts`), fitted to the
+  same footprint: tables, rugs and plants may be turned a quarter; beds,
+  tables and cabinets may be stretched a little; a flower bed or hedge is
+  filled with copies of one plant; everything else is scaled evenly. So the
+  room's layout is the same in both styles. Garden pieces only stand in for
+  garden pieces.
+- A placed piece with nothing of its kind in the current style (there is no
+  realistic toilet, fridge or kitchen cabinet yet) is drawn as a plain grey
+  outline of the space it takes, never in the other style. The catalog lists
+  these under "Shown as outlines"; in the Realistic style, clicking one
+  searches online for a realistic version.
+- The only pieces in both styles are flat ground surfaces (patio, paths,
+  driveway, pond), which are the ground's finish rather than furniture.
+
+The landscape itself (the grass, the hills and the trees in the distance, and
+the city around an apartment) is the same in both styles.
 
 ### Searching
 
@@ -140,11 +155,11 @@ names (`src/catalog/search.ts`). Plurals count ("chairs"); synonyms count
 "decor" finds statues, vases and frames; "chinese" finds the Chinese and
 oriental pieces). Each model's own tags from its library are searched too.
 Every word typed must match, and the best matches (by name, then by what the
-piece is, then by its tags) come first. While searching, both furniture styles
-are listed. Common searches (Chairs, Sofas, Beds, Statues, Chinese,
+piece is, then by its tags) come first. Only the current furniture style is
+searched. Common searches (Chairs, Sofas, Beds, Statues, Chinese,
 Kitchenware...) are one click away under the search box.
 
-Below the catalog's matches, **Free models online** lists matching
+In the Realistic style, below the catalog's matches, **Free models online** lists matching
 public-domain (CC0) models that are not in the catalog yet, from
 [Poly Haven](https://polyhaven.com) (all its models, listed live) and the
 [Smithsonian's open-access 3D scans](https://3d.si.edu) (listed in

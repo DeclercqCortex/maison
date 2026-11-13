@@ -3,7 +3,9 @@ import { thumbnail } from '../catalog/build';
 import { CATEGORIES, OUTDOOR_GROUPS, type CatalogItem } from '../catalog/catalog';
 import { removeCustomModel } from '../catalog/custom';
 import type { FurnitureStyle } from '../catalog/kinds';
-import { hasCounterpart } from '../catalog/style';
+import { display, inStyle } from '../catalog/style';
+import { KINDS } from '../catalog/kinds';
+import { activeFloor } from '../store/store';
 import { useCatalog } from '../catalog/useCatalog';
 import { QUICK_SEARCHES, searchCatalog, textScore } from '../catalog/search';
 import { onlineModels, type OnlineModel } from '../catalog/online';
@@ -41,9 +43,9 @@ export function StyleSwitch({ compact = false }: { compact?: boolean }) {
 
 /**
  * The furniture catalog (indoors) or garden catalog (outdoors), in the
- * project's furniture style. Pieces with nothing of their kind in that style
- * are listed too, marked with the style they come in. Click an item, then
- * click in the room or on the lot to place it.
+ * project's furniture style only: the two styles never mix. Imported and
+ * online models are realistic, so they are found in the Realistic style.
+ * Click an item, then click in the room or on the lot to place it.
  */
 export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
   const placing = useStore((s) => s.placing);
@@ -59,7 +61,12 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
 
   // An apartment's balcony can have planters, garden furniture and the like from the garden catalog.
   const balcony = useStore((s) => s.project.kind === 'apartment') && !outdoor;
-  const hasMine = catalog.some((c) => c.id.startsWith('custom-'));
+  const realistic = style === 'realistic';
+  const hasMine = realistic && catalog.some((c) => c.id.startsWith('custom-'));
+  // "Your models" are realistic; after switching to Simple, that filter would show nothing.
+  useEffect(() => {
+    if (!realistic && filter === 'mine') setFilter('all');
+  }, [realistic, filter]);
   const chips = [
     ...(outdoor ? OUTDOOR_GROUPS.map((g) => ({ id: g, label: g })) : CATEGORIES),
     ...(balcony ? [{ id: 'balcony', label: 'Balcony' }] : []),
@@ -73,9 +80,8 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
   const { shown, otherStyle } = useMemo(() => {
     const forBalcony = (c: CatalogItem) => balcony && c.category === 'outdoor' && BALCONY_GROUPS.includes(c.group ?? '');
     const here = catalog.filter(inThisCatalog);
-    // In this style, or of a kind that does not exist in this style (so nothing goes missing).
-    // A search looks through both styles, so nothing that matches is hidden.
-    const styled = searching ? here : here.filter((c) => c.style === style || !hasCounterpart(c, style));
+    // Only this style's pieces (and the ground surfaces both styles share), searching or not.
+    const styled = here.filter((c) => inStyle(c, style));
     const inFilter = styled.filter(
       (c) =>
         filter === 'all' ||
@@ -85,14 +91,16 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
             ? forBalcony(c)
             : (c.category === 'outdoor' ? c.group : c.category) === filter),
     );
-    return { shown: searchCatalog(inFilter, query), otherStyle: searching ? 0 : here.length - styled.length };
+    return { shown: searchCatalog(inFilter, query), otherStyle: here.length - styled.length };
   }, [catalog, inThisCatalog, query, searching, filter, balcony, style]);
 
   // Free models online that match the search, looked up once the user pauses typing.
   const [online, setOnline] = useState<{ query: string; models: OnlineModel[]; failed: string[] } | null>(null);
   const [adding, setAdding] = useState<OnlineModel | null>(null);
+  // Online models are realistic, so they are only offered in the Realistic style.
+  const searchOnline = searching && realistic;
   useEffect(() => {
-    if (!searching) {
+    if (!searchOnline) {
       setOnline(null);
       return;
     }
@@ -111,8 +119,25 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
       cancelled = true;
       window.clearTimeout(timer);
     };
-  }, [query, searching]);
+  }, [query, searchOnline]);
   const [onlineShown, setOnlineShown] = useState(12);
+
+  // Placed pieces with nothing of their kind in this style, which the room shows as outlines.
+  const project = useStore((s) => s.project);
+  const activeFloorId = useStore((s) => s.activeFloorId);
+  const outlined = useMemo(() => {
+    const placed = outdoor ? project.outdoor : activeFloor(project, activeFloorId).items;
+    const counts = new Map<string, { def: CatalogItem; n: number }>();
+    for (const item of placed) {
+      const def = catalog.find((c) => c.id === item.catalogId);
+      if (!def || display(def, style).as !== 'outline') continue;
+      const entry = counts.get(def.id) ?? { def, n: 0 };
+      entry.n++;
+      counts.set(def.id, entry);
+    }
+    return [...counts.values()];
+  }, [project, activeFloorId, outdoor, catalog, style]);
+  const KIND_NAME = useMemo(() => new Map(KINDS.map((k) => [k.id, k.label])), []);
   useEffect(() => setOnlineShown(12), [query]);
   const otherCatalog = useMemo(() => catalog.filter((c) => !inThisCatalog(c) && (c.category === 'outdoor') !== outdoor).length, [catalog, inThisCatalog, outdoor]);
 
@@ -161,19 +186,43 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
           </button>
         ))}
       </div>
+      {outlined.length > 0 && (
+        <div className="outlined" role="note">
+          <strong>Shown as outlines</strong>
+          <span>
+            {outlined.length === 1 ? 'This piece has' : 'These pieces have'} no {STYLE_LABEL[style]} version yet
+            {realistic ? ': click one to look for a realistic model online.' : '.'}
+          </span>
+          <div>
+            {outlined.map(({ def, n }) =>
+              realistic ? (
+                <button key={def.id} className="link" onClick={() => setQuery(KIND_NAME.get(def.kind ?? '') ?? def.name)}>
+                  {def.name}{n > 1 ? ` ×${n}` : ''}
+                </button>
+              ) : (
+                <span key={def.id}>{def.name}{n > 1 ? ` ×${n}` : ''}</span>
+              ),
+            )}
+          </div>
+        </div>
+      )}
       <div className="count">
-        {shown.length} {shown.length === 1 ? 'piece' : 'pieces'}
-        {otherStyle > 0 && ` · ${otherStyle} more in the ${style === 'simple' ? 'Realistic' : 'Simple'} style`}
+        {shown.length} {STYLE_LABEL[style].toLowerCase()} {shown.length === 1 ? 'piece' : 'pieces'}
+        {otherStyle > 0 && ` · ${otherStyle} more in the ${realistic ? 'Simple' : 'Realistic'} style`}
         {/* The other catalog lives in the other 3D tab; say so, so nothing seems to be missing. */}
         {' · '}
         <button className="link" onClick={() => useStore.getState().setMode(outdoor ? 'interior' : 'exterior')}>
           {otherCatalog} more {outdoor ? 'for indoors in Interior' : 'for the garden in Exterior'}
         </button>
       </div>
-      <button className="import-model" onClick={() => setImporting(true)}
-        title="Add your own model: glTF, OBJ, FBX, STL, PLY, Collada, 3DS, 3MF, or a CAD file (STEP, IGES, BREP)">
-        Import a model or CAD file…
-      </button>
+      {realistic ? (
+        <button className="import-model" onClick={() => setImporting(true)}
+          title="Add your own model: glTF, OBJ, FBX, STL, PLY, Collada, 3DS, 3MF, or a CAD file (STEP, IGES, BREP)">
+          Import a model or CAD file…
+        </button>
+      ) : (
+        <p className="muted style-note">Imported models and free models online are realistic: switch to Realistic to add them.</p>
+      )}
       {/* The catalog's pieces and, when searching, free models online: one scrolling list. */}
       <div className="catalog-results">
       <div className="catalog-grid">
@@ -185,16 +234,17 @@ export function CatalogPanel({ outdoor = false }: { outdoor?: boolean }) {
               {pictures[c.id] ? <img src={pictures[c.id]} alt="" loading="lazy" /> : <span className="no-picture" />}
               <span className="name">{c.name}</span>
               {WHERE[c.placement] && <span className="where">{WHERE[c.placement]}</span>}
-              {c.style !== style && <span className="where">{searching ? `${STYLE_LABEL[c.style]} style` : `${STYLE_LABEL[c.style]} only`}</span>}
             </button>
             {c.id.startsWith('custom-') && (
               <button className="card-remove" aria-label={`Remove ${c.name}`} title="Remove this model" onClick={() => void remove(c)}>×</button>
             )}
           </div>
         ))}
-        {shown.length === 0 && <p className="muted">{query ? `Nothing in the catalog matches “${query}”.` : 'Nothing here yet.'}</p>}
+        {shown.length === 0 && (
+          <p className="muted">{query ? `Nothing in the ${STYLE_LABEL[style]} catalog matches “${query}”.` : 'Nothing here yet.'}</p>
+        )}
       </div>
-      {searching && (
+      {searchOnline && (
         <section className="online" aria-label="Free models online">
           <h3>Free models online</h3>
           <p className="muted">

@@ -87,7 +87,8 @@ async function download(url: string, name: string): Promise<File> {
 /**
  * Downloads a model's files, ready for the importer: a Poly Haven model's
  * glTF with its .bin and textures (at the 1K size), or a Smithsonian scan's
- * GLB (150,000 triangles, 2K textures).
+ * GLB (the version made for augmented reality, which is in metres and the
+ * right way up: about 100,000 triangles with 2K textures).
  */
 export async function downloadOnlineModel(m: OnlineModel, onStatus: (text: string) => void): Promise<File[]> {
   if (m.source === 'Poly Haven') {
@@ -106,6 +107,6 @@ export async function downloadOnlineModel(m: OnlineModel, onStatus: (text: strin
   }
   const url = SMITHSONIAN_GLB.get(m.id);
   if (!url) throw new Error('This model is no longer listed.');
-  onStatus('Downloading the scan from the Smithsonian… (often 5–20 MB)');
+  onStatus('Downloading the scan from the Smithsonian… (usually 1–3 MB)');
   return [await download(url, `${m.name.slice(0, 60)}.glb`)];
 }

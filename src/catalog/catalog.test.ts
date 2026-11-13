@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import * as THREE from 'three';
 import { CATALOG, catalogItem, setCustomItems, type CatalogItem } from './catalog';
 import { kindOf, styleOf } from './kinds';
-import { counterpart, fitInto, hasCounterpart } from './style';
+import { counterpart, display, fitInto, inStyle, plantRows } from './style';
 import { prepare, type ReadModel } from './importers';
 import { emptyProject, migrateProject } from '../model/types';
 
@@ -53,7 +53,7 @@ describe('switching furniture style', () => {
     expect(counterpart(real, 'simple')!.style).toBe('simple');
     expect(counterpart(catalogItem('sofa-3')!, 'simple')).toBeNull(); // already simple
     expect(counterpart(catalogItem('toilet')!, 'realistic')).toBeNull(); // no realistic toilet yet
-    expect(hasCounterpart(catalogItem('toilet')!, 'realistic')).toBe(false);
+    expect(display(catalogItem('toilet')!, 'realistic')).toEqual({ as: 'outline' });
   });
 
   it('keeps wall pieces on the wall', () => {
@@ -102,6 +102,55 @@ describe('switching furniture style', () => {
   it('is saved with the project', () => {
     expect(migrateProject({ ...emptyProject(), furnitureStyle: 'realistic' })!.furnitureStyle).toBe('realistic');
     expect(migrateProject({ ...emptyProject(), furnitureStyle: 'sparkly' })!.furnitureStyle).toBeUndefined();
+  });
+});
+
+describe('keeping the two styles apart', () => {
+  const STYLES = ['simple', 'realistic'] as const;
+
+  it('lists only one style in each catalog, apart from shared ground surfaces', () => {
+    for (const style of STYLES) {
+      const listed = CATALOG.filter((c) => inStyle(c, style));
+      expect(listed.length).toBeGreaterThan(50);
+      for (const c of listed) expect(c.style === style || c.neutral, `${c.name} in ${style}`).toBe(true);
+    }
+    // The shared ones are flat ground surfaces only.
+    for (const c of CATALOG.filter((c) => c.neutral)) {
+      expect(c.category).toBe('outdoor');
+      expect(c.flat).toBe(true);
+    }
+  });
+
+  it('never draws a piece from the other style', () => {
+    for (const style of STYLES) {
+      for (const c of CATALOG) {
+        const shown = display(c, style);
+        if (shown.as === 'itself') expect(c.style === style || c.neutral, `${c.name} drawn as itself in ${style}`).toBe(true);
+        if (shown.as === 'stand-in') expect(shown.def.style, `${c.name}'s stand-in in ${style}`).toBe(style);
+      }
+    }
+  });
+
+  it('fills a flower bed or a hedge with copies of a plant', () => {
+    const rows = plantRows('flower', size(2, 0.6, 0.4), size(0.3, 0.3, 0.35));
+    expect(rows!.across).toBeGreaterThan(3);
+    expect(rows!.deep).toBeGreaterThanOrEqual(1);
+    expect(plantRows('sofa', size(2, 1, 1), size(0.5, 0.5, 0.5))).toBeNull();
+    expect(plantRows('shrub', size(0.6, 0.6, 0.8), size(0.7, 0.7, 0.9))).toBeNull(); // one bush fills it
+  });
+
+  it('swaps garden pieces only for garden pieces', () => {
+    for (const style of STYLES) {
+      for (const c of CATALOG) {
+        const shown = display(c, style);
+        if (shown.as === 'stand-in') expect(shown.def.category === 'outdoor', c.name).toBe(c.category === 'outdoor');
+      }
+    }
+    const tree = display(catalogItem('tree-oak')!, 'realistic');
+    expect(tree.as).toBe('stand-in');
+    const rock = CATALOG.find((c) => c.name === 'Boulder 01')!;
+    expect(display(rock, 'simple').as).toBe('stand-in');
+    expect(display(catalogItem('flowers')!, 'realistic').as).toBe('stand-in');
   });
 });
 

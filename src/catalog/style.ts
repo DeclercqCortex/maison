@@ -7,7 +7,8 @@ import type { FurnitureStyle } from './kinds';
  * stand on something, at the height the piece was placed.
  */
 const standsOn = (p: CatalogItem['placement']) => (p === 'surface' ? 'floor' : p);
-const samePlacement = (a: CatalogItem, b: CatalogItem) => standsOn(a.placement) === standsOn(b.placement);
+const samePlacement = (a: CatalogItem, b: CatalogItem) =>
+  standsOn(a.placement) === standsOn(b.placement) && (a.category === 'outdoor') === (b.category === 'outdoor');
 
 /** How different two sizes are: 0 when equal, growing with the ratio either way. */
 const mismatch = (a: CatalogItem['size'], b: CatalogItem['size'], turned: boolean) => {
@@ -51,9 +52,36 @@ export function counterpart(def: CatalogItem, style: FurnitureStyle): CatalogIte
   return best;
 }
 
-/** Whether a piece's kind can be shown in the given style (so the catalog need not list it for that style). */
-export const hasCounterpart = (def: CatalogItem, style: FurnitureStyle): boolean =>
-  def.style === style || counterpart(def, style) !== null;
+/** Whether a piece belongs in a style's catalog: it is in that style, or a ground surface shared by both. */
+export const inStyle = (def: CatalogItem, style: FurnitureStyle): boolean => def.style === style || !!def.neutral;
+
+/**
+ * How a placed piece is shown in a style. The two styles never mix: a piece
+ * is drawn as itself only in its own style (or if it is a shared ground
+ * surface); in the other style it is drawn as its closest stand-in of the
+ * same kind, or, if there is none, as a plain outline that keeps its place.
+ */
+export type Display = { as: 'itself' } | { as: 'stand-in'; def: CatalogItem } | { as: 'outline' };
+export function display(def: CatalogItem, style: FurnitureStyle): Display {
+  if (inStyle(def, style)) return { as: 'itself' };
+  const stand = counterpart(def, style);
+  return stand ? { as: 'stand-in', def: stand } : { as: 'outline' };
+}
+
+/** Kinds planted in rows: a bed of flowers or a hedge is filled with copies of a single plant. */
+const PLANTED = new Set(['flower', 'shrub']);
+
+/**
+ * How many copies of a plant fill a bed or hedge, across and deep, and the
+ * scale of each. One copy for anything else, or when one plant fills the space.
+ */
+export function plantRows(kind: string | undefined, target: CatalogItem['size'], piece: CatalogItem['size']): { across: number; deep: number; scale: number } | null {
+  if (!kind || !PLANTED.has(kind)) return null;
+  const scale = Math.max(0.6, Math.min(1.4, (target.h * 1.2) / piece.h));
+  const across = Math.max(1, Math.min(8, Math.round(target.w / (piece.w * scale))));
+  const deep = Math.max(1, Math.min(4, Math.round(target.d / (piece.d * scale))));
+  return across * deep > 1 ? { across, deep, scale } : null;
+}
 
 /** Kinds that look the same from every side, so a stand-in may be turned a quarter to line up with the space. */
 const TURNABLE = new Set(['coffee-table', 'dining-table', 'side-table', 'rug', 'plant', 'plant-tall', 'vase', 'island', 'ottoman', 'stool']);
